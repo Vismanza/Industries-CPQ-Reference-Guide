@@ -1,18 +1,18 @@
-# Salesforce DX Project: Next Steps
+# Industries CPQ Reference Guide
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+The goal of this repo is to provide a usable reference guide for configuring Industries CPQ.
 
-## How Do You Plan to Deploy Your Changes?
+## How is this different to the Process Library listing?
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+[Industries CPQ Process Listing](https://github.com/salesforce/CPQ-Product-Recommendation-Demo) is in a zip file and does not contain many sample configurations. This repo will be in a standard Salesforce project format and focus on being usable using command line tools.
 
-## Configure Your Salesforce DX Project
+## Create Issues!
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+If there are any known issues or areas would sample configurations are needed please create issues. This will be used to prioritise development work.
 
 ## Read All About It
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
+- [Energy & Utlities Cloud](https://help.salesforce.com/s/articleView?language=en_US&id=ind.energy_energyutilities_cloud_258980.htm&type=5)
+- [Get a Sample Org](https://developer.salesforce.com/free-trials/comparison/energy-utilities-cloud)
 - [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+- [Vlocity Build Tool](https://github.com/vlocityinc/vlocity_build)
