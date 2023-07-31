@@ -3,7 +3,7 @@
     <actionOverrides>
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>Standard_CPQ_Order</content>
+        <content>DefaultCPQOrderRecordPage</content>
         <formFactor>Small</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
@@ -12,7 +12,7 @@
     <actionOverrides>
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>Standard_CPQ_Order</content>
+        <content>DefaultCPQOrderRecordPage</content>
         <formFactor>Large</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
@@ -21,16 +21,7 @@
     <actionOverrides>
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>Standard_CPQ_Quote</content>
-        <formFactor>Small</formFactor>
-        <skipRecordTypeSelect>false</skipRecordTypeSelect>
-        <type>Flexipage</type>
-        <pageOrSobjectType>Quote</pageOrSobjectType>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>View</actionName>
-        <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>Standard_CPQ_Quote</content>
+        <content>DefaultCPQQuoteRecordPage</content>
         <formFactor>Large</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
@@ -39,7 +30,16 @@
     <actionOverrides>
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>Standard_CPQ_Opportunity</content>
+        <content>DefaultCPQQuoteRecordPage</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Quote</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override updated by Lightning App Builder during activation.</comment>
+        <content>Default_Opportunity_CPQ_Record_Page</content>
         <formFactor>Small</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
@@ -47,8 +47,8 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>Standard_CPQ_Opportunity</content>
+        <comment>Action override updated by Lightning App Builder during activation.</comment>
+        <content>Default_Opportunity_CPQ_Record_Page</content>
         <formFactor>Large</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
@@ -58,16 +58,24 @@
         <headerColor>#0070D2</headerColor>
         <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
     </brand>
-    <description>Industries CPQ configured for Standard Runtime using Standard Components</description>
+    <description>Industries CPQ</description>
     <formFactors>Small</formFactors>
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>Industries CPQ</label>
-    <navType>Standard</navType>
+    <navType>Console</navType>
     <tabs>standard-Order</tabs>
-    <tabs>standard-Opportunity</tabs>
+    <tabs>vlocity_cmt__VlocityTrackingEntry__c</tabs>
     <uiType>Lightning</uiType>
-    <utilityBar>Industries_Standard_CPQ_UtilityBar</utilityBar>
+    <utilityBar>Industries_CPQ_UtilityBar</utilityBar>
+    <workspaceConfig>
+        <mappings>
+            <tab>standard-Order</tab>
+        </mappings>
+        <mappings>
+            <tab>vlocity_cmt__VlocityTrackingEntry__c</tab>
+        </mappings>
+    </workspaceConfig>
 </CustomApplication>
