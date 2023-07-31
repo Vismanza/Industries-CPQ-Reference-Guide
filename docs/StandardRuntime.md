@@ -15,14 +15,18 @@ for meet Omnistudio Metadata naming requirements).
 
 Order page (Quote and Opportunity not configured yet). Flex Cards (Omniscripts not refactored yet).
 
-Note: The default tab for Order is changed to the Catalog Tab as opposed to the Cart tab. This makes more sense for most workflows. This means that the cpqEventOrchestratorUtil component is on teh catalog page as opposed to the cart page as it needs to be there on the initial page load.
+Note: The default tab for Order is changed to the Catalog Tab as opposed to the Cart tab. This makes more sense for most workflows. This means that the cpqEventOrchestratorUtil component is on the catalog page as opposed to the cart page as it needs to be there on the initial page load.
 
 Note: Labels have not been used in Lightning App Builder for things like Tab names. If translations are required it may make sense to use labels instead.
+
 
 ## Standard Runtime CPQ App:
 
 Application: Indsutries_Standard_CPQ
+
 Flexipagse: 
 - Standard_CPQ_Order
 - Standard_CPQ_Quote
-- 
+- Standard_CPQ_Opportunity
+
+
