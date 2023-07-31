@@ -1,9 +1,8 @@
 {
     "AuthorName": "CPQ1",
-    "%vlocity_namespace%__CardType__c": "flex",
+    "vlocity_cmt__CardType__c": "flex",
     "DataSourceConfig": {
-        "contextVariables": [
-        ],
+        "contextVariables": [],
         "orderBy": {
             "isReverse": false,
             "name": ""
@@ -19,10 +18,10 @@
     "Description": "",
     "OmniUiCardKey": "cpqAssetSearch/CPQ1/1/1620288886202",
     "OmniUiCardType": "Child",
-    "%vlocity_namespace%__ParentID__c": "cpqProductSearch/CPQ1/1/1618234204996",
+    "vlocity_cmt__ParentID__c": "cpqProductSearch/CPQ1/1/1618234204996",
     "SampleDataSourceResponse": "{\"options\":[{\"name\":\"\"}],\"value\":\"\",\"select\":false,\"catalogId\":-1}",
     "StylingConfiguration": "",
-    "%vlocity_namespace%__Type__c": "",
+    "vlocity_cmt__Type__c": "",
     "VersionNumber": 1,
     "Name": "cpqAssetSearch",
     "VlocityDataPackType": "SObject",

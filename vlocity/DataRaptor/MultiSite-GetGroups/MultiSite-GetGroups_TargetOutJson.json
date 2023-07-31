@@ -4,206 +4,180 @@
     },
     "records": [
         {
-            "%vlocity_namespace%__AsyncJobId__c": {
-                "actions": {
-                },
+            "vlocity_cmt__AsyncJobId__c": {
+                "actions": {},
                 "alternateValues": null,
                 "dataType": null,
                 "editable": null,
                 "fieldName": null,
                 "hidden": null,
                 "label": null,
-                "messages": [
-                ],
+                "messages": [],
                 "originalValue": null,
                 "previousValue": null,
                 "value": null
             },
-            "%vlocity_namespace%__AsyncOperation__c": {
-                "actions": {
-                },
+            "vlocity_cmt__AsyncOperation__c": {
+                "actions": {},
                 "alternateValues": null,
                 "dataType": null,
                 "editable": null,
                 "fieldName": null,
                 "hidden": null,
                 "label": null,
-                "messages": [
-                ],
+                "messages": [],
                 "originalValue": null,
                 "previousValue": null,
                 "value": null
             },
-            "%vlocity_namespace%__Description__c": {
-                "actions": {
-                },
+            "vlocity_cmt__Description__c": {
+                "actions": {},
                 "alternateValues": null,
                 "dataType": null,
                 "editable": null,
                 "fieldName": null,
                 "hidden": null,
                 "label": null,
-                "messages": [
-                ],
+                "messages": [],
                 "originalValue": null,
                 "previousValue": null,
                 "value": null
             },
-            "%vlocity_namespace%__GroupCartId__c": {
-                "actions": {
-                },
+            "vlocity_cmt__GroupCartId__c": {
+                "actions": {},
                 "alternateValues": null,
                 "dataType": null,
                 "editable": null,
                 "fieldName": null,
                 "hidden": null,
                 "label": null,
-                "messages": [
-                ],
+                "messages": [],
                 "originalValue": null,
                 "previousValue": null,
                 "value": "0Q05g0000011AHtCAM"
             },
-            "%vlocity_namespace%__GroupCartId__r": {
-                "%vlocity_namespace%__DefaultPremisesId__c": null,
-                "%vlocity_namespace%__DefaultServiceAccountId__c": "0015g00000C6JTWAA3",
-                "%vlocity_namespace%__DefaultServicePointId__c": null,
-                "%vlocity_namespace%__IsPriced__c": false,
-                "%vlocity_namespace%__IsValidated__c": false,
-                "%vlocity_namespace%__MultiServiceMessageData__c": null,
-                "%vlocity_namespace%__TrackingNumber__c": null
+            "vlocity_cmt__GroupCartId__r": {
+                "vlocity_cmt__DefaultPremisesId__c": null,
+                "vlocity_cmt__DefaultServiceAccountId__c": "0015g00000C6JTWAA3",
+                "vlocity_cmt__DefaultServicePointId__c": null,
+                "vlocity_cmt__IsPriced__c": false,
+                "vlocity_cmt__IsValidated__c": false,
+                "vlocity_cmt__MultiServiceMessageData__c": null,
+                "vlocity_cmt__TrackingNumber__c": null
             },
-            "%vlocity_namespace%__HasUnappliedGroupItems__c": {
-                "actions": {
-                },
+            "vlocity_cmt__HasUnappliedGroupItems__c": {
+                "actions": {},
                 "alternateValues": null,
                 "dataType": null,
                 "editable": null,
                 "fieldName": null,
                 "hidden": null,
                 "label": null,
-                "messages": [
-                ],
+                "messages": [],
                 "originalValue": null,
                 "previousValue": null,
                 "value": true
             },
-            "%vlocity_namespace%__HasUnappliedMembers__c": {
-                "actions": {
-                },
+            "vlocity_cmt__HasUnappliedMembers__c": {
+                "actions": {},
                 "alternateValues": null,
                 "dataType": null,
                 "editable": null,
                 "fieldName": null,
                 "hidden": null,
                 "label": null,
-                "messages": [
-                ],
+                "messages": [],
                 "originalValue": null,
                 "previousValue": null,
                 "value": true
             },
-            "%vlocity_namespace%__LockedBy__c": {
-                "actions": {
-                },
+            "vlocity_cmt__LockedBy__c": {
+                "actions": {},
                 "alternateValues": null,
                 "dataType": null,
                 "editable": null,
                 "fieldName": null,
                 "hidden": null,
                 "label": null,
-                "messages": [
-                ],
+                "messages": [],
                 "originalValue": null,
                 "previousValue": null,
                 "value": null
             },
-            "%vlocity_namespace%__LockedFor__c": {
-                "actions": {
-                },
+            "vlocity_cmt__LockedFor__c": {
+                "actions": {},
                 "alternateValues": null,
                 "dataType": null,
                 "editable": null,
                 "fieldName": null,
                 "hidden": null,
                 "label": null,
-                "messages": [
-                ],
+                "messages": [],
                 "originalValue": null,
                 "previousValue": null,
                 "value": null
             },
-            "%vlocity_namespace%__MemberCount__c": {
-                "actions": {
-                },
+            "vlocity_cmt__MemberCount__c": {
+                "actions": {},
                 "alternateValues": null,
                 "dataType": null,
                 "editable": null,
                 "fieldName": null,
                 "hidden": null,
                 "label": null,
-                "messages": [
-                ],
+                "messages": [],
                 "originalValue": null,
                 "previousValue": null,
                 "value": 2
             },
-            "%vlocity_namespace%__MemberType__c": {
-                "actions": {
-                },
+            "vlocity_cmt__MemberType__c": {
+                "actions": {},
                 "alternateValues": null,
                 "dataType": null,
                 "editable": null,
                 "fieldName": null,
                 "hidden": null,
                 "label": null,
-                "messages": [
-                ],
+                "messages": [],
                 "originalValue": null,
                 "previousValue": null,
                 "value": "ServicePoint"
             },
-            "%vlocity_namespace%__MultiServiceMessageData__c": {
-                "actions": {
-                },
+            "vlocity_cmt__MultiServiceMessageData__c": {
+                "actions": {},
                 "alternateValues": null,
                 "dataType": null,
                 "editable": null,
                 "fieldName": null,
                 "hidden": null,
                 "label": null,
-                "messages": [
-                ],
+                "messages": [],
                 "originalValue": null,
                 "previousValue": null,
                 "value": null
             },
             "Id": {
-                "actions": {
-                },
+                "actions": {},
                 "alternateValues": null,
                 "dataType": null,
                 "editable": null,
                 "fieldName": null,
                 "hidden": null,
                 "label": null,
-                "messages": [
-                ],
+                "messages": [],
                 "originalValue": null,
                 "previousValue": null,
                 "value": "a3W5g00000116hnEAA"
             },
             "Name": {
-                "actions": {
-                },
+                "actions": {},
                 "alternateValues": null,
                 "dataType": null,
                 "editable": null,
                 "fieldName": null,
                 "hidden": null,
                 "label": null,
-                "messages": [
-                ],
+                "messages": [],
                 "originalValue": null,
                 "previousValue": null,
                 "value": "G1"
@@ -211,8 +185,7 @@
             "actions": {
                 "getGroupMembers": {
                     "client": {
-                        "params": {
-                        }
+                        "params": {}
                     },
                     "remote": {
                         "params": {
@@ -227,14 +200,12 @@
                     "rest": {
                         "link": null,
                         "method": null,
-                        "params": {
-                        }
+                        "params": {}
                     }
                 },
                 "getGroupedServices": {
                     "client": {
-                        "params": {
-                        }
+                        "params": {}
                     },
                     "remote": {
                         "params": {
@@ -250,16 +221,15 @@
                     "rest": {
                         "link": null,
                         "method": null,
-                        "params": {
-                        }
+                        "params": {}
                     }
                 }
             },
             "displaySequence": -1,
             "groupCart": {
-                "%vlocity_namespace%__DefaultServiceAccountId__c": "0015g00000C6JTWAA3",
-                "%vlocity_namespace%__IsPriced__c": false,
-                "%vlocity_namespace%__IsValidated__c": false,
+                "vlocity_cmt__DefaultServiceAccountId__c": "0015g00000C6JTWAA3",
+                "vlocity_cmt__IsPriced__c": false,
+                "vlocity_cmt__IsValidated__c": false,
                 "Id": "0Q05g0000011AHtCAM",
                 "RecordTypeId": "0125g000000LuzZAAS",
                 "attributes": {
@@ -268,7 +238,7 @@
                 }
             },
             "groupCartId": "0Q05g0000011AHtCAM",
-            "groupCartURL": "apex/%vlocity_namespace%__MultiServiceHybridCPQ?id=0Q05g0000011AHtCAM&parentId=0065g000005lzNAAAY&groupCart=true&groupId=a3W5g00000116hnEAA&contextId=0Q05g0000011AHoCAM&cartType=Quote",
+            "groupCartURL": "apex/vlocity_cmt__MultiServiceHybridCPQ?id=0Q05g0000011AHtCAM&parentId=0065g000005lzNAAAY&groupCart=true&groupId=a3W5g00000116hnEAA&contextId=0Q05g0000011AHoCAM&cartType=Quote",
             "groupId": "a3W5g00000116hnEAA",
             "groupName": "G1",
             "hasUnappliedGroupItems": true,
@@ -278,206 +248,180 @@
             "value": "val"
         },
         {
-            "%vlocity_namespace%__AsyncJobId__c": {
-                "actions": {
-                },
+            "vlocity_cmt__AsyncJobId__c": {
+                "actions": {},
                 "alternateValues": null,
                 "dataType": null,
                 "editable": null,
                 "fieldName": null,
                 "hidden": null,
                 "label": null,
-                "messages": [
-                ],
+                "messages": [],
                 "originalValue": null,
                 "previousValue": null,
                 "value": null
             },
-            "%vlocity_namespace%__AsyncOperation__c": {
-                "actions": {
-                },
+            "vlocity_cmt__AsyncOperation__c": {
+                "actions": {},
                 "alternateValues": null,
                 "dataType": null,
                 "editable": null,
                 "fieldName": null,
                 "hidden": null,
                 "label": null,
-                "messages": [
-                ],
+                "messages": [],
                 "originalValue": null,
                 "previousValue": null,
                 "value": null
             },
-            "%vlocity_namespace%__Description__c": {
-                "actions": {
-                },
+            "vlocity_cmt__Description__c": {
+                "actions": {},
                 "alternateValues": null,
                 "dataType": null,
                 "editable": null,
                 "fieldName": null,
                 "hidden": null,
                 "label": null,
-                "messages": [
-                ],
+                "messages": [],
                 "originalValue": null,
                 "previousValue": null,
                 "value": "This is Group2 Description"
             },
-            "%vlocity_namespace%__GroupCartId__c": {
-                "actions": {
-                },
+            "vlocity_cmt__GroupCartId__c": {
+                "actions": {},
                 "alternateValues": null,
                 "dataType": null,
                 "editable": null,
                 "fieldName": null,
                 "hidden": null,
                 "label": null,
-                "messages": [
-                ],
+                "messages": [],
                 "originalValue": null,
                 "previousValue": null,
                 "value": "0Q05g000000gb1XCAQ"
             },
-            "%vlocity_namespace%__GroupCartId__r": {
-                "%vlocity_namespace%__DefaultPremisesId__c": null,
-                "%vlocity_namespace%__DefaultServiceAccountId__c": "0015g00000C6JTWAA3",
-                "%vlocity_namespace%__DefaultServicePointId__c": null,
-                "%vlocity_namespace%__IsPriced__c": false,
-                "%vlocity_namespace%__IsValidated__c": false,
-                "%vlocity_namespace%__MultiServiceMessageData__c": null,
-                "%vlocity_namespace%__TrackingNumber__c": null
+            "vlocity_cmt__GroupCartId__r": {
+                "vlocity_cmt__DefaultPremisesId__c": null,
+                "vlocity_cmt__DefaultServiceAccountId__c": "0015g00000C6JTWAA3",
+                "vlocity_cmt__DefaultServicePointId__c": null,
+                "vlocity_cmt__IsPriced__c": false,
+                "vlocity_cmt__IsValidated__c": false,
+                "vlocity_cmt__MultiServiceMessageData__c": null,
+                "vlocity_cmt__TrackingNumber__c": null
             },
-            "%vlocity_namespace%__HasUnappliedGroupItems__c": {
-                "actions": {
-                },
+            "vlocity_cmt__HasUnappliedGroupItems__c": {
+                "actions": {},
                 "alternateValues": null,
                 "dataType": null,
                 "editable": null,
                 "fieldName": null,
                 "hidden": null,
                 "label": null,
-                "messages": [
-                ],
+                "messages": [],
                 "originalValue": null,
                 "previousValue": null,
                 "value": true
             },
-            "%vlocity_namespace%__HasUnappliedMembers__c": {
-                "actions": {
-                },
+            "vlocity_cmt__HasUnappliedMembers__c": {
+                "actions": {},
                 "alternateValues": null,
                 "dataType": null,
                 "editable": null,
                 "fieldName": null,
                 "hidden": null,
                 "label": null,
-                "messages": [
-                ],
+                "messages": [],
                 "originalValue": null,
                 "previousValue": null,
                 "value": true
             },
-            "%vlocity_namespace%__LockedBy__c": {
-                "actions": {
-                },
+            "vlocity_cmt__LockedBy__c": {
+                "actions": {},
                 "alternateValues": null,
                 "dataType": null,
                 "editable": null,
                 "fieldName": null,
                 "hidden": null,
                 "label": null,
-                "messages": [
-                ],
+                "messages": [],
                 "originalValue": null,
                 "previousValue": null,
                 "value": null
             },
-            "%vlocity_namespace%__LockedFor__c": {
-                "actions": {
-                },
+            "vlocity_cmt__LockedFor__c": {
+                "actions": {},
                 "alternateValues": null,
                 "dataType": null,
                 "editable": null,
                 "fieldName": null,
                 "hidden": null,
                 "label": null,
-                "messages": [
-                ],
+                "messages": [],
                 "originalValue": null,
                 "previousValue": null,
                 "value": null
             },
-            "%vlocity_namespace%__MemberCount__c": {
-                "actions": {
-                },
+            "vlocity_cmt__MemberCount__c": {
+                "actions": {},
                 "alternateValues": null,
                 "dataType": null,
                 "editable": null,
                 "fieldName": null,
                 "hidden": null,
                 "label": null,
-                "messages": [
-                ],
+                "messages": [],
                 "originalValue": null,
                 "previousValue": null,
                 "value": 3
             },
-            "%vlocity_namespace%__MemberType__c": {
-                "actions": {
-                },
+            "vlocity_cmt__MemberType__c": {
+                "actions": {},
                 "alternateValues": null,
                 "dataType": null,
                 "editable": null,
                 "fieldName": null,
                 "hidden": null,
                 "label": null,
-                "messages": [
-                ],
+                "messages": [],
                 "originalValue": null,
                 "previousValue": null,
                 "value": "ServicePoint"
             },
-            "%vlocity_namespace%__MultiServiceMessageData__c": {
-                "actions": {
-                },
+            "vlocity_cmt__MultiServiceMessageData__c": {
+                "actions": {},
                 "alternateValues": null,
                 "dataType": null,
                 "editable": null,
                 "fieldName": null,
                 "hidden": null,
                 "label": null,
-                "messages": [
-                ],
+                "messages": [],
                 "originalValue": null,
                 "previousValue": null,
                 "value": null
             },
             "Id": {
-                "actions": {
-                },
+                "actions": {},
                 "alternateValues": null,
                 "dataType": null,
                 "editable": null,
                 "fieldName": null,
                 "hidden": null,
                 "label": null,
-                "messages": [
-                ],
+                "messages": [],
                 "originalValue": null,
                 "previousValue": null,
                 "value": "a3W5g000000ke9lEAA"
             },
             "Name": {
-                "actions": {
-                },
+                "actions": {},
                 "alternateValues": null,
                 "dataType": null,
                 "editable": null,
                 "fieldName": null,
                 "hidden": null,
                 "label": null,
-                "messages": [
-                ],
+                "messages": [],
                 "originalValue": null,
                 "previousValue": null,
                 "value": "G2"
@@ -485,8 +429,7 @@
             "actions": {
                 "getGroupMembers": {
                     "client": {
-                        "params": {
-                        }
+                        "params": {}
                     },
                     "remote": {
                         "params": {
@@ -501,14 +444,12 @@
                     "rest": {
                         "link": null,
                         "method": null,
-                        "params": {
-                        }
+                        "params": {}
                     }
                 },
                 "getGroupedServices": {
                     "client": {
-                        "params": {
-                        }
+                        "params": {}
                     },
                     "remote": {
                         "params": {
@@ -524,16 +465,15 @@
                     "rest": {
                         "link": null,
                         "method": null,
-                        "params": {
-                        }
+                        "params": {}
                     }
                 }
             },
             "displaySequence": -1,
             "groupCart": {
-                "%vlocity_namespace%__DefaultServiceAccountId__c": "0015g00000C6JTWAA3",
-                "%vlocity_namespace%__IsPriced__c": false,
-                "%vlocity_namespace%__IsValidated__c": false,
+                "vlocity_cmt__DefaultServiceAccountId__c": "0015g00000C6JTWAA3",
+                "vlocity_cmt__IsPriced__c": false,
+                "vlocity_cmt__IsValidated__c": false,
                 "Id": "0Q05g000000gb1XCAQ",
                 "RecordTypeId": "0125g000000LuzZAAS",
                 "attributes": {
@@ -542,7 +482,7 @@
                 }
             },
             "groupCartId": "0Q05g000000gb1XCAQ",
-            "groupCartURL": "apex/%vlocity_namespace%__MultiServiceHybridCPQ?id=0Q05g000000gb1XCAQ&parentId=0065g000005lzNAAAY&groupCart=true&groupId=a3W5g000000ke9lEAA&contextId=0Q05g0000011AHoCAM&cartType=Quote",
+            "groupCartURL": "apex/vlocity_cmt__MultiServiceHybridCPQ?id=0Q05g000000gb1XCAQ&parentId=0065g000005lzNAAAY&groupCart=true&groupId=a3W5g000000ke9lEAA&contextId=0Q05g0000011AHoCAM&cartType=Quote",
             "groupDescription": "This is Group2 Description",
             "groupId": "a3W5g000000ke9lEAA",
             "groupName": "G2",

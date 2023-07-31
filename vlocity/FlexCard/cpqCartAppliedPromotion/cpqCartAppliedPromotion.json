@@ -65,14 +65,13 @@
         "Id": "0Rb5g000000SkqYCAS",
         "ManageableState": "unmanaged",
         "MasterLabel": "cfCpqCartAppliedPromotion_5_Vlocity",
-        "NamespacePrefix": "%vlocity_namespace%"
+        "NamespacePrefix": "vlocity_cmt"
     },
     "multilanguageSupport": true,
     "selectableMode": "Multi",
     "states": [
         {
-            "actions": [
-            ],
+            "actions": [],
             "childCards": [
                 "cpqCartPromotion"
             ],
@@ -157,8 +156,7 @@
                                     }
                                 },
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
+                                "margin": [],
                                 "padding": [
                                     {
                                         "label": "around:x-small",
@@ -212,8 +210,7 @@
                                             }
                                         },
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:x-small",
@@ -253,19 +250,14 @@
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Active",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "",
@@ -285,8 +277,7 @@
                 "container": {
                     "class": "slds-card cpq__cart-applied-promo_container"
                 },
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
                 "margin": [
                     {
@@ -295,8 +286,7 @@
                         "type": "around"
                     }
                 ],
-                "padding": [
-                ],
+                "padding": [],
                 "size": {
                     "default": "12",
                     "isResponsive": false
@@ -310,10 +300,8 @@
             }
         },
         {
-            "actions": [
-            ],
-            "childCards": [
-            ],
+            "actions": [],
+            "childCards": [],
             "components": {
                 "layer-0": {
                     "children": [
@@ -356,11 +344,9 @@
                                             "class": ""
                                         },
                                         "customClass": "cpq__cart-applied-promotions_empty-text",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:x-small",
@@ -407,11 +393,9 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq__cart-applied-promotions_empty-text",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "around:x-small",
@@ -483,8 +467,7 @@
                                     }
                                 },
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
+                                "margin": [],
                                 "padding": [
                                     {
                                         "label": "around:x-small",
@@ -538,8 +521,7 @@
                                             }
                                         },
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:x-small",
@@ -580,19 +562,14 @@
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Empty State",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "",
@@ -612,8 +589,7 @@
                 "container": {
                     "class": "slds-card cpq__cart-applied-promo_container"
                 },
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
                 "margin": [
                     {
@@ -622,8 +598,7 @@
                         "type": "around"
                     }
                 ],
-                "padding": [
-                ],
+                "padding": [],
                 "size": {
                     "default": "12",
                     "isResponsive": false

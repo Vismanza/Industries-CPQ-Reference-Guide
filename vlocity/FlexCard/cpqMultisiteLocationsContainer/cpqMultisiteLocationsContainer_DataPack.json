@@ -1,23 +1,20 @@
 {
     "AuthorName": "Vlocity",
-    "%vlocity_namespace%__CardType__c": "flex",
+    "vlocity_cmt__CardType__c": "flex",
     "DataSourceConfig": {
-        "contextVariables": [
-        ],
-        "orderBy": {
-        },
+        "contextVariables": [],
+        "orderBy": {},
         "type": null,
-        "value": {
-        }
+        "value": {}
     },
     "PropertySetConfig": "cpqMultisiteLocationsContainer.json",
     "Description": "Display Locations Grid Table",
     "OmniUiCardKey": "cpqMultisiteLocationsContainer/Vlocity/1/1639386732916",
     "OmniUiCardType": "Child",
-    "%vlocity_namespace%__ParentID__c": "cpqMultisitePremisesContainer/Vlocity/1/1635848545966",
+    "vlocity_cmt__ParentID__c": "cpqMultisitePremisesContainer/Vlocity/1/1635848545966",
     "SampleDataSourceResponse": "",
     "StylingConfiguration": "",
-    "%vlocity_namespace%__Type__c": "",
+    "vlocity_cmt__Type__c": "",
     "VersionNumber": 1,
     "Name": "cpqMultisiteLocationsContainer",
     "VlocityDataPackType": "SObject",

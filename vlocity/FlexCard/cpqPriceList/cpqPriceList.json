@@ -79,7 +79,7 @@
         "Id": "0Rb5g000000SYg7CAG",
         "ManageableState": "unmanaged",
         "MasterLabel": "cfCpqPriceList_1_Salesforce",
-        "NamespacePrefix": "%vlocity_namespace%"
+        "NamespacePrefix": "vlocity_cmt"
     },
     "multilanguageSupport": true,
     "selectableMode": "Multi",
@@ -95,10 +95,8 @@
     ],
     "states": [
         {
-            "actions": [
-            ],
-            "childCards": [
-            ],
+            "actions": [],
+            "childCards": [],
             "components": {
                 "layer-0": {
                     "children": [
@@ -135,8 +133,7 @@
                                     ],
                                     "fieldLevelHelp": "",
                                     "label": "Label",
-                                    "options": [
-                                    ],
+                                    "options": [],
                                     "placeholder": "{Label.CPQSelectPriceList}",
                                     "type": "combobox",
                                     "value": "{Parent.pricelistId}"
@@ -168,13 +165,10 @@
                                 "container": {
                                     "class": ""
                                 },
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "12",
                                     "isResponsive": false
@@ -213,13 +207,10 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": false
@@ -240,25 +231,19 @@
                 }
             },
             "conditions": {
-                "group": [
-                ],
+                "group": [],
                 "id": "state-condition-object",
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Active",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "",
@@ -278,13 +263,10 @@
                 "container": {
                     "class": ""
                 },
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
-                "margin": [
-                ],
-                "padding": [
-                ],
+                "margin": [],
+                "padding": [],
                 "size": {
                     "default": "12",
                     "isResponsive": false

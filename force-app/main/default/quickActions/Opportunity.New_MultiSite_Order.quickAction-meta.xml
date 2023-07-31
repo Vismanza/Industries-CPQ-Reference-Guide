@@ -2,7 +2,7 @@
 <QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
     <height>500</height>
     <label>New Multi-Site Order</label>
-    <lightningComponent>%vlocity_namespace%__CPQCreateNewMultiSiteOrderCmp</lightningComponent>
+    <lightningComponent>vlocity_cmt__CPQCreateNewMultiSiteOrderCmp</lightningComponent>
     <optionsCreateFeedItem>false</optionsCreateFeedItem>
     <type>LightningComponent</type>
     <width>-100</width>

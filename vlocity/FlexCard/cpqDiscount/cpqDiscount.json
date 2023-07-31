@@ -58,15 +58,13 @@
         "Id": "0Rb5g000000RqSDCA0",
         "ManageableState": "unmanaged",
         "MasterLabel": "cfCpqDiscount_4_Vlocity",
-        "NamespacePrefix": "%vlocity_namespace%"
+        "NamespacePrefix": "vlocity_cmt"
     },
     "multilanguageSupport": true,
-    "sessionVars": [
-    ],
+    "sessionVars": [],
     "states": [
         {
-            "actions": [
-            ],
+            "actions": [],
             "childCards": [
                 "cpqAppliedDiscounts",
                 "cpqDiscountList"
@@ -109,13 +107,10 @@
                                     "class": ""
                                 },
                                 "customClass": "cpq-discount-title",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "12",
                                     "isResponsive": false
@@ -155,13 +150,10 @@
                                             "class": ""
                                         },
                                         "customClass": "cpq-discount-title",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": false
@@ -256,11 +248,9 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "border-bottom: solid 1px #DDDBDA; \nwidth:100%; \npadding: 16px 40px 18px 13px;",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "around:x-small",
@@ -323,13 +313,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq-discounts_items-section",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -382,11 +369,9 @@
                                             "class": ""
                                         },
                                         "customClass": "cpq-discount-block",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:x-small",
@@ -467,10 +452,8 @@
                                                             "iconColor": "#000000"
                                                         },
                                                         "inlineStyle": "box-shadow:none;",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "5",
                                                             "isResponsive": false
@@ -515,10 +498,8 @@
                                                                     "iconColor": "#000000"
                                                                 },
                                                                 "inlineStyle": "box-shadow: inset 0px -3px 0px #1589EE;",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "5",
                                                                     "isResponsive": false
@@ -577,10 +558,8 @@
                                                                     "iconColor": "#000000"
                                                                 },
                                                                 "inlineStyle": "box-shadow:none;",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "5",
                                                                     "isResponsive": false
@@ -651,10 +630,8 @@
                                                             "iconColor": "#000000"
                                                         },
                                                         "inlineStyle": "box-shadow: inset 0px -3px 0px #1589EE;",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "5",
                                                             "isResponsive": false
@@ -699,10 +676,8 @@
                                                                     "iconColor": "#000000"
                                                                 },
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "5",
                                                                     "isResponsive": false
@@ -760,10 +735,8 @@
                                                                     "iconColor": "#000000"
                                                                 },
                                                                 "inlineStyle": "box-shadow: inset 0px -3px 0px #1589EE;",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "5",
                                                                     "isResponsive": false
@@ -817,13 +790,10 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "border-bottom: solid 1px #DDDBDA; \nwidth:100%; ",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -862,13 +832,10 @@
                                                         "container": {
                                                             "class": ""
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "border-bottom: solid 1px #DDDBDA; \nwidth:100%; ",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -895,8 +862,7 @@
                                                 "cardName": "cpqDiscountList",
                                                 "cardNode": "",
                                                 "data-conditions": {
-                                                    "group": [
-                                                    ],
+                                                    "group": [],
                                                     "id": "state-condition-object",
                                                     "isParent": true
                                                 },
@@ -933,13 +899,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq-discounts_items-section",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -992,11 +955,9 @@
                                             "class": ""
                                         },
                                         "customClass": "cpq-discount-block",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:x-small",
@@ -1043,11 +1004,9 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq-discount-block",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "around:x-small",
@@ -1178,10 +1137,8 @@
                                                     "iconSize": "x-small"
                                                 },
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -1225,10 +1182,8 @@
                                                             "iconSize": "x-small"
                                                         },
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -1283,11 +1238,9 @@
                                             "class": ""
                                         },
                                         "customClass": "",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:x-small",
@@ -1334,11 +1287,9 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "around:x-small",
@@ -1371,8 +1322,7 @@
                                 "collapsedByDefault": false,
                                 "collapsible": false,
                                 "data-conditions": {
-                                    "group": [
-                                    ],
+                                    "group": [],
                                     "id": "state-condition-object",
                                     "isParent": true
                                 },
@@ -1405,11 +1355,9 @@
                                     "class": ""
                                 },
                                 "customClass": "cpq-discount-body",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
+                                "margin": [],
                                 "padding": [
                                     {
                                         "label": "around:x-small",
@@ -1456,11 +1404,9 @@
                                             "class": ""
                                         },
                                         "customClass": "cpq-discount-body",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:x-small",
@@ -1487,25 +1433,19 @@
                 }
             },
             "conditions": {
-                "group": [
-                ],
+                "group": [],
                 "id": "state-condition-object",
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Active",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "",
@@ -1526,8 +1466,7 @@
                     "class": "slds-card"
                 },
                 "customClass": "cpq-discount-container",
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
                 "margin": [
                     {
@@ -1536,8 +1475,7 @@
                         "type": "around"
                     }
                 ],
-                "padding": [
-                ],
+                "padding": [],
                 "size": {
                     "default": "12",
                     "isResponsive": false

@@ -24,8 +24,7 @@
         "type": "desktop"
     },
     "enableLwc": true,
-    "events": [
-    ],
+    "events": [],
     "globalCSS": false,
     "isFlex": true,
     "lwc": {
@@ -33,19 +32,16 @@
         "Id": "0Rb8Z000000QmMsSAK",
         "ManageableState": "unmanaged",
         "MasterLabel": "cfCpqCartFlexTableAction_3_Vlocity",
-        "NamespacePrefix": "%vlocity_namespace%"
+        "NamespacePrefix": "vlocity_cmt"
     },
     "multilanguageSupport": true,
     "osSupport": true,
     "requiredPermission": "",
-    "sessionVars": [
-    ],
+    "sessionVars": [],
     "states": [
         {
-            "actions": [
-            ],
-            "childCards": [
-            ],
+            "actions": [],
+            "childCards": [],
             "components": {
                 "layer-0": {
                     "children": [
@@ -71,7 +67,7 @@
                                                     "value": "bulkChange"
                                                 },
                                                 {
-                                                    "field": "%vlocity_namespace%__Action__c.value",
+                                                    "field": "vlocity_cmt__Action__c.value",
                                                     "hasMergeField": false,
                                                     "id": "state-new-condition-34",
                                                     "logicalOperator": "&&",
@@ -91,7 +87,7 @@
                                                 {
                                                     "group": [
                                                         {
-                                                            "field": "%vlocity_namespace%__SupplementalAction__c.value",
+                                                            "field": "vlocity_cmt__SupplementalAction__c.value",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-88",
                                                             "operator": "==",
@@ -99,7 +95,7 @@
                                                             "value": "undefined"
                                                         },
                                                         {
-                                                            "field": "%vlocity_namespace%__SupplementalAction__c.value",
+                                                            "field": "vlocity_cmt__SupplementalAction__c.value",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-134",
                                                             "logicalOperator": "||",
@@ -108,7 +104,7 @@
                                                             "value": "null"
                                                         },
                                                         {
-                                                            "field": "%vlocity_namespace%__SupplementalAction__c.value",
+                                                            "field": "vlocity_cmt__SupplementalAction__c.value",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-200",
                                                             "logicalOperator": "||",
@@ -150,7 +146,7 @@
                                                 "actionConditions": {
                                                     "group": [
                                                         {
-                                                            "field": "%vlocity_namespace%__RecurringCharge__c.actions.applyadjustment",
+                                                            "field": "vlocity_cmt__RecurringCharge__c.actions.applyadjustment",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-0",
                                                             "operator": "!=",
@@ -228,8 +224,7 @@
                                             },
                                             {
                                                 "actionConditions": {
-                                                    "group": [
-                                                    ],
+                                                    "group": [],
                                                     "id": "state-condition-object",
                                                     "isParent": true
                                                 },
@@ -271,8 +266,7 @@
                                                         "label": "Action",
                                                         "stateAction": {
                                                             "actionConditions": {
-                                                                "group": [
-                                                                ],
+                                                                "group": [],
                                                                 "id": "state-condition-object",
                                                                 "isParent": true
                                                             },
@@ -358,8 +352,7 @@
                                                         "reRenderFlyout": true,
                                                         "stateAction": {
                                                             "actionConditions": {
-                                                                "group": [
-                                                                ],
+                                                                "group": [],
                                                                 "id": "state-condition-object",
                                                                 "isParent": true
                                                             },
@@ -429,7 +422,7 @@
                                                         {
                                                             "group": [
                                                                 {
-                                                                    "field": "%vlocity_namespace%__IsChangesAllowed__c.value",
+                                                                    "field": "vlocity_cmt__IsChangesAllowed__c.value",
                                                                     "hasMergeField": false,
                                                                     "id": "state-new-condition-1844",
                                                                     "operator": "==",
@@ -437,7 +430,7 @@
                                                                     "value": "undefined"
                                                                 },
                                                                 {
-                                                                    "field": "%vlocity_namespace%__IsChangesAllowed__c.value",
+                                                                    "field": "vlocity_cmt__IsChangesAllowed__c.value",
                                                                     "hasMergeField": false,
                                                                     "id": "state-new-condition-1897",
                                                                     "logicalOperator": "||",
@@ -446,7 +439,7 @@
                                                                     "value": "true"
                                                                 },
                                                                 {
-                                                                    "field": "%vlocity_namespace%__IsChangesAllowed__c.value",
+                                                                    "field": "vlocity_cmt__IsChangesAllowed__c.value",
                                                                     "hasMergeField": false,
                                                                     "id": "state-new-condition-1989",
                                                                     "logicalOperator": "||",
@@ -461,7 +454,7 @@
                                                         {
                                                             "group": [
                                                                 {
-                                                                    "field": "%vlocity_namespace%__SupplementalAction__c.value",
+                                                                    "field": "vlocity_cmt__SupplementalAction__c.value",
                                                                     "hasMergeField": false,
                                                                     "id": "state-new-condition-2066",
                                                                     "operator": "==",
@@ -469,7 +462,7 @@
                                                                     "value": "undefined"
                                                                 },
                                                                 {
-                                                                    "field": "%vlocity_namespace%__SupplementalAction__c.value",
+                                                                    "field": "vlocity_cmt__SupplementalAction__c.value",
                                                                     "hasMergeField": false,
                                                                     "id": "state-new-condition-2147",
                                                                     "logicalOperator": "||",
@@ -478,7 +471,7 @@
                                                                     "value": "cancel"
                                                                 },
                                                                 {
-                                                                    "field": "%vlocity_namespace%__SupplementalAction__c.value",
+                                                                    "field": "vlocity_cmt__SupplementalAction__c.value",
                                                                     "hasMergeField": false,
                                                                     "id": "state-new-condition-2258",
                                                                     "logicalOperator": "||",
@@ -491,7 +484,7 @@
                                                             "logicalOperator": "&&"
                                                         },
                                                         {
-                                                            "field": "%vlocity_namespace%__Action__c.value",
+                                                            "field": "vlocity_cmt__Action__c.value",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-222",
                                                             "logicalOperator": "&&",
@@ -670,7 +663,7 @@
                                                         {
                                                             "group": [
                                                                 {
-                                                                    "field": "%vlocity_namespace%__IsChangesAllowed__c.value",
+                                                                    "field": "vlocity_cmt__IsChangesAllowed__c.value",
                                                                     "hasMergeField": false,
                                                                     "id": "state-new-condition-646",
                                                                     "operator": "==",
@@ -678,7 +671,7 @@
                                                                     "value": "undefined"
                                                                 },
                                                                 {
-                                                                    "field": "%vlocity_namespace%__IsChangesAllowed__c.value",
+                                                                    "field": "vlocity_cmt__IsChangesAllowed__c.value",
                                                                     "hasMergeField": false,
                                                                     "id": "state-new-condition-699",
                                                                     "logicalOperator": "||",
@@ -687,7 +680,7 @@
                                                                     "value": "true"
                                                                 },
                                                                 {
-                                                                    "field": "%vlocity_namespace%__IsChangesAllowed__c.value",
+                                                                    "field": "vlocity_cmt__IsChangesAllowed__c.value",
                                                                     "hasMergeField": false,
                                                                     "id": "state-new-condition-774",
                                                                     "logicalOperator": "||",
@@ -702,7 +695,7 @@
                                                         {
                                                             "group": [
                                                                 {
-                                                                    "field": "%vlocity_namespace%__SupplementalAction__c.value",
+                                                                    "field": "vlocity_cmt__SupplementalAction__c.value",
                                                                     "hasMergeField": false,
                                                                     "id": "state-new-condition-920",
                                                                     "operator": "==",
@@ -710,7 +703,7 @@
                                                                     "value": "undefined"
                                                                 },
                                                                 {
-                                                                    "field": "%vlocity_namespace%__SupplementalAction__c.value",
+                                                                    "field": "vlocity_cmt__SupplementalAction__c.value",
                                                                     "hasMergeField": false,
                                                                     "id": "state-new-condition-1001",
                                                                     "logicalOperator": "||",
@@ -719,7 +712,7 @@
                                                                     "value": "cancel"
                                                                 },
                                                                 {
-                                                                    "field": "%vlocity_namespace%__SupplementalAction__c.value",
+                                                                    "field": "vlocity_cmt__SupplementalAction__c.value",
                                                                     "hasMergeField": false,
                                                                     "id": "state-new-condition-1137",
                                                                     "logicalOperator": "||",
@@ -732,7 +725,7 @@
                                                             "logicalOperator": "&&"
                                                         },
                                                         {
-                                                            "field": "%vlocity_namespace%__Action__c.value",
+                                                            "field": "vlocity_cmt__Action__c.value",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-1248",
                                                             "logicalOperator": "&&",
@@ -828,11 +821,9 @@
                                             "class": "cpq__cart-flextable_menu"
                                         },
                                         "customClass": "",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "top:small",
@@ -879,11 +870,9 @@
                                                     "class": "cpq__cart-flextable_menu"
                                                 },
                                                 "customClass": "",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "top:small",
@@ -907,8 +896,7 @@
                                     "type": "element"
                                 },
                                 {
-                                    "children": [
-                                    ],
+                                    "children": [],
                                     "class": "slds-col ",
                                     "element": "block",
                                     "elementLabel": "Block-2-Block-1",
@@ -930,7 +918,7 @@
                                                     "value": "config"
                                                 },
                                                 {
-                                                    "field": "%vlocity_namespace%__Action__c.value",
+                                                    "field": "vlocity_cmt__Action__c.value",
                                                     "hasMergeField": false,
                                                     "id": "state-new-condition-7",
                                                     "logicalOperator": "&&",
@@ -948,7 +936,7 @@
                                                     "value": "true"
                                                 },
                                                 {
-                                                    "field": "%vlocity_namespace%__SupplementalAction__c.value",
+                                                    "field": "vlocity_cmt__SupplementalAction__c.value",
                                                     "hasMergeField": false,
                                                     "id": "state-new-condition-269",
                                                     "logicalOperator": "||",
@@ -987,11 +975,9 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:x-small",
@@ -1037,11 +1023,9 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "around:x-small",
@@ -1101,13 +1085,10 @@
                                     "class": ""
                                 },
                                 "customClass": "",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "12",
                                     "isResponsive": false
@@ -1150,13 +1131,10 @@
                                             "class": ""
                                         },
                                         "customClass": "",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": false
@@ -1177,25 +1155,19 @@
                 }
             },
             "conditions": {
-                "group": [
-                ],
+                "group": [],
                 "id": "state-condition-object",
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Active",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "#FAFAF9",
@@ -1216,13 +1188,10 @@
                     "class": ""
                 },
                 "customClass": "",
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
-                "margin": [
-                ],
-                "padding": [
-                ],
+                "margin": [],
+                "padding": [],
                 "size": {
                     "default": "12",
                     "isResponsive": false

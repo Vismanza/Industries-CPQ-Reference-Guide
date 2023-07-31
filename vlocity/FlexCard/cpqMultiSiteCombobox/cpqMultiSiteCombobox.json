@@ -1,7 +1,6 @@
 {
     "dataSource": {
-        "contextVariables": [
-        ],
+        "contextVariables": [],
         "orderBy": {
             "isReverse": false,
             "name": ""
@@ -46,17 +45,15 @@
         "Id": "0Rb5g000000SdBnCAK",
         "ManageableState": "unmanaged",
         "MasterLabel": "cfCpqMultiSiteCombobox_2_Vlocity",
-        "NamespacePrefix": "%vlocity_namespace%"
+        "NamespacePrefix": "vlocity_cmt"
     },
     "multilanguageSupport": true,
     "osSupport": true,
     "selectableMode": "Multi",
     "states": [
         {
-            "actions": [
-            ],
-            "childCards": [
-            ],
+            "actions": [],
+            "childCards": [],
             "components": {
                 "layer-0": {
                     "children": [
@@ -86,8 +83,7 @@
                                         }
                                     ],
                                     "label": "Label",
-                                    "options": [
-                                    ],
+                                    "options": [],
                                     "placeholder": "{Label.MSAddToGroupLabel} ({Parent.selectedUngroupedRecordsCount})",
                                     "type": "combobox",
                                     "value": ""
@@ -132,10 +128,8 @@
                                     }
                                 },
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "12",
                                     "isResponsive": false
@@ -182,10 +176,8 @@
                                             }
                                         },
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": false
@@ -219,19 +211,14 @@
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Active",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "#F3F2F2",
@@ -251,8 +238,7 @@
                 "container": {
                     "class": "slds-card"
                 },
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
                 "margin": [
                     {
@@ -284,10 +270,8 @@
             }
         },
         {
-            "actions": [
-            ],
-            "childCards": [
-            ],
+            "actions": [],
+            "childCards": [],
             "components": {
                 "layer-0": {
                     "children": [
@@ -317,8 +301,7 @@
                                         }
                                     ],
                                     "label": "Label",
-                                    "options": [
-                                    ],
+                                    "options": [],
                                     "placeholder": "{Label.MSNewGroupLabel} ({Parent.selectedUngroupedRecordsCount})",
                                     "type": "combobox",
                                     "value": ""
@@ -363,10 +346,8 @@
                                     }
                                 },
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "12",
                                     "isResponsive": false
@@ -413,10 +394,8 @@
                                             }
                                         },
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": false
@@ -450,19 +429,14 @@
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "MSNoGroups",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "#F3F2F2",
@@ -482,8 +456,7 @@
                 "container": {
                     "class": "slds-card"
                 },
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
                 "margin": [
                     {

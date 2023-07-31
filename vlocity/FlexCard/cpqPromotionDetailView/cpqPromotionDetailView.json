@@ -1,12 +1,9 @@
 {
     "dataSource": {
-        "contextVariables": [
-        ],
-        "orderBy": {
-        },
+        "contextVariables": [],
+        "orderBy": {},
         "type": null,
-        "value": {
-        }
+        "value": {}
     },
     "dynamicCanvasWidth": {
         "type": "desktop"
@@ -19,15 +16,13 @@
         "Id": "0Rb5g000000QSavCAG",
         "ManageableState": "unmanaged",
         "MasterLabel": "cfCpqPromotionDetailView",
-        "NamespacePrefix": "%vlocity_namespace%"
+        "NamespacePrefix": "vlocity_cmt"
     },
     "multilanguageSupport": true,
     "states": [
         {
-            "actions": [
-            ],
-            "childCards": [
-            ],
+            "actions": [],
+            "childCards": [],
             "components": {
                 "layer-0": {
                     "children": [
@@ -72,13 +67,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq__promotiondetailview-modal-header-promotionheading",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -131,14 +123,11 @@
                                             "class": ""
                                         },
                                         "customClass": "slds-modal__header cpq__promotiondetailview-modal-header ",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "height": "",
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": false
@@ -178,14 +167,11 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "slds-modal__header cpq__promotiondetailview-modal-header ",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "height": "",
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -214,8 +200,7 @@
                                             "property": {
                                                 "card": "{card}",
                                                 "data-conditions": {
-                                                    "group": [
-                                                    ],
+                                                    "group": [],
                                                     "id": "state-condition-object",
                                                     "isParent": true
                                                 },
@@ -247,13 +232,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq__promotiondetailview-modal-body-promotion-namecode",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -293,13 +275,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq__promotiondetailview-modal-body-promotion-namecode",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -366,13 +345,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq__promotiondetailview-modal-body-promotion-description slds-m-top_medium",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -412,13 +388,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq__promotiondetailview-modal-body-promotion-description slds-m-top_medium",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -493,13 +466,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq__promotiondetailview-modal-body-promotion-description slds-m-top_medium",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -539,13 +509,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq__promotiondetailview-modal-body-promotion-description slds-m-top_medium",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -604,13 +571,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq__promotiondetailview-modal-body-promotion-dates-label slds-m-right_x-small",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "3",
                                                             "isResponsive": false,
@@ -653,13 +617,10 @@
                                                                     "class": ""
                                                                 },
                                                                 "customClass": "cpq__promotiondetailview-modal-body-promotion-dates-label slds-m-right_x-small",
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "3",
                                                                     "isResponsive": false,
@@ -693,7 +654,7 @@
                                                                 "data-conditions": {
                                                                     "group": [
                                                                         {
-                                                                            "field": "%vlocity_namespace%__effectivestartdate__c",
+                                                                            "field": "vlocity_cmt__effectivestartdate__c",
                                                                             "id": "state-new-condition-56",
                                                                             "operator": "!=",
                                                                             "type": "custom",
@@ -703,7 +664,7 @@
                                                                     "id": "state-condition-object",
                                                                     "isParent": true
                                                                 },
-                                                                "fieldName": "%vlocity_namespace%__effectivestartdate__c",
+                                                                "fieldName": "vlocity_cmt__effectivestartdate__c",
                                                                 "format": "DD/MM/YYYY",
                                                                 "placeholder": "Start Date of Promotion",
                                                                 "record": "{record}",
@@ -738,13 +699,10 @@
                                                                     "class": ""
                                                                 },
                                                                 "customClass": "cpq__promotiondetailview-modal-body-promotion-dates    ",
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "12",
                                                                     "isResponsive": true,
@@ -787,13 +745,10 @@
                                                                             "class": ""
                                                                         },
                                                                         "customClass": "cpq__promotiondetailview-modal-body-promotion-dates    ",
-                                                                        "elementStyleProperties": {
-                                                                        },
+                                                                        "elementStyleProperties": {},
                                                                         "inlineStyle": "",
-                                                                        "margin": [
-                                                                        ],
-                                                                        "padding": [
-                                                                        ],
+                                                                        "margin": [],
+                                                                        "padding": [],
                                                                         "size": {
                                                                             "default": "12",
                                                                             "isResponsive": true,
@@ -825,14 +780,14 @@
                                                                 "data-conditions": {
                                                                     "group": [
                                                                         {
-                                                                            "field": "%vlocity_namespace%__CommitmentStartDate__c",
+                                                                            "field": "vlocity_cmt__CommitmentStartDate__c",
                                                                             "id": "state-new-condition-35",
                                                                             "operator": "!=",
                                                                             "type": "custom",
                                                                             "value": "undefined"
                                                                         },
                                                                         {
-                                                                            "field": "%vlocity_namespace%__CommitmentStartDate__c.value",
+                                                                            "field": "vlocity_cmt__CommitmentStartDate__c.value",
                                                                             "id": "state-new-condition-42",
                                                                             "logicalOperator": "&&",
                                                                             "operator": "!=",
@@ -843,7 +798,7 @@
                                                                     "id": "state-condition-object",
                                                                     "isParent": true
                                                                 },
-                                                                "fieldName": "%vlocity_namespace%__CommitmentStartDate__c.value",
+                                                                "fieldName": "vlocity_cmt__CommitmentStartDate__c.value",
                                                                 "format": "DD/MM/YYYY",
                                                                 "placeholder": "Start Date of Promotion",
                                                                 "record": "{record}",
@@ -878,13 +833,10 @@
                                                                     "class": ""
                                                                 },
                                                                 "customClass": "cpq__promotiondetailview-modal-body-promotion-dates    ",
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "12",
                                                                     "isResponsive": true,
@@ -927,13 +879,10 @@
                                                                             "class": ""
                                                                         },
                                                                         "customClass": "cpq__promotiondetailview-modal-body-promotion-dates    ",
-                                                                        "elementStyleProperties": {
-                                                                        },
+                                                                        "elementStyleProperties": {},
                                                                         "inlineStyle": "",
-                                                                        "margin": [
-                                                                        ],
-                                                                        "padding": [
-                                                                        ],
+                                                                        "margin": [],
+                                                                        "padding": [],
                                                                         "size": {
                                                                             "default": "12",
                                                                             "isResponsive": true,
@@ -991,13 +940,10 @@
                                                         "container": {
                                                             "class": ""
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": 9,
                                                             "isResponsive": false
@@ -1036,13 +982,10 @@
                                                                 "container": {
                                                                     "class": ""
                                                                 },
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": 9,
                                                                     "isResponsive": false
@@ -1100,13 +1043,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "slds-m-top_large",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "\n",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false,
@@ -1149,13 +1089,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "slds-m-top_large",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "\n",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false,
@@ -1217,13 +1154,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq__promotiondetailview-modal-body-promotion-dates-label slds-m-right_x-small",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "3",
                                                             "isResponsive": false,
@@ -1266,13 +1200,10 @@
                                                                     "class": ""
                                                                 },
                                                                 "customClass": "cpq__promotiondetailview-modal-body-promotion-dates-label slds-m-right_x-small",
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "3",
                                                                     "isResponsive": false,
@@ -1306,7 +1237,7 @@
                                                                 "data-conditions": {
                                                                     "group": [
                                                                         {
-                                                                            "field": "%vlocity_namespace%__effectiveenddate__c",
+                                                                            "field": "vlocity_cmt__effectiveenddate__c",
                                                                             "id": "state-new-condition-123",
                                                                             "operator": "!=",
                                                                             "type": "custom",
@@ -1316,7 +1247,7 @@
                                                                     "id": "state-condition-object",
                                                                     "isParent": true
                                                                 },
-                                                                "fieldName": "%vlocity_namespace%__effectiveenddate__c",
+                                                                "fieldName": "vlocity_cmt__effectiveenddate__c",
                                                                 "format": "DD/MM/YYYY",
                                                                 "placeholder": "End Date of Promotion",
                                                                 "record": "{record}",
@@ -1351,13 +1282,10 @@
                                                                     "class": ""
                                                                 },
                                                                 "customClass": "cpq__promotiondetailview-modal-body-promotion-dates    slds-p-left_xx-small",
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "12",
                                                                     "isResponsive": true,
@@ -1400,13 +1328,10 @@
                                                                             "class": ""
                                                                         },
                                                                         "customClass": "cpq__promotiondetailview-modal-body-promotion-dates    slds-p-left_xx-small",
-                                                                        "elementStyleProperties": {
-                                                                        },
+                                                                        "elementStyleProperties": {},
                                                                         "inlineStyle": "",
-                                                                        "margin": [
-                                                                        ],
-                                                                        "padding": [
-                                                                        ],
+                                                                        "margin": [],
+                                                                        "padding": [],
                                                                         "size": {
                                                                             "default": "12",
                                                                             "isResponsive": true,
@@ -1438,14 +1363,14 @@
                                                                 "data-conditions": {
                                                                     "group": [
                                                                         {
-                                                                            "field": "%vlocity_namespace%__CommitmentEndDate__c",
+                                                                            "field": "vlocity_cmt__CommitmentEndDate__c",
                                                                             "id": "state-new-condition-130",
                                                                             "operator": "!=",
                                                                             "type": "custom",
                                                                             "value": "undefined"
                                                                         },
                                                                         {
-                                                                            "field": "%vlocity_namespace%__CommitmentEndDate__c.value",
+                                                                            "field": "vlocity_cmt__CommitmentEndDate__c.value",
                                                                             "id": "state-new-condition-137",
                                                                             "logicalOperator": "&&",
                                                                             "operator": "!=",
@@ -1456,7 +1381,7 @@
                                                                     "id": "state-condition-object",
                                                                     "isParent": true
                                                                 },
-                                                                "fieldName": "%vlocity_namespace%__CommitmentEndDate__c.value",
+                                                                "fieldName": "vlocity_cmt__CommitmentEndDate__c.value",
                                                                 "format": "DD/MM/YYYY",
                                                                 "placeholder": "End Date of Promotion",
                                                                 "record": "{record}",
@@ -1491,13 +1416,10 @@
                                                                     "class": ""
                                                                 },
                                                                 "customClass": "cpq__promotiondetailview-modal-body-promotion-dates    slds-p-left_xx-small",
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "12",
                                                                     "isResponsive": true,
@@ -1540,13 +1462,10 @@
                                                                             "class": ""
                                                                         },
                                                                         "customClass": "cpq__promotiondetailview-modal-body-promotion-dates    slds-p-left_xx-small",
-                                                                        "elementStyleProperties": {
-                                                                        },
+                                                                        "elementStyleProperties": {},
                                                                         "inlineStyle": "",
-                                                                        "margin": [
-                                                                        ],
-                                                                        "padding": [
-                                                                        ],
+                                                                        "margin": [],
+                                                                        "padding": [],
                                                                         "size": {
                                                                             "default": "12",
                                                                             "isResponsive": true,
@@ -1604,13 +1523,10 @@
                                                         "container": {
                                                             "class": ""
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": 9,
                                                             "isResponsive": false
@@ -1649,13 +1565,10 @@
                                                                 "container": {
                                                                     "class": ""
                                                                 },
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": 9,
                                                                     "isResponsive": false
@@ -1710,13 +1623,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "slds-m-top_small",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "\n",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -1756,13 +1666,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "slds-m-top_small",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "\n",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -1813,7 +1720,7 @@
                                                 "data-conditions": {
                                                     "group": [
                                                         {
-                                                            "field": "%vlocity_namespace%__Code__c",
+                                                            "field": "vlocity_cmt__Code__c",
                                                             "id": "state-new-condition-84",
                                                             "operator": "!=",
                                                             "type": "custom",
@@ -1851,13 +1758,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "slds-m-top_x-small cpq__promotiondetailview-modal-body-promotion-code-label",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -1897,13 +1801,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "slds-m-top_x-small cpq__promotiondetailview-modal-body-promotion-code-label",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -1932,7 +1833,7 @@
                                                 "data-conditions": {
                                                     "group": [
                                                         {
-                                                            "field": "%vlocity_namespace%__Code__c",
+                                                            "field": "vlocity_cmt__Code__c",
                                                             "id": "state-new-condition-77",
                                                             "operator": "!=",
                                                             "type": "custom",
@@ -1942,7 +1843,7 @@
                                                     "id": "state-condition-object",
                                                     "isParent": true
                                                 },
-                                                "fieldName": "%vlocity_namespace%__Code__c",
+                                                "fieldName": "vlocity_cmt__Code__c",
                                                 "placeholder": "ID of Promotion",
                                                 "record": "{record}",
                                                 "type": "text"
@@ -1972,13 +1873,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq__promotiondetailview-modal-body-promotion-namecode",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -2032,11 +1930,9 @@
                                             "class": ""
                                         },
                                         "customClass": "slds-modal__content slds-p-around_large cpq__promotiondetailview-modal-body ",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:x-small",
@@ -2083,11 +1979,9 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "slds-modal__content slds-p-around_large cpq__promotiondetailview-modal-body ",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "around:x-small",
@@ -2171,13 +2065,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": " cpq__promotiondetailview-modal-footer-buttons  cpq__promotiondetailview-cancelbuttom-tempchange",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false,
@@ -2311,13 +2202,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "slds-m-left_small  cpq__promotiondetailview-modal-footer-buttons",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false,
@@ -2374,13 +2262,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": " cpq__promotiondetailview-modal-footer-button-block",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": 12,
                                                     "isResponsive": false
@@ -2437,13 +2322,10 @@
                                             "class": ""
                                         },
                                         "customClass": "slds-modal__footer ",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "border: 1px solid #ECEBEA;",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": false,
@@ -2498,13 +2380,10 @@
                                     "class": ""
                                 },
                                 "customClass": "",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "12",
                                     "isResponsive": false
@@ -2544,13 +2423,10 @@
                                             "class": ""
                                         },
                                         "customClass": "",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": false
@@ -2571,25 +2447,19 @@
                 }
             },
             "conditions": {
-                "group": [
-                ],
+                "group": [],
                 "id": "state-condition-object",
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Default",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "",
@@ -2609,13 +2479,10 @@
                 "container": {
                     "class": ""
                 },
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
-                "margin": [
-                ],
-                "padding": [
-                ],
+                "margin": [],
+                "padding": [],
                 "size": {
                     "default": "12",
                     "isResponsive": true,

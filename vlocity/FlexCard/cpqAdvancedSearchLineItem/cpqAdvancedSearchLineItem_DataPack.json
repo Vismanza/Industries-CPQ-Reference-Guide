@@ -1,16 +1,15 @@
 {
     "AuthorName": "Vlocity",
-    "%vlocity_namespace%__CardType__c": "flex",
+    "vlocity_cmt__CardType__c": "flex",
     "DataSourceConfig": {
-        "contextVariables": [
-        ],
+        "contextVariables": [],
         "orderBy": {
             "isReverse": false,
             "name": ""
         },
         "type": "Custom",
         "value": {
-            "body": "{\n      \"operator\": \"equals\",\n      \"options\": [\n        {\n          \"value\": \"equals\",\n          \"label\": \"Equals\"\n        }\n      ],\n      \"pickListValues\": [],\n      \"type\": \"currency\",\n      \"fieldName\": \"%vlocity_namespace%__RecurringCharge__c\",\n      \"fieldAPIName\": \"%vlocity_namespace%__RecurringCharge__c\",\n      \"fieldLabel\": \"Recurring Charge\",\n      \"objectName\": \"Asset\",\n      \"objectAPIName\": \"Asset\",\n      \"displaySequence\": 1\n    }",
+            "body": "{\n      \"operator\": \"equals\",\n      \"options\": [\n        {\n          \"value\": \"equals\",\n          \"label\": \"Equals\"\n        }\n      ],\n      \"pickListValues\": [],\n      \"type\": \"currency\",\n      \"fieldName\": \"vlocity_cmt__RecurringCharge__c\",\n      \"fieldAPIName\": \"vlocity_cmt__RecurringCharge__c\",\n      \"fieldLabel\": \"Recurring Charge\",\n      \"objectName\": \"Asset\",\n      \"objectAPIName\": \"Asset\",\n      \"displaySequence\": 1\n    }",
             "dsDelay": 0,
             "resultVar": ""
         }
@@ -19,10 +18,10 @@
     "Description": "",
     "OmniUiCardKey": "cpqAdvancedSearchLineItem/Vlocity/2/1626753545891",
     "OmniUiCardType": "Child",
-    "%vlocity_namespace%__ParentID__c": "",
-    "SampleDataSourceResponse": "{\"operator\":\"equals\",\"options\":[{\"value\":\"equals\",\"label\":\"Equals\"}],\"pickListValues\":[],\"type\":\"currency\",\"fieldName\":\"%vlocity_namespace%__RecurringCharge__c\",\"fieldAPIName\":\"%vlocity_namespace%__RecurringCharge__c\",\"fieldLabel\":\"Recurring Charge\",\"objectName\":\"Asset\",\"objectAPIName\":\"Asset\",\"displaySequence\":1}",
+    "vlocity_cmt__ParentID__c": "",
+    "SampleDataSourceResponse": "{\"operator\":\"equals\",\"options\":[{\"value\":\"equals\",\"label\":\"Equals\"}],\"pickListValues\":[],\"type\":\"currency\",\"fieldName\":\"vlocity_cmt__RecurringCharge__c\",\"fieldAPIName\":\"vlocity_cmt__RecurringCharge__c\",\"fieldLabel\":\"Recurring Charge\",\"objectName\":\"Asset\",\"objectAPIName\":\"Asset\",\"displaySequence\":1}",
     "StylingConfiguration": "",
-    "%vlocity_namespace%__Type__c": "",
+    "vlocity_cmt__Type__c": "",
     "VersionNumber": 1,
     "Name": "cpqAdvancedSearchLineItem",
     "VlocityDataPackType": "SObject",

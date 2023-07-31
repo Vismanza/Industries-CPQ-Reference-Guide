@@ -1,7 +1,6 @@
 {
     "dataSource": {
-        "contextVariables": [
-        ],
+        "contextVariables": [],
         "orderBy": {
             "isReverse": false,
             "name": ""
@@ -21,15 +20,13 @@
         "Id": "0RbRN0000001K110AE",
         "ManageableState": "unmanaged",
         "MasterLabel": "cfCpqMultiSiteAppliedFiltersChild_1_Vlocity",
-        "NamespacePrefix": "%vlocity_namespace%"
+        "NamespacePrefix": "vlocity_cmt"
     },
     "selectableMode": "Multi",
     "states": [
         {
-            "actions": [
-            ],
-            "childCards": [
-            ],
+            "actions": [],
+            "childCards": [],
             "components": {
                 "layer-0": {
                     "children": [
@@ -67,13 +64,10 @@
                                 "container": {
                                     "class": "cpq__multisite-applied-filters_value"
                                 },
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "10",
                                     "isResponsive": false
@@ -112,13 +106,10 @@
                                         "container": {
                                             "class": "cpq__multisite-applied-filters_value"
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "10",
                                             "isResponsive": false
@@ -171,8 +162,7 @@
                                     }
                                 ],
                                 "card": "{card}",
-                                "flyoutDetails": {
-                                },
+                                "flyoutDetails": {},
                                 "iconColor": "#747474",
                                 "iconName": "utility:close",
                                 "iconOnly": true,
@@ -211,8 +201,7 @@
                                     "iconSize": "x-small"
                                 },
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
+                                "margin": [],
                                 "padding": [
                                     {
                                         "label": "left:xx-small",
@@ -263,8 +252,7 @@
                                             "iconSize": "x-small"
                                         },
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "left:xx-small",
@@ -305,19 +293,14 @@
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Active",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "",
@@ -337,8 +320,7 @@
                 "container": {
                     "class": ""
                 },
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
                 "margin": [
                     {
@@ -370,11 +352,9 @@
             }
         },
         {
-            "actions": [
-            ],
+            "actions": [],
             "blankCardState": false,
-            "childCards": [
-            ],
+            "childCards": [],
             "components": {
                 "layer-0": {
                     "children": [
@@ -408,8 +388,7 @@
                                     }
                                 ],
                                 "card": "{card}",
-                                "flyoutDetails": {
-                                },
+                                "flyoutDetails": {},
                                 "hideActionIcon": true,
                                 "iconName": "standard-default",
                                 "label": "{Label.CPQClearAll}",
@@ -441,11 +420,9 @@
                                 "container": {
                                     "class": "cpq__multisite-applied-filters_clearall-action"
                                 },
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
+                                "margin": [],
                                 "padding": [
                                     {
                                         "label": "top:xxx-small",
@@ -491,11 +468,9 @@
                                         "container": {
                                             "class": "cpq__multisite-applied-filters_clearall-action"
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "top:xxx-small",
@@ -535,16 +510,12 @@
                 "id": "state-condition-object",
                 "isParent": true
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Clear All Action",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "",
@@ -564,13 +535,10 @@
                 "container": {
                     "class": ""
                 },
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
-                "margin": [
-                ],
-                "padding": [
-                ],
+                "margin": [],
+                "padding": [],
                 "size": {
                     "default": "12",
                     "isResponsive": false

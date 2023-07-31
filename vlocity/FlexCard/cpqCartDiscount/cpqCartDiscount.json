@@ -1,12 +1,9 @@
 {
     "dataSource": {
-        "contextVariables": [
-        ],
-        "orderBy": {
-        },
+        "contextVariables": [],
+        "orderBy": {},
         "type": null,
-        "value": {
-        }
+        "value": {}
     },
     "dynamicCanvasWidth": {
         "type": "desktop"
@@ -19,13 +16,12 @@
         "Id": "0Rb5g000000Rf3HCAS",
         "ManageableState": "unmanaged",
         "MasterLabel": "cfCpqCartDiscount_1_Vlocity",
-        "NamespacePrefix": "%vlocity_namespace%"
+        "NamespacePrefix": "vlocity_cmt"
     },
     "multilanguageSupport": true,
     "states": [
         {
-            "actions": [
-            ],
+            "actions": [],
             "childCards": [
                 "cpqDiscountStatus",
                 "cpqDiscountStatus",
@@ -52,7 +48,7 @@
                                                 "data-conditions": {
                                                     "group": [
                                                         {
-                                                            "field": "%vlocity_namespace%__ApprovalStatus__c.value",
+                                                            "field": "vlocity_cmt__ApprovalStatus__c.value",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-11",
                                                             "operator": "==",
@@ -122,10 +118,8 @@
                                                     }
                                                 },
                                                 "inlineStyle": "width:3%;",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "1",
                                                     "isResponsive": false
@@ -174,10 +168,8 @@
                                                             }
                                                         },
                                                         "inlineStyle": "width:3%;",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "1",
                                                             "isResponsive": false
@@ -205,7 +197,7 @@
                                                 "data-conditions": {
                                                     "group": [
                                                         {
-                                                            "field": "%vlocity_namespace%__ApprovalStatus__c.value",
+                                                            "field": "vlocity_cmt__ApprovalStatus__c.value",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-0",
                                                             "operator": "==",
@@ -278,10 +270,8 @@
                                                     }
                                                 },
                                                 "inlineStyle": "width:3%;",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "1",
                                                     "isResponsive": false
@@ -330,10 +320,8 @@
                                                             }
                                                         },
                                                         "inlineStyle": "width:3%;",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "1",
                                                             "isResponsive": false
@@ -361,7 +349,7 @@
                                                 "data-conditions": {
                                                     "group": [
                                                         {
-                                                            "field": "%vlocity_namespace%__ApprovalStatus__c.value",
+                                                            "field": "vlocity_cmt__ApprovalStatus__c.value",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-18",
                                                             "operator": "==",
@@ -431,10 +419,8 @@
                                                     }
                                                 },
                                                 "inlineStyle": "width:3%;",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "1",
                                                     "isResponsive": false
@@ -483,10 +469,8 @@
                                                             }
                                                         },
                                                         "inlineStyle": "width:3%;",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "1",
                                                             "isResponsive": false
@@ -514,7 +498,7 @@
                                                 "data-conditions": {
                                                     "group": [
                                                         {
-                                                            "field": "%vlocity_namespace%__ApprovalStatus__c.value",
+                                                            "field": "vlocity_cmt__ApprovalStatus__c.value",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-25",
                                                             "operator": "==",
@@ -584,10 +568,8 @@
                                                     }
                                                 },
                                                 "inlineStyle": "width:3%;",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "1",
                                                     "isResponsive": false
@@ -637,10 +619,8 @@
                                                             }
                                                         },
                                                         "inlineStyle": "width:3%;",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "1",
                                                             "isResponsive": false
@@ -692,11 +672,9 @@
                                                 "container": {
                                                     "class": "cpq__cart-applied-discount_name discount__name-strike-through "
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "flex: 1 1 auto",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "left:x-small",
@@ -743,11 +721,9 @@
                                                         "container": {
                                                             "class": "cpq__cart-applied-discount_name"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "flex: 1 1 auto",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "padding": [
                                                             {
                                                                 "label": "left:x-small",
@@ -768,11 +744,11 @@
                                                     }
                                                 },
                                                 {
-                                                    "conditionString": "%vlocity_namespace%__ApprovalStatus__c.value == Rejected",
+                                                    "conditionString": "vlocity_cmt__ApprovalStatus__c.value == Rejected",
                                                     "conditions": {
                                                         "group": [
                                                             {
-                                                                "field": "%vlocity_namespace%__ApprovalStatus__c.value",
+                                                                "field": "vlocity_cmt__ApprovalStatus__c.value",
                                                                 "hasMergeField": false,
                                                                 "id": "state-new-condition-34",
                                                                 "operator": "==",
@@ -808,11 +784,9 @@
                                                         "container": {
                                                             "class": "cpq__cart-applied-discount_name discount__name-strike-through "
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "flex: 1 1 auto",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "padding": [
                                                             {
                                                                 "label": "left:x-small",
@@ -848,7 +822,7 @@
                                                             "parentElementKey": "element_element_element_element_block_0_0_block_0_0_block_5_0_block_0_0",
                                                             "property": {
                                                                 "card": "{card}",
-                                                                "mergeField": "%3Cdiv%3E%7B%vlocity_namespace%__Action__c%5B'value'%5D%7D&nbsp;%3C/div%3E",
+                                                                "mergeField": "%3Cdiv%3E%7Bvlocity_cmt__Action__c%5B'value'%5D%7D&nbsp;%3C/div%3E",
                                                                 "record": "{record}"
                                                             },
                                                             "size": {
@@ -875,13 +849,10 @@
                                                                 "container": {
                                                                     "class": ""
                                                                 },
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "font-weight:900;",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "8",
                                                                     "isResponsive": false
@@ -921,13 +892,10 @@
                                                                         "container": {
                                                                             "class": ""
                                                                         },
-                                                                        "elementStyleProperties": {
-                                                                        },
+                                                                        "elementStyleProperties": {},
                                                                         "inlineStyle": "font-weight:900;",
-                                                                        "margin": [
-                                                                        ],
-                                                                        "padding": [
-                                                                        ],
+                                                                        "margin": [],
+                                                                        "padding": [],
                                                                         "size": {
                                                                             "default": "8",
                                                                             "isResponsive": false
@@ -941,11 +909,11 @@
                                                                     }
                                                                 },
                                                                 {
-                                                                    "conditionString": "%vlocity_namespace%__Action__c.value == New",
+                                                                    "conditionString": "vlocity_cmt__Action__c.value == New",
                                                                     "conditions": {
                                                                         "group": [
                                                                             {
-                                                                                "field": "%vlocity_namespace%__Action__c.value",
+                                                                                "field": "vlocity_cmt__Action__c.value",
                                                                                 "hasMergeField": false,
                                                                                 "id": "state-new-condition-9",
                                                                                 "operator": "==",
@@ -981,13 +949,10 @@
                                                                         "container": {
                                                                             "class": ""
                                                                         },
-                                                                        "elementStyleProperties": {
-                                                                        },
+                                                                        "elementStyleProperties": {},
                                                                         "inlineStyle": "font-weight:900;",
-                                                                        "margin": [
-                                                                        ],
-                                                                        "padding": [
-                                                                        ],
+                                                                        "margin": [],
+                                                                        "padding": [],
                                                                         "size": {
                                                                             "default": "8",
                                                                             "isResponsive": false
@@ -1001,11 +966,11 @@
                                                                     }
                                                                 },
                                                                 {
-                                                                    "conditionString": "%vlocity_namespace%__Action__c.value == Change",
+                                                                    "conditionString": "vlocity_cmt__Action__c.value == Change",
                                                                     "conditions": {
                                                                         "group": [
                                                                             {
-                                                                                "field": "%vlocity_namespace%__Action__c.value",
+                                                                                "field": "vlocity_cmt__Action__c.value",
                                                                                 "hasMergeField": false,
                                                                                 "id": "state-new-condition-16",
                                                                                 "operator": "==",
@@ -1041,13 +1006,10 @@
                                                                         "container": {
                                                                             "class": ""
                                                                         },
-                                                                        "elementStyleProperties": {
-                                                                        },
+                                                                        "elementStyleProperties": {},
                                                                         "inlineStyle": "font-weight:900;",
-                                                                        "margin": [
-                                                                        ],
-                                                                        "padding": [
-                                                                        ],
+                                                                        "margin": [],
+                                                                        "padding": [],
                                                                         "size": {
                                                                             "default": "8",
                                                                             "isResponsive": false
@@ -1061,11 +1023,11 @@
                                                                     }
                                                                 },
                                                                 {
-                                                                    "conditionString": "%vlocity_namespace%__Action__c.value == Deactivate",
+                                                                    "conditionString": "vlocity_cmt__Action__c.value == Deactivate",
                                                                     "conditions": {
                                                                         "group": [
                                                                             {
-                                                                                "field": "%vlocity_namespace%__Action__c.value",
+                                                                                "field": "vlocity_cmt__Action__c.value",
                                                                                 "hasMergeField": false,
                                                                                 "id": "state-new-condition-25",
                                                                                 "operator": "==",
@@ -1101,13 +1063,10 @@
                                                                         "container": {
                                                                             "class": ""
                                                                         },
-                                                                        "elementStyleProperties": {
-                                                                        },
+                                                                        "elementStyleProperties": {},
                                                                         "inlineStyle": "font-weight:900;",
-                                                                        "margin": [
-                                                                        ],
-                                                                        "padding": [
-                                                                        ],
+                                                                        "margin": [],
+                                                                        "padding": [],
                                                                         "size": {
                                                                             "default": "8",
                                                                             "isResponsive": false
@@ -1161,11 +1120,9 @@
                                                         "container": {
                                                             "class": "cpq__cart-discount-status_value cpq__cart-discount-status_green"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "padding": [
                                                             {
                                                                 "label": "around:x-small",
@@ -1212,11 +1169,9 @@
                                                                 "container": {
                                                                     "class": "cpq__cart-discount-status_value"
                                                                 },
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
+                                                                "margin": [],
                                                                 "padding": [
                                                                     {
                                                                         "label": "around:x-small",
@@ -1276,11 +1231,9 @@
                                                                 "container": {
                                                                     "class": "cpq__cart-discount-status_value cpq__cart-discount-status_green"
                                                                 },
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
+                                                                "margin": [],
                                                                 "padding": [
                                                                     {
                                                                         "label": "around:x-small",
@@ -1341,13 +1294,10 @@
                                                 "container": {
                                                     "class": "cpq__cart-applied-discount_status"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "2",
                                                     "isResponsive": false
@@ -1386,13 +1336,10 @@
                                                         "container": {
                                                             "class": "cpq__cart-applied-discount_status"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "2",
                                                             "isResponsive": false
@@ -1597,11 +1544,9 @@
                                         "container": {
                                             "class": "cpq__cart-applied-discount-detail_block"
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:x-small",
@@ -1647,11 +1592,9 @@
                                                 "container": {
                                                     "class": "cpq__cart-applied-discount-detail_block"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "around:x-small",
@@ -1714,13 +1657,10 @@
                                                         "container": {
                                                             "class": "cpq__cart-discount-one-time_label"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -1759,13 +1699,10 @@
                                                                 "container": {
                                                                     "class": "cpq__cart-discount-one-time_label"
                                                                 },
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "12",
                                                                     "isResponsive": false
@@ -1830,13 +1767,10 @@
                                                         "container": {
                                                             "class": "cpq__cart-one-time_charge cpq__approval-status-rejected cpq__discount-strike-through"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -1876,13 +1810,10 @@
                                                                 "container": {
                                                                     "class": "cpq__cart-one-time_charge"
                                                                 },
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "12",
                                                                     "isResponsive": false
@@ -1896,11 +1827,11 @@
                                                             }
                                                         },
                                                         {
-                                                            "conditionString": "%vlocity_namespace%__ApprovalStatus__c.value == Rejected",
+                                                            "conditionString": "vlocity_cmt__ApprovalStatus__c.value == Rejected",
                                                             "conditions": {
                                                                 "group": [
                                                                     {
-                                                                        "field": "%vlocity_namespace%__ApprovalStatus__c.value",
+                                                                        "field": "vlocity_cmt__ApprovalStatus__c.value",
                                                                         "hasMergeField": false,
                                                                         "id": "state-new-condition-50",
                                                                         "operator": "==",
@@ -1936,13 +1867,10 @@
                                                                 "container": {
                                                                     "class": "cpq__cart-one-time_charge cpq__approval-status-rejected cpq__discount-strike-through"
                                                                 },
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "12",
                                                                     "isResponsive": false
@@ -2007,13 +1935,10 @@
                                                         "container": {
                                                             "class": "cpq__cart-one-time_charge"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -2052,13 +1977,10 @@
                                                                 "container": {
                                                                     "class": "cpq__cart-one-time_charge"
                                                                 },
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "12",
                                                                     "isResponsive": false
@@ -2118,21 +2040,17 @@
                                                     "color": "#cccccc",
                                                     "radius": "",
                                                     "style": "",
-                                                    "type": [
-                                                    ],
+                                                    "type": [],
                                                     "width": ""
                                                 },
                                                 "class": "cpq__cart-discount-one-time_charge  ",
                                                 "container": {
                                                     "class": "cpq__cart-discount-one-time_charge"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "6",
                                                     "isResponsive": false
@@ -2164,21 +2082,17 @@
                                                             "color": "#cccccc",
                                                             "radius": "",
                                                             "style": "",
-                                                            "type": [
-                                                            ],
+                                                            "type": [],
                                                             "width": ""
                                                         },
                                                         "class": "cpq__cart-discount-one-time_charge  ",
                                                         "container": {
                                                             "class": "cpq__cart-discount-one-time_charge"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "6",
                                                             "isResponsive": false
@@ -2232,13 +2146,10 @@
                                                         "container": {
                                                             "class": "cpq__cart-discount-one-time_label"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -2277,13 +2188,10 @@
                                                                 "container": {
                                                                     "class": "cpq__cart-discount-one-time_label"
                                                                 },
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "12",
                                                                     "isResponsive": false
@@ -2348,13 +2256,10 @@
                                                         "container": {
                                                             "class": "cpq__cart-one-time_charge cpq__approval-status-rejected cpq__discount-strike-through"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -2394,13 +2299,10 @@
                                                                 "container": {
                                                                     "class": "cpq__cart-one-time_charge"
                                                                 },
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "12",
                                                                     "isResponsive": false
@@ -2414,11 +2316,11 @@
                                                             }
                                                         },
                                                         {
-                                                            "conditionString": "%vlocity_namespace%__ApprovalStatus__c.value == Rejected",
+                                                            "conditionString": "vlocity_cmt__ApprovalStatus__c.value == Rejected",
                                                             "conditions": {
                                                                 "group": [
                                                                     {
-                                                                        "field": "%vlocity_namespace%__ApprovalStatus__c.value",
+                                                                        "field": "vlocity_cmt__ApprovalStatus__c.value",
                                                                         "hasMergeField": false,
                                                                         "id": "state-new-condition-41",
                                                                         "operator": "==",
@@ -2454,13 +2356,10 @@
                                                                 "container": {
                                                                     "class": "cpq__cart-one-time_charge cpq__approval-status-rejected cpq__discount-strike-through"
                                                                 },
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "12",
                                                                     "isResponsive": false
@@ -2525,13 +2424,10 @@
                                                         "container": {
                                                             "class": "cpq__cart-one-time_charge"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -2570,13 +2466,10 @@
                                                                 "container": {
                                                                     "class": "cpq__cart-one-time_charge"
                                                                 },
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "12",
                                                                     "isResponsive": false
@@ -2636,21 +2529,17 @@
                                                     "color": "#cccccc",
                                                     "radius": "",
                                                     "style": "",
-                                                    "type": [
-                                                    ],
+                                                    "type": [],
                                                     "width": ""
                                                 },
                                                 "class": "cpq__cart-discount-one-time_charge  ",
                                                 "container": {
                                                     "class": "cpq__cart-discount-one-time_charge"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "6",
                                                     "isResponsive": false
@@ -2682,21 +2571,17 @@
                                                             "color": "#cccccc",
                                                             "radius": "",
                                                             "style": "",
-                                                            "type": [
-                                                            ],
+                                                            "type": [],
                                                             "width": ""
                                                         },
                                                         "class": "cpq__cart-discount-one-time_charge  ",
                                                         "container": {
                                                             "class": "cpq__cart-discount-one-time_charge"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "6",
                                                             "isResponsive": false
@@ -2750,13 +2635,10 @@
                                                         "container": {
                                                             "class": "cpq__cart-discount-recurring_label"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -2795,13 +2677,10 @@
                                                                 "container": {
                                                                     "class": "cpq__cart-discount-recurring_label"
                                                                 },
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "12",
                                                                     "isResponsive": false
@@ -2866,13 +2745,10 @@
                                                         "container": {
                                                             "class": "cpq__cart-recurring_charge cpq__approval-status-rejected cpq__discount-strike-through"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -2912,13 +2788,10 @@
                                                                 "container": {
                                                                     "class": "cpq__cart-recurring_charge"
                                                                 },
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "12",
                                                                     "isResponsive": false
@@ -2932,11 +2805,11 @@
                                                             }
                                                         },
                                                         {
-                                                            "conditionString": "%vlocity_namespace%__ApprovalStatus__c.value == Rejected",
+                                                            "conditionString": "vlocity_cmt__ApprovalStatus__c.value == Rejected",
                                                             "conditions": {
                                                                 "group": [
                                                                     {
-                                                                        "field": "%vlocity_namespace%__ApprovalStatus__c.value",
+                                                                        "field": "vlocity_cmt__ApprovalStatus__c.value",
                                                                         "hasMergeField": false,
                                                                         "id": "state-new-condition-6",
                                                                         "operator": "==",
@@ -2972,13 +2845,10 @@
                                                                 "container": {
                                                                     "class": "cpq__cart-recurring_charge cpq__approval-status-rejected cpq__discount-strike-through"
                                                                 },
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "12",
                                                                     "isResponsive": false
@@ -3043,13 +2913,10 @@
                                                         "container": {
                                                             "class": "cpq__cart-recurring_charge"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -3088,13 +2955,10 @@
                                                                 "container": {
                                                                     "class": "cpq__cart-recurring_charge"
                                                                 },
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "12",
                                                                     "isResponsive": false
@@ -3154,21 +3018,17 @@
                                                     "color": "#cccccc",
                                                     "radius": "",
                                                     "style": "",
-                                                    "type": [
-                                                    ],
+                                                    "type": [],
                                                     "width": ""
                                                 },
                                                 "class": "cpq__cart-discount-recurring_charge  ",
                                                 "container": {
                                                     "class": "cpq__cart-discount-recurring_charge"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "6",
                                                     "isResponsive": false
@@ -3200,21 +3060,17 @@
                                                             "color": "#cccccc",
                                                             "radius": "",
                                                             "style": "",
-                                                            "type": [
-                                                            ],
+                                                            "type": [],
                                                             "width": ""
                                                         },
                                                         "class": "cpq__cart-discount-recurring_charge  ",
                                                         "container": {
                                                             "class": "cpq__cart-discount-recurring_charge"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "6",
                                                             "isResponsive": false
@@ -3268,13 +3124,10 @@
                                                         "container": {
                                                             "class": "cpq__cart-discount-recurring_label"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -3313,13 +3166,10 @@
                                                                 "container": {
                                                                     "class": "cpq__cart-discount-recurring_label"
                                                                 },
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "12",
                                                                     "isResponsive": false
@@ -3384,13 +3234,10 @@
                                                         "container": {
                                                             "class": "cpq__cart-recurring_charge cpq__approval-status-rejected cpq__discount-strike-through"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -3430,13 +3277,10 @@
                                                                 "container": {
                                                                     "class": "cpq__cart-recurring_charge"
                                                                 },
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "12",
                                                                     "isResponsive": false
@@ -3450,11 +3294,11 @@
                                                             }
                                                         },
                                                         {
-                                                            "conditionString": "%vlocity_namespace%__ApprovalStatus__c.value == Rejected",
+                                                            "conditionString": "vlocity_cmt__ApprovalStatus__c.value == Rejected",
                                                             "conditions": {
                                                                 "group": [
                                                                     {
-                                                                        "field": "%vlocity_namespace%__ApprovalStatus__c.value",
+                                                                        "field": "vlocity_cmt__ApprovalStatus__c.value",
                                                                         "hasMergeField": false,
                                                                         "id": "state-new-condition-68",
                                                                         "operator": "==",
@@ -3490,13 +3334,10 @@
                                                                 "container": {
                                                                     "class": "cpq__cart-recurring_charge cpq__approval-status-rejected cpq__discount-strike-through"
                                                                 },
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "12",
                                                                     "isResponsive": false
@@ -3561,13 +3402,10 @@
                                                         "container": {
                                                             "class": "cpq__cart-recurring_charge"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -3607,13 +3445,10 @@
                                                                 "container": {
                                                                     "class": "cpq__cart-recurring_charge"
                                                                 },
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "12",
                                                                     "isResponsive": false
@@ -3673,21 +3508,17 @@
                                                     "color": "#cccccc",
                                                     "radius": "",
                                                     "style": "",
-                                                    "type": [
-                                                    ],
+                                                    "type": [],
                                                     "width": ""
                                                 },
                                                 "class": "cpq__cart-discount-recurring_charge  ",
                                                 "container": {
                                                     "class": "cpq__cart-discount-recurring_charge"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "6",
                                                     "isResponsive": false
@@ -3719,21 +3550,17 @@
                                                             "color": "#cccccc",
                                                             "radius": "",
                                                             "style": "",
-                                                            "type": [
-                                                            ],
+                                                            "type": [],
                                                             "width": ""
                                                         },
                                                         "class": "cpq__cart-discount-recurring_charge  ",
                                                         "container": {
                                                             "class": "cpq__cart-discount-recurring_charge"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "6",
                                                             "isResponsive": false
@@ -3787,11 +3614,9 @@
                                         "container": {
                                             "class": "cpq__cart-applied-discount_charges"
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:x-small",
@@ -3837,11 +3662,9 @@
                                                 "container": {
                                                     "class": "cpq__cart-applied-discount_charges"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "around:x-small",
@@ -3940,8 +3763,7 @@
                                             "class": "cpq__cart-applied-discount_menu"
                                         },
                                         "customClass": "menu-icon",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
                                         "margin": [
                                             {
@@ -3950,8 +3772,7 @@
                                                 "type": "top"
                                             }
                                         ],
-                                        "padding": [
-                                        ],
+                                        "padding": [],
                                         "size": {
                                             "default": "1",
                                             "isResponsive": false
@@ -4002,11 +3823,9 @@
                                     "class": ""
                                 },
                                 "customClass": "cpq__cart_discount-border",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
+                                "margin": [],
                                 "padding": [
                                     {
                                         "label": "bottom:small",
@@ -4058,11 +3877,9 @@
                                             "class": ""
                                         },
                                         "customClass": "cpq__cart_discount-border",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "bottom:small",
@@ -4094,25 +3911,19 @@
                 }
             },
             "conditions": {
-                "group": [
-                ],
+                "group": [],
                 "id": "state-condition-object",
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Active",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "",
@@ -4132,8 +3943,7 @@
                 "container": {
                     "class": "slds-card cpq__cart-applied_discount"
                 },
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
                 "margin": [
                     {

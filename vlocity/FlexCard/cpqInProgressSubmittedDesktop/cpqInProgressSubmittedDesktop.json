@@ -1,12 +1,9 @@
 {
     "dataSource": {
-        "contextVariables": [
-        ],
-        "orderBy": {
-        },
+        "contextVariables": [],
+        "orderBy": {},
         "type": null,
-        "value": {
-        }
+        "value": {}
     },
     "dynamicCanvasWidth": {
         "type": "desktop"
@@ -54,14 +51,11 @@
         "NamespacePrefix": "c"
     },
     "multilanguageSupport": true,
-    "sessionVars": [
-    ],
+    "sessionVars": [],
     "states": [
         {
-            "actions": [
-            ],
-            "childCards": [
-            ],
+            "actions": [],
+            "childCards": [],
             "components": {
                 "layer-0": {
                     "children": [
@@ -174,13 +168,10 @@
                                     "class": ""
                                 },
                                 "customClass": "custom-btn",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "2",
                                     "isResponsive": false
@@ -229,7 +220,7 @@
                                         "sObjectType": "Order",
                                         "stateAction": {
                                             "Web Page": {
-                                                "targetName": "/lightning/cmp/%vlocity_namespace%__vlocityLWCOmniWrapper?c__target=%vlocity_namespace%:lWCCPQCancelOrderEnglish&c__layout=lightning&c__tabIcon=custom:custom18&c__ContextId={Id}&c__tabLabel=Order Cancellation"
+                                                "targetName": "/lightning/cmp/vlocity_cmt__vlocityLWCOmniWrapper?c__target=vlocity_cmt:lWCCPQCancelOrderEnglish&c__layout=lightning&c__tabIcon=custom:custom18&c__ContextId={Id}&c__tabLabel=Order Cancellation"
                                             },
                                             "displayName": "{Label.CPQCancel}",
                                             "id": "flex-action-1645010079766",
@@ -258,8 +249,7 @@
                                     "isParent": true
                                 },
                                 "displayAsButton": true,
-                                "flyoutDetails": {
-                                },
+                                "flyoutDetails": {},
                                 "hideActionIcon": true,
                                 "iconName": "icon-v-document1-line",
                                 "label": "{Label.CPQCancel}",
@@ -293,13 +283,10 @@
                                     "class": ""
                                 },
                                 "customClass": "custom-btn",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "1",
                                     "isResponsive": false
@@ -487,7 +474,7 @@
                                             "card": "{card}",
                                             "stateAction": {
                                                 "Web Page": {
-                                                    "targetName": "/apex/%vlocity_namespace%__XOMViewOrderDecomposition?id={Id}"
+                                                    "targetName": "/apex/vlocity_cmt__XOMViewOrderDecomposition?id={Id}"
                                                 },
                                                 "actionConditions": null,
                                                 "displayName": "{Label.CPQViewDecomposition}",
@@ -505,7 +492,7 @@
                                                 "card": "{card}",
                                                 "stateAction": {
                                                     "Web Page": {
-                                                        "targetName": "/apex/%vlocity_namespace%__XOMViewOrderDecomposition?id={Id}"
+                                                        "targetName": "/apex/vlocity_cmt__XOMViewOrderDecomposition?id={Id}"
                                                     },
                                                     "actionConditions": null,
                                                     "displayName": "{Label.CPQViewDecomposition}",
@@ -977,13 +964,10 @@
                                     "class": ""
                                 },
                                 "customClass": "custom-btn",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "1",
                                     "isResponsive": false
@@ -1035,19 +1019,14 @@
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Order InProgress Submitted",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "#F3F2F2",
@@ -1068,13 +1047,10 @@
                     "class": "slds-card "
                 },
                 "customClass": "",
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
-                "margin": [
-                ],
-                "padding": [
-                ],
+                "margin": [],
+                "padding": [],
                 "size": {
                     "default": "12",
                     "isResponsive": false

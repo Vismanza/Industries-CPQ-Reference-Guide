@@ -14,7 +14,7 @@
             {
                 "id": 100,
                 "name": "Parent.namespace",
-                "val": "%vlocity_namespace%__"
+                "val": "vlocity_cmt__"
             },
             {
                 "id": 12,
@@ -29,7 +29,7 @@
             {
                 "id": 14,
                 "name": "Parent.fields",
-                "val": "%vlocity_namespace%__OneTimeCharge__c"
+                "val": "vlocity_cmt__OneTimeCharge__c"
             }
         ],
         "orderBy": {
@@ -262,7 +262,7 @@
                 "stateAction": {
                     "eventName": "updatedatasource",
                     "id": "flex-action-1615206448954",
-                    "message": "{\"type\":\"IntegrationProcedures\",\"value\":{\"dsDelay\":0,\"ipMethod\":\"CPQ_GetListsOfValues\",\"vlocityAsync\":false,\"inputMap\":{\"cartId\":\"{Parent.cartId}\",\"listkeys\":\"{action.listkeys}\",\"PricingVariableCode\":\"{action.PricingVariableCode}\",\"fields\":\"{action.fields}\"}},\"orderBy\":{\"name\":\"\",\"isReverse\":false},\"contextVariables\":[{\"name\":\"Parent.cartId\",\"val\":\"8014W000001yoLzQAI\",\"id\":1},{\"name\":\"action.listkeys\",\"val\":\"AdjustmentCodes,TimePlans,TimePolicies\",\"id\":8},{\"name\":\"action.fields\",\"val\":\"%vlocity_namespace%__RecurringCharge__c\",\"id\":12},{\"name\":\"action.PricingVariableCode\",\"val\":\"REC_MNTH_STD_PRC\",\"id\":13}]}",
+                    "message": "{\"type\":\"IntegrationProcedures\",\"value\":{\"dsDelay\":0,\"ipMethod\":\"CPQ_GetListsOfValues\",\"vlocityAsync\":false,\"inputMap\":{\"cartId\":\"{Parent.cartId}\",\"listkeys\":\"{action.listkeys}\",\"PricingVariableCode\":\"{action.PricingVariableCode}\",\"fields\":\"{action.fields}\"}},\"orderBy\":{\"name\":\"\",\"isReverse\":false},\"contextVariables\":[{\"name\":\"Parent.cartId\",\"val\":\"8014W000001yoLzQAI\",\"id\":1},{\"name\":\"action.listkeys\",\"val\":\"AdjustmentCodes,TimePlans,TimePolicies\",\"id\":8},{\"name\":\"action.fields\",\"val\":\"vlocity_cmt__RecurringCharge__c\",\"id\":12},{\"name\":\"action.PricingVariableCode\",\"val\":\"REC_MNTH_STD_PRC\",\"id\":13}]}",
                     "type": "cardAction"
                 }
             },
@@ -276,7 +276,7 @@
                     "stateAction": {
                         "eventName": "updatedatasource",
                         "id": "flex-action-1615206448954",
-                        "message": "{\"type\":\"IntegrationProcedures\",\"value\":{\"dsDelay\":0,\"ipMethod\":\"CPQ_GetListsOfValues\",\"vlocityAsync\":false,\"inputMap\":{\"cartId\":\"{Parent.cartId}\",\"listkeys\":\"{action.listkeys}\",\"PricingVariableCode\":\"{action.PricingVariableCode}\",\"fields\":\"{action.fields}\"}},\"orderBy\":{\"name\":\"\",\"isReverse\":false},\"contextVariables\":[{\"name\":\"Parent.cartId\",\"val\":\"8014W000001yoLzQAI\",\"id\":1},{\"name\":\"action.listkeys\",\"val\":\"AdjustmentCodes,TimePlans,TimePolicies\",\"id\":8},{\"name\":\"action.fields\",\"val\":\"%vlocity_namespace%__RecurringCharge__c\",\"id\":12},{\"name\":\"action.PricingVariableCode\",\"val\":\"REC_MNTH_STD_PRC\",\"id\":13}]}",
+                        "message": "{\"type\":\"IntegrationProcedures\",\"value\":{\"dsDelay\":0,\"ipMethod\":\"CPQ_GetListsOfValues\",\"vlocityAsync\":false,\"inputMap\":{\"cartId\":\"{Parent.cartId}\",\"listkeys\":\"{action.listkeys}\",\"PricingVariableCode\":\"{action.PricingVariableCode}\",\"fields\":\"{action.fields}\"}},\"orderBy\":{\"name\":\"\",\"isReverse\":false},\"contextVariables\":[{\"name\":\"Parent.cartId\",\"val\":\"8014W000001yoLzQAI\",\"id\":1},{\"name\":\"action.listkeys\",\"val\":\"AdjustmentCodes,TimePlans,TimePolicies\",\"id\":8},{\"name\":\"action.fields\",\"val\":\"vlocity_cmt__RecurringCharge__c\",\"id\":12},{\"name\":\"action.PricingVariableCode\",\"val\":\"REC_MNTH_STD_PRC\",\"id\":13}]}",
                         "type": "cardAction"
                     }
                 }
@@ -647,7 +647,7 @@
         "Id": "0Rb5g000000R5UWCA0",
         "ManageableState": "unmanaged",
         "MasterLabel": "cfCpqManualPriceAdjustmentsActions_3_Vlocity",
-        "NamespacePrefix": "%vlocity_namespace%"
+        "NamespacePrefix": "vlocity_cmt"
     },
     "multilanguageSupport": true,
     "sessionVars": [
@@ -686,8 +686,7 @@
     ],
     "states": [
         {
-            "actions": [
-            ],
+            "actions": [],
             "childCards": [
                 "cpqManualPriceAdjustmentsActionsChild"
             ],
@@ -702,8 +701,7 @@
                             "property": {
                                 "card": "{card}",
                                 "propertyObj": {
-                                    "customProperties": [
-                                    ],
+                                    "customProperties": [],
                                     "disabled": "false",
                                     "label": "{Label.CPQAdjustBy}",
                                     "name": "AdjustmentMode",
@@ -764,13 +762,10 @@
                                     "class": "cpq__adjust-pricing-elements_padding cpq__config-attributes_popover-relative"
                                 },
                                 "customClass": "",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "12",
                                     "isResponsive": true,
@@ -813,13 +808,10 @@
                                             "class": "cpq__adjust-pricing-elements_padding cpq__config-attributes_popover-relative"
                                         },
                                         "customClass": "",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": true,
@@ -886,13 +878,10 @@
                                     "class": ""
                                 },
                                 "customClass": "",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "12",
                                     "isResponsive": true,
@@ -910,8 +899,7 @@
                             "type": "element"
                         },
                         {
-                            "children": [
-                            ],
+                            "children": [],
                             "class": "slds-col ",
                             "element": "block",
                             "elementLabel": "Block-2",
@@ -950,13 +938,10 @@
                                 "container": {
                                     "class": ""
                                 },
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "12",
                                     "isResponsive": true,
@@ -1102,10 +1087,8 @@
                                     "iconColor": "#0176D3"
                                 },
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "12",
                                     "isResponsive": true,
@@ -1152,10 +1135,8 @@
                                             "iconColor": "#0176D3"
                                         },
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": true,
@@ -1265,10 +1246,8 @@
                                     "iconColor": "#0176D3"
                                 },
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "12",
                                     "isResponsive": true,
@@ -1315,10 +1294,8 @@
                                             "iconColor": "#0176D3"
                                         },
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": true,
@@ -1467,13 +1444,10 @@
                                     "class": "slds-text-align_right"
                                 },
                                 "customClass": "cpq__adjust-pricing-add-button_disabled   cpq__adjust-pricing-elements_padding",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "12",
                                     "isResponsive": true,
@@ -1515,13 +1489,10 @@
                                             "class": "slds-text-align_right"
                                         },
                                         "customClass": "cpq__adjust-pricing-add-button_disabled   cpq__adjust-pricing-elements_padding",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": true,
@@ -1557,19 +1528,14 @@
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "One Time Charge",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "",
@@ -1590,13 +1556,10 @@
                     "class": ""
                 },
                 "customClass": "cpq__adjust-pricing-card_padding",
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
-                "margin": [
-                ],
-                "padding": [
-                ],
+                "margin": [],
+                "padding": [],
                 "size": {
                     "default": "12",
                     "isResponsive": false
@@ -1610,8 +1573,7 @@
             }
         },
         {
-            "actions": [
-            ],
+            "actions": [],
             "childCards": [
                 "cpqManualPriceAdjustmentsActionsChild"
             ],
@@ -1626,8 +1588,7 @@
                             "property": {
                                 "card": "{card}",
                                 "propertyObj": {
-                                    "customProperties": [
-                                    ],
+                                    "customProperties": [],
                                     "disabled": "false",
                                     "label": "{Label.CPQAdjustBy}",
                                     "name": "AdjustmentMode",
@@ -1688,13 +1649,10 @@
                                     "class": "cpq__adjust-pricing-elements_padding cpq__config-attributes_popover-relative"
                                 },
                                 "customClass": "",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "12",
                                     "isResponsive": true,
@@ -1737,13 +1695,10 @@
                                             "class": "cpq__adjust-pricing-elements_padding cpq__config-attributes_popover-relative"
                                         },
                                         "customClass": "",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": true,
@@ -1810,13 +1765,10 @@
                                     "class": ""
                                 },
                                 "customClass": "",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "12",
                                     "isResponsive": true,
@@ -1897,13 +1849,10 @@
                                     "class": "slds-p-top_xx-small"
                                 },
                                 "customClass": "cpq__adjust-pricing-elements_padding",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "12",
                                     "isResponsive": true,
@@ -1945,13 +1894,10 @@
                                             "class": "slds-p-top_xx-small"
                                         },
                                         "customClass": "cpq__adjust-pricing-elements_padding",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": true,
@@ -1972,8 +1918,7 @@
                             "userUpdatedElementLabel": true
                         },
                         {
-                            "children": [
-                            ],
+                            "children": [],
                             "class": "slds-col ",
                             "element": "block",
                             "elementLabel": "Block-3",
@@ -2022,13 +1967,10 @@
                                 "container": {
                                     "class": ""
                                 },
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "4",
                                     "isResponsive": false
@@ -2102,8 +2044,7 @@
                                                     "disabled": "false",
                                                     "label": "{Label.CPQDuration}",
                                                     "name": "AdjustmentPlan",
-                                                    "options": [
-                                                    ],
+                                                    "options": [],
                                                     "readOnly": "false",
                                                     "required": "true",
                                                     "value": ""
@@ -2138,13 +2079,10 @@
                                                 "container": {
                                                     "class": "cpq__adjust-pricing-elements_padding"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": true,
@@ -2185,13 +2123,10 @@
                                                         "container": {
                                                             "class": "cpq__adjust-pricing-elements_padding"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": true,
@@ -2280,13 +2215,10 @@
                                                 "container": {
                                                     "class": "cpq__adjust-pricing-elements_padding"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": true,
@@ -2327,13 +2259,10 @@
                                                         "container": {
                                                             "class": "cpq__adjust-pricing-elements_padding"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": true,
@@ -2415,13 +2344,10 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": 12,
                                             "isResponsive": false,
@@ -2439,8 +2365,7 @@
                                     "type": "block"
                                 },
                                 {
-                                    "children": [
-                                    ],
+                                    "children": [],
                                     "class": "slds-col ",
                                     "element": "block",
                                     "elementLabel": "Block-1-Block-3",
@@ -2481,13 +2406,10 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "6",
                                             "isResponsive": false,
@@ -2697,10 +2619,8 @@
                                             "iconColor": "#0176D3"
                                         },
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": true,
@@ -2747,10 +2667,8 @@
                                                     "iconColor": "#0176D3"
                                                 },
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": true,
@@ -2916,10 +2834,8 @@
                                             "iconColor": "#0176D3"
                                         },
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": true,
@@ -2966,10 +2882,8 @@
                                                     "iconColor": "#0176D3"
                                                 },
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": true,
@@ -3154,13 +3068,10 @@
                                             "class": "slds-text-align_right"
                                         },
                                         "customClass": "cpq__adjust-pricing-add-button_disabled   cpq__adjust-pricing-elements_padding",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": true,
@@ -3202,13 +3113,10 @@
                                                     "class": "slds-text-align_right"
                                                 },
                                                 "customClass": "cpq__adjust-pricing-add-button_disabled   cpq__adjust-pricing-elements_padding",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": true,
@@ -3266,13 +3174,10 @@
                                 "container": {
                                     "class": ""
                                 },
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "12",
                                     "isResponsive": true,
@@ -3306,19 +3211,14 @@
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Recurring Charge",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "",
@@ -3339,13 +3239,10 @@
                     "class": ""
                 },
                 "customClass": "cpq__adjust-pricing-card_padding",
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
-                "margin": [
-                ],
-                "padding": [
-                ],
+                "margin": [],
+                "padding": [],
                 "size": {
                     "default": "12",
                     "isResponsive": true,
@@ -3362,8 +3259,7 @@
             }
         },
         {
-            "actions": [
-            ],
+            "actions": [],
             "childCards": [
                 "cpqManualPriceAdjustmentsActionsChild"
             ],
@@ -3378,8 +3274,7 @@
                             "property": {
                                 "card": "{card}",
                                 "propertyObj": {
-                                    "customProperties": [
-                                    ],
+                                    "customProperties": [],
                                     "disabled": "false",
                                     "label": "{Label.CPQAdjustBy}",
                                     "name": "AdjustmentMode",
@@ -3440,13 +3335,10 @@
                                     "class": "cpq__adjust-pricing-elements_padding cpq__config-attributes_popover-relative"
                                 },
                                 "customClass": "",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "12",
                                     "isResponsive": true,
@@ -3489,13 +3381,10 @@
                                             "class": "cpq__adjust-pricing-elements_padding cpq__config-attributes_popover-relative"
                                         },
                                         "customClass": "",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": true,
@@ -3562,13 +3451,10 @@
                                     "class": ""
                                 },
                                 "customClass": "",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "12",
                                     "isResponsive": true,
@@ -3586,8 +3472,7 @@
                             "type": "element"
                         },
                         {
-                            "children": [
-                            ],
+                            "children": [],
                             "class": "slds-col ",
                             "element": "block",
                             "elementLabel": "Block-2-clone-0",
@@ -3626,13 +3511,10 @@
                                 "container": {
                                     "class": ""
                                 },
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "12",
                                     "isResponsive": true,
@@ -3778,10 +3660,8 @@
                                     "iconColor": "#0176D3"
                                 },
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "12",
                                     "isResponsive": true,
@@ -3828,10 +3708,8 @@
                                             "iconColor": "#0176D3"
                                         },
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": true,
@@ -3941,10 +3819,8 @@
                                     "iconColor": "#0176D3"
                                 },
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "12",
                                     "isResponsive": true,
@@ -3991,10 +3867,8 @@
                                             "iconColor": "#0176D3"
                                         },
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": true,
@@ -4143,13 +4017,10 @@
                                     "class": "slds-text-align_right"
                                 },
                                 "customClass": "cpq__adjust-pricing-add-button_disabled   cpq__adjust-pricing-elements_padding",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "12",
                                     "isResponsive": true,
@@ -4191,13 +4062,10 @@
                                             "class": "slds-text-align_right"
                                         },
                                         "customClass": "cpq__adjust-pricing-add-button_disabled   cpq__adjust-pricing-elements_padding",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": true,
@@ -4233,19 +4101,14 @@
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Usage Charge",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "",
@@ -4266,13 +4129,10 @@
                     "class": ""
                 },
                 "customClass": "cpq__adjust-pricing-card_padding",
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
-                "margin": [
-                ],
-                "padding": [
-                ],
+                "margin": [],
+                "padding": [],
                 "size": {
                     "default": "12",
                     "isResponsive": false
@@ -4286,11 +4146,9 @@
             }
         },
         {
-            "actions": [
-            ],
+            "actions": [],
             "blankCardState": false,
-            "childCards": [
-            ],
+            "childCards": [],
             "components": {
                 "layer-0": {
                     "children": [
@@ -4318,21 +4176,16 @@
                 }
             },
             "conditions": {
-                "group": [
-                ],
+                "group": [],
                 "id": "state-condition-object",
                 "isParent": true
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Default",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "",
@@ -4353,13 +4206,10 @@
                     "class": ""
                 },
                 "customClass": "cpq__adjust-pricing-card_padding",
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
-                "margin": [
-                ],
-                "padding": [
-                ],
+                "margin": [],
+                "padding": [],
                 "size": {
                     "default": "12",
                     "isResponsive": false

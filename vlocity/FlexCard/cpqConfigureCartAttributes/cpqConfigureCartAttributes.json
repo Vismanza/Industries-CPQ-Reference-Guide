@@ -1,12 +1,9 @@
 {
     "dataSource": {
-        "contextVariables": [
-        ],
-        "orderBy": {
-        },
+        "contextVariables": [],
+        "orderBy": {},
         "type": null,
-        "value": {
-        }
+        "value": {}
     },
     "enableLwc": true,
     "isFlex": true,
@@ -15,13 +12,12 @@
         "Id": "0Rb5g000000SmytCAC",
         "ManageableState": "unmanaged",
         "MasterLabel": "cfCpqConfigureCartAttributes_5_Vlocity",
-        "NamespacePrefix": "%vlocity_namespace%"
+        "NamespacePrefix": "vlocity_cmt"
     },
     "multilanguageSupport": true,
     "states": [
         {
-            "actions": [
-            ],
+            "actions": [],
             "childCards": [
                 "CPQAttributeConfigFields_filters"
             ],
@@ -62,13 +58,10 @@
                                 "container": {
                                     "class": "cpq_config_attribute_category"
                                 },
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "12",
                                     "isResponsive": false
@@ -107,13 +100,10 @@
                                         "container": {
                                             "class": "cpq_config_attribute_category"
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": false
@@ -138,8 +128,7 @@
                                 "cardName": "CPQAttributeConfigFields_filters",
                                 "cardNode": "{record.productAttributes.records}",
                                 "data-conditions": {
-                                    "group": [
-                                    ],
+                                    "group": [],
                                     "id": "state-condition-object",
                                     "isParent": true
                                 },
@@ -180,13 +169,10 @@
                                     "class": ""
                                 },
                                 "customClass": "",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "12",
                                     "isResponsive": false
@@ -226,13 +212,10 @@
                                             "class": ""
                                         },
                                         "customClass": "",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": false
@@ -282,19 +265,14 @@
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Active",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "",
@@ -315,13 +293,10 @@
                     "class": "slds-card"
                 },
                 "customClass": "",
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
-                "margin": [
-                ],
-                "padding": [
-                ],
+                "margin": [],
+                "padding": [],
                 "size": {
                     "default": "12",
                     "isResponsive": false
@@ -335,8 +310,7 @@
             }
         },
         {
-            "actions": [
-            ],
+            "actions": [],
             "childCards": [
                 "CPQAttributeConfigFields_MACDBulkChange",
                 "CPQAttributeConfigFields_filters"
@@ -378,13 +352,10 @@
                                 "container": {
                                     "class": ""
                                 },
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "12",
                                     "isResponsive": false
@@ -423,13 +394,10 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": false
@@ -547,13 +515,10 @@
                                     "class": ""
                                 },
                                 "customClass": "",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "12",
                                     "isResponsive": false
@@ -593,13 +558,10 @@
                                             "class": ""
                                         },
                                         "customClass": "",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": false
@@ -649,19 +611,14 @@
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Active",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "",
@@ -682,13 +639,10 @@
                     "class": "slds-card"
                 },
                 "customClass": "",
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
-                "margin": [
-                ],
-                "padding": [
-                ],
+                "margin": [],
+                "padding": [],
                 "size": {
                     "default": "12",
                     "isResponsive": false

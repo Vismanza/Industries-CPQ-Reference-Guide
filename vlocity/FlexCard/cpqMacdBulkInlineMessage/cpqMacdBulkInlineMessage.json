@@ -1,12 +1,9 @@
 {
     "dataSource": {
-        "contextVariables": [
-        ],
-        "orderBy": {
-        },
+        "contextVariables": [],
+        "orderBy": {},
         "type": null,
-        "value": {
-        }
+        "value": {}
     },
     "enableLwc": true,
     "isFlex": true,
@@ -15,15 +12,13 @@
         "Id": "0Rb5g000000RpVJCA0",
         "ManageableState": "unmanaged",
         "MasterLabel": "cfCpqMacdBulkInlineMessage_1_Vlocity",
-        "NamespacePrefix": "%vlocity_namespace%"
+        "NamespacePrefix": "vlocity_cmt"
     },
     "selectableMode": "Multi",
     "states": [
         {
-            "actions": [
-            ],
-            "childCards": [
-            ],
+            "actions": [],
+            "childCards": [],
             "components": {
                 "layer-0": {
                     "children": [
@@ -99,25 +94,19 @@
                 }
             },
             "conditions": {
-                "group": [
-                ],
+                "group": [],
                 "id": "state-condition-object",
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Active",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "",
@@ -137,8 +126,7 @@
                 "container": {
                     "class": ""
                 },
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
                 "margin": [
                     {
@@ -147,8 +135,7 @@
                         "type": "around"
                     }
                 ],
-                "padding": [
-                ],
+                "padding": [],
                 "size": {
                     "default": "12",
                     "isResponsive": false

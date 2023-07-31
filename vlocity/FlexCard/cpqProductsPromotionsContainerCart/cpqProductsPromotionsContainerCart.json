@@ -397,7 +397,7 @@
         "Id": "0Rb5g0000011LkgCAE",
         "ManageableState": "unmanaged",
         "MasterLabel": "cfCpqProductsPromotionsContainerCart_1_Vlocity",
-        "NamespacePrefix": "%vlocity_namespace%"
+        "NamespacePrefix": "vlocity_cmt"
     },
     "multilanguageSupport": true,
     "selectableMode": "Multi",
@@ -425,11 +425,9 @@
     ],
     "states": [
         {
-            "actions": [
-            ],
+            "actions": [],
             "blankCardState": false,
-            "childCards": [
-            ],
+            "childCards": [],
             "components": {
                 "layer-0": {
                     "children": [
@@ -614,16 +612,12 @@
                 "id": "state-condition-object",
                 "isParent": true
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Empty State",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "",
@@ -643,8 +637,7 @@
                 "container": {
                     "class": "cpq__products-promotions_empty"
                 },
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
                 "margin": [
                     {
@@ -673,8 +666,7 @@
             }
         },
         {
-            "actions": [
-            ],
+            "actions": [],
             "childCards": [
                 "cpqPromotions"
             ],
@@ -751,19 +743,14 @@
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Promotions",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "",
@@ -783,13 +770,10 @@
                 "container": {
                     "class": ""
                 },
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
-                "margin": [
-                ],
-                "padding": [
-                ],
+                "margin": [],
+                "padding": [],
                 "size": {
                     "default": "12",
                     "isResponsive": false
@@ -803,8 +787,7 @@
             }
         },
         {
-            "actions": [
-            ],
+            "actions": [],
             "childCards": [
                 "cpqProductView"
             ],
@@ -859,13 +842,10 @@
                                 "container": {
                                     "class": "cpq_products_promotions_container"
                                 },
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "12",
                                     "isResponsive": false
@@ -904,13 +884,10 @@
                                         "container": {
                                             "class": "cpq_products_promotions_container"
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": false
@@ -966,19 +943,14 @@
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Products",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "",
@@ -998,13 +970,10 @@
                 "container": {
                     "class": ""
                 },
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
-                "margin": [
-                ],
-                "padding": [
-                ],
+                "margin": [],
+                "padding": [],
                 "size": {
                     "default": "12",
                     "isResponsive": false

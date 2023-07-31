@@ -1,30 +1,30 @@
 [
     {
-        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
-        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
-        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "products",
-        "%vlocity_namespace%__InterfaceFieldAPIName__c": "products",
-        "%vlocity_namespace%__IsDisabled__c": false,
-        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
-        "%vlocity_namespace%__MapId__c": "CPQSupportCatalogsForTypeaheadDRCustom8823",
-        "%vlocity_namespace%__OMplusSyncEnabled__c": true,
-        "%vlocity_namespace%__UpsertKey__c": false,
+        "vlocity_cmt__DomainObjectAPIName__c": "json",
+        "vlocity_cmt__DomainObjectCreationOrder__c": 1,
+        "vlocity_cmt__DomainObjectFieldAPIName__c": "products",
+        "vlocity_cmt__InterfaceFieldAPIName__c": "products",
+        "vlocity_cmt__IsDisabled__c": false,
+        "vlocity_cmt__IsRequiredForUpsert__c": false,
+        "vlocity_cmt__MapId__c": "CPQSupportCatalogsForTypeaheadDRCustom8823",
+        "vlocity_cmt__OMplusSyncEnabled__c": true,
+        "vlocity_cmt__UpsertKey__c": false,
         "Name": "CPQSupportCatalogsForTypeaheadDR",
         "VlocityDataPackType": "SObject",
-        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+        "VlocityRecordSObjectType": "vlocity_cmt__DRMapItem__c"
     },
     {
-        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
-        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
-        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "products:name",
-        "%vlocity_namespace%__InterfaceFieldAPIName__c": "products:Name",
-        "%vlocity_namespace%__IsDisabled__c": false,
-        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
-        "%vlocity_namespace%__MapId__c": "CPQSupportCatalogsForTypeaheadDRCustom6921",
-        "%vlocity_namespace%__OMplusSyncEnabled__c": true,
-        "%vlocity_namespace%__UpsertKey__c": false,
+        "vlocity_cmt__DomainObjectAPIName__c": "json",
+        "vlocity_cmt__DomainObjectCreationOrder__c": 1,
+        "vlocity_cmt__DomainObjectFieldAPIName__c": "products:name",
+        "vlocity_cmt__InterfaceFieldAPIName__c": "products:Name",
+        "vlocity_cmt__IsDisabled__c": false,
+        "vlocity_cmt__IsRequiredForUpsert__c": false,
+        "vlocity_cmt__MapId__c": "CPQSupportCatalogsForTypeaheadDRCustom6921",
+        "vlocity_cmt__OMplusSyncEnabled__c": true,
+        "vlocity_cmt__UpsertKey__c": false,
         "Name": "CPQSupportCatalogsForTypeaheadDR",
         "VlocityDataPackType": "SObject",
-        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+        "VlocityRecordSObjectType": "vlocity_cmt__DRMapItem__c"
     }
 ]

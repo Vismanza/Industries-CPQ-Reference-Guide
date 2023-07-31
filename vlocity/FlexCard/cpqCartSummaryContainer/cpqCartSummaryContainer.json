@@ -573,8 +573,7 @@
                     "label": "Action",
                     "stateAction": {
                         "actionConditions": {
-                            "group": [
-                            ],
+                            "group": [],
                             "id": "state-condition-object",
                             "isParent": true
                         },
@@ -893,7 +892,7 @@
         "Id": "0Rb5g000000SUdmCAG",
         "ManageableState": "unmanaged",
         "MasterLabel": "cfCpqCartSummaryContainer_26_Vlocity",
-        "NamespacePrefix": "%vlocity_namespace%"
+        "NamespacePrefix": "vlocity_cmt"
     },
     "multilanguageSupport": true,
     "selectableMode": "Multi",
@@ -953,8 +952,7 @@
     ],
     "states": [
         {
-            "actions": [
-            ],
+            "actions": [],
             "childCards": [
                 "cpqAsyncJobStatus",
                 "cpqPriceList",
@@ -1031,13 +1029,10 @@
                                 "container": {
                                     "class": ""
                                 },
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "12",
                                     "isResponsive": false
@@ -1076,13 +1071,10 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": false
@@ -1140,13 +1132,10 @@
                                                         "container": {
                                                             "class": "cpq-catalog-preview-title"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "8",
                                                             "isResponsive": false
@@ -1184,13 +1173,10 @@
                                                                 "container": {
                                                                     "class": "cpq-catalog-preview-title"
                                                                 },
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "8",
                                                                     "isResponsive": false
@@ -1270,13 +1256,10 @@
                                                         "container": {
                                                             "class": "cpq-expand-close-button"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "3",
                                                             "isResponsive": false
@@ -1314,13 +1297,10 @@
                                                                 "container": {
                                                                     "class": "cpq-expand-close-button"
                                                                 },
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "3",
                                                                     "isResponsive": false
@@ -1374,13 +1354,10 @@
                                                 "container": {
                                                     "class": "cpq-cart-summary-buttons-container"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -1419,13 +1396,10 @@
                                                         "container": {
                                                             "class": "cpq-cart-summary-buttons-container"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -1485,13 +1459,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq__catalog-preview-pricelist",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -1531,13 +1502,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq__catalog-preview-pricelist",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -1596,13 +1564,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq__catalog-preview-search",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -1642,13 +1607,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq__catalog-preview-search",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -1813,13 +1775,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq__multi-add_buttons",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -1859,13 +1818,10 @@
                                                                     "class": ""
                                                                 },
                                                                 "customClass": "cpq__multi-add_buttons",
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "12",
                                                                     "isResponsive": false
@@ -1958,8 +1914,7 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq__multi-add_buttons",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
                                                         "margin": [
                                                             {
@@ -1968,8 +1923,7 @@
                                                                 "type": "left"
                                                             }
                                                         ],
-                                                        "padding": [
-                                                        ],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -2009,8 +1963,7 @@
                                                                     "class": ""
                                                                 },
                                                                 "customClass": "cpq__multi-add_buttons",
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
                                                                 "margin": [
                                                                     {
@@ -2019,8 +1972,7 @@
                                                                         "type": "left"
                                                                     }
                                                                 ],
-                                                                "padding": [
-                                                                ],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "12",
                                                                     "isResponsive": false
@@ -2076,11 +2028,9 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq__multi-add_buttons_container",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "around:x-small",
@@ -2127,11 +2077,9 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq__multi-add_buttons_container",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "padding": [
                                                             {
                                                                 "label": "around:x-small",
@@ -2245,13 +2193,10 @@
                                         "container": {
                                             "class": "cpq-cart-catalog-container slds-scrollable_y"
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": true,
@@ -2293,13 +2238,10 @@
                                                 "container": {
                                                     "class": "cpq-cart-catalog-container slds-scrollable_y"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": true,
@@ -2378,13 +2320,10 @@
                                                                     "class": "cpq-cart-summary-total"
                                                                 },
                                                                 "customClass": "",
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "2",
                                                                     "isResponsive": false,
@@ -2427,13 +2366,10 @@
                                                                             "class": "cpq-cart-summary-total"
                                                                         },
                                                                         "customClass": "",
-                                                                        "elementStyleProperties": {
-                                                                        },
+                                                                        "elementStyleProperties": {},
                                                                         "inlineStyle": "",
-                                                                        "margin": [
-                                                                        ],
-                                                                        "padding": [
-                                                                        ],
+                                                                        "margin": [],
+                                                                        "padding": [],
                                                                         "size": {
                                                                             "default": "2",
                                                                             "isResponsive": false,
@@ -2506,13 +2442,10 @@
                                                                     "class": "cpq-cart-summary-total"
                                                                 },
                                                                 "customClass": "",
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "2",
                                                                     "isResponsive": false,
@@ -2555,13 +2488,10 @@
                                                                             "class": "cpq-cart-summary-total"
                                                                         },
                                                                         "customClass": "",
-                                                                        "elementStyleProperties": {
-                                                                        },
+                                                                        "elementStyleProperties": {},
                                                                         "inlineStyle": "",
-                                                                        "margin": [
-                                                                        ],
-                                                                        "padding": [
-                                                                        ],
+                                                                        "margin": [],
+                                                                        "padding": [],
                                                                         "size": {
                                                                             "default": "2",
                                                                             "isResponsive": false,
@@ -2646,10 +2576,8 @@
                                                                     "iconColor": "#0070D2"
                                                                 },
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "10",
                                                                     "isResponsive": false
@@ -2692,10 +2620,8 @@
                                                                             "iconColor": "#0070D2"
                                                                         },
                                                                         "inlineStyle": "",
-                                                                        "margin": [
-                                                                        ],
-                                                                        "padding": [
-                                                                        ],
+                                                                        "margin": [],
+                                                                        "padding": [],
                                                                         "size": {
                                                                             "default": "10",
                                                                             "isResponsive": false
@@ -2786,8 +2712,7 @@
                                                                     "isParent": true
                                                                 },
                                                                 "displayAsButton": true,
-                                                                "flyoutDetails": {
-                                                                },
+                                                                "flyoutDetails": {},
                                                                 "hideActionIcon": true,
                                                                 "iconName": "standard-default",
                                                                 "label": "\\{Label.CPQDelete} ({Session.selectedItemCount})",
@@ -2819,13 +2744,10 @@
                                                                 "container": {
                                                                     "class": "cpq__multi-delete_btn"
                                                                 },
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "2",
                                                                     "isResponsive": false
@@ -2864,13 +2786,10 @@
                                                                         "container": {
                                                                             "class": "cpq__multi-delete_btn"
                                                                         },
-                                                                        "elementStyleProperties": {
-                                                                        },
+                                                                        "elementStyleProperties": {},
                                                                         "inlineStyle": "",
-                                                                        "margin": [
-                                                                        ],
-                                                                        "padding": [
-                                                                        ],
+                                                                        "margin": [],
+                                                                        "padding": [],
                                                                         "size": {
                                                                             "default": "2",
                                                                             "isResponsive": false
@@ -2924,11 +2843,9 @@
                                                         "container": {
                                                             "class": ""
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "padding": [
                                                             {
                                                                 "label": "around:x-small",
@@ -2974,11 +2891,9 @@
                                                                 "container": {
                                                                     "class": ""
                                                                 },
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
+                                                                "margin": [],
                                                                 "padding": [
                                                                     {
                                                                         "label": "around:x-small",
@@ -3068,8 +2983,7 @@
                                                     "type": "element"
                                                 },
                                                 {
-                                                    "children": [
-                                                    ],
+                                                    "children": [],
                                                     "class": "slds-col ",
                                                     "element": "block",
                                                     "elementLabel": "Block-1-Block-2-Block-0-Block-3",
@@ -3144,13 +3058,10 @@
                                                         "container": {
                                                             "class": ""
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -3189,13 +3100,10 @@
                                                                 "container": {
                                                                     "class": ""
                                                                 },
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "12",
                                                                     "isResponsive": false
@@ -3306,11 +3214,9 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "around:x-small",
@@ -3355,11 +3261,9 @@
                                                         "container": {
                                                             "class": ""
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "padding": [
                                                             {
                                                                 "label": "around:x-small",
@@ -3423,13 +3327,10 @@
                                         "container": {
                                             "class": "cart-summary-flextable-container slds-scrollable_y"
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": true,
@@ -3471,13 +3372,10 @@
                                                 "container": {
                                                     "class": "cart-summary-flextable-container slds-scrollable_y"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": true,
@@ -3532,13 +3430,10 @@
                                 "container": {
                                     "class": "cpq-cart-summary-container"
                                 },
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": 12,
                                     "isResponsive": false
@@ -3577,13 +3472,10 @@
                                         "container": {
                                             "class": "cpq-cart-summary-container"
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": 12,
                                             "isResponsive": false
@@ -3603,25 +3495,19 @@
                 }
             },
             "conditions": {
-                "group": [
-                ],
+                "group": [],
                 "id": "state-condition-object",
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Active",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "",
@@ -3642,8 +3528,7 @@
                     "class": "slds-card"
                 },
                 "customClass": "cpq__cart-summary-container",
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
                 "margin": [
                     {
@@ -3652,8 +3537,7 @@
                         "type": "around"
                     }
                 ],
-                "padding": [
-                ],
+                "padding": [],
                 "size": {
                     "default": "12",
                     "isResponsive": false

@@ -1,12 +1,9 @@
 {
     "dataSource": {
-        "contextVariables": [
-        ],
-        "orderBy": {
-        },
+        "contextVariables": [],
+        "orderBy": {},
         "type": null,
-        "value": {
-        }
+        "value": {}
     },
     "dynamicCanvasWidth": {
         "type": "desktop"
@@ -51,15 +48,13 @@
         "Id": "0Rb5g000000SbUdCAK",
         "ManageableState": "unmanaged",
         "MasterLabel": "cfCpqOrderStatusDiscardedDesktop_2_Vlocity",
-        "NamespacePrefix": "%vlocity_namespace%"
+        "NamespacePrefix": "vlocity_cmt"
     },
     "multilanguageSupport": true,
-    "sessionVars": [
-    ],
+    "sessionVars": [],
     "states": [
         {
-            "actions": [
-            ],
+            "actions": [],
             "childCards": [
                 "cpqDeleteModal"
             ],
@@ -175,13 +170,10 @@
                                     "class": ""
                                 },
                                 "customClass": "custom-btn",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "2",
                                     "isResponsive": false
@@ -205,8 +197,7 @@
                                 "card": "{card}",
                                 "contextId": "\\{Id}",
                                 "data-conditions": {
-                                    "group": [
-                                    ],
+                                    "group": [],
                                     "id": "state-condition-object",
                                     "isParent": true
                                 },
@@ -258,13 +249,10 @@
                                     "class": ""
                                 },
                                 "customClass": "custom-btn",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "1",
                                     "isResponsive": false
@@ -848,13 +836,10 @@
                                     "class": ""
                                 },
                                 "customClass": "custom-btn",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "1",
                                     "isResponsive": false
@@ -893,19 +878,14 @@
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Order Discarded",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "#F3F2F2",
@@ -926,13 +906,10 @@
                     "class": "slds-card "
                 },
                 "customClass": "",
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
-                "margin": [
-                ],
-                "padding": [
-                ],
+                "margin": [],
+                "padding": [],
                 "size": {
                     "default": "12",
                     "isResponsive": false
@@ -946,10 +923,8 @@
             }
         },
         {
-            "actions": [
-            ],
-            "childCards": [
-            ],
+            "actions": [],
+            "childCards": [],
             "components": {
                 "layer-0": {
                     "children": [
@@ -1062,13 +1037,10 @@
                                     "class": ""
                                 },
                                 "customClass": "custom-btn",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "2",
                                     "isResponsive": false
@@ -1524,13 +1496,10 @@
                                     "class": ""
                                 },
                                 "customClass": "custom-btn",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "1",
                                     "isResponsive": false
@@ -1561,19 +1530,14 @@
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Order Other Status",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "#F3F2F2",
@@ -1594,13 +1558,10 @@
                     "class": "slds-card "
                 },
                 "customClass": "",
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
-                "margin": [
-                ],
-                "padding": [
-                ],
+                "margin": [],
+                "padding": [],
                 "size": {
                     "default": "12",
                     "isResponsive": false

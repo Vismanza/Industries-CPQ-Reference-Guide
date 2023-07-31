@@ -12,18 +12,15 @@
                 "val": "Order"
             }
         ],
-        "orderBy": {
-        },
+        "orderBy": {},
         "type": null,
-        "value": {
-        }
+        "value": {}
     },
     "dynamicCanvasWidth": {
         "type": "desktop"
     },
     "enableLwc": true,
-    "events": [
-    ],
+    "events": [],
     "globalCSS": false,
     "isFlex": true,
     "isRepeatable": true,
@@ -32,7 +29,7 @@
         "Id": "0Rb8Z000000EgBgSAK",
         "ManageableState": "unmanaged",
         "MasterLabel": "cfCpqGlobalHeaderOrder_4_Vlocity",
-        "NamespacePrefix": "%vlocity_namespace%"
+        "NamespacePrefix": "vlocity_cmt"
     },
     "multilanguageSupport": true,
     "sessionVars": [
@@ -43,8 +40,7 @@
     ],
     "states": [
         {
-            "actions": [
-            ],
+            "actions": [],
             "childCards": [
                 "cpqSubmitButtonHeader",
                 "cpqAllButtonsDesktop",
@@ -65,8 +61,7 @@
                                     "parentElementKey": "element_block_0_0",
                                     "property": {
                                         "data-conditions": {
-                                            "group": [
-                                            ],
+                                            "group": [],
                                             "id": "state-condition-object",
                                             "isParent": true
                                         },
@@ -102,15 +97,12 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "height": "",
                                         "inlineStyle": "width:fit-content; padding-right:10px; width: -moz-fit-content;",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "minHeight": "",
-                                        "padding": [
-                                        ],
+                                        "padding": [],
                                         "size": {
                                             "default": "1",
                                             "isResponsive": false
@@ -149,15 +141,12 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "height": "",
                                                 "inlineStyle": "width:fit-content; padding-right:10px; width: -moz-fit-content;",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "minHeight": "",
-                                                "padding": [
-                                                ],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "1",
                                                     "isResponsive": false
@@ -183,8 +172,7 @@
                                     "property": {
                                         "card": "{card}",
                                         "data-conditions": {
-                                            "group": [
-                                            ],
+                                            "group": [],
                                             "id": "state-condition-object",
                                             "isParent": true
                                         },
@@ -216,13 +204,10 @@
                                             "class": "cpq__cart_title"
                                         },
                                         "customClass": "object-id-text",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "3",
                                             "isResponsive": false
@@ -262,13 +247,10 @@
                                                     "class": "cpq__cart_title"
                                                 },
                                                 "customClass": "object-id-text",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "3",
                                                     "isResponsive": false
@@ -330,11 +312,9 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "fit-content-style",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "top:x-small",
@@ -381,11 +361,9 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "fit-content-style",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "padding": [
                                                             {
                                                                 "label": "top:x-small",
@@ -452,11 +430,9 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "fit-content-style",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "top:x-small",
@@ -503,11 +479,9 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "fit-content-style",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "padding": [
                                                             {
                                                                 "label": "top:x-small",
@@ -569,13 +543,10 @@
                                             "class": ""
                                         },
                                         "customClass": "btn-block",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "8",
                                             "isResponsive": false
@@ -615,13 +586,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "btn-block",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "8",
                                                     "isResponsive": false
@@ -674,11 +642,9 @@
                                     "class": ""
                                 },
                                 "customClass": "desktop-state",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
+                                "margin": [],
                                 "padding": [
                                     {
                                         "label": "around:x-small",
@@ -740,13 +706,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "title-text",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -826,10 +789,8 @@
                                                     }
                                                 },
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -877,10 +838,8 @@
                                                             }
                                                         },
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -952,11 +911,9 @@
                                             "class": ""
                                         },
                                         "customClass": "account-box",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:x-small",
@@ -1019,13 +976,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "title-text",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -1104,10 +1058,8 @@
                                                     }
                                                 },
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -1155,10 +1107,8 @@
                                                             }
                                                         },
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -1229,11 +1179,9 @@
                                             "class": ""
                                         },
                                         "customClass": "account-box",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:x-small",
@@ -1296,13 +1244,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "title-text",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -1341,13 +1286,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "title-text",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -1413,13 +1355,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "values long-text-wrap",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -1459,13 +1398,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "values long-text-wrap",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -1531,13 +1467,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "values long-text-wrap",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -1577,13 +1510,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "values long-text-wrap",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -1655,11 +1585,9 @@
                                             "class": ""
                                         },
                                         "customClass": "status-approval-box",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:x-small",
@@ -1709,11 +1637,9 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "status-approval-box",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "around:x-small",
@@ -1778,13 +1704,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "title-text",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -1838,13 +1761,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "values long-text-wrap",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -1884,13 +1804,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "values long-text-wrap",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -1961,11 +1878,9 @@
                                             "class": ""
                                         },
                                         "customClass": "status-approval-box",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:x-small",
@@ -2028,13 +1943,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "title-text",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -2098,13 +2010,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "values",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -2143,13 +2052,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "values",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -2215,13 +2121,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "values",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -2260,13 +2163,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "values",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -2337,11 +2237,9 @@
                                             "class": ""
                                         },
                                         "customClass": "status-approval-box",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:x-small",
@@ -2402,11 +2300,9 @@
                                     "class": ""
                                 },
                                 "customClass": "desktop-state",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
+                                "margin": [],
                                 "padding": [
                                     {
                                         "label": "around:x-small",
@@ -2438,8 +2334,7 @@
                                     "parentElementKey": "element_block_2_0",
                                     "property": {
                                         "data-conditions": {
-                                            "group": [
-                                            ],
+                                            "group": [],
                                             "id": "state-condition-object",
                                             "isParent": true
                                         },
@@ -2475,15 +2370,12 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "height": "",
                                         "inlineStyle": "width:fit-content; padding-right:10px;",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "minHeight": "",
-                                        "padding": [
-                                        ],
+                                        "padding": [],
                                         "size": {
                                             "default": "1",
                                             "isResponsive": false
@@ -2507,8 +2399,7 @@
                                     "property": {
                                         "card": "{card}",
                                         "data-conditions": {
-                                            "group": [
-                                            ],
+                                            "group": [],
                                             "id": "state-condition-object",
                                             "isParent": true
                                         },
@@ -2540,13 +2431,10 @@
                                             "class": "cpq__cart_title"
                                         },
                                         "customClass": "object-id-text",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "3",
                                             "isResponsive": false
@@ -2586,13 +2474,10 @@
                                                     "class": "cpq__cart_title"
                                                 },
                                                 "customClass": "object-id-text",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "3",
                                                     "isResponsive": false
@@ -2652,11 +2537,9 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "fit-content-style",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "top:x-small",
@@ -2703,11 +2586,9 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "fit-content-style",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "padding": [
                                                             {
                                                                 "label": "top:x-small",
@@ -2774,11 +2655,9 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "fit-content-style",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "top:x-small",
@@ -2825,11 +2704,9 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "fit-content-style",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "padding": [
                                                             {
                                                                 "label": "top:x-small",
@@ -2891,13 +2768,10 @@
                                             "class": ""
                                         },
                                         "customClass": "btn-block",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "8",
                                             "isResponsive": false
@@ -2937,13 +2811,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "btn-block",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "8",
                                                     "isResponsive": false
@@ -2996,11 +2867,9 @@
                                     "class": ""
                                 },
                                 "customClass": "mobile-state",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
+                                "margin": [],
                                 "padding": [
                                     {
                                         "label": "around:x-small",
@@ -3062,13 +2931,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "title-text",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -3147,10 +3013,8 @@
                                                     }
                                                 },
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -3220,11 +3084,9 @@
                                             "class": ""
                                         },
                                         "customClass": "account-box-mobile",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:x-small",
@@ -3275,11 +3137,9 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "account-box-mobile",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "around:x-small",
@@ -3343,11 +3203,9 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "account-box-mobile",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "around:x-small",
@@ -3411,11 +3269,9 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "account-box-mobile",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "around:x-small",
@@ -3480,13 +3336,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "title-text",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -3565,10 +3418,8 @@
                                                     }
                                                 },
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -3637,11 +3488,9 @@
                                             "class": ""
                                         },
                                         "customClass": "account-box-mobile",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:x-small",
@@ -3704,13 +3553,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "title-text",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -3774,13 +3620,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "values long-text-wrap",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -3820,13 +3663,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "values long-text-wrap",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -3892,13 +3732,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "values long-text-wrap",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -3938,13 +3775,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "values long-text-wrap",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -4015,11 +3849,9 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:x-small",
@@ -4067,11 +3899,9 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "around:x-small",
@@ -4136,13 +3966,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "title-text",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -4196,13 +4023,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "values long-text-wrap",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -4242,13 +4066,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "values long-text-wrap",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -4318,11 +4139,9 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:x-small",
@@ -4370,11 +4189,9 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "around:x-small",
@@ -4439,13 +4256,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "title-text",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -4509,13 +4323,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "values",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -4554,13 +4365,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "values",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -4626,13 +4434,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "values",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -4671,13 +4476,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "values",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -4747,11 +4549,9 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:x-small",
@@ -4799,11 +4599,9 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "around:x-small",
@@ -4879,11 +4677,9 @@
                                     "class": ""
                                 },
                                 "customClass": "mobile-state",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
+                                "margin": [],
                                 "padding": [
                                     {
                                         "label": "around:x-small",
@@ -4973,13 +4769,10 @@
                                     "class": ""
                                 },
                                 "customClass": "mobile-state",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "12",
                                     "isResponsive": false
@@ -5062,13 +4855,10 @@
                                     "class": ""
                                 },
                                 "customClass": "mobile-state",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "12",
                                     "isResponsive": false
@@ -5099,19 +4889,14 @@
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Order",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "",
@@ -5132,13 +4917,10 @@
                     "class": "slds-card "
                 },
                 "customClass": "",
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
-                "margin": [
-                ],
-                "padding": [
-                ],
+                "margin": [],
+                "padding": [],
                 "size": {
                     "default": "12",
                     "isResponsive": false

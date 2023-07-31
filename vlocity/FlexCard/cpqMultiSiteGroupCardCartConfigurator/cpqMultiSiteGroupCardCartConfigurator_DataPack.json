@@ -1,6 +1,6 @@
 {
     "AuthorName": "Salesforce",
-    "%vlocity_namespace%__CardType__c": "flex",
+    "vlocity_cmt__CardType__c": "flex",
     "DataSourceConfig": {
         "contextVariables": [
             {
@@ -29,10 +29,10 @@
     "Description": "CPQ Multisite Group Card Template for displaying Selected Group Name and Group Items Count",
     "OmniUiCardKey": "cpqMultiSiteGroupCardCartConfigurator/Salesforce/1/1634136404422",
     "OmniUiCardType": "Child",
-    "%vlocity_namespace%__ParentID__c": "",
+    "vlocity_cmt__ParentID__c": "",
     "SampleDataSourceResponse": "{\"multisiteSelectedGroupName\":\"test\",\"multisiteSelectedGroupItemsCount\":0}",
     "StylingConfiguration": "{\"customStyles\":\".cpq__multisite-group-card_cart-config {\\n    box-shadow: 0px 2px 2px 1px #0000001A;\\n}\"}",
-    "%vlocity_namespace%__Type__c": "",
+    "vlocity_cmt__Type__c": "",
     "VersionNumber": 1,
     "Name": "cpqMultiSiteGroupCardCartConfigurator",
     "VlocityDataPackType": "SObject",

@@ -1,14 +1,13 @@
 {
     "dataSource": {
-        "contextVariables": [
-        ],
+        "contextVariables": [],
         "orderBy": {
             "isReverse": false,
             "name": ""
         },
         "type": "Custom",
         "value": {
-            "body": "[\n  {\n    \"displaySequence\": -1,\n    \"%vlocity_namespace%__ServicePointId__r\": {\n      \"Id\": \"a5a5g000000kfZhAAI\",\n      \"%vlocity_namespace%__MarketIdentifier__c\": \"99999\",\n      \"%vlocity_namespace%__PremisesId__r\": {\n        \"%vlocity_namespace%__PostalCode__c\": null,\n        \"%vlocity_namespace%__City__c\": null,\n        \"%vlocity_namespace%__StreetAddress__c\": null\n      },\n      \"%vlocity_namespace%__UtilityProvider__c\": \"Other\",\n      \"%vlocity_namespace%__AverageMonthlyUsage__c\": null,\n      \"%vlocity_namespace%__LoadProfile__c\": null,\n      \"%vlocity_namespace%__VoltageLevel__c\": \"2\",\n      \"Name\": \"Test CP Service Point\"\n    },\n    \"Id\": {\n      \"value\": \"a5Y5g0000011OCIEA2\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__MemberType__c\": {\n      \"value\": \"ServicePoint\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__LockedBy__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__LockedFor__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__AsyncOperation__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__QuoteGroupId__c\": {\n      \"value\": \"a3W5g00000118exEAA\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__ServicePointId__c\": {\n      \"value\": \"a5a5g000000kfZhAAI\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"cartId\": \"0Q05g000000gdetCAA\",\n    \"cart\": {\n      \"attributes\": {\n        \"type\": \"Quote\",\n        \"url\": \"/services/data/v52.0/sobjects/Quote/0Q05g000000gdetCAA\"\n      },\n      \"Id\": \"0Q05g000000gdetCAA\",\n      \"%vlocity_namespace%__DefaultServicePointId__c\": \"a5a5g000000kfZhAAI\",\n      \"%vlocity_namespace%__IsPriced__c\": false,\n      \"%vlocity_namespace%__IsValidated__c\": false,\n      \"%vlocity_namespace%__MultiServiceMessageData__c\": \"{\\\"messages\\\":[],\\\"canCheckoutDiscounts\\\":false,\\\"canCheckout\\\":true}\",\n      \"RecordTypeId\": \"0125g000000Lv1xAAC\"\n    },\n    \"messageReport\": {\"WARNING\": {\"warningCount\": \"10\"}, \"ERROR\": {\"errorCount\": \"5\"}},\n    \"cartURL\": \"apex/%vlocity_namespace%__MultiServiceHybridCPQ?id=0Q05g000000gdetCAA&parentId=0065g000005lzNAAAY&groupId=a3W5g00000118exEAA&contextId=0Q05g0000011E5ZCAU&cartType=Quote&includeGroup=true\"\n  },\n  {\n    \"displaySequence\": -1,\n    \"%vlocity_namespace%__ServicePointId__r\": {\n      \"Id\": \"a5a5g00000112YgAAI\",\n      \"%vlocity_namespace%__MarketIdentifier__c\": \"25995132\",\n      \"%vlocity_namespace%__PremisesId__r\": {\n        \"%vlocity_namespace%__PostalCode__c\": null,\n        \"%vlocity_namespace%__City__c\": null,\n        \"%vlocity_namespace%__StreetAddress__c\": null\n      },\n      \"%vlocity_namespace%__UtilityProvider__c\": \"Other\",\n      \"%vlocity_namespace%__AverageMonthlyUsage__c\": 24,\n      \"%vlocity_namespace%__LoadProfile__c\": \"SMB Low\",\n      \"%vlocity_namespace%__VoltageLevel__c\": \"Low\",\n      \"Name\": \"TestPremise - ServicePoint - 59\"\n    },\n    \"Id\": {\n      \"value\": \"a5Y5g0000011OCJEA2\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__MemberType__c\": {\n      \"value\": \"ServicePoint\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__LockedBy__c\": {\n      \"value\": 101,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__LockedFor__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__AsyncOperation__c\": {\n      \"value\": \"Apply to Group\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__QuoteGroupId__c\": {\n      \"value\": \"a3W5g00000118exEAA\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__ServicePointId__c\": {\n      \"value\": \"a5a5g00000112YgAAI\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"cartId\": \"0Q05g000000gdeuCAA\",\n    \"cart\": {\n      \"attributes\": {\n        \"type\": \"Quote\",\n        \"url\": \"/services/data/v52.0/sobjects/Quote/0Q05g000000gdeuCAA\"\n      },\n      \"Id\": \"0Q05g000000gdeuCAA\",\n      \"%vlocity_namespace%__DefaultServicePointId__c\": \"a5a5g00000112YgAAI\",\n      \"%vlocity_namespace%__IsPriced__c\": false,\n      \"%vlocity_namespace%__IsValidated__c\": false,\n      \"%vlocity_namespace%__MultiServiceMessageData__c\": \"{\\\"messages\\\":[],\\\"canCheckoutDiscounts\\\":false,\\\"canCheckout\\\":true}\",\n      \"RecordTypeId\": \"0125g000000Lv1xAAC\"\n    },\n    \"cartURL\": \"apex/%vlocity_namespace%__MultiServiceHybridCPQ?id=0Q05g000000gdeuCAA&parentId=0065g000005lzNAAAY&groupId=a3W5g00000118exEAA&contextId=0Q05g0000011E5ZCAU&cartType=Quote&includeGroup=true\"\n  },\n  {\n    \"displaySequence\": -1,\n    \"%vlocity_namespace%__ServicePointId__r\": {\n      \"Id\": \"a5a5g00000112YhAAI\",\n      \"%vlocity_namespace%__MarketIdentifier__c\": \"96780877\",\n      \"%vlocity_namespace%__PremisesId__r\": {\n        \"%vlocity_namespace%__PostalCode__c\": null,\n        \"%vlocity_namespace%__City__c\": null,\n        \"%vlocity_namespace%__StreetAddress__c\": null\n      },\n      \"%vlocity_namespace%__UtilityProvider__c\": \"Other\",\n      \"%vlocity_namespace%__AverageMonthlyUsage__c\": 88,\n      \"%vlocity_namespace%__LoadProfile__c\": \"SMB Low\",\n      \"%vlocity_namespace%__VoltageLevel__c\": \"Low\",\n      \"Name\": \"TestPremise - ServicePoint - 60\"\n    },\n    \"Id\": {\n      \"value\": \"a5Y5g0000011OCKEA2\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__MemberType__c\": {\n      \"value\": \"ServicePoint\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__LockedBy__c\": {\n      \"value\": 101,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__LockedFor__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__AsyncOperation__c\": {\n      \"value\": \"Apply to Group\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__QuoteGroupId__c\": {\n      \"value\": \"a3W5g00000118exEAA\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__ServicePointId__c\": {\n      \"value\": \"a5a5g00000112YhAAI\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"cartId\": \"0Q05g000000gdevCAA\",\n    \"cart\": {\n      \"attributes\": {\n        \"type\": \"Quote\",\n        \"url\": \"/services/data/v52.0/sobjects/Quote/0Q05g000000gdevCAA\"\n      },\n      \"Id\": \"0Q05g000000gdevCAA\",\n      \"%vlocity_namespace%__DefaultServicePointId__c\": \"a5a5g00000112YhAAI\",\n      \"%vlocity_namespace%__IsPriced__c\": false,\n      \"%vlocity_namespace%__IsValidated__c\": false,\n      \"%vlocity_namespace%__MultiServiceMessageData__c\": \"{\\\"messages\\\":[],\\\"canCheckoutDiscounts\\\":false,\\\"canCheckout\\\":true}\",\n      \"RecordTypeId\": \"0125g000000Lv1xAAC\"\n    },\n    \"cartURL\": \"apex/%vlocity_namespace%__MultiServiceHybridCPQ?id=0Q05g000000gdevCAA&parentId=0065g000005lzNAAAY&groupId=a3W5g00000118exEAA&contextId=0Q05g0000011E5ZCAU&cartType=Quote&includeGroup=true\"\n  },\n  {\n    \"displaySequence\": -1,\n    \"%vlocity_namespace%__ServicePointId__r\": {\n      \"Id\": \"a5a5g00000112YiAAI\",\n      \"%vlocity_namespace%__MarketIdentifier__c\": \"73799228\",\n      \"%vlocity_namespace%__PremisesId__r\": {\n        \"%vlocity_namespace%__PostalCode__c\": null,\n        \"%vlocity_namespace%__City__c\": null,\n        \"%vlocity_namespace%__StreetAddress__c\": null\n      },\n      \"%vlocity_namespace%__UtilityProvider__c\": \"Other\",\n      \"%vlocity_namespace%__AverageMonthlyUsage__c\": 21,\n      \"%vlocity_namespace%__LoadProfile__c\": \"SMB Low\",\n      \"%vlocity_namespace%__VoltageLevel__c\": \"Low\",\n      \"Name\": \"TestPremise - ServicePoint - 61\"\n    },\n    \"Id\": {\n      \"value\": \"a5Y5g0000011OCLEA2\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__MemberType__c\": {\n      \"value\": \"ServicePoint\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__LockedBy__c\": {\n      \"value\": 101,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__LockedFor__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__AsyncOperation__c\": {\n      \"value\": \"Apply to Group\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__QuoteGroupId__c\": {\n      \"value\": \"a3W5g00000118exEAA\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__ServicePointId__c\": {\n      \"value\": \"a5a5g00000112YiAAI\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"cartId\": \"0Q05g000000gdewCAA\",\n    \"cart\": {\n      \"attributes\": {\n        \"type\": \"Quote\",\n        \"url\": \"/services/data/v52.0/sobjects/Quote/0Q05g000000gdewCAA\"\n      },\n      \"Id\": \"0Q05g000000gdewCAA\",\n      \"%vlocity_namespace%__DefaultServicePointId__c\": \"a5a5g00000112YiAAI\",\n      \"%vlocity_namespace%__IsPriced__c\": false,\n      \"%vlocity_namespace%__IsValidated__c\": false,\n      \"%vlocity_namespace%__MultiServiceMessageData__c\": \"{\\\"messages\\\":[],\\\"canCheckoutDiscounts\\\":false,\\\"canCheckout\\\":true}\",\n      \"RecordTypeId\": \"0125g000000Lv1xAAC\"\n    },\n    \"cartURL\": \"apex/%vlocity_namespace%__MultiServiceHybridCPQ?id=0Q05g000000gdewCAA&parentId=0065g000005lzNAAAY&groupId=a3W5g00000118exEAA&contextId=0Q05g0000011E5ZCAU&cartType=Quote&includeGroup=true\"\n  },\n  {\n    \"displaySequence\": -1,\n    \"%vlocity_namespace%__ServicePointId__r\": {\n      \"Id\": \"a5a5g00000112YjAAI\",\n      \"%vlocity_namespace%__MarketIdentifier__c\": \"40925125\",\n      \"%vlocity_namespace%__PremisesId__r\": {\n        \"%vlocity_namespace%__PostalCode__c\": null,\n        \"%vlocity_namespace%__City__c\": null,\n        \"%vlocity_namespace%__StreetAddress__c\": null\n      },\n      \"%vlocity_namespace%__UtilityProvider__c\": \"Other\",\n      \"%vlocity_namespace%__AverageMonthlyUsage__c\": 92,\n      \"%vlocity_namespace%__LoadProfile__c\": \"SMB Low\",\n      \"%vlocity_namespace%__VoltageLevel__c\": \"Low\",\n      \"Name\": \"TestPremise - ServicePoint - 62\"\n    },\n    \"Id\": {\n      \"value\": \"a5Y5g0000011OCMEA2\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__MemberType__c\": {\n      \"value\": \"ServicePoint\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__LockedBy__c\": {\n      \"value\": 101,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__LockedFor__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__AsyncOperation__c\": {\n      \"value\": \"Apply to Group\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__QuoteGroupId__c\": {\n      \"value\": \"a3W5g00000118exEAA\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__ServicePointId__c\": {\n      \"value\": \"a5a5g00000112YjAAI\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"cartId\": \"0Q05g000000gdexCAA\",\n    \"cart\": {\n      \"attributes\": {\n        \"type\": \"Quote\",\n        \"url\": \"/services/data/v52.0/sobjects/Quote/0Q05g000000gdexCAA\"\n      },\n      \"Id\": \"0Q05g000000gdexCAA\",\n      \"%vlocity_namespace%__DefaultServicePointId__c\": \"a5a5g00000112YjAAI\",\n      \"%vlocity_namespace%__IsPriced__c\": false,\n      \"%vlocity_namespace%__IsValidated__c\": false,\n      \"%vlocity_namespace%__MultiServiceMessageData__c\": \"{\\\"messages\\\":[],\\\"canCheckoutDiscounts\\\":false,\\\"canCheckout\\\":true}\",\n      \"RecordTypeId\": \"0125g000000Lv1xAAC\"\n    },\n    \"cartURL\": \"apex/%vlocity_namespace%__MultiServiceHybridCPQ?id=0Q05g000000gdexCAA&parentId=0065g000005lzNAAAY&groupId=a3W5g00000118exEAA&contextId=0Q05g0000011E5ZCAU&cartType=Quote&includeGroup=true\"\n  },\n  {\n    \"displaySequence\": -1,\n    \"%vlocity_namespace%__ServicePointId__r\": {\n      \"Id\": \"a5a5g00000112YkAAI\",\n      \"%vlocity_namespace%__MarketIdentifier__c\": \"27554758\",\n      \"%vlocity_namespace%__PremisesId__r\": {\n        \"%vlocity_namespace%__PostalCode__c\": null,\n        \"%vlocity_namespace%__City__c\": null,\n        \"%vlocity_namespace%__StreetAddress__c\": null\n      },\n      \"%vlocity_namespace%__UtilityProvider__c\": \"Other\",\n      \"%vlocity_namespace%__AverageMonthlyUsage__c\": 37,\n      \"%vlocity_namespace%__LoadProfile__c\": \"SMB Low\",\n      \"%vlocity_namespace%__VoltageLevel__c\": \"Low\",\n      \"Name\": \"TestPremise - ServicePoint - 63\"\n    },\n    \"Id\": {\n      \"value\": \"a5Y5g0000011OCNEA2\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__MemberType__c\": {\n      \"value\": \"ServicePoint\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__LockedBy__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__LockedFor__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__AsyncOperation__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__QuoteGroupId__c\": {\n      \"value\": \"a3W5g00000118exEAA\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__ServicePointId__c\": {\n      \"value\": \"a5a5g00000112YkAAI\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"cartId\": \"0Q05g000000gdeyCAA\",\n    \"cart\": {\n      \"attributes\": {\n        \"type\": \"Quote\",\n        \"url\": \"/services/data/v52.0/sobjects/Quote/0Q05g000000gdeyCAA\"\n      },\n      \"Id\": \"0Q05g000000gdeyCAA\",\n      \"%vlocity_namespace%__DefaultServicePointId__c\": \"a5a5g00000112YkAAI\",\n      \"%vlocity_namespace%__IsPriced__c\": false,\n      \"%vlocity_namespace%__IsValidated__c\": false,\n      \"%vlocity_namespace%__MultiServiceMessageData__c\": \"{\\\"messages\\\":[],\\\"canCheckoutDiscounts\\\":false,\\\"canCheckout\\\":true}\",\n      \"RecordTypeId\": \"0125g000000Lv1xAAC\"\n    },\n    \"cartURL\": \"apex/%vlocity_namespace%__MultiServiceHybridCPQ?id=0Q05g000000gdeyCAA&parentId=0065g000005lzNAAAY&groupId=a3W5g00000118exEAA&contextId=0Q05g0000011E5ZCAU&cartType=Quote&includeGroup=true\"\n  },\n  {\n    \"displaySequence\": -1,\n    \"%vlocity_namespace%__ServicePointId__r\": {\n      \"Id\": \"a5a5g00000112YlAAI\",\n      \"%vlocity_namespace%__MarketIdentifier__c\": \"59955027\",\n      \"%vlocity_namespace%__PremisesId__r\": {\n        \"%vlocity_namespace%__PostalCode__c\": null,\n        \"%vlocity_namespace%__City__c\": null,\n        \"%vlocity_namespace%__StreetAddress__c\": null\n      },\n      \"%vlocity_namespace%__UtilityProvider__c\": \"Other\",\n      \"%vlocity_namespace%__AverageMonthlyUsage__c\": 51,\n      \"%vlocity_namespace%__LoadProfile__c\": \"SMB Low\",\n      \"%vlocity_namespace%__VoltageLevel__c\": \"Low\",\n      \"Name\": \"TestPremise - ServicePoint - 64\"\n    },\n    \"Id\": {\n      \"value\": \"a5Y5g0000011OCOEA2\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__MemberType__c\": {\n      \"value\": \"ServicePoint\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__LockedBy__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__LockedFor__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__AsyncOperation__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__QuoteGroupId__c\": {\n      \"value\": \"a3W5g00000118exEAA\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__ServicePointId__c\": {\n      \"value\": \"a5a5g00000112YlAAI\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"cartId\": \"0Q05g000000gdezCAA\",\n    \"cart\": {\n      \"attributes\": {\n        \"type\": \"Quote\",\n        \"url\": \"/services/data/v52.0/sobjects/Quote/0Q05g000000gdezCAA\"\n      },\n      \"Id\": \"0Q05g000000gdezCAA\",\n      \"%vlocity_namespace%__DefaultServicePointId__c\": \"a5a5g00000112YlAAI\",\n      \"%vlocity_namespace%__IsPriced__c\": false,\n      \"%vlocity_namespace%__IsValidated__c\": false,\n      \"%vlocity_namespace%__MultiServiceMessageData__c\": \"{\\\"messages\\\":[],\\\"canCheckoutDiscounts\\\":false,\\\"canCheckout\\\":true}\",\n      \"RecordTypeId\": \"0125g000000Lv1xAAC\"\n    },\n    \"cartURL\": \"apex/%vlocity_namespace%__MultiServiceHybridCPQ?id=0Q05g000000gdezCAA&parentId=0065g000005lzNAAAY&groupId=a3W5g00000118exEAA&contextId=0Q05g0000011E5ZCAU&cartType=Quote&includeGroup=true\",\n    \"messageReport\": {\"WARNING\": {\"warningCount\": \"10\"}}\n  },\n  {\n    \"displaySequence\": -1,\n    \"%vlocity_namespace%__ServicePointId__r\": {\n      \"Id\": \"a5a5g00000112YmAAI\",\n      \"%vlocity_namespace%__MarketIdentifier__c\": \"27180708\",\n      \"%vlocity_namespace%__PremisesId__r\": {\n        \"%vlocity_namespace%__PostalCode__c\": null,\n        \"%vlocity_namespace%__City__c\": null,\n        \"%vlocity_namespace%__StreetAddress__c\": null\n      },\n      \"%vlocity_namespace%__UtilityProvider__c\": \"Other\",\n      \"%vlocity_namespace%__AverageMonthlyUsage__c\": 48,\n      \"%vlocity_namespace%__LoadProfile__c\": \"SMB Low\",\n      \"%vlocity_namespace%__VoltageLevel__c\": \"Low\",\n      \"Name\": \"TestPremise - ServicePoint - 65\"\n    },\n    \"Id\": {\n      \"value\": \"a5Y5g0000011OCPEA2\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__MemberType__c\": {\n      \"value\": \"ServicePoint\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__LockedBy__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__LockedFor__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__AsyncOperation__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__QuoteGroupId__c\": {\n      \"value\": \"a3W5g00000118exEAA\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__ServicePointId__c\": {\n      \"value\": \"a5a5g00000112YmAAI\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"cartId\": \"0Q05g000000gdf0CAA\",\n    \"cart\": {\n      \"attributes\": {\n        \"type\": \"Quote\",\n        \"url\": \"/services/data/v52.0/sobjects/Quote/0Q05g000000gdf0CAA\"\n      },\n      \"Id\": \"0Q05g000000gdf0CAA\",\n      \"%vlocity_namespace%__DefaultServicePointId__c\": \"a5a5g00000112YmAAI\",\n      \"%vlocity_namespace%__IsPriced__c\": false,\n      \"%vlocity_namespace%__IsValidated__c\": false,\n      \"%vlocity_namespace%__MultiServiceMessageData__c\": \"{\\\"messages\\\":[],\\\"canCheckoutDiscounts\\\":false,\\\"canCheckout\\\":true}\",\n      \"RecordTypeId\": \"0125g000000Lv1xAAC\"\n    },\n    \"cartURL\": \"apex/%vlocity_namespace%__MultiServiceHybridCPQ?id=0Q05g000000gdf0CAA&parentId=0065g000005lzNAAAY&groupId=a3W5g00000118exEAA&contextId=0Q05g0000011E5ZCAU&cartType=Quote&includeGroup=true\",\n    \"messageReport\": { \"ERROR\": {\"errorCount\": \"5\"}}\n  },\n  {\n    \"displaySequence\": -1,\n    \"%vlocity_namespace%__ServicePointId__r\": {\n      \"Id\": \"a5a5g00000112YnAAI\",\n      \"%vlocity_namespace%__MarketIdentifier__c\": \"21160247\",\n      \"%vlocity_namespace%__PremisesId__r\": {\n        \"%vlocity_namespace%__PostalCode__c\": null,\n        \"%vlocity_namespace%__City__c\": null,\n        \"%vlocity_namespace%__StreetAddress__c\": null\n      },\n      \"%vlocity_namespace%__UtilityProvider__c\": \"Other\",\n      \"%vlocity_namespace%__AverageMonthlyUsage__c\": 21,\n      \"%vlocity_namespace%__LoadProfile__c\": \"SMB Low\",\n      \"%vlocity_namespace%__VoltageLevel__c\": \"Low\",\n      \"Name\": \"TestPremise - ServicePoint - 66\"\n    },\n    \"Id\": {\n      \"value\": \"a5Y5g0000011OCQEA2\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__MemberType__c\": {\n      \"value\": \"ServicePoint\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__LockedBy__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__LockedFor__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__AsyncOperation__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__QuoteGroupId__c\": {\n      \"value\": \"a3W5g00000118exEAA\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__ServicePointId__c\": {\n      \"value\": \"a5a5g00000112YnAAI\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"cartId\": \"0Q05g000000gdf1CAA\",\n    \"cart\": {\n      \"attributes\": {\n        \"type\": \"Quote\",\n        \"url\": \"/services/data/v52.0/sobjects/Quote/0Q05g000000gdf1CAA\"\n      },\n      \"Id\": \"0Q05g000000gdf1CAA\",\n      \"%vlocity_namespace%__DefaultServicePointId__c\": \"a5a5g00000112YnAAI\",\n      \"%vlocity_namespace%__IsPriced__c\": false,\n      \"%vlocity_namespace%__IsValidated__c\": false,\n      \"%vlocity_namespace%__MultiServiceMessageData__c\": \"{\\\"messages\\\":[],\\\"canCheckoutDiscounts\\\":false,\\\"canCheckout\\\":true}\",\n      \"RecordTypeId\": \"0125g000000Lv1xAAC\"\n    },\n    \"cartURL\": \"apex/%vlocity_namespace%__MultiServiceHybridCPQ?id=0Q05g000000gdf1CAA&parentId=0065g000005lzNAAAY&groupId=a3W5g00000118exEAA&contextId=0Q05g0000011E5ZCAU&cartType=Quote&includeGroup=true\"\n  },\n  {\n    \"displaySequence\": -1,\n    \"%vlocity_namespace%__ServicePointId__r\": {\n      \"Id\": \"a5a5g00000112YoAAI\",\n      \"%vlocity_namespace%__MarketIdentifier__c\": \"3003009\",\n      \"%vlocity_namespace%__PremisesId__r\": {\n        \"%vlocity_namespace%__PostalCode__c\": null,\n        \"%vlocity_namespace%__City__c\": null,\n        \"%vlocity_namespace%__StreetAddress__c\": null\n      },\n      \"%vlocity_namespace%__UtilityProvider__c\": \"Other\",\n      \"%vlocity_namespace%__AverageMonthlyUsage__c\": 22,\n      \"%vlocity_namespace%__LoadProfile__c\": \"SMB Low\",\n      \"%vlocity_namespace%__VoltageLevel__c\": \"Low\",\n      \"Name\": \"TestPremise - ServicePoint - 67\"\n    },\n    \"Id\": {\n      \"value\": \"a5Y5g0000011OCREA2\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__MemberType__c\": {\n      \"value\": \"ServicePoint\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__LockedBy__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__LockedFor__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__AsyncOperation__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__QuoteGroupId__c\": {\n      \"value\": \"a3W5g00000118exEAA\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__ServicePointId__c\": {\n      \"value\": \"a5a5g00000112YoAAI\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"cartId\": \"0Q05g000000gdf2CAA\",\n    \"cart\": {\n      \"attributes\": {\n        \"type\": \"Quote\",\n        \"url\": \"/services/data/v52.0/sobjects/Quote/0Q05g000000gdf2CAA\"\n      },\n      \"Id\": \"0Q05g000000gdf2CAA\",\n      \"%vlocity_namespace%__DefaultServicePointId__c\": \"a5a5g00000112YoAAI\",\n      \"%vlocity_namespace%__IsPriced__c\": false,\n      \"%vlocity_namespace%__IsValidated__c\": false,\n      \"%vlocity_namespace%__MultiServiceMessageData__c\": \"{\\\"messages\\\":[],\\\"canCheckoutDiscounts\\\":false,\\\"canCheckout\\\":true}\",\n      \"RecordTypeId\": \"0125g000000Lv1xAAC\"\n    },\n    \"cartURL\": \"apex/%vlocity_namespace%__MultiServiceHybridCPQ?id=0Q05g000000gdf2CAA&parentId=0065g000005lzNAAAY&groupId=a3W5g00000118exEAA&contextId=0Q05g0000011E5ZCAU&cartType=Quote&includeGroup=true\"\n  },\n  {\n    \"displaySequence\": -1,\n    \"%vlocity_namespace%__ServicePointId__r\": {\n      \"Id\": \"a5a5g00000112XjAAI\",\n      \"%vlocity_namespace%__MarketIdentifier__c\": \"94638597\",\n      \"%vlocity_namespace%__PremisesId__r\": {\n        \"%vlocity_namespace%__PostalCode__c\": null,\n        \"%vlocity_namespace%__City__c\": null,\n        \"%vlocity_namespace%__StreetAddress__c\": null\n      },\n      \"%vlocity_namespace%__UtilityProvider__c\": \"Other\",\n      \"%vlocity_namespace%__AverageMonthlyUsage__c\": 29,\n      \"%vlocity_namespace%__LoadProfile__c\": \"SMB Low\",\n      \"%vlocity_namespace%__VoltageLevel__c\": \"Low\",\n      \"Name\": \"TestPremise - ServicePoint - 0\"\n    },\n    \"Id\": {\n      \"value\": \"a5Y5g000000m8dVEAQ\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__MemberType__c\": {\n      \"value\": \"ServicePoint\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__LockedBy__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__LockedFor__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__AsyncOperation__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__QuoteGroupId__c\": {\n      \"value\": \"a3W5g000000kenQEAQ\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__ServicePointId__c\": {\n      \"value\": \"a5a5g00000112XjAAI\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"messageReport\": { \"ERROR\": {\"errorCount\": \"5\"}}\n  },\n  {\n    \"displaySequence\": -1,\n    \"%vlocity_namespace%__ServicePointId__r\": {\n      \"Id\": \"a5a5g00000112XkAAI\",\n      \"%vlocity_namespace%__MarketIdentifier__c\": \"54858704\",\n      \"%vlocity_namespace%__PremisesId__r\": {\n        \"%vlocity_namespace%__PostalCode__c\": null,\n        \"%vlocity_namespace%__City__c\": null,\n        \"%vlocity_namespace%__StreetAddress__c\": null\n      },\n      \"%vlocity_namespace%__UtilityProvider__c\": \"Other\",\n      \"%vlocity_namespace%__AverageMonthlyUsage__c\": 82,\n      \"%vlocity_namespace%__LoadProfile__c\": \"SMB Low\",\n      \"%vlocity_namespace%__VoltageLevel__c\": \"Low\",\n      \"Name\": \"TestPremise - ServicePoint - 1\"\n    },\n    \"Id\": {\n      \"value\": \"a5Y5g000000m8dWEAQ\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__MemberType__c\": {\n      \"value\": \"ServicePoint\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__LockedBy__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__LockedFor__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__AsyncOperation__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__QuoteGroupId__c\": {\n      \"value\": \"a3W5g000000kenQEAQ\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__ServicePointId__c\": {\n      \"value\": \"a5a5g00000112XkAAI\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"messageReport\": {\"WARNING\": {\"warningCount\": \"10\"}}\n  },\n  {\n    \"displaySequence\": -1,\n    \"%vlocity_namespace%__ServicePointId__r\": {\n      \"Id\": \"a5a5g00000112XlAAI\",\n      \"%vlocity_namespace%__MarketIdentifier__c\": \"73157389\",\n      \"%vlocity_namespace%__PremisesId__r\": {\n        \"%vlocity_namespace%__PostalCode__c\": null,\n        \"%vlocity_namespace%__City__c\": null,\n        \"%vlocity_namespace%__StreetAddress__c\": null\n      },\n      \"%vlocity_namespace%__UtilityProvider__c\": \"Other\",\n      \"%vlocity_namespace%__AverageMonthlyUsage__c\": 59,\n      \"%vlocity_namespace%__LoadProfile__c\": \"SMB Low\",\n      \"%vlocity_namespace%__VoltageLevel__c\": \"Low\",\n      \"Name\": \"TestPremise - ServicePoint - 2\"\n    },\n    \"Id\": {\n      \"value\": \"a5Y5g000000m8dXEAQ\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__MemberType__c\": {\n      \"value\": \"ServicePoint\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__LockedBy__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__LockedFor__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__AsyncOperation__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__QuoteGroupId__c\": {\n      \"value\": \"a3W5g000000kenQEAQ\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"%vlocity_namespace%__ServicePointId__c\": {\n      \"value\": \"a5a5g00000112XlAAI\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"messageReport\": {\"WARNING\": {\"warningCount\": \"10\"}, \"ERROR\": {\"errorCount\": \"5\"}}\n  }\n]",
+            "body": "[\n  {\n    \"displaySequence\": -1,\n    \"vlocity_cmt__ServicePointId__r\": {\n      \"Id\": \"a5a5g000000kfZhAAI\",\n      \"vlocity_cmt__MarketIdentifier__c\": \"99999\",\n      \"vlocity_cmt__PremisesId__r\": {\n        \"vlocity_cmt__PostalCode__c\": null,\n        \"vlocity_cmt__City__c\": null,\n        \"vlocity_cmt__StreetAddress__c\": null\n      },\n      \"vlocity_cmt__UtilityProvider__c\": \"Other\",\n      \"vlocity_cmt__AverageMonthlyUsage__c\": null,\n      \"vlocity_cmt__LoadProfile__c\": null,\n      \"vlocity_cmt__VoltageLevel__c\": \"2\",\n      \"Name\": \"Test CP Service Point\"\n    },\n    \"Id\": {\n      \"value\": \"a5Y5g0000011OCIEA2\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__MemberType__c\": {\n      \"value\": \"ServicePoint\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__LockedBy__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__LockedFor__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__AsyncOperation__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__QuoteGroupId__c\": {\n      \"value\": \"a3W5g00000118exEAA\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__ServicePointId__c\": {\n      \"value\": \"a5a5g000000kfZhAAI\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"cartId\": \"0Q05g000000gdetCAA\",\n    \"cart\": {\n      \"attributes\": {\n        \"type\": \"Quote\",\n        \"url\": \"/services/data/v52.0/sobjects/Quote/0Q05g000000gdetCAA\"\n      },\n      \"Id\": \"0Q05g000000gdetCAA\",\n      \"vlocity_cmt__DefaultServicePointId__c\": \"a5a5g000000kfZhAAI\",\n      \"vlocity_cmt__IsPriced__c\": false,\n      \"vlocity_cmt__IsValidated__c\": false,\n      \"vlocity_cmt__MultiServiceMessageData__c\": \"{\\\"messages\\\":[],\\\"canCheckoutDiscounts\\\":false,\\\"canCheckout\\\":true}\",\n      \"RecordTypeId\": \"0125g000000Lv1xAAC\"\n    },\n    \"messageReport\": {\"WARNING\": {\"warningCount\": \"10\"}, \"ERROR\": {\"errorCount\": \"5\"}},\n    \"cartURL\": \"apex/vlocity_cmt__MultiServiceHybridCPQ?id=0Q05g000000gdetCAA&parentId=0065g000005lzNAAAY&groupId=a3W5g00000118exEAA&contextId=0Q05g0000011E5ZCAU&cartType=Quote&includeGroup=true\"\n  },\n  {\n    \"displaySequence\": -1,\n    \"vlocity_cmt__ServicePointId__r\": {\n      \"Id\": \"a5a5g00000112YgAAI\",\n      \"vlocity_cmt__MarketIdentifier__c\": \"25995132\",\n      \"vlocity_cmt__PremisesId__r\": {\n        \"vlocity_cmt__PostalCode__c\": null,\n        \"vlocity_cmt__City__c\": null,\n        \"vlocity_cmt__StreetAddress__c\": null\n      },\n      \"vlocity_cmt__UtilityProvider__c\": \"Other\",\n      \"vlocity_cmt__AverageMonthlyUsage__c\": 24,\n      \"vlocity_cmt__LoadProfile__c\": \"SMB Low\",\n      \"vlocity_cmt__VoltageLevel__c\": \"Low\",\n      \"Name\": \"TestPremise - ServicePoint - 59\"\n    },\n    \"Id\": {\n      \"value\": \"a5Y5g0000011OCJEA2\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__MemberType__c\": {\n      \"value\": \"ServicePoint\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__LockedBy__c\": {\n      \"value\": 101,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__LockedFor__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__AsyncOperation__c\": {\n      \"value\": \"Apply to Group\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__QuoteGroupId__c\": {\n      \"value\": \"a3W5g00000118exEAA\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__ServicePointId__c\": {\n      \"value\": \"a5a5g00000112YgAAI\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"cartId\": \"0Q05g000000gdeuCAA\",\n    \"cart\": {\n      \"attributes\": {\n        \"type\": \"Quote\",\n        \"url\": \"/services/data/v52.0/sobjects/Quote/0Q05g000000gdeuCAA\"\n      },\n      \"Id\": \"0Q05g000000gdeuCAA\",\n      \"vlocity_cmt__DefaultServicePointId__c\": \"a5a5g00000112YgAAI\",\n      \"vlocity_cmt__IsPriced__c\": false,\n      \"vlocity_cmt__IsValidated__c\": false,\n      \"vlocity_cmt__MultiServiceMessageData__c\": \"{\\\"messages\\\":[],\\\"canCheckoutDiscounts\\\":false,\\\"canCheckout\\\":true}\",\n      \"RecordTypeId\": \"0125g000000Lv1xAAC\"\n    },\n    \"cartURL\": \"apex/vlocity_cmt__MultiServiceHybridCPQ?id=0Q05g000000gdeuCAA&parentId=0065g000005lzNAAAY&groupId=a3W5g00000118exEAA&contextId=0Q05g0000011E5ZCAU&cartType=Quote&includeGroup=true\"\n  },\n  {\n    \"displaySequence\": -1,\n    \"vlocity_cmt__ServicePointId__r\": {\n      \"Id\": \"a5a5g00000112YhAAI\",\n      \"vlocity_cmt__MarketIdentifier__c\": \"96780877\",\n      \"vlocity_cmt__PremisesId__r\": {\n        \"vlocity_cmt__PostalCode__c\": null,\n        \"vlocity_cmt__City__c\": null,\n        \"vlocity_cmt__StreetAddress__c\": null\n      },\n      \"vlocity_cmt__UtilityProvider__c\": \"Other\",\n      \"vlocity_cmt__AverageMonthlyUsage__c\": 88,\n      \"vlocity_cmt__LoadProfile__c\": \"SMB Low\",\n      \"vlocity_cmt__VoltageLevel__c\": \"Low\",\n      \"Name\": \"TestPremise - ServicePoint - 60\"\n    },\n    \"Id\": {\n      \"value\": \"a5Y5g0000011OCKEA2\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__MemberType__c\": {\n      \"value\": \"ServicePoint\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__LockedBy__c\": {\n      \"value\": 101,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__LockedFor__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__AsyncOperation__c\": {\n      \"value\": \"Apply to Group\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__QuoteGroupId__c\": {\n      \"value\": \"a3W5g00000118exEAA\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__ServicePointId__c\": {\n      \"value\": \"a5a5g00000112YhAAI\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"cartId\": \"0Q05g000000gdevCAA\",\n    \"cart\": {\n      \"attributes\": {\n        \"type\": \"Quote\",\n        \"url\": \"/services/data/v52.0/sobjects/Quote/0Q05g000000gdevCAA\"\n      },\n      \"Id\": \"0Q05g000000gdevCAA\",\n      \"vlocity_cmt__DefaultServicePointId__c\": \"a5a5g00000112YhAAI\",\n      \"vlocity_cmt__IsPriced__c\": false,\n      \"vlocity_cmt__IsValidated__c\": false,\n      \"vlocity_cmt__MultiServiceMessageData__c\": \"{\\\"messages\\\":[],\\\"canCheckoutDiscounts\\\":false,\\\"canCheckout\\\":true}\",\n      \"RecordTypeId\": \"0125g000000Lv1xAAC\"\n    },\n    \"cartURL\": \"apex/vlocity_cmt__MultiServiceHybridCPQ?id=0Q05g000000gdevCAA&parentId=0065g000005lzNAAAY&groupId=a3W5g00000118exEAA&contextId=0Q05g0000011E5ZCAU&cartType=Quote&includeGroup=true\"\n  },\n  {\n    \"displaySequence\": -1,\n    \"vlocity_cmt__ServicePointId__r\": {\n      \"Id\": \"a5a5g00000112YiAAI\",\n      \"vlocity_cmt__MarketIdentifier__c\": \"73799228\",\n      \"vlocity_cmt__PremisesId__r\": {\n        \"vlocity_cmt__PostalCode__c\": null,\n        \"vlocity_cmt__City__c\": null,\n        \"vlocity_cmt__StreetAddress__c\": null\n      },\n      \"vlocity_cmt__UtilityProvider__c\": \"Other\",\n      \"vlocity_cmt__AverageMonthlyUsage__c\": 21,\n      \"vlocity_cmt__LoadProfile__c\": \"SMB Low\",\n      \"vlocity_cmt__VoltageLevel__c\": \"Low\",\n      \"Name\": \"TestPremise - ServicePoint - 61\"\n    },\n    \"Id\": {\n      \"value\": \"a5Y5g0000011OCLEA2\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__MemberType__c\": {\n      \"value\": \"ServicePoint\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__LockedBy__c\": {\n      \"value\": 101,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__LockedFor__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__AsyncOperation__c\": {\n      \"value\": \"Apply to Group\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__QuoteGroupId__c\": {\n      \"value\": \"a3W5g00000118exEAA\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__ServicePointId__c\": {\n      \"value\": \"a5a5g00000112YiAAI\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"cartId\": \"0Q05g000000gdewCAA\",\n    \"cart\": {\n      \"attributes\": {\n        \"type\": \"Quote\",\n        \"url\": \"/services/data/v52.0/sobjects/Quote/0Q05g000000gdewCAA\"\n      },\n      \"Id\": \"0Q05g000000gdewCAA\",\n      \"vlocity_cmt__DefaultServicePointId__c\": \"a5a5g00000112YiAAI\",\n      \"vlocity_cmt__IsPriced__c\": false,\n      \"vlocity_cmt__IsValidated__c\": false,\n      \"vlocity_cmt__MultiServiceMessageData__c\": \"{\\\"messages\\\":[],\\\"canCheckoutDiscounts\\\":false,\\\"canCheckout\\\":true}\",\n      \"RecordTypeId\": \"0125g000000Lv1xAAC\"\n    },\n    \"cartURL\": \"apex/vlocity_cmt__MultiServiceHybridCPQ?id=0Q05g000000gdewCAA&parentId=0065g000005lzNAAAY&groupId=a3W5g00000118exEAA&contextId=0Q05g0000011E5ZCAU&cartType=Quote&includeGroup=true\"\n  },\n  {\n    \"displaySequence\": -1,\n    \"vlocity_cmt__ServicePointId__r\": {\n      \"Id\": \"a5a5g00000112YjAAI\",\n      \"vlocity_cmt__MarketIdentifier__c\": \"40925125\",\n      \"vlocity_cmt__PremisesId__r\": {\n        \"vlocity_cmt__PostalCode__c\": null,\n        \"vlocity_cmt__City__c\": null,\n        \"vlocity_cmt__StreetAddress__c\": null\n      },\n      \"vlocity_cmt__UtilityProvider__c\": \"Other\",\n      \"vlocity_cmt__AverageMonthlyUsage__c\": 92,\n      \"vlocity_cmt__LoadProfile__c\": \"SMB Low\",\n      \"vlocity_cmt__VoltageLevel__c\": \"Low\",\n      \"Name\": \"TestPremise - ServicePoint - 62\"\n    },\n    \"Id\": {\n      \"value\": \"a5Y5g0000011OCMEA2\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__MemberType__c\": {\n      \"value\": \"ServicePoint\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__LockedBy__c\": {\n      \"value\": 101,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__LockedFor__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__AsyncOperation__c\": {\n      \"value\": \"Apply to Group\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__QuoteGroupId__c\": {\n      \"value\": \"a3W5g00000118exEAA\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__ServicePointId__c\": {\n      \"value\": \"a5a5g00000112YjAAI\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"cartId\": \"0Q05g000000gdexCAA\",\n    \"cart\": {\n      \"attributes\": {\n        \"type\": \"Quote\",\n        \"url\": \"/services/data/v52.0/sobjects/Quote/0Q05g000000gdexCAA\"\n      },\n      \"Id\": \"0Q05g000000gdexCAA\",\n      \"vlocity_cmt__DefaultServicePointId__c\": \"a5a5g00000112YjAAI\",\n      \"vlocity_cmt__IsPriced__c\": false,\n      \"vlocity_cmt__IsValidated__c\": false,\n      \"vlocity_cmt__MultiServiceMessageData__c\": \"{\\\"messages\\\":[],\\\"canCheckoutDiscounts\\\":false,\\\"canCheckout\\\":true}\",\n      \"RecordTypeId\": \"0125g000000Lv1xAAC\"\n    },\n    \"cartURL\": \"apex/vlocity_cmt__MultiServiceHybridCPQ?id=0Q05g000000gdexCAA&parentId=0065g000005lzNAAAY&groupId=a3W5g00000118exEAA&contextId=0Q05g0000011E5ZCAU&cartType=Quote&includeGroup=true\"\n  },\n  {\n    \"displaySequence\": -1,\n    \"vlocity_cmt__ServicePointId__r\": {\n      \"Id\": \"a5a5g00000112YkAAI\",\n      \"vlocity_cmt__MarketIdentifier__c\": \"27554758\",\n      \"vlocity_cmt__PremisesId__r\": {\n        \"vlocity_cmt__PostalCode__c\": null,\n        \"vlocity_cmt__City__c\": null,\n        \"vlocity_cmt__StreetAddress__c\": null\n      },\n      \"vlocity_cmt__UtilityProvider__c\": \"Other\",\n      \"vlocity_cmt__AverageMonthlyUsage__c\": 37,\n      \"vlocity_cmt__LoadProfile__c\": \"SMB Low\",\n      \"vlocity_cmt__VoltageLevel__c\": \"Low\",\n      \"Name\": \"TestPremise - ServicePoint - 63\"\n    },\n    \"Id\": {\n      \"value\": \"a5Y5g0000011OCNEA2\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__MemberType__c\": {\n      \"value\": \"ServicePoint\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__LockedBy__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__LockedFor__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__AsyncOperation__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__QuoteGroupId__c\": {\n      \"value\": \"a3W5g00000118exEAA\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__ServicePointId__c\": {\n      \"value\": \"a5a5g00000112YkAAI\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"cartId\": \"0Q05g000000gdeyCAA\",\n    \"cart\": {\n      \"attributes\": {\n        \"type\": \"Quote\",\n        \"url\": \"/services/data/v52.0/sobjects/Quote/0Q05g000000gdeyCAA\"\n      },\n      \"Id\": \"0Q05g000000gdeyCAA\",\n      \"vlocity_cmt__DefaultServicePointId__c\": \"a5a5g00000112YkAAI\",\n      \"vlocity_cmt__IsPriced__c\": false,\n      \"vlocity_cmt__IsValidated__c\": false,\n      \"vlocity_cmt__MultiServiceMessageData__c\": \"{\\\"messages\\\":[],\\\"canCheckoutDiscounts\\\":false,\\\"canCheckout\\\":true}\",\n      \"RecordTypeId\": \"0125g000000Lv1xAAC\"\n    },\n    \"cartURL\": \"apex/vlocity_cmt__MultiServiceHybridCPQ?id=0Q05g000000gdeyCAA&parentId=0065g000005lzNAAAY&groupId=a3W5g00000118exEAA&contextId=0Q05g0000011E5ZCAU&cartType=Quote&includeGroup=true\"\n  },\n  {\n    \"displaySequence\": -1,\n    \"vlocity_cmt__ServicePointId__r\": {\n      \"Id\": \"a5a5g00000112YlAAI\",\n      \"vlocity_cmt__MarketIdentifier__c\": \"59955027\",\n      \"vlocity_cmt__PremisesId__r\": {\n        \"vlocity_cmt__PostalCode__c\": null,\n        \"vlocity_cmt__City__c\": null,\n        \"vlocity_cmt__StreetAddress__c\": null\n      },\n      \"vlocity_cmt__UtilityProvider__c\": \"Other\",\n      \"vlocity_cmt__AverageMonthlyUsage__c\": 51,\n      \"vlocity_cmt__LoadProfile__c\": \"SMB Low\",\n      \"vlocity_cmt__VoltageLevel__c\": \"Low\",\n      \"Name\": \"TestPremise - ServicePoint - 64\"\n    },\n    \"Id\": {\n      \"value\": \"a5Y5g0000011OCOEA2\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__MemberType__c\": {\n      \"value\": \"ServicePoint\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__LockedBy__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__LockedFor__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__AsyncOperation__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__QuoteGroupId__c\": {\n      \"value\": \"a3W5g00000118exEAA\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__ServicePointId__c\": {\n      \"value\": \"a5a5g00000112YlAAI\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"cartId\": \"0Q05g000000gdezCAA\",\n    \"cart\": {\n      \"attributes\": {\n        \"type\": \"Quote\",\n        \"url\": \"/services/data/v52.0/sobjects/Quote/0Q05g000000gdezCAA\"\n      },\n      \"Id\": \"0Q05g000000gdezCAA\",\n      \"vlocity_cmt__DefaultServicePointId__c\": \"a5a5g00000112YlAAI\",\n      \"vlocity_cmt__IsPriced__c\": false,\n      \"vlocity_cmt__IsValidated__c\": false,\n      \"vlocity_cmt__MultiServiceMessageData__c\": \"{\\\"messages\\\":[],\\\"canCheckoutDiscounts\\\":false,\\\"canCheckout\\\":true}\",\n      \"RecordTypeId\": \"0125g000000Lv1xAAC\"\n    },\n    \"cartURL\": \"apex/vlocity_cmt__MultiServiceHybridCPQ?id=0Q05g000000gdezCAA&parentId=0065g000005lzNAAAY&groupId=a3W5g00000118exEAA&contextId=0Q05g0000011E5ZCAU&cartType=Quote&includeGroup=true\",\n    \"messageReport\": {\"WARNING\": {\"warningCount\": \"10\"}}\n  },\n  {\n    \"displaySequence\": -1,\n    \"vlocity_cmt__ServicePointId__r\": {\n      \"Id\": \"a5a5g00000112YmAAI\",\n      \"vlocity_cmt__MarketIdentifier__c\": \"27180708\",\n      \"vlocity_cmt__PremisesId__r\": {\n        \"vlocity_cmt__PostalCode__c\": null,\n        \"vlocity_cmt__City__c\": null,\n        \"vlocity_cmt__StreetAddress__c\": null\n      },\n      \"vlocity_cmt__UtilityProvider__c\": \"Other\",\n      \"vlocity_cmt__AverageMonthlyUsage__c\": 48,\n      \"vlocity_cmt__LoadProfile__c\": \"SMB Low\",\n      \"vlocity_cmt__VoltageLevel__c\": \"Low\",\n      \"Name\": \"TestPremise - ServicePoint - 65\"\n    },\n    \"Id\": {\n      \"value\": \"a5Y5g0000011OCPEA2\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__MemberType__c\": {\n      \"value\": \"ServicePoint\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__LockedBy__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__LockedFor__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__AsyncOperation__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__QuoteGroupId__c\": {\n      \"value\": \"a3W5g00000118exEAA\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__ServicePointId__c\": {\n      \"value\": \"a5a5g00000112YmAAI\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"cartId\": \"0Q05g000000gdf0CAA\",\n    \"cart\": {\n      \"attributes\": {\n        \"type\": \"Quote\",\n        \"url\": \"/services/data/v52.0/sobjects/Quote/0Q05g000000gdf0CAA\"\n      },\n      \"Id\": \"0Q05g000000gdf0CAA\",\n      \"vlocity_cmt__DefaultServicePointId__c\": \"a5a5g00000112YmAAI\",\n      \"vlocity_cmt__IsPriced__c\": false,\n      \"vlocity_cmt__IsValidated__c\": false,\n      \"vlocity_cmt__MultiServiceMessageData__c\": \"{\\\"messages\\\":[],\\\"canCheckoutDiscounts\\\":false,\\\"canCheckout\\\":true}\",\n      \"RecordTypeId\": \"0125g000000Lv1xAAC\"\n    },\n    \"cartURL\": \"apex/vlocity_cmt__MultiServiceHybridCPQ?id=0Q05g000000gdf0CAA&parentId=0065g000005lzNAAAY&groupId=a3W5g00000118exEAA&contextId=0Q05g0000011E5ZCAU&cartType=Quote&includeGroup=true\",\n    \"messageReport\": { \"ERROR\": {\"errorCount\": \"5\"}}\n  },\n  {\n    \"displaySequence\": -1,\n    \"vlocity_cmt__ServicePointId__r\": {\n      \"Id\": \"a5a5g00000112YnAAI\",\n      \"vlocity_cmt__MarketIdentifier__c\": \"21160247\",\n      \"vlocity_cmt__PremisesId__r\": {\n        \"vlocity_cmt__PostalCode__c\": null,\n        \"vlocity_cmt__City__c\": null,\n        \"vlocity_cmt__StreetAddress__c\": null\n      },\n      \"vlocity_cmt__UtilityProvider__c\": \"Other\",\n      \"vlocity_cmt__AverageMonthlyUsage__c\": 21,\n      \"vlocity_cmt__LoadProfile__c\": \"SMB Low\",\n      \"vlocity_cmt__VoltageLevel__c\": \"Low\",\n      \"Name\": \"TestPremise - ServicePoint - 66\"\n    },\n    \"Id\": {\n      \"value\": \"a5Y5g0000011OCQEA2\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__MemberType__c\": {\n      \"value\": \"ServicePoint\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__LockedBy__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__LockedFor__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__AsyncOperation__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__QuoteGroupId__c\": {\n      \"value\": \"a3W5g00000118exEAA\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__ServicePointId__c\": {\n      \"value\": \"a5a5g00000112YnAAI\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"cartId\": \"0Q05g000000gdf1CAA\",\n    \"cart\": {\n      \"attributes\": {\n        \"type\": \"Quote\",\n        \"url\": \"/services/data/v52.0/sobjects/Quote/0Q05g000000gdf1CAA\"\n      },\n      \"Id\": \"0Q05g000000gdf1CAA\",\n      \"vlocity_cmt__DefaultServicePointId__c\": \"a5a5g00000112YnAAI\",\n      \"vlocity_cmt__IsPriced__c\": false,\n      \"vlocity_cmt__IsValidated__c\": false,\n      \"vlocity_cmt__MultiServiceMessageData__c\": \"{\\\"messages\\\":[],\\\"canCheckoutDiscounts\\\":false,\\\"canCheckout\\\":true}\",\n      \"RecordTypeId\": \"0125g000000Lv1xAAC\"\n    },\n    \"cartURL\": \"apex/vlocity_cmt__MultiServiceHybridCPQ?id=0Q05g000000gdf1CAA&parentId=0065g000005lzNAAAY&groupId=a3W5g00000118exEAA&contextId=0Q05g0000011E5ZCAU&cartType=Quote&includeGroup=true\"\n  },\n  {\n    \"displaySequence\": -1,\n    \"vlocity_cmt__ServicePointId__r\": {\n      \"Id\": \"a5a5g00000112YoAAI\",\n      \"vlocity_cmt__MarketIdentifier__c\": \"3003009\",\n      \"vlocity_cmt__PremisesId__r\": {\n        \"vlocity_cmt__PostalCode__c\": null,\n        \"vlocity_cmt__City__c\": null,\n        \"vlocity_cmt__StreetAddress__c\": null\n      },\n      \"vlocity_cmt__UtilityProvider__c\": \"Other\",\n      \"vlocity_cmt__AverageMonthlyUsage__c\": 22,\n      \"vlocity_cmt__LoadProfile__c\": \"SMB Low\",\n      \"vlocity_cmt__VoltageLevel__c\": \"Low\",\n      \"Name\": \"TestPremise - ServicePoint - 67\"\n    },\n    \"Id\": {\n      \"value\": \"a5Y5g0000011OCREA2\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__MemberType__c\": {\n      \"value\": \"ServicePoint\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__LockedBy__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__LockedFor__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__AsyncOperation__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__QuoteGroupId__c\": {\n      \"value\": \"a3W5g00000118exEAA\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__ServicePointId__c\": {\n      \"value\": \"a5a5g00000112YoAAI\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"cartId\": \"0Q05g000000gdf2CAA\",\n    \"cart\": {\n      \"attributes\": {\n        \"type\": \"Quote\",\n        \"url\": \"/services/data/v52.0/sobjects/Quote/0Q05g000000gdf2CAA\"\n      },\n      \"Id\": \"0Q05g000000gdf2CAA\",\n      \"vlocity_cmt__DefaultServicePointId__c\": \"a5a5g00000112YoAAI\",\n      \"vlocity_cmt__IsPriced__c\": false,\n      \"vlocity_cmt__IsValidated__c\": false,\n      \"vlocity_cmt__MultiServiceMessageData__c\": \"{\\\"messages\\\":[],\\\"canCheckoutDiscounts\\\":false,\\\"canCheckout\\\":true}\",\n      \"RecordTypeId\": \"0125g000000Lv1xAAC\"\n    },\n    \"cartURL\": \"apex/vlocity_cmt__MultiServiceHybridCPQ?id=0Q05g000000gdf2CAA&parentId=0065g000005lzNAAAY&groupId=a3W5g00000118exEAA&contextId=0Q05g0000011E5ZCAU&cartType=Quote&includeGroup=true\"\n  },\n  {\n    \"displaySequence\": -1,\n    \"vlocity_cmt__ServicePointId__r\": {\n      \"Id\": \"a5a5g00000112XjAAI\",\n      \"vlocity_cmt__MarketIdentifier__c\": \"94638597\",\n      \"vlocity_cmt__PremisesId__r\": {\n        \"vlocity_cmt__PostalCode__c\": null,\n        \"vlocity_cmt__City__c\": null,\n        \"vlocity_cmt__StreetAddress__c\": null\n      },\n      \"vlocity_cmt__UtilityProvider__c\": \"Other\",\n      \"vlocity_cmt__AverageMonthlyUsage__c\": 29,\n      \"vlocity_cmt__LoadProfile__c\": \"SMB Low\",\n      \"vlocity_cmt__VoltageLevel__c\": \"Low\",\n      \"Name\": \"TestPremise - ServicePoint - 0\"\n    },\n    \"Id\": {\n      \"value\": \"a5Y5g000000m8dVEAQ\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__MemberType__c\": {\n      \"value\": \"ServicePoint\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__LockedBy__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__LockedFor__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__AsyncOperation__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__QuoteGroupId__c\": {\n      \"value\": \"a3W5g000000kenQEAQ\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__ServicePointId__c\": {\n      \"value\": \"a5a5g00000112XjAAI\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"messageReport\": { \"ERROR\": {\"errorCount\": \"5\"}}\n  },\n  {\n    \"displaySequence\": -1,\n    \"vlocity_cmt__ServicePointId__r\": {\n      \"Id\": \"a5a5g00000112XkAAI\",\n      \"vlocity_cmt__MarketIdentifier__c\": \"54858704\",\n      \"vlocity_cmt__PremisesId__r\": {\n        \"vlocity_cmt__PostalCode__c\": null,\n        \"vlocity_cmt__City__c\": null,\n        \"vlocity_cmt__StreetAddress__c\": null\n      },\n      \"vlocity_cmt__UtilityProvider__c\": \"Other\",\n      \"vlocity_cmt__AverageMonthlyUsage__c\": 82,\n      \"vlocity_cmt__LoadProfile__c\": \"SMB Low\",\n      \"vlocity_cmt__VoltageLevel__c\": \"Low\",\n      \"Name\": \"TestPremise - ServicePoint - 1\"\n    },\n    \"Id\": {\n      \"value\": \"a5Y5g000000m8dWEAQ\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__MemberType__c\": {\n      \"value\": \"ServicePoint\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__LockedBy__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__LockedFor__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__AsyncOperation__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__QuoteGroupId__c\": {\n      \"value\": \"a3W5g000000kenQEAQ\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__ServicePointId__c\": {\n      \"value\": \"a5a5g00000112XkAAI\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"messageReport\": {\"WARNING\": {\"warningCount\": \"10\"}}\n  },\n  {\n    \"displaySequence\": -1,\n    \"vlocity_cmt__ServicePointId__r\": {\n      \"Id\": \"a5a5g00000112XlAAI\",\n      \"vlocity_cmt__MarketIdentifier__c\": \"73157389\",\n      \"vlocity_cmt__PremisesId__r\": {\n        \"vlocity_cmt__PostalCode__c\": null,\n        \"vlocity_cmt__City__c\": null,\n        \"vlocity_cmt__StreetAddress__c\": null\n      },\n      \"vlocity_cmt__UtilityProvider__c\": \"Other\",\n      \"vlocity_cmt__AverageMonthlyUsage__c\": 59,\n      \"vlocity_cmt__LoadProfile__c\": \"SMB Low\",\n      \"vlocity_cmt__VoltageLevel__c\": \"Low\",\n      \"Name\": \"TestPremise - ServicePoint - 2\"\n    },\n    \"Id\": {\n      \"value\": \"a5Y5g000000m8dXEAQ\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__MemberType__c\": {\n      \"value\": \"ServicePoint\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__LockedBy__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__LockedFor__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__AsyncOperation__c\": {\n      \"value\": null,\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__QuoteGroupId__c\": {\n      \"value\": \"a3W5g000000kenQEAQ\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"vlocity_cmt__ServicePointId__c\": {\n      \"value\": \"a5a5g00000112XlAAI\",\n      \"previousValue\": null,\n      \"originalValue\": null,\n      \"messages\": [],\n      \"label\": null,\n      \"hidden\": null,\n      \"fieldName\": null,\n      \"editable\": null,\n      \"dataType\": null,\n      \"alternateValues\": null,\n      \"actions\": {}\n    },\n    \"messageReport\": {\"WARNING\": {\"warningCount\": \"10\"}, \"ERROR\": {\"errorCount\": \"5\"}}\n  }\n]",
             "dsDelay": "",
             "resultVar": ""
         }
@@ -21,16 +20,14 @@
         "Id": "0Rb5g000000SgVqCAK",
         "ManageableState": "unmanaged",
         "MasterLabel": "cfCpqMultiSiteGroupsMember_3_Vlocity",
-        "NamespacePrefix": "%vlocity_namespace%"
+        "NamespacePrefix": "vlocity_cmt"
     },
     "multilanguageSupport": true,
     "selectableMode": "Multi",
     "states": [
         {
-            "actions": [
-            ],
-            "childCards": [
-            ],
+            "actions": [],
+            "childCards": [],
             "components": {
                 "layer-0": {
                     "children": [
@@ -80,11 +77,11 @@
                                                         "label": "Action",
                                                         "record": "{record}",
                                                         "stateAction": {
-                                                            "displayName": "{%vlocity_namespace%__ServicePointId__r.%vlocity_namespace%__MarketIdentifier__c}",
+                                                            "displayName": "{vlocity_cmt__ServicePointId__r.vlocity_cmt__MarketIdentifier__c}",
                                                             "eventName": "cpq_groups_{recordId}",
                                                             "extraParams": {
                                                                 "isGroupMember": "yes",
-                                                                "name": "{%vlocity_namespace%__ServicePointId__r}",
+                                                                "name": "{vlocity_cmt__ServicePointId__r}",
                                                                 "selectedGroupMemberRecord": "{record}"
                                                             },
                                                             "hasExtraParams": true,
@@ -122,11 +119,10 @@
                                                     "id": "state-condition-object",
                                                     "isParent": true
                                                 },
-                                                "flyoutDetails": {
-                                                },
+                                                "flyoutDetails": {},
                                                 "hideActionIcon": true,
                                                 "iconName": "standard-default",
-                                                "label": "\\{%vlocity_namespace%__ServicePointId__r.Name}",
+                                                "label": "\\{vlocity_cmt__ServicePointId__r.Name}",
                                                 "record": "{record}",
                                                 "showSpinner": "false",
                                                 "stateObj": "{record}"
@@ -156,13 +152,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq__multisite-group-member-name",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -202,13 +195,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq__multisite-group-member-name",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -247,7 +237,7 @@
                                                     "id": "state-condition-object",
                                                     "isParent": true
                                                 },
-                                                "mergeField": "%3Cdiv%3E%7B%vlocity_namespace%__ServicePointId__r.Name%7D%3C/div%3E",
+                                                "mergeField": "%3Cdiv%3E%7Bvlocity_cmt__ServicePointId__r.Name%7D%3C/div%3E",
                                                 "record": "{record}"
                                             },
                                             "size": {
@@ -275,13 +265,10 @@
                                                     "class": "cpq__multisite-group-member-name"
                                                 },
                                                 "customClass": "cpq__multisite-group-member-name-text",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -321,13 +308,10 @@
                                                             "class": "cpq__multisite-group-member-name"
                                                         },
                                                         "customClass": "cpq__multisite-group-member-name-text",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -357,7 +341,7 @@
                                         "data-conditions": {
                                             "group": [
                                                 {
-                                                    "field": "%vlocity_namespace%__MemberType__c.value",
+                                                    "field": "vlocity_cmt__MemberType__c.value",
                                                     "hasMergeField": false,
                                                     "id": "state-new-condition-0",
                                                     "operator": "==",
@@ -395,11 +379,9 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:x-small",
@@ -445,11 +427,9 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "around:x-small",
@@ -517,11 +497,11 @@
                                                         "label": "Action",
                                                         "record": "{record}",
                                                         "stateAction": {
-                                                            "displayName": "{%vlocity_namespace%__ServicePointId__r.%vlocity_namespace%__MarketIdentifier__c}",
+                                                            "displayName": "{vlocity_cmt__ServicePointId__r.vlocity_cmt__MarketIdentifier__c}",
                                                             "eventName": "cpq_groups_{recordId}",
                                                             "extraParams": {
                                                                 "isGroupMember": "yes",
-                                                                "name": "{%vlocity_namespace%__ServiceAccountId__r}",
+                                                                "name": "{vlocity_cmt__ServiceAccountId__r}",
                                                                 "selectedGroupMemberRecord": "{record}"
                                                             },
                                                             "hasExtraParams": true,
@@ -559,11 +539,10 @@
                                                     "id": "state-condition-object",
                                                     "isParent": true
                                                 },
-                                                "flyoutDetails": {
-                                                },
+                                                "flyoutDetails": {},
                                                 "hideActionIcon": true,
                                                 "iconName": "standard-default",
-                                                "label": "\\{%vlocity_namespace%__ServiceAccountId__r.Name}",
+                                                "label": "\\{vlocity_cmt__ServiceAccountId__r.Name}",
                                                 "record": "{record}",
                                                 "showSpinner": "false",
                                                 "stateObj": "{record}"
@@ -593,13 +572,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq__multisite-group-member-name",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -639,13 +615,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq__multisite-group-member-name",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -684,7 +657,7 @@
                                                     "id": "state-condition-object",
                                                     "isParent": true
                                                 },
-                                                "mergeField": "%3Cdiv%3E%7B%vlocity_namespace%__ServiceAccountId__r.Name%7D%3C/div%3E",
+                                                "mergeField": "%3Cdiv%3E%7Bvlocity_cmt__ServiceAccountId__r.Name%7D%3C/div%3E",
                                                 "record": "{record}"
                                             },
                                             "size": {
@@ -712,13 +685,10 @@
                                                     "class": "cpq__multisite-group-member-name"
                                                 },
                                                 "customClass": "cpq__multisite-group-member-name-text",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -758,13 +728,10 @@
                                                             "class": "cpq__multisite-group-member-name"
                                                         },
                                                         "customClass": "cpq__multisite-group-member-name-text",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -794,7 +761,7 @@
                                         "data-conditions": {
                                             "group": [
                                                 {
-                                                    "field": "%vlocity_namespace%__MemberType__c.value",
+                                                    "field": "vlocity_cmt__MemberType__c.value",
                                                     "hasMergeField": false,
                                                     "id": "state-new-condition-0",
                                                     "operator": "==",
@@ -832,11 +799,9 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:x-small",
@@ -882,11 +847,9 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "around:x-small",
@@ -954,11 +917,11 @@
                                                         "label": "Action",
                                                         "record": "{record}",
                                                         "stateAction": {
-                                                            "displayName": "{%vlocity_namespace%__ServicePointId__r.%vlocity_namespace%__MarketIdentifier__c}",
+                                                            "displayName": "{vlocity_cmt__ServicePointId__r.vlocity_cmt__MarketIdentifier__c}",
                                                             "eventName": "cpq_groups_{recordId}",
                                                             "extraParams": {
                                                                 "isGroupMember": "yes",
-                                                                "name": "{%vlocity_namespace%__SubscriberAccountId__r}",
+                                                                "name": "{vlocity_cmt__SubscriberAccountId__r}",
                                                                 "selectedGroupMemberRecord": "{record}"
                                                             },
                                                             "hasExtraParams": true,
@@ -996,11 +959,10 @@
                                                     "id": "state-condition-object",
                                                     "isParent": true
                                                 },
-                                                "flyoutDetails": {
-                                                },
+                                                "flyoutDetails": {},
                                                 "hideActionIcon": true,
                                                 "iconName": "standard-default",
-                                                "label": "\\{%vlocity_namespace%__SubscriberAccountId__r.Name}",
+                                                "label": "\\{vlocity_cmt__SubscriberAccountId__r.Name}",
                                                 "record": "{record}",
                                                 "showSpinner": "false",
                                                 "stateObj": "{record}"
@@ -1030,13 +992,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq__multisite-group-member-name",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -1076,13 +1035,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq__multisite-group-member-name",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -1121,7 +1077,7 @@
                                                     "id": "state-condition-object",
                                                     "isParent": true
                                                 },
-                                                "mergeField": "%3Cdiv%3E%7B%vlocity_namespace%__SubscriberAccountId__r.Name%7D%3C/div%3E",
+                                                "mergeField": "%3Cdiv%3E%7Bvlocity_cmt__SubscriberAccountId__r.Name%7D%3C/div%3E",
                                                 "record": "{record}"
                                             },
                                             "size": {
@@ -1149,13 +1105,10 @@
                                                     "class": "cpq__multisite-group-member-name"
                                                 },
                                                 "customClass": "cpq__multisite-group-member-name-text",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -1195,13 +1148,10 @@
                                                             "class": "cpq__multisite-group-member-name"
                                                         },
                                                         "customClass": "cpq__multisite-group-member-name-text",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -1231,7 +1181,7 @@
                                         "data-conditions": {
                                             "group": [
                                                 {
-                                                    "field": "%vlocity_namespace%__MemberType__c.value",
+                                                    "field": "vlocity_cmt__MemberType__c.value",
                                                     "hasMergeField": false,
                                                     "id": "state-new-condition-0",
                                                     "operator": "==",
@@ -1269,11 +1219,9 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:x-small",
@@ -1319,11 +1267,9 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "around:x-small",
@@ -1391,11 +1337,11 @@
                                                         "label": "Action",
                                                         "record": "{record}",
                                                         "stateAction": {
-                                                            "displayName": "{%vlocity_namespace%__ServicePointId__r.%vlocity_namespace%__MarketIdentifier__c}",
+                                                            "displayName": "{vlocity_cmt__ServicePointId__r.vlocity_cmt__MarketIdentifier__c}",
                                                             "eventName": "cpq_groups_{recordId}",
                                                             "extraParams": {
                                                                 "isGroupMember": "yes",
-                                                                "name": "{%vlocity_namespace%__ServiceAccountId__r}",
+                                                                "name": "{vlocity_cmt__ServiceAccountId__r}",
                                                                 "selectedGroupMemberRecord": "{record}"
                                                             },
                                                             "hasExtraParams": true,
@@ -1433,11 +1379,10 @@
                                                     "id": "state-condition-object",
                                                     "isParent": true
                                                 },
-                                                "flyoutDetails": {
-                                                },
+                                                "flyoutDetails": {},
                                                 "hideActionIcon": true,
                                                 "iconName": "standard-default",
-                                                "label": "\\{%vlocity_namespace%__ServiceAccountId__r.Name}",
+                                                "label": "\\{vlocity_cmt__ServiceAccountId__r.Name}",
                                                 "record": "{record}",
                                                 "showSpinner": "false",
                                                 "stateObj": "{record}"
@@ -1467,13 +1412,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq__multisite-group-member-name",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -1513,13 +1455,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq__multisite-group-member-name",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -1558,7 +1497,7 @@
                                                     "id": "state-condition-object",
                                                     "isParent": true
                                                 },
-                                                "mergeField": "%3Cdiv%3E%7B%vlocity_namespace%__ServiceAccountId__r.Name%7D%3C/div%3E",
+                                                "mergeField": "%3Cdiv%3E%7Bvlocity_cmt__ServiceAccountId__r.Name%7D%3C/div%3E",
                                                 "record": "{record}"
                                             },
                                             "size": {
@@ -1586,13 +1525,10 @@
                                                     "class": "cpq__multisite-group-member-name"
                                                 },
                                                 "customClass": "cpq__multisite-group-member-name-text",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -1632,13 +1568,10 @@
                                                             "class": "cpq__multisite-group-member-name"
                                                         },
                                                         "customClass": "cpq__multisite-group-member-name-text",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -1668,7 +1601,7 @@
                                         "data-conditions": {
                                             "group": [
                                                 {
-                                                    "field": "%vlocity_namespace%__MemberType__c.value",
+                                                    "field": "vlocity_cmt__MemberType__c.value",
                                                     "hasMergeField": false,
                                                     "id": "state-new-condition-0",
                                                     "operator": "==",
@@ -1706,11 +1639,9 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:x-small",
@@ -1756,11 +1687,9 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "around:x-small",
@@ -1828,11 +1757,11 @@
                                                         "label": "Action",
                                                         "record": "{record}",
                                                         "stateAction": {
-                                                            "displayName": "{%vlocity_namespace%__ServicePointId__r.%vlocity_namespace%__MarketIdentifier__c}",
+                                                            "displayName": "{vlocity_cmt__ServicePointId__r.vlocity_cmt__MarketIdentifier__c}",
                                                             "eventName": "cpq_groups_{recordId}",
                                                             "extraParams": {
                                                                 "isGroupMember": "yes",
-                                                                "name": "{%vlocity_namespace%__PremisesId__r}",
+                                                                "name": "{vlocity_cmt__PremisesId__r}",
                                                                 "selectedGroupMemberRecord": "{record}"
                                                             },
                                                             "hasExtraParams": true,
@@ -1870,11 +1799,10 @@
                                                     "id": "state-condition-object",
                                                     "isParent": true
                                                 },
-                                                "flyoutDetails": {
-                                                },
+                                                "flyoutDetails": {},
                                                 "hideActionIcon": true,
                                                 "iconName": "standard-default",
-                                                "label": "\\{%vlocity_namespace%__PremisesId__r.Name}",
+                                                "label": "\\{vlocity_cmt__PremisesId__r.Name}",
                                                 "record": "{record}",
                                                 "showSpinner": "false",
                                                 "stateObj": "{record}"
@@ -1904,13 +1832,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq__multisite-group-member-name",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -1950,13 +1875,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq__multisite-group-member-name",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -1995,7 +1917,7 @@
                                                     "id": "state-condition-object",
                                                     "isParent": true
                                                 },
-                                                "mergeField": "%3Cdiv%3E%7B%vlocity_namespace%__PremisesId__r.Name%7D%3C/div%3E",
+                                                "mergeField": "%3Cdiv%3E%7Bvlocity_cmt__PremisesId__r.Name%7D%3C/div%3E",
                                                 "record": "{record}"
                                             },
                                             "size": {
@@ -2023,13 +1945,10 @@
                                                     "class": "cpq__multisite-group-member-name"
                                                 },
                                                 "customClass": "cpq__multisite-group-member-name-text",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -2069,13 +1988,10 @@
                                                             "class": "cpq__multisite-group-member-name"
                                                         },
                                                         "customClass": "cpq__multisite-group-member-name-text",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -2105,7 +2021,7 @@
                                         "data-conditions": {
                                             "group": [
                                                 {
-                                                    "field": "%vlocity_namespace%__MemberType__c.value",
+                                                    "field": "vlocity_cmt__MemberType__c.value",
                                                     "hasMergeField": false,
                                                     "id": "state-new-condition-0",
                                                     "operator": "==",
@@ -2143,11 +2059,9 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:x-small",
@@ -2193,11 +2107,9 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "around:x-small",
@@ -2235,7 +2147,7 @@
                                                 "data-conditions": {
                                                     "group": [
                                                         {
-                                                            "field": "%vlocity_namespace%__LockedBy__c.value",
+                                                            "field": "vlocity_cmt__LockedBy__c.value",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-0",
                                                             "operator": "!=",
@@ -2277,13 +2189,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq__multisite-group-member-status-processing cpq__multisite-group-status-items slds-m-right_x-small",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -2323,13 +2232,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq__multisite-group-member-status-processing cpq__multisite-group-status-items slds-m-right_x-small",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -2358,7 +2264,7 @@
                                                 "data-conditions": {
                                                     "group": [
                                                         {
-                                                            "field": "%vlocity_namespace%__LockedBy__c.value",
+                                                            "field": "vlocity_cmt__LockedBy__c.value",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-0",
                                                             "operator": "==",
@@ -2409,13 +2315,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq__multisite-group-member-status-applied  cpq__multisite-group-status-items slds-m-right_x-small",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -2455,13 +2358,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq__multisite-group-member-status-applied  cpq__multisite-group-status-items slds-m-right_x-small",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -2490,7 +2390,7 @@
                                                 "data-conditions": {
                                                     "group": [
                                                         {
-                                                            "field": "%vlocity_namespace%__LockedBy__c.value",
+                                                            "field": "vlocity_cmt__LockedBy__c.value",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-0",
                                                             "operator": "==",
@@ -2541,13 +2441,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq__multisite-group-member-status-notapplied cpq__multisite-group-status-items slds-m-right_x-small",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -2587,13 +2484,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq__multisite-group-member-status-notapplied cpq__multisite-group-status-items slds-m-right_x-small",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -2622,7 +2516,7 @@
                                                 "data-conditions": {
                                                     "group": [
                                                         {
-                                                            "field": "%vlocity_namespace%__LockedBy__c.value",
+                                                            "field": "vlocity_cmt__LockedBy__c.value",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-0",
                                                             "operator": "==",
@@ -2682,13 +2576,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq__multisite-group-member-status-notapplied cpq__multisite-group-status-items slds-m-right_x-small",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -2728,13 +2619,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq__multisite-group-member-status-notapplied cpq__multisite-group-status-items slds-m-right_x-small",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -2763,7 +2651,7 @@
                                                 "data-conditions": {
                                                     "group": [
                                                         {
-                                                            "field": "%vlocity_namespace%__LockedBy__c.value",
+                                                            "field": "vlocity_cmt__LockedBy__c.value",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-0",
                                                             "operator": "==",
@@ -2823,13 +2711,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq__multisite-group-member-status-notapplied  cpq__multisite-group-status-items slds-m-right_x-small",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -2869,13 +2754,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq__multisite-group-member-status-notapplied  cpq__multisite-group-status-items slds-m-right_x-small",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -2931,13 +2813,10 @@
                                             "class": ""
                                         },
                                         "customClass": "cpq__multisite-group-status-container",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "4",
                                             "isResponsive": false
@@ -2977,13 +2856,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq__multisite-group-status-container",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "4",
                                                     "isResponsive": false
@@ -3051,13 +2927,10 @@
                                     "class": ""
                                 },
                                 "customClass": "cpq__multisite-group-member-card",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "12",
                                     "isResponsive": false
@@ -3097,13 +2970,10 @@
                                             "class": ""
                                         },
                                         "customClass": "cpq__multisite-group-member-card",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": false
@@ -3190,10 +3060,8 @@
                                             }
                                         },
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": false
@@ -3241,10 +3109,8 @@
                                                     }
                                                 },
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -3310,11 +3176,9 @@
                                 "container": {
                                     "class": "cpq__multisite-groups-member_load-more"
                                 },
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
+                                "margin": [],
                                 "padding": [
                                     {
                                         "label": "around:x-small",
@@ -3360,11 +3224,9 @@
                                         "container": {
                                             "class": "cpq__multisite-groups-member_load-more"
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:x-small",
@@ -3391,25 +3253,19 @@
                 }
             },
             "conditions": {
-                "group": [
-                ],
+                "group": [],
                 "id": "state-condition-object",
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Active",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "",
@@ -3429,8 +3285,7 @@
                 "container": {
                     "class": ""
                 },
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
                 "margin": [
                     {
@@ -3439,8 +3294,7 @@
                         "type": "around"
                     }
                 ],
-                "padding": [
-                ],
+                "padding": [],
                 "size": {
                     "default": "12",
                     "isResponsive": false

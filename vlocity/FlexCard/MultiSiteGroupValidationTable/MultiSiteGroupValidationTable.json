@@ -1,7 +1,6 @@
 {
     "dataSource": {
-        "contextVariables": [
-        ],
+        "contextVariables": [],
         "orderBy": {
             "isReverse": false,
             "name": ""
@@ -21,15 +20,13 @@
         "Id": "0RbRN0000001VqF0AU",
         "ManageableState": "unmanaged",
         "MasterLabel": "cfMultiSiteGroupValidationTable_1_Vlocity",
-        "NamespacePrefix": "%vlocity_namespace%"
+        "NamespacePrefix": "vlocity_cmt"
     },
     "selectableMode": "Multi",
     "states": [
         {
-            "actions": [
-            ],
-            "childCards": [
-            ],
+            "actions": [],
+            "childCards": [],
             "components": {
                 "layer-0": {
                     "children": [
@@ -150,10 +147,8 @@
                                             "iconSize": "small"
                                         },
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "1",
                                             "isResponsive": false
@@ -197,10 +192,8 @@
                                                     "iconSize": "small"
                                                 },
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "1",
                                                     "isResponsive": false
@@ -295,11 +288,9 @@
                                         "container": {
                                             "class": "cpq__multisite-group-validation-table_icon"
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:xxx-small",
@@ -345,11 +336,9 @@
                                                 "container": {
                                                     "class": "cpq__multisite-group-validation-table_icon"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "around:xxx-small",
@@ -461,10 +450,8 @@
                                             "iconSize": "small"
                                         },
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "1",
                                             "isResponsive": false
@@ -508,10 +495,8 @@
                                                     "iconSize": "small"
                                                 },
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "1",
                                                     "isResponsive": false
@@ -605,11 +590,9 @@
                                         "container": {
                                             "class": "cpq__multisite-group-validation-table_icon"
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:xxx-small",
@@ -655,11 +638,9 @@
                                                 "container": {
                                                     "class": "cpq__multisite-group-validation-table_icon"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "around:xxx-small",
@@ -719,13 +700,10 @@
                                         "container": {
                                             "class": "cpq__multisite-group-validation-table_group-name"
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "3",
                                             "isResponsive": false
@@ -764,13 +742,10 @@
                                                 "container": {
                                                     "class": "cpq__multisite-group-validation-table_group-name"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "3",
                                                     "isResponsive": false
@@ -822,13 +797,10 @@
                                         "container": {
                                             "class": "cpq__multisite-group-validation-table_reason"
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "8",
                                             "isResponsive": false
@@ -867,13 +839,10 @@
                                                 "container": {
                                                     "class": "cpq__multisite-group-validation-table_reason"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "8",
                                                     "isResponsive": false
@@ -925,13 +894,10 @@
                                 "container": {
                                     "class": "MSGroupValidationTableEachRow"
                                 },
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "12",
                                     "isResponsive": false
@@ -970,13 +936,10 @@
                                         "container": {
                                             "class": "MSGroupValidationTableEachRow"
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": false
@@ -996,25 +959,19 @@
                 }
             },
             "conditions": {
-                "group": [
-                ],
+                "group": [],
                 "id": "state-condition-object",
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Active",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "",
@@ -1034,11 +991,9 @@
                 "container": {
                     "class": "slds-card"
                 },
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
-                "margin": [
-                ],
+                "margin": [],
                 "padding": [
                     {
                         "label": "left:xx-small",

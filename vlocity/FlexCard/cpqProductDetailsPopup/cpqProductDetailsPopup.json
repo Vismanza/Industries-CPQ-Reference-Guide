@@ -1,12 +1,9 @@
 {
     "dataSource": {
-        "contextVariables": [
-        ],
-        "orderBy": {
-        },
+        "contextVariables": [],
+        "orderBy": {},
         "type": null,
-        "value": {
-        }
+        "value": {}
     },
     "enableLwc": true,
     "globalCSS": false,
@@ -16,16 +13,14 @@
         "Id": "0RbRO0000001wI60AI",
         "ManageableState": "unmanaged",
         "MasterLabel": "cfCpqProductDetailsPopup_2_Vlocity",
-        "NamespacePrefix": "%vlocity_namespace%"
+        "NamespacePrefix": "vlocity_cmt"
     },
     "multilanguageSupport": true,
     "selectableMode": "Multi",
     "states": [
         {
-            "actions": [
-            ],
-            "childCards": [
-            ],
+            "actions": [],
+            "childCards": [],
             "components": {
                 "layer-0": {
                     "children": [
@@ -92,10 +87,8 @@
                                             }
                                         },
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": false
@@ -146,8 +139,7 @@
                                 "container": {
                                     "class": ""
                                 },
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
                                 "margin": [
                                     {
@@ -258,8 +250,7 @@
                                         "type": "bottom"
                                     }
                                 ],
-                                "padding": [
-                                ],
+                                "padding": [],
                                 "size": {
                                     "default": "12",
                                     "isResponsive": false
@@ -316,8 +307,7 @@
                                                 "type": "bottom"
                                             }
                                         ],
-                                        "padding": [
-                                        ],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": false
@@ -395,10 +385,8 @@
                                     }
                                 },
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "4",
                                     "isResponsive": true,
@@ -452,10 +440,8 @@
                                             }
                                         },
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "4",
                                             "isResponsive": true,
@@ -536,10 +522,8 @@
                                     }
                                 },
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "4",
                                     "isResponsive": false
@@ -590,10 +574,8 @@
                                             }
                                         },
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "4",
                                             "isResponsive": false
@@ -618,7 +600,7 @@
                             "property": {
                                 "card": "{card}",
                                 "currency": "USD",
-                                "fieldName": "%vlocity_namespace%__RecurringPrice__c.value",
+                                "fieldName": "vlocity_cmt__RecurringPrice__c.value",
                                 "label": "{Label.Recurring}",
                                 "locale": "en-US",
                                 "placeholder": "",
@@ -670,10 +652,8 @@
                                     }
                                 },
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "4",
                                     "isResponsive": false
@@ -724,10 +704,8 @@
                                             }
                                         },
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "4",
                                             "isResponsive": false
@@ -745,8 +723,7 @@
                             "userUpdatedElementLabel": true
                         },
                         {
-                            "children": [
-                            ],
+                            "children": [],
                             "class": "slds-col ",
                             "element": "block",
                             "elementLabel": "Block-6",
@@ -860,8 +837,7 @@
                                             "isParent": true
                                         },
                                         "displayAsButton": true,
-                                        "flyoutDetails": {
-                                        },
+                                        "flyoutDetails": {},
                                         "hideActionIcon": true,
                                         "iconName": "standard-default",
                                         "label": "\\{Label.CPQAddToCart}",
@@ -945,8 +921,7 @@
                                             "isParent": true
                                         },
                                         "displayAsButton": true,
-                                        "flyoutDetails": {
-                                        },
+                                        "flyoutDetails": {},
                                         "hideActionIcon": true,
                                         "iconName": "standard-default",
                                         "label": "\\{Label.CPQConfigure}",
@@ -1004,8 +979,7 @@
                                 "container": {
                                     "class": ""
                                 },
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
                                 "margin": [
                                     {
@@ -1059,8 +1033,7 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
                                         "margin": [
                                             {
@@ -1095,25 +1068,19 @@
                 }
             },
             "conditions": {
-                "group": [
-                ],
+                "group": [],
                 "id": "state-condition-object",
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Active",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "",
@@ -1133,8 +1100,7 @@
                 "container": {
                     "class": "slds-card cpq__product_details_body"
                 },
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
                 "margin": [
                     {

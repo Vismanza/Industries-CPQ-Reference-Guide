@@ -1,16 +1,12 @@
 {
     "dataSource": {
-        "contextVariables": [
-        ],
-        "orderBy": {
-        },
+        "contextVariables": [],
+        "orderBy": {},
         "type": null,
-        "value": {
-        }
+        "value": {}
     },
     "enableLwc": true,
-    "events": [
-    ],
+    "events": [],
     "globalCSS": false,
     "isFlex": true,
     "lwc": {
@@ -18,16 +14,14 @@
         "Id": "0Rb5g000000QlzyCAC",
         "ManageableState": "unmanaged",
         "MasterLabel": "cfCpqFilterPills_2_Vlocity",
-        "NamespacePrefix": "%vlocity_namespace%"
+        "NamespacePrefix": "vlocity_cmt"
     },
     "multilanguageSupport": true,
     "selectableMode": "Multi",
     "states": [
         {
-            "actions": [
-            ],
-            "childCards": [
-            ],
+            "actions": [],
+            "childCards": [],
             "components": {
                 "layer-0": {
                     "children": [
@@ -66,13 +60,10 @@
                                     "class": "max-100"
                                 },
                                 "customClass": "fit-content pill-text",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "12",
                                     "isResponsive": false
@@ -112,13 +103,10 @@
                                             "class": "max-100"
                                         },
                                         "customClass": "fit-content pill-text",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": false
@@ -189,13 +177,10 @@
                                     "class": ""
                                 },
                                 "customClass": "fit-content",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "1",
                                     "isResponsive": false
@@ -235,13 +220,10 @@
                                             "class": ""
                                         },
                                         "customClass": "fit-content",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "1",
                                             "isResponsive": false
@@ -274,19 +256,14 @@
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Active",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "",
@@ -307,8 +284,7 @@
                     "class": "pill-container"
                 },
                 "customClass": "slds-card slds-m-bottom_x-small slds-m-right_x-small",
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
                 "margin": [
                     {
@@ -317,8 +293,7 @@
                         "type": "right"
                     }
                 ],
-                "padding": [
-                ],
+                "padding": [],
                 "size": {
                     "default": "12",
                     "isResponsive": false,
@@ -335,15 +310,12 @@
             }
         },
         {
-            "actions": [
-            ],
+            "actions": [],
             "blankCardState": false,
-            "childCards": [
-            ],
+            "childCards": [],
             "components": {
                 "layer-0": {
-                    "children": [
-                    ]
+                    "children": []
                 }
             },
             "conditions": {
@@ -359,16 +331,12 @@
                 "id": "state-condition-object",
                 "isParent": true
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Empty State",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "",
@@ -388,13 +356,10 @@
                 "container": {
                     "class": "slds-card"
                 },
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
-                "margin": [
-                ],
-                "padding": [
-                ],
+                "margin": [],
+                "padding": [],
                 "size": {
                     "default": "12",
                     "isResponsive": false

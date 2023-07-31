@@ -3,8 +3,7 @@
         "actions": {
             "nexttranslation": {
                 "client": {
-                    "params": {
-                    }
+                    "params": {}
                 },
                 "remote": {
                     "params": {
@@ -18,175 +17,152 @@
                 "rest": {
                     "link": null,
                     "method": null,
-                    "params": {
-                    }
+                    "params": {}
                 }
             }
         },
         "records": [
             {
-                "%vlocity_namespace%__AssetReferenceId__c": {
-                    "actions": {
-                    },
+                "vlocity_cmt__AssetReferenceId__c": {
+                    "actions": {},
                     "alternateValues": null,
                     "dataType": "STRING",
                     "editable": false,
-                    "fieldName": "%vlocity_namespace%__AssetReferenceId__c",
+                    "fieldName": "vlocity_cmt__AssetReferenceId__c",
                     "hidden": true,
                     "label": "Asset Reference Id",
-                    "messages": [
-                    ],
+                    "messages": [],
                     "originalValue": null,
                     "previousValue": null,
                     "value": "20f55687-4866-29ee-d1d2-039c8d58f41a"
                 },
-                "%vlocity_namespace%__LineNumber__c": {
-                    "actions": {
-                    },
+                "vlocity_cmt__LineNumber__c": {
+                    "actions": {},
                     "alternateValues": null,
                     "dataType": "STRING",
                     "editable": false,
-                    "fieldName": "%vlocity_namespace%__LineNumber__c",
+                    "fieldName": "vlocity_cmt__LineNumber__c",
                     "hidden": true,
                     "label": "Line Number",
-                    "messages": [
-                    ],
+                    "messages": [],
                     "originalValue": null,
                     "previousValue": null,
                     "value": "0001"
                 },
-                "%vlocity_namespace%__OneTimeCharge__c": {
-                    "actions": {
-                    },
+                "vlocity_cmt__OneTimeCharge__c": {
+                    "actions": {},
                     "alternateValues": null,
                     "dataType": "CURRENCY",
                     "editable": false,
-                    "fieldName": "%vlocity_namespace%__OneTimeCharge__c",
+                    "fieldName": "vlocity_cmt__OneTimeCharge__c",
                     "hidden": true,
                     "label": "One Time Charge",
-                    "messages": [
-                    ],
+                    "messages": [],
                     "originalValue": null,
                     "previousValue": null,
                     "value": 100
                 },
-                "%vlocity_namespace%__OneTimeTotal__c": {
-                    "actions": {
-                    },
+                "vlocity_cmt__OneTimeTotal__c": {
+                    "actions": {},
                     "alternateValues": null,
                     "dataType": "CURRENCY",
                     "editable": false,
-                    "fieldName": "%vlocity_namespace%__OneTimeTotal__c",
+                    "fieldName": "vlocity_cmt__OneTimeTotal__c",
                     "hidden": true,
                     "label": "One Time Total",
-                    "messages": [
-                    ],
+                    "messages": [],
                     "originalValue": null,
                     "previousValue": null,
                     "value": 300
                 },
-                "%vlocity_namespace%__RootItemId__c": {
-                    "actions": {
-                    },
+                "vlocity_cmt__RootItemId__c": {
+                    "actions": {},
                     "alternateValues": null,
                     "dataType": "STRING",
                     "editable": false,
-                    "fieldName": "%vlocity_namespace%__RootItemId__c",
+                    "fieldName": "vlocity_cmt__RootItemId__c",
                     "hidden": true,
                     "label": "RootItemId",
-                    "messages": [
-                    ],
+                    "messages": [],
                     "originalValue": null,
                     "previousValue": null,
                     "value": "20f55687-4866-29ee-d1d2-039c8d58f41a"
                 },
-                "%vlocity_namespace%__SequenceNumber__c": {
-                    "actions": {
-                    },
+                "vlocity_cmt__SequenceNumber__c": {
+                    "actions": {},
                     "alternateValues": null,
                     "dataType": "DOUBLE",
                     "editable": false,
-                    "fieldName": "%vlocity_namespace%__SequenceNumber__c",
+                    "fieldName": "vlocity_cmt__SequenceNumber__c",
                     "hidden": true,
                     "label": "Sequence Number",
-                    "messages": [
-                    ],
+                    "messages": [],
                     "originalValue": null,
                     "previousValue": null,
                     "value": 1
                 },
                 "AccountId": {
-                    "actions": {
-                    },
+                    "actions": {},
                     "alternateValues": null,
                     "dataType": "REFERENCE",
                     "editable": false,
                     "fieldName": "AccountId",
                     "hidden": false,
                     "label": "Account ID",
-                    "messages": [
-                    ],
+                    "messages": [],
                     "originalValue": null,
                     "previousValue": null,
                     "value": "0015g000005FnCIAA0"
                 },
                 "CreatedById": {
-                    "actions": {
-                    },
+                    "actions": {},
                     "alternateValues": null,
                     "dataType": "REFERENCE",
                     "editable": false,
                     "fieldName": "CreatedById",
                     "hidden": false,
                     "label": "Created By ID",
-                    "messages": [
-                    ],
+                    "messages": [],
                     "originalValue": null,
                     "previousValue": null,
                     "value": "0055g0000048hxfAAA"
                 },
                 "CreatedDate": {
-                    "actions": {
-                    },
+                    "actions": {},
                     "alternateValues": null,
                     "dataType": "DATETIME",
                     "editable": false,
                     "fieldName": "CreatedDate",
                     "hidden": true,
                     "label": "Created Date",
-                    "messages": [
-                    ],
+                    "messages": [],
                     "originalValue": null,
                     "previousValue": null,
                     "value": "2021-04-12T06:31:04.000Z"
                 },
                 "Id": {
-                    "actions": {
-                    },
+                    "actions": {},
                     "alternateValues": null,
                     "dataType": "ID",
                     "editable": false,
                     "fieldName": "Id",
                     "hidden": true,
                     "label": "Asset ID",
-                    "messages": [
-                    ],
+                    "messages": [],
                     "originalValue": null,
                     "previousValue": null,
                     "value": "02i5g000000993OAAQ"
                 },
                 "Name": "test root",
                 "Quantity": {
-                    "actions": {
-                    },
+                    "actions": {},
                     "alternateValues": null,
                     "dataType": "DOUBLE",
                     "editable": false,
                     "fieldName": "Quantity",
                     "hidden": true,
                     "label": "Quantity",
-                    "messages": [
-                    ],
+                    "messages": [],
                     "originalValue": null,
                     "previousValue": null,
                     "value": 1
@@ -194,183 +170,159 @@
                 "childAssets": {
                     "records": [
                         {
-                            "%vlocity_namespace%__AssetReferenceId__c": {
-                                "actions": {
-                                },
+                            "vlocity_cmt__AssetReferenceId__c": {
+                                "actions": {},
                                 "alternateValues": null,
                                 "dataType": "STRING",
                                 "editable": false,
-                                "fieldName": "%vlocity_namespace%__AssetReferenceId__c",
+                                "fieldName": "vlocity_cmt__AssetReferenceId__c",
                                 "hidden": true,
                                 "label": "Asset Reference Id",
-                                "messages": [
-                                ],
+                                "messages": [],
                                 "originalValue": null,
                                 "previousValue": null,
                                 "value": "98ebe022-cc1f-5aa1-effc-245ba600d464"
                             },
-                            "%vlocity_namespace%__LineNumber__c": {
-                                "actions": {
-                                },
+                            "vlocity_cmt__LineNumber__c": {
+                                "actions": {},
                                 "alternateValues": null,
                                 "dataType": "STRING",
                                 "editable": false,
-                                "fieldName": "%vlocity_namespace%__LineNumber__c",
+                                "fieldName": "vlocity_cmt__LineNumber__c",
                                 "hidden": true,
                                 "label": "Line Number",
-                                "messages": [
-                                ],
+                                "messages": [],
                                 "originalValue": null,
                                 "previousValue": null,
                                 "value": "0001.0001"
                             },
-                            "%vlocity_namespace%__OneTimeCharge__c": {
-                                "actions": {
-                                },
+                            "vlocity_cmt__OneTimeCharge__c": {
+                                "actions": {},
                                 "alternateValues": null,
                                 "dataType": "CURRENCY",
                                 "editable": false,
-                                "fieldName": "%vlocity_namespace%__OneTimeCharge__c",
+                                "fieldName": "vlocity_cmt__OneTimeCharge__c",
                                 "hidden": true,
                                 "label": "One Time Charge",
-                                "messages": [
-                                ],
+                                "messages": [],
                                 "originalValue": null,
                                 "previousValue": null,
                                 "value": 100
                             },
-                            "%vlocity_namespace%__OneTimeTotal__c": {
-                                "actions": {
-                                },
+                            "vlocity_cmt__OneTimeTotal__c": {
+                                "actions": {},
                                 "alternateValues": null,
                                 "dataType": "CURRENCY",
                                 "editable": false,
-                                "fieldName": "%vlocity_namespace%__OneTimeTotal__c",
+                                "fieldName": "vlocity_cmt__OneTimeTotal__c",
                                 "hidden": true,
                                 "label": "One Time Total",
-                                "messages": [
-                                ],
+                                "messages": [],
                                 "originalValue": null,
                                 "previousValue": null,
                                 "value": 200
                             },
-                            "%vlocity_namespace%__ParentItemId__c": {
-                                "actions": {
-                                },
+                            "vlocity_cmt__ParentItemId__c": {
+                                "actions": {},
                                 "alternateValues": null,
                                 "dataType": "STRING",
                                 "editable": false,
-                                "fieldName": "%vlocity_namespace%__ParentItemId__c",
+                                "fieldName": "vlocity_cmt__ParentItemId__c",
                                 "hidden": true,
                                 "label": "ParentItemId",
-                                "messages": [
-                                ],
+                                "messages": [],
                                 "originalValue": null,
                                 "previousValue": null,
                                 "value": "20f55687-4866-29ee-d1d2-039c8d58f41a"
                             },
-                            "%vlocity_namespace%__RootItemId__c": {
-                                "actions": {
-                                },
+                            "vlocity_cmt__RootItemId__c": {
+                                "actions": {},
                                 "alternateValues": null,
                                 "dataType": "STRING",
                                 "editable": false,
-                                "fieldName": "%vlocity_namespace%__RootItemId__c",
+                                "fieldName": "vlocity_cmt__RootItemId__c",
                                 "hidden": true,
                                 "label": "RootItemId",
-                                "messages": [
-                                ],
+                                "messages": [],
                                 "originalValue": null,
                                 "previousValue": null,
                                 "value": "20f55687-4866-29ee-d1d2-039c8d58f41a"
                             },
-                            "%vlocity_namespace%__SequenceNumber__c": {
-                                "actions": {
-                                },
+                            "vlocity_cmt__SequenceNumber__c": {
+                                "actions": {},
                                 "alternateValues": null,
                                 "dataType": "DOUBLE",
                                 "editable": false,
-                                "fieldName": "%vlocity_namespace%__SequenceNumber__c",
+                                "fieldName": "vlocity_cmt__SequenceNumber__c",
                                 "hidden": true,
                                 "label": "Sequence Number",
-                                "messages": [
-                                ],
+                                "messages": [],
                                 "originalValue": null,
                                 "previousValue": null,
                                 "value": 1
                             },
                             "AccountId": {
-                                "actions": {
-                                },
+                                "actions": {},
                                 "alternateValues": null,
                                 "dataType": "REFERENCE",
                                 "editable": false,
                                 "fieldName": "AccountId",
                                 "hidden": false,
                                 "label": "Account ID",
-                                "messages": [
-                                ],
+                                "messages": [],
                                 "originalValue": null,
                                 "previousValue": null,
                                 "value": "0015g000005FnCIAA0"
                             },
                             "CreatedById": {
-                                "actions": {
-                                },
+                                "actions": {},
                                 "alternateValues": null,
                                 "dataType": "REFERENCE",
                                 "editable": false,
                                 "fieldName": "CreatedById",
                                 "hidden": false,
                                 "label": "Created By ID",
-                                "messages": [
-                                ],
+                                "messages": [],
                                 "originalValue": null,
                                 "previousValue": null,
                                 "value": "0055g0000048hxfAAA"
                             },
                             "CreatedDate": {
-                                "actions": {
-                                },
+                                "actions": {},
                                 "alternateValues": null,
                                 "dataType": "DATETIME",
                                 "editable": false,
                                 "fieldName": "CreatedDate",
                                 "hidden": true,
                                 "label": "Created Date",
-                                "messages": [
-                                ],
+                                "messages": [],
                                 "originalValue": null,
                                 "previousValue": null,
                                 "value": "2021-04-12T06:31:04.000Z"
                             },
                             "Id": {
-                                "actions": {
-                                },
+                                "actions": {},
                                 "alternateValues": null,
                                 "dataType": "ID",
                                 "editable": false,
                                 "fieldName": "Id",
                                 "hidden": true,
                                 "label": "Asset ID",
-                                "messages": [
-                                ],
+                                "messages": [],
                                 "originalValue": null,
                                 "previousValue": null,
                                 "value": "02i5g000000993PAAQ"
                             },
                             "Name": "test c 1",
                             "Quantity": {
-                                "actions": {
-                                },
+                                "actions": {},
                                 "alternateValues": null,
                                 "dataType": "DOUBLE",
                                 "editable": false,
                                 "fieldName": "Quantity",
                                 "hidden": true,
                                 "label": "Quantity",
-                                "messages": [
-                                ],
+                                "messages": [],
                                 "originalValue": null,
                                 "previousValue": null,
                                 "value": 1

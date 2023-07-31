@@ -1,6 +1,6 @@
 {
     "AuthorName": "Vlocity",
-    "%vlocity_namespace%__CardType__c": "flex",
+    "vlocity_cmt__CardType__c": "flex",
     "DataSourceConfig": {
         "contextVariables": [
             {
@@ -29,10 +29,10 @@
     "Description": "",
     "OmniUiCardKey": "cpqTimePlan/Vlocity/1/1622647429124",
     "OmniUiCardType": "Child",
-    "%vlocity_namespace%__ParentID__c": "cpqListOfValues/Vlocity/1/1622644343463",
+    "vlocity_cmt__ParentID__c": "cpqListOfValues/Vlocity/1/1622644343463",
     "SampleDataSourceResponse": "{\"totalSize\":2,\"records\":[{\"displaySequence\":-1,\"listkey\":\"TimePlans\",\"listvalues\":[{\"uiStates\":{},\"nameResult\":{},\"messages\":[],\"fields\":{\"valuekey\":\"a3g5g000000XgQ3AAK\",\"label\":\"1MTP\"},\"displaySequence\":-1,\"actions\":{}}]},{\"displaySequence\":-1,\"listkey\":\"TimePolicies\",\"listvalues\":[{\"uiStates\":{},\"nameResult\":{},\"messages\":[],\"fields\":{\"valuekey\":\"a3h5g000000XfxcAAC\",\"label\":\"Default Purchase Date To End of Plan Duration\"},\"displaySequence\":-1,\"actions\":{}}]}],\"options\":{\"AdjustmentCodes\":\"\",\"TimePlans\":[{\"value\":\"a3g5g000000XgQ3AAK\",\"label\":\"1MTP\"}],\"TimePolicies\":[{\"value\":\"a3h5g000000XfxcAAC\",\"label\":\"Default Purchase Date To End of Plan Duration\"}]}}",
     "StylingConfiguration": "",
-    "%vlocity_namespace%__Type__c": "",
+    "vlocity_cmt__Type__c": "",
     "VersionNumber": 1,
     "Name": "cpqTimePlan",
     "VlocityDataPackType": "SObject",

@@ -1,26 +1,26 @@
 {
-    "%vlocity_namespace%__Active__c": true,
-    "%vlocity_namespace%__OmniScriptId__c": {
+    "vlocity_cmt__Active__c": true,
+    "vlocity_cmt__OmniScriptId__c": {
         "Name": "Get Group Level Consolidated Data",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/CPQ/GetGroupLevelConsolidatedData/Procedure",
-        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        "VlocityMatchingRecordSourceKey": "vlocity_cmt__OmniScript__c/CPQ/GetGroupLevelConsolidatedData/Procedure",
+        "VlocityRecordSObjectType": "vlocity_cmt__OmniScript__c"
     },
-    "%vlocity_namespace%__ParentElementId__c": {
-        "%vlocity_namespace%__OmniScriptId__c": {
+    "vlocity_cmt__ParentElementId__c": {
+        "vlocity_cmt__OmniScriptId__c": {
             "Name": "Get Group Level Consolidated Data",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
-            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/CPQ/GetGroupLevelConsolidatedData/Procedure",
-            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+            "VlocityMatchingRecordSourceKey": "vlocity_cmt__OmniScript__c/CPQ/GetGroupLevelConsolidatedData/Procedure",
+            "VlocityRecordSObjectType": "vlocity_cmt__OmniScript__c"
         },
         "Name": "GetAssetsInfoForGroups",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/CPQ/GetGroupLevelConsolidatedData/Procedure/GetAssetsInfoForGroups",
-        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+        "VlocityMatchingRecordSourceKey": "vlocity_cmt__Element__c/vlocity_cmt__OmniScript__c/CPQ/GetGroupLevelConsolidatedData/Procedure/GetAssetsInfoForGroups",
+        "VlocityRecordSObjectType": "vlocity_cmt__Element__c"
     },
-    "%vlocity_namespace%__ParentElementName__c": "GetAssetsInfoForGroups",
-    "%vlocity_namespace%__ParentElementType__c": "Loop Block",
-    "%vlocity_namespace%__PropertySet__c": {
+    "vlocity_cmt__ParentElementName__c": "GetAssetsInfoForGroups",
+    "vlocity_cmt__ParentElementType__c": "Loop Block",
+    "vlocity_cmt__PropertySet__c": {
         "actionMessage": "",
         "additionalInput": {
             "additionalData:cartId": "%cartId%",
@@ -41,12 +41,10 @@
         "executionConditionalFormula": "",
         "failOnStepError": true,
         "failureConditionalFormula": "",
-        "failureResponse": {
-        },
+        "failureResponse": {},
         "integrationProcedureKey": "CPQ_GetAssetsFromGroupCart",
         "label": "IntegrationProcedureAction1",
-        "remoteOptions": {
-        },
+        "remoteOptions": {},
         "responseJSONNode": "",
         "responseJSONPath": "",
         "returnOnlyAdditionalOutput": true,
@@ -57,10 +55,10 @@
         "show": null,
         "useFormulas": true
     },
-    "%vlocity_namespace%__ReusableOmniScript__c": false,
-    "%vlocity_namespace%__Type__c": "Integration Procedure Action",
+    "vlocity_cmt__ReusableOmniScript__c": false,
+    "vlocity_cmt__Type__c": "Integration Procedure Action",
     "Name": "GetAssetsFromGroupCart",
     "VlocityDataPackType": "SObject",
-    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
-    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/CPQ/GetGroupLevelConsolidatedData/Procedure/GetAssetsFromGroupCart"
+    "VlocityRecordSObjectType": "vlocity_cmt__Element__c",
+    "VlocityRecordSourceKey": "vlocity_cmt__Element__c/vlocity_cmt__OmniScript__c/CPQ/GetGroupLevelConsolidatedData/Procedure/GetAssetsFromGroupCart"
 }

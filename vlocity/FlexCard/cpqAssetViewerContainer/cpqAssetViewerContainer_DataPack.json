@@ -1,6 +1,6 @@
 {
     "AuthorName": "Vlocity",
-    "%vlocity_namespace%__CardType__c": "flex",
+    "vlocity_cmt__CardType__c": "flex",
     "DataSourceConfig": {
         "contextVariables": [
             {
@@ -39,10 +39,10 @@
     "Description": "",
     "OmniUiCardKey": "cpqAssetViewerContainer/Vlocity/8/1647249377313",
     "OmniUiCardType": "Child",
-    "%vlocity_namespace%__ParentID__c": "CPQAssetViewerContainerFinal/Vlocity/1/1622634159943",
+    "vlocity_cmt__ParentID__c": "CPQAssetViewerContainerFinal/Vlocity/1/1622634159943",
     "SampleDataSourceResponse": "{}",
-    "StylingConfiguration": "{\"customStyles\":\"\\n.select-an-action .slds-modal__container {\\n    text-align: left;\\n    width: 50%; \\n}\\n.select-an-action .slds-modal__content, .slds-p-around_medium {\\n    text-align: left;\\n}\\n.select-an-action .slds-dropdown__list {\\n    text-align: left !important;\\n}\\n.asset-viewer-search  .%vlocity_namespace%-modal_modal_slds {\\n    width: 50%;\\n}\\n\\n.cpq__asset-viewer_header-right {\\n    width: auto;\\n    margin-left: auto;\\n    margin-right: 0;\\n}\\n.cpq__asset-viewer_viewby-text, .cpq__asset-viewer_search-button,\\n.cpq__asset-viewer_action-button {\\n    width: auto;\\n}\\n.cpq__asset-viewer_search {\\n    min-width: 20rem;\\n    text-align: left;\\n}\\n\\n@media only screen and (max-width: 768px) {\\n    .cpq__asset-viewer_header-right, .cpq__asset-viewer_viewby-text,\\n    .cpq__asset-viewer_search-button, .cpq__asset-viewer_action-button {\\n        width: fit-content;\\n    }\\n    .cpq__asset-viewer_search {\\n        min-width: fit-content;\\n    }\\n}\"}",
-    "%vlocity_namespace%__Type__c": "",
+    "StylingConfiguration": "{\"customStyles\":\"\\n.select-an-action .slds-modal__container {\\n    text-align: left;\\n    width: 50%; \\n}\\n.select-an-action .slds-modal__content, .slds-p-around_medium {\\n    text-align: left;\\n}\\n.select-an-action .slds-dropdown__list {\\n    text-align: left !important;\\n}\\n.asset-viewer-search  .vlocity_cmt-modal_modal_slds {\\n    width: 50%;\\n}\\n\\n.cpq__asset-viewer_header-right {\\n    width: auto;\\n    margin-left: auto;\\n    margin-right: 0;\\n}\\n.cpq__asset-viewer_viewby-text, .cpq__asset-viewer_search-button,\\n.cpq__asset-viewer_action-button {\\n    width: auto;\\n}\\n.cpq__asset-viewer_search {\\n    min-width: 20rem;\\n    text-align: left;\\n}\\n\\n@media only screen and (max-width: 768px) {\\n    .cpq__asset-viewer_header-right, .cpq__asset-viewer_viewby-text,\\n    .cpq__asset-viewer_search-button, .cpq__asset-viewer_action-button {\\n        width: fit-content;\\n    }\\n    .cpq__asset-viewer_search {\\n        min-width: fit-content;\\n    }\\n}\"}",
+    "vlocity_cmt__Type__c": "",
     "VersionNumber": 3,
     "Name": "cpqAssetViewerContainer",
     "VlocityDataPackType": "SObject",

@@ -1,7 +1,6 @@
 {
     "dataSource": {
-        "contextVariables": [
-        ],
+        "contextVariables": [],
         "orderBy": {
             "isReverse": "",
             "name": ""
@@ -171,7 +170,7 @@
         "Id": "0Rb5e000002ERJSCA4",
         "ManageableState": "unmanaged",
         "MasterLabel": "cfCpqSubmitButtonHeader_2_Vlocity",
-        "NamespacePrefix": "%vlocity_namespace%"
+        "NamespacePrefix": "vlocity_cmt"
     },
     "multilanguageSupport": true,
     "sessionVars": [
@@ -186,10 +185,8 @@
     ],
     "states": [
         {
-            "actions": [
-            ],
-            "childCards": [
-            ],
+            "actions": [],
+            "childCards": [],
             "components": {
                 "layer-0": {
                     "children": [
@@ -237,7 +234,7 @@
                                         "record": "{record}",
                                         "stateAction": {
                                             "Web Page": {
-                                                "targetName": "/lightning/cmp/%vlocity_namespace%__vlocityLWCOmniWrapper?c__target=c:lWCCPQAmendOrderMultiLanguage&c__layout=lightning&c__tabIcon=custom:custom18&- &c__ContextId={Id}&c__tabLabel=Amend Order"
+                                                "targetName": "/lightning/cmp/vlocity_cmt__vlocityLWCOmniWrapper?c__target=c:lWCCPQAmendOrderMultiLanguage&c__layout=lightning&c__tabIcon=custom:custom18&- &c__ContextId={Id}&c__tabLabel=Amend Order"
                                             },
                                             "displayName": "{Label.CPQAmend}",
                                             "hasExtraParams": false,
@@ -300,8 +297,7 @@
                                     "isParent": true
                                 },
                                 "displayAsButton": true,
-                                "flyoutDetails": {
-                                },
+                                "flyoutDetails": {},
                                 "hideActionIcon": true,
                                 "iconName": "standard-default",
                                 "label": "\\{Label.CPQAmend}",
@@ -334,8 +330,7 @@
                                     "class": ""
                                 },
                                 "customClass": "cpq__global-header_order__amend-order custom-btn",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
                                 "margin": [
                                     {
@@ -344,8 +339,7 @@
                                         "type": "right"
                                     }
                                 ],
-                                "padding": [
-                                ],
+                                "padding": [],
                                 "size": {
                                     "default": "2",
                                     "isResponsive": false
@@ -385,8 +379,7 @@
                                             "class": ""
                                         },
                                         "customClass": "cpq__global-header_order__amend-order custom-btn",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
                                         "margin": [
                                             {
@@ -395,8 +388,7 @@
                                                 "type": "right"
                                             }
                                         ],
-                                        "padding": [
-                                        ],
+                                        "padding": [],
                                         "size": {
                                             "default": "2",
                                             "isResponsive": false
@@ -477,7 +469,7 @@
                                         "record": "{record}",
                                         "stateAction": {
                                             "Web Page": {
-                                                "targetName": "/lightning/cmp/%vlocity_namespace%__vlocityLWCOmniWrapper?c__target=c:cPQSubmitOrderMultiLanguage&c__layout=lightning&c__tabIcon=custom:custom18&c__cartId={Id}&c__tabLabel=Submit Order"
+                                                "targetName": "/lightning/cmp/vlocity_cmt__vlocityLWCOmniWrapper?c__target=c:cPQSubmitOrderMultiLanguage&c__layout=lightning&c__tabIcon=custom:custom18&c__cartId={Id}&c__tabLabel=Submit Order"
                                             },
                                             "displayName": "{Label.CPQCreateAssets}",
                                             "hasExtraParams": true,
@@ -570,8 +562,7 @@
                                     "isParent": true
                                 },
                                 "displayAsButton": true,
-                                "flyoutDetails": {
-                                },
+                                "flyoutDetails": {},
                                 "hideActionIcon": true,
                                 "iconName": "standard-default",
                                 "label": "{Label.CPQCreateAssets}",
@@ -604,8 +595,7 @@
                                     "class": ""
                                 },
                                 "customClass": "cpq__global-header_order__submit-order custom-btn",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
                                 "margin": [
                                     {
@@ -614,8 +604,7 @@
                                         "type": "right"
                                     }
                                 ],
-                                "padding": [
-                                ],
+                                "padding": [],
                                 "size": {
                                     "default": "2",
                                     "isResponsive": false
@@ -655,8 +644,7 @@
                                             "class": ""
                                         },
                                         "customClass": "cpq__global-header_order__submit-order custom-btn",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
                                         "margin": [
                                             {
@@ -665,8 +653,7 @@
                                                 "type": "right"
                                             }
                                         ],
-                                        "padding": [
-                                        ],
+                                        "padding": [],
                                         "size": {
                                             "default": "2",
                                             "isResponsive": false
@@ -751,7 +738,7 @@
                                         "record": "{record}",
                                         "stateAction": {
                                             "Web Page": {
-                                                "targetName": "/lightning/cmp/%vlocity_namespace%__vlocityLWCOmniWrapper?c__target=%vlocity_namespace%:cPQSplitAndSubmitOrderEnglish&c__layout=lightning&c__tabIcon=custom:custom18&c__cartId={Id}"
+                                                "targetName": "/lightning/cmp/vlocity_cmt__vlocityLWCOmniWrapper?c__target=vlocity_cmt:cPQSplitAndSubmitOrderEnglish&c__layout=lightning&c__tabIcon=custom:custom18&c__cartId={Id}"
                                             },
                                             "displayName": "{Label.CPQSplitAndSubmit}",
                                             "hasExtraParams": true,
@@ -885,8 +872,7 @@
                                     "class": ""
                                 },
                                 "customClass": "cpq__global-header_order__submit-order custom-btn",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
                                 "margin": [
                                     {
@@ -895,8 +881,7 @@
                                         "type": "right"
                                     }
                                 ],
-                                "padding": [
-                                ],
+                                "padding": [],
                                 "size": {
                                     "default": "2",
                                     "isResponsive": false
@@ -936,8 +921,7 @@
                                             "class": ""
                                         },
                                         "customClass": "cpq__global-header_order__submit-order custom-btn",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
                                         "margin": [
                                             {
@@ -946,8 +930,7 @@
                                                 "type": "right"
                                             }
                                         ],
-                                        "padding": [
-                                        ],
+                                        "padding": [],
                                         "size": {
                                             "default": "2",
                                             "isResponsive": false
@@ -1058,7 +1041,7 @@
                                         "record": "{record}",
                                         "stateAction": {
                                             "Web Page": {
-                                                "targetName": "/lightning/cmp/%vlocity_namespace%__vlocityLWCOmniWrapper?c__target=c:cPQSubmitOrderMultiLanguage&c__layout=lightning&c__tabIcon=custom:custom18&c__cartId={Id}&c__tabLabel=Submit Order"
+                                                "targetName": "/lightning/cmp/vlocity_cmt__vlocityLWCOmniWrapper?c__target=c:cPQSubmitOrderMultiLanguage&c__layout=lightning&c__tabIcon=custom:custom18&c__cartId={Id}&c__tabLabel=Submit Order"
                                             },
                                             "displayName": "{Label.CPQSubmit}",
                                             "hasExtraParams": true,
@@ -1180,8 +1163,7 @@
                                     "isParent": true
                                 },
                                 "displayAsButton": true,
-                                "flyoutDetails": {
-                                },
+                                "flyoutDetails": {},
                                 "hideActionIcon": true,
                                 "iconName": "standard-default",
                                 "label": "\\{Label.CPQSubmit}",
@@ -1214,8 +1196,7 @@
                                     "class": ""
                                 },
                                 "customClass": "custom-btn",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
                                 "margin": [
                                     {
@@ -1224,8 +1205,7 @@
                                         "type": "right"
                                     }
                                 ],
-                                "padding": [
-                                ],
+                                "padding": [],
                                 "size": {
                                     "default": "2",
                                     "isResponsive": false
@@ -1265,8 +1245,7 @@
                                             "class": ""
                                         },
                                         "customClass": "custom-btn",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
                                         "margin": [
                                             {
@@ -1275,8 +1254,7 @@
                                                 "type": "right"
                                             }
                                         ],
-                                        "padding": [
-                                        ],
+                                        "padding": [],
                                         "size": {
                                             "default": "2",
                                             "isResponsive": false
@@ -1438,11 +1416,9 @@
                                     "class": ""
                                 },
                                 "customClass": "cpq__global-header_order__submit-order incomplete-btn",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
+                                "margin": [],
                                 "padding": [
                                     {
                                         "label": "right:medium",
@@ -1499,11 +1475,9 @@
                                             "class": ""
                                         },
                                         "customClass": "cpq__global-header_order__submit-order incomplete-btn",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "right:medium",
@@ -1570,7 +1544,7 @@
                                         "record": "{record}",
                                         "stateAction": {
                                             "Web Page": {
-                                                "targetName": "/lightning/cmp/%vlocity_namespace%__vlocityLWCOmniWrapper?c__target=c:cPQBulkChangeMultiLanguage&c__layout=lightning&c__cartId={Id}&c__cartType=Order&c__ContextId={AccountId}&c__tabLabel=Bulk Change&c__source=CPQApp"
+                                                "targetName": "/lightning/cmp/vlocity_cmt__vlocityLWCOmniWrapper?c__target=c:cPQBulkChangeMultiLanguage&c__layout=lightning&c__cartId={Id}&c__cartType=Order&c__ContextId={AccountId}&c__tabLabel=Bulk Change&c__source=CPQApp"
                                             },
                                             "displayName": "{Label.CPQSelectBundleForBulkChange}",
                                             "hasExtraParams": true,
@@ -1600,8 +1574,7 @@
                                     "isParent": true
                                 },
                                 "displayAsButton": true,
-                                "flyoutDetails": {
-                                },
+                                "flyoutDetails": {},
                                 "hideActionIcon": true,
                                 "iconName": "standard-default",
                                 "label": "{Label.CPQSelectBundleForBulkChange}",
@@ -1634,8 +1607,7 @@
                                     "class": ""
                                 },
                                 "customClass": "custom-btn",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
                                 "margin": [
                                     {
@@ -1644,8 +1616,7 @@
                                         "type": "right"
                                     }
                                 ],
-                                "padding": [
-                                ],
+                                "padding": [],
                                 "size": {
                                     "default": "3",
                                     "isResponsive": false
@@ -1685,8 +1656,7 @@
                                             "class": ""
                                         },
                                         "customClass": "custom-btn",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
                                         "margin": [
                                             {
@@ -1695,8 +1665,7 @@
                                                 "type": "right"
                                             }
                                         ],
-                                        "padding": [
-                                        ],
+                                        "padding": [],
                                         "size": {
                                             "default": "3",
                                             "isResponsive": false
@@ -1739,7 +1708,7 @@
                                 "record": "{record}",
                                 "stateAction": {
                                     "Web Page": {
-                                        "targetName": "/lightning/cmp/%vlocity_namespace%__vlocityLWCOmniWrapper?c__target=c:cPQBulkReplaceMultiLanguage&c__layout=lightning&c__tabIcon=custom:custom18&c__cartId={Id}&c__cartType=Order&c__accountId={AccountId}"
+                                        "targetName": "/lightning/cmp/vlocity_cmt__vlocityLWCOmniWrapper?c__target=c:cPQBulkReplaceMultiLanguage&c__layout=lightning&c__tabIcon=custom:custom18&c__cartId={Id}&c__cartType=Order&c__accountId={AccountId}"
                                     },
                                     "displayName": "{Label.CPQSelectBundleForBulkReplace}",
                                     "hasExtraParams": true,
@@ -1776,8 +1745,7 @@
                                     "class": ""
                                 },
                                 "customClass": "custom-btn",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
                                 "margin": [
                                     {
@@ -1786,8 +1754,7 @@
                                         "type": "right"
                                     }
                                 ],
-                                "padding": [
-                                ],
+                                "padding": [],
                                 "size": {
                                     "default": "3",
                                     "isResponsive": false
@@ -1827,8 +1794,7 @@
                                             "class": ""
                                         },
                                         "customClass": "custom-btn",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
                                         "margin": [
                                             {
@@ -1837,8 +1803,7 @@
                                                 "type": "right"
                                             }
                                         ],
-                                        "padding": [
-                                        ],
+                                        "padding": [],
                                         "size": {
                                             "default": "3",
                                             "isResponsive": false
@@ -1871,19 +1836,14 @@
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Submit Order",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "#F3F2F2",
@@ -1904,13 +1864,10 @@
                     "class": "slds-card "
                 },
                 "customClass": "",
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
-                "margin": [
-                ],
-                "padding": [
-                ],
+                "margin": [],
+                "padding": [],
                 "size": {
                     "default": "12",
                     "isResponsive": false
@@ -1924,10 +1881,8 @@
             }
         },
         {
-            "actions": [
-            ],
-            "childCards": [
-            ],
+            "actions": [],
+            "childCards": [],
             "components": {
                 "layer-0": {
                     "children": [
@@ -1996,7 +1951,7 @@
                                         "record": "{record}",
                                         "stateAction": {
                                             "Web Page": {
-                                                "targetName": "/lightning/cmp/%vlocity_namespace%__vlocityLWCOmniWrapper?c__target=c:cPQCreateOrderMultiLanguage&c__layout=lightning&c__cartId={Id}&c__tabLabel=Create Order"
+                                                "targetName": "/lightning/cmp/vlocity_cmt__vlocityLWCOmniWrapper?c__target=c:cPQCreateOrderMultiLanguage&c__layout=lightning&c__cartId={Id}&c__tabLabel=Create Order"
                                             },
                                             "displayName": "{Label.CPQCreateOrder}",
                                             "hasExtraParams": true,
@@ -2080,8 +2035,7 @@
                                     "isParent": true
                                 },
                                 "displayAsButton": true,
-                                "flyoutDetails": {
-                                },
+                                "flyoutDetails": {},
                                 "hideActionIcon": true,
                                 "iconName": "standard-default",
                                 "label": "{Label.CPQCreateOrder}",
@@ -2114,8 +2068,7 @@
                                     "class": ""
                                 },
                                 "customClass": "cpq__global-header_quote__create-order custom-btn",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
                                 "margin": [
                                     {
@@ -2124,8 +2077,7 @@
                                         "type": "right"
                                     }
                                 ],
-                                "padding": [
-                                ],
+                                "padding": [],
                                 "size": {
                                     "default": "2",
                                     "isResponsive": false
@@ -2165,8 +2117,7 @@
                                             "class": ""
                                         },
                                         "customClass": "cpq__global-header_quote__create-order custom-btn",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
                                         "margin": [
                                             {
@@ -2175,8 +2126,7 @@
                                                 "type": "right"
                                             }
                                         ],
-                                        "padding": [
-                                        ],
+                                        "padding": [],
                                         "size": {
                                             "default": "2",
                                             "isResponsive": false
@@ -2286,7 +2236,7 @@
                                         "record": "{record}",
                                         "stateAction": {
                                             "Web Page": {
-                                                "targetName": "/lightning/cmp/%vlocity_namespace%__vlocityLWCOmniWrapper?c__target=c:cPQCreateOrderMultiLanguage&c__layout=lightning&c__cartId={Id}&c__tabLabel=Create Order"
+                                                "targetName": "/lightning/cmp/vlocity_cmt__vlocityLWCOmniWrapper?c__target=c:cPQCreateOrderMultiLanguage&c__layout=lightning&c__cartId={Id}&c__tabLabel=Create Order"
                                             },
                                             "displayName": "{Label.CPQSubmit}",
                                             "hasExtraParams": true,
@@ -2399,8 +2349,7 @@
                                     "isParent": true
                                 },
                                 "displayAsButton": true,
-                                "flyoutDetails": {
-                                },
+                                "flyoutDetails": {},
                                 "hideActionIcon": true,
                                 "iconName": "standard-default",
                                 "label": "{Label.CPQSubmit}",
@@ -2433,8 +2382,7 @@
                                     "class": ""
                                 },
                                 "customClass": "custom-btn",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
                                 "margin": [
                                     {
@@ -2443,8 +2391,7 @@
                                         "type": "right"
                                     }
                                 ],
-                                "padding": [
-                                ],
+                                "padding": [],
                                 "size": {
                                     "default": "2",
                                     "isResponsive": false
@@ -2595,11 +2542,9 @@
                                     "class": ""
                                 },
                                 "customClass": "cpq__global-header_quote__create-order incomplete-btn",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
+                                "margin": [],
                                 "padding": [
                                     {
                                         "label": "right:medium",
@@ -2656,11 +2601,9 @@
                                             "class": ""
                                         },
                                         "customClass": "cpq__global-header_quote__create-order incomplete-btn",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "right:medium",
@@ -2727,7 +2670,7 @@
                                         "record": "{record}",
                                         "stateAction": {
                                             "Web Page": {
-                                                "targetName": "/lightning/cmp/%vlocity_namespace%__vlocityLWCOmniWrapper?c__target=c:cPQBulkChangeMultiLanguage&c__layout=lightning&c__cartId={Id}&c__cartType=Quote&c__ContextId={AccountId}&c__parentId={OptyId}&c__tabLabel=Bulk Change&c__source=CPQApp"
+                                                "targetName": "/lightning/cmp/vlocity_cmt__vlocityLWCOmniWrapper?c__target=c:cPQBulkChangeMultiLanguage&c__layout=lightning&c__cartId={Id}&c__cartType=Quote&c__ContextId={AccountId}&c__parentId={OptyId}&c__tabLabel=Bulk Change&c__source=CPQApp"
                                             },
                                             "displayName": "{Label.CPQSelectBundleForBulkChange}",
                                             "hasExtraParams": true,
@@ -2757,8 +2700,7 @@
                                     "isParent": true
                                 },
                                 "displayAsButton": true,
-                                "flyoutDetails": {
-                                },
+                                "flyoutDetails": {},
                                 "hideActionIcon": true,
                                 "iconName": "standard-default",
                                 "label": "{Label.CPQSelectBundleForBulkChange}",
@@ -2791,8 +2733,7 @@
                                     "class": ""
                                 },
                                 "customClass": "custom-btn",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
                                 "margin": [
                                     {
@@ -2801,8 +2742,7 @@
                                         "type": "right"
                                     }
                                 ],
-                                "padding": [
-                                ],
+                                "padding": [],
                                 "size": {
                                     "default": "3",
                                     "isResponsive": false
@@ -2842,8 +2782,7 @@
                                             "class": ""
                                         },
                                         "customClass": "custom-btn",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
                                         "margin": [
                                             {
@@ -2852,8 +2791,7 @@
                                                 "type": "right"
                                             }
                                         ],
-                                        "padding": [
-                                        ],
+                                        "padding": [],
                                         "size": {
                                             "default": "3",
                                             "isResponsive": false
@@ -2896,7 +2834,7 @@
                                 "record": "{record}",
                                 "stateAction": {
                                     "Web Page": {
-                                        "targetName": "/lightning/cmp/%vlocity_namespace%__vlocityLWCOmniWrapper?c__target=c:cPQBulkReplaceMultiLanguage&c__layout=lightning&c__tabIcon=custom:custom18&c__cartId={Id}&c__cartType=Quote&c__accountId={AccountId}"
+                                        "targetName": "/lightning/cmp/vlocity_cmt__vlocityLWCOmniWrapper?c__target=c:cPQBulkReplaceMultiLanguage&c__layout=lightning&c__tabIcon=custom:custom18&c__cartId={Id}&c__cartType=Quote&c__accountId={AccountId}"
                                     },
                                     "displayName": "{Label.CPQSelectBundleForBulkReplace}",
                                     "hasExtraParams": true,
@@ -2933,8 +2871,7 @@
                                     "class": ""
                                 },
                                 "customClass": "custom-btn",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
                                 "margin": [
                                     {
@@ -2943,8 +2880,7 @@
                                         "type": "right"
                                     }
                                 ],
-                                "padding": [
-                                ],
+                                "padding": [],
                                 "size": {
                                     "default": "3",
                                     "isResponsive": false
@@ -2984,8 +2920,7 @@
                                             "class": ""
                                         },
                                         "customClass": "custom-btn",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
                                         "margin": [
                                             {
@@ -2994,8 +2929,7 @@
                                                 "type": "right"
                                             }
                                         ],
-                                        "padding": [
-                                        ],
+                                        "padding": [],
                                         "size": {
                                             "default": "3",
                                             "isResponsive": false
@@ -3028,19 +2962,14 @@
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Create Order",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "#F3F2F2",
@@ -3061,13 +2990,10 @@
                     "class": "slds-card "
                 },
                 "customClass": "",
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
-                "margin": [
-                ],
-                "padding": [
-                ],
+                "margin": [],
+                "padding": [],
                 "size": {
                     "default": "12",
                     "isResponsive": false

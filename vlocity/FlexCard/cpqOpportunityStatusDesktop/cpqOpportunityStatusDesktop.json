@@ -1,12 +1,9 @@
 {
     "dataSource": {
-        "contextVariables": [
-        ],
-        "orderBy": {
-        },
+        "contextVariables": [],
+        "orderBy": {},
         "type": null,
-        "value": {
-        }
+        "value": {}
     },
     "dynamicCanvasWidth": {
         "type": "desktop"
@@ -51,17 +48,14 @@
         "Id": "0Rb5g000000Sg1RCAS",
         "ManageableState": "unmanaged",
         "MasterLabel": "cfCpqOpportunityStatusDesktop_2_Vlocity",
-        "NamespacePrefix": "%vlocity_namespace%"
+        "NamespacePrefix": "vlocity_cmt"
     },
     "multilanguageSupport": true,
-    "sessionVars": [
-    ],
+    "sessionVars": [],
     "states": [
         {
-            "actions": [
-            ],
-            "childCards": [
-            ],
+            "actions": [],
+            "childCards": [],
             "components": {
                 "layer-0": {
                     "children": [
@@ -135,13 +129,10 @@
                                     "class": ""
                                 },
                                 "customClass": "custom-btn",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "2",
                                     "isResponsive": false
@@ -168,8 +159,7 @@
                                         "card": "{card}",
                                         "contextId": "\\{Id}",
                                         "data-conditions": {
-                                            "group": [
-                                            ],
+                                            "group": [],
                                             "id": "state-condition-object",
                                             "isParent": true
                                         },
@@ -206,8 +196,7 @@
                                 "card": "{card}",
                                 "contextId": "\\{Id}",
                                 "data-conditions": {
-                                    "group": [
-                                    ],
+                                    "group": [],
                                     "id": "state-condition-object",
                                     "isParent": true
                                 },
@@ -249,13 +238,10 @@
                                     "class": ""
                                 },
                                 "customClass": "custom-btn",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "1",
                                     "isResponsive": false
@@ -670,13 +656,10 @@
                                     "class": "cpq__opportunity-header-desktop-actions"
                                 },
                                 "customClass": "custom-btn",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "1",
                                     "isResponsive": false
@@ -716,13 +699,10 @@
                                             "class": "cpq__opportunity-header-desktop-actions"
                                         },
                                         "customClass": "custom-btn",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "1",
                                             "isResponsive": false
@@ -742,19 +722,15 @@
                 }
             },
             "conditions": {
-                "group": [
-                ],
+                "group": [],
                 "id": "state-condition-object",
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Order Discarded",
             "omniscripts": [
@@ -764,8 +740,7 @@
                     "type": "LWCCPQ"
                 }
             ],
-            "smartAction": {
-            },
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "#F3F2F2",
@@ -786,13 +761,10 @@
                     "class": "slds-card "
                 },
                 "customClass": "",
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
-                "margin": [
-                ],
-                "padding": [
-                ],
+                "margin": [],
+                "padding": [],
                 "size": {
                     "default": "12",
                     "isResponsive": false

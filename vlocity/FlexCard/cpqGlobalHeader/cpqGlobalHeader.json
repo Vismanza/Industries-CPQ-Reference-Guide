@@ -38,8 +38,7 @@
         "type": "desktop"
     },
     "enableLwc": true,
-    "events": [
-    ],
+    "events": [],
     "globalCSS": false,
     "isFlex": true,
     "isRepeatable": true,
@@ -48,7 +47,7 @@
         "Id": "0Rb5g000000SYxrCAG",
         "ManageableState": "unmanaged",
         "MasterLabel": "cfCpqGlobalHeader_6_Vlocity",
-        "NamespacePrefix": "%vlocity_namespace%"
+        "NamespacePrefix": "vlocity_cmt"
     },
     "multilanguageSupport": true,
     "sessionVars": [
@@ -59,8 +58,7 @@
     ],
     "states": [
         {
-            "actions": [
-            ],
+            "actions": [],
             "blankCardState": false,
             "childCards": [
                 "cpqGlobalHeaderOrder"
@@ -114,16 +112,12 @@
                 "id": "state-condition-object",
                 "isParent": true
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Order",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "",
@@ -143,13 +137,10 @@
                 "container": {
                     "class": "slds-card"
                 },
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
-                "margin": [
-                ],
-                "padding": [
-                ],
+                "margin": [],
+                "padding": [],
                 "size": {
                     "default": "12",
                     "isResponsive": false
@@ -163,8 +154,7 @@
             }
         },
         {
-            "actions": [
-            ],
+            "actions": [],
             "blankCardState": false,
             "childCards": [
                 "cpqGlobalHeaderQuote"
@@ -218,16 +208,12 @@
                 "id": "state-condition-object",
                 "isParent": true
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Quote",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "",
@@ -247,13 +233,10 @@
                 "container": {
                     "class": "slds-card"
                 },
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
-                "margin": [
-                ],
-                "padding": [
-                ],
+                "margin": [],
+                "padding": [],
                 "size": {
                     "default": "12",
                     "isResponsive": false
@@ -267,8 +250,7 @@
             }
         },
         {
-            "actions": [
-            ],
+            "actions": [],
             "blankCardState": false,
             "childCards": [
                 "cpqGlobalHeaderOpportunity"
@@ -319,16 +301,12 @@
                 "id": "state-condition-object",
                 "isParent": true
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Opportunity",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "class": "slds-card slds-p-around_x-small slds-m-bottom_x-small",
                 "container": {
@@ -354,11 +332,9 @@
             }
         },
         {
-            "actions": [
-            ],
+            "actions": [],
             "blankCardState": false,
-            "childCards": [
-            ],
+            "childCards": [],
             "components": {
                 "layer-0": {
                     "children": [
@@ -398,16 +374,12 @@
                 "id": "state-condition-object",
                 "isParent": true
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Error State",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "class": "slds-card slds-p-around_x-small slds-m-bottom_x-small",
                 "container": {

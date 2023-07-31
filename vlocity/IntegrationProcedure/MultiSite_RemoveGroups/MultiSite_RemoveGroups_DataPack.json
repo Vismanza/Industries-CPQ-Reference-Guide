@@ -1,24 +1,24 @@
 {
-    "%vlocity_namespace%__CustomJavaScript__c": "MultiSite_RemoveGroups_SampleInput.json",
-    "%vlocity_namespace%__DisableMetadataCache__c": false,
-    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
-    "%vlocity_namespace%__Element__c": [
+    "vlocity_cmt__CustomJavaScript__c": "MultiSite_RemoveGroups_SampleInput.json",
+    "vlocity_cmt__DisableMetadataCache__c": false,
+    "vlocity_cmt__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "vlocity_cmt__Element__c": [
         "MultiSite_RemoveGroups_Element_RemoveGroupsInput.json",
         "MultiSite_RemoveGroups_Element_ApexRemoteCall.json",
         "MultiSite_RemoveGroups_Element_RemoteCallResponse.json"
     ],
-    "%vlocity_namespace%__IsLwcEnabled__c": false,
-    "%vlocity_namespace%__IsProcedure__c": true,
-    "%vlocity_namespace%__IsReusable__c": false,
-    "%vlocity_namespace%__IsTest__c": false,
-    "%vlocity_namespace%__Language__c": "Procedure",
-    "%vlocity_namespace%__OmniProcessType__c": "Integration Procedure",
-    "%vlocity_namespace%__ProcedureKey__c": "MultiSite_RemoveGroups",
-    "%vlocity_namespace%__PropertySet__c": "MultiSite_RemoveGroups_PropertySet.json",
-    "%vlocity_namespace%__SubType__c": "RemoveGroups",
-    "%vlocity_namespace%__Type__c": "MultiSite",
+    "vlocity_cmt__IsLwcEnabled__c": false,
+    "vlocity_cmt__IsProcedure__c": true,
+    "vlocity_cmt__IsReusable__c": false,
+    "vlocity_cmt__IsTest__c": false,
+    "vlocity_cmt__Language__c": "Procedure",
+    "vlocity_cmt__OmniProcessType__c": "Integration Procedure",
+    "vlocity_cmt__ProcedureKey__c": "MultiSite_RemoveGroups",
+    "vlocity_cmt__PropertySet__c": "MultiSite_RemoveGroups_PropertySet.json",
+    "vlocity_cmt__SubType__c": "RemoveGroups",
+    "vlocity_cmt__Type__c": "MultiSite",
     "Name": "MultiSiteRemoveGroups",
     "VlocityDataPackType": "SObject",
-    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
-    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/MultiSite/RemoveGroups/Procedure"
+    "VlocityRecordSObjectType": "vlocity_cmt__OmniScript__c",
+    "VlocityRecordSourceKey": "vlocity_cmt__OmniScript__c/MultiSite/RemoveGroups/Procedure"
 }

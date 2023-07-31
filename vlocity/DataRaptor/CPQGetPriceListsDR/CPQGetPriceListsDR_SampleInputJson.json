@@ -6,15 +6,14 @@
             "actions": {
                 "setpricelist": {
                     "client": {
-                        "params": {
-                        }
+                        "params": {}
                     },
                     "remote": {
                         "params": {
                             "cartId": "801RN000000FcW9YAK",
                             "inputFields": [
                                 {
-                                    "%vlocity_namespace%__PriceListId__c": "a3GRN0000000EI32AM"
+                                    "vlocity_cmt__PriceListId__c": "a3GRN0000000EI32AM"
                                 }
                             ],
                             "methodName": "updateCarts"
@@ -23,8 +22,7 @@
                     "rest": {
                         "link": null,
                         "method": null,
-                        "params": {
-                        }
+                        "params": {}
                     }
                 }
             },
@@ -36,15 +34,14 @@
             "actions": {
                 "setpricelist": {
                     "client": {
-                        "params": {
-                        }
+                        "params": {}
                     },
                     "remote": {
                         "params": {
                             "cartId": "801RN000000FcW9YAK",
                             "inputFields": [
                                 {
-                                    "%vlocity_namespace%__PriceListId__c": "a3GRN0000000EI32AM"
+                                    "vlocity_cmt__PriceListId__c": "a3GRN0000000EI32AM"
                                 }
                             ],
                             "methodName": "updateCarts"
@@ -53,8 +50,7 @@
                     "rest": {
                         "link": null,
                         "method": null,
-                        "params": {
-                        }
+                        "params": {}
                     }
                 }
             },

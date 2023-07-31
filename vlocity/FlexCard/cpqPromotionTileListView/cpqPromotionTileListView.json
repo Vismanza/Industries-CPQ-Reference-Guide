@@ -1,7 +1,6 @@
 {
     "dataSource": {
-        "contextVariables": [
-        ],
+        "contextVariables": [],
         "orderBy": {
             "isReverse": false,
             "name": ""
@@ -17,8 +16,7 @@
         "type": "desktop"
     },
     "enableLwc": true,
-    "events": [
-    ],
+    "events": [],
     "globalCSS": false,
     "isFlex": true,
     "isRepeatable": true,
@@ -28,15 +26,13 @@
         "Id": "0Rb5g000000SjyvCAC",
         "ManageableState": "unmanaged",
         "MasterLabel": "cfCpqPromotionTileListView_3_Vlocity",
-        "NamespacePrefix": "%vlocity_namespace%"
+        "NamespacePrefix": "vlocity_cmt"
     },
     "multilanguageSupport": true,
-    "sessionVars": [
-    ],
+    "sessionVars": [],
     "states": [
         {
-            "actions": [
-            ],
+            "actions": [],
             "childCards": [
                 "cpqPromotionDetailView"
             ],
@@ -82,13 +78,10 @@
                                             "class": ""
                                         },
                                         "customClass": "slds-p-top_x-small slds-p-left_small cpq__tilelistview-header-promotionheading",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": false
@@ -128,13 +121,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "slds-p-top_x-small slds-p-left_small cpq__tilelistview-header-promotionheading",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -190,8 +180,7 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq__tilelistview-body-promotionname cpqpromotionlistview-name",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
                                                 "margin": [
                                                     {
@@ -251,8 +240,7 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq__tilelistview-body-promotionname cpqpromotionlistview-name",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
                                                         "margin": [
                                                             {
@@ -333,13 +321,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq__tilelistview-body-promotiondescription slds-m-bottom_small  slds-p-right_small",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false,
@@ -382,13 +367,10 @@
                                                                     "class": ""
                                                                 },
                                                                 "customClass": "cpq__tilelistview-body-promotiondescription slds-m-bottom_small  slds-p-right_small",
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "12",
                                                                     "isResponsive": false,
@@ -466,13 +448,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq__tilelistview-body-seedetailsbutton   cpq-promotionlistview-seedetails",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false,
@@ -515,13 +494,10 @@
                                                                     "class": ""
                                                                 },
                                                                 "customClass": "cpq__tilelistview-body-seedetailsbutton   cpq-promotionlistview-seedetails",
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "12",
                                                                     "isResponsive": false,
@@ -583,13 +559,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "slds-p-around_xxx-small cpqpromotionlistview-description",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false,
@@ -632,13 +605,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "slds-p-around_xxx-small cpqpromotionlistview-description",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false,
@@ -702,13 +672,10 @@
                                                                     "class": ""
                                                                 },
                                                                 "customClass": "cpq__listview-body-promotion-dates-label",
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "12",
                                                                     "isResponsive": false,
@@ -735,7 +702,7 @@
                                                             "parentElementKey": "element_element_element_element_block_0_1_block_1_1_block_2_1_block_0_1",
                                                             "property": {
                                                                 "card": "{card}",
-                                                                "fieldName": "%vlocity_namespace%__effectivestartdate__c",
+                                                                "fieldName": "vlocity_cmt__effectivestartdate__c",
                                                                 "format": "M/D/YYYY",
                                                                 "label": "",
                                                                 "mask": "",
@@ -771,13 +738,10 @@
                                                                     "class": ""
                                                                 },
                                                                 "customClass": "cpq__listview-body-promotion-dates",
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "12",
                                                                     "isResponsive": false,
@@ -837,13 +801,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "slds-p-right_xx-small  slds-p-top_xxx-small",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "6",
                                                             "isResponsive": false,
@@ -903,13 +864,10 @@
                                                                     "class": ""
                                                                 },
                                                                 "customClass": "cpq__listview-body-promotion-dates-label",
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "12",
                                                                     "isResponsive": false,
@@ -936,7 +894,7 @@
                                                             "parentElementKey": "element_element_element_element_block_0_1_block_1_1_block_2_1_block_1_1",
                                                             "property": {
                                                                 "card": "{card}",
-                                                                "fieldName": "%vlocity_namespace%__effectiveenddate__c",
+                                                                "fieldName": "vlocity_cmt__effectiveenddate__c",
                                                                 "format": "M/D/YYYY",
                                                                 "label": "",
                                                                 "mask": "",
@@ -969,13 +927,10 @@
                                                                     "class": ""
                                                                 },
                                                                 "customClass": "cpq__listview-body-promotion-dates",
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "12",
                                                                     "isResponsive": false
@@ -1032,13 +987,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "slds-p-top_xxx-small",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "6",
                                                             "isResponsive": false,
@@ -1090,8 +1042,7 @@
                                                     "color": "#cccccc",
                                                     "radius": "",
                                                     "style": "",
-                                                    "type": [
-                                                    ],
+                                                    "type": [],
                                                     "width": ""
                                                 },
                                                 "class": " cpqpromotionlistview-dates",
@@ -1099,13 +1050,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpqpromotionlistview-dates",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false,
@@ -1140,8 +1088,7 @@
                                                             "color": "#cccccc",
                                                             "radius": "",
                                                             "style": "",
-                                                            "type": [
-                                                            ],
+                                                            "type": [],
                                                             "width": ""
                                                         },
                                                         "class": " cpqpromotionlistview-dates",
@@ -1149,13 +1096,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpqpromotionlistview-dates",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false,
@@ -1265,13 +1209,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq-promotion-listview-addtocartsbutton-mobilestate ",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false,
@@ -1331,13 +1272,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "slds-p-around_xx-small  cpqpromotionlistview-addtocart",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false,
@@ -1380,13 +1318,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "slds-p-around_xx-small  cpqpromotionlistview-addtocart",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false,
@@ -1450,13 +1385,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq__promo-error-icon",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "1",
                                                             "isResponsive": false
@@ -1496,13 +1428,10 @@
                                                                     "class": ""
                                                                 },
                                                                 "customClass": "cpq__promo-error-icon",
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "1",
                                                                     "isResponsive": false
@@ -1555,13 +1484,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq__promo-error-msg",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "11",
                                                             "isResponsive": false
@@ -1601,13 +1527,10 @@
                                                                     "class": ""
                                                                 },
                                                                 "customClass": "cpq__promo-error-msg",
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "11",
                                                                     "isResponsive": false
@@ -1717,8 +1640,7 @@
                                             "color": "#cccccc",
                                             "radius": "",
                                             "style": "",
-                                            "type": [
-                                            ],
+                                            "type": [],
                                             "width": ""
                                         },
                                         "class": " slds-p-around_x-small",
@@ -1726,13 +1648,10 @@
                                             "class": ""
                                         },
                                         "customClass": "slds-p-around_x-small",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": false
@@ -1764,8 +1683,7 @@
                                                     "color": "#cccccc",
                                                     "radius": "",
                                                     "style": "",
-                                                    "type": [
-                                                    ],
+                                                    "type": [],
                                                     "width": ""
                                                 },
                                                 "class": " slds-p-around_x-small",
@@ -1773,13 +1691,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "slds-p-around_x-small",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -1833,13 +1748,10 @@
                                     "class": ""
                                 },
                                 "customClass": "cpq__listview-promotion slds-box slds-p-around_none",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "12",
                                     "isResponsive": false
@@ -1879,13 +1791,10 @@
                                             "class": ""
                                         },
                                         "customClass": "cpq__listview-promotion slds-box slds-p-around_none",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": false
@@ -1919,19 +1828,14 @@
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "ListView",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "",
@@ -1952,13 +1856,10 @@
                     "class": ""
                 },
                 "customClass": "slds-card slds-m-bottom_x-small",
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
-                "margin": [
-                ],
-                "padding": [
-                ],
+                "margin": [],
+                "padding": [],
                 "size": {
                     "default": "12",
                     "isResponsive": false,
@@ -1975,8 +1876,7 @@
             }
         },
         {
-            "actions": [
-            ],
+            "actions": [],
             "childCards": [
                 "cpqPromotionDetailView"
             ],
@@ -2022,14 +1922,11 @@
                                             "class": ""
                                         },
                                         "customClass": "slds-p-top_x-small slds-p-left_small cpq__tilelistview-header-promotionheading",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "height": "",
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": false
@@ -2069,14 +1966,11 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "slds-p-top_x-small slds-p-left_small cpq__tilelistview-header-promotionheading",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "height": "",
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -2132,13 +2026,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq__tilelistview-body-promotionname",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -2178,13 +2069,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq__tilelistview-body-promotionname",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -2257,10 +2145,8 @@
                                                     }
                                                 },
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -2317,13 +2203,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq__tileview-body-promotion-dates-label",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false,
@@ -2366,13 +2249,10 @@
                                                                     "class": ""
                                                                 },
                                                                 "customClass": "cpq__tileview-body-promotion-dates-label",
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "12",
                                                                     "isResponsive": false,
@@ -2401,7 +2281,7 @@
                                                     "parentElementKey": "element_element_element_block_0_2_block_1_2_block_2_2",
                                                     "property": {
                                                         "card": "{card}",
-                                                        "fieldName": "%vlocity_namespace%__effectivestartdate__c",
+                                                        "fieldName": "vlocity_cmt__effectivestartdate__c",
                                                         "format": "M/D/YYYY",
                                                         "label": "",
                                                         "placeholder": "{Label.CPQStartDateOfPromotionPlaceholder}",
@@ -2436,13 +2316,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq__tileview-body-promotion-dates   ",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false,
@@ -2485,13 +2362,10 @@
                                                                     "class": ""
                                                                 },
                                                                 "customClass": "cpq__tileview-body-promotion-dates   ",
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "12",
                                                                     "isResponsive": false,
@@ -2550,13 +2424,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "slds-m-top_large ",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "\n",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -2613,13 +2484,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq__tileview-body-promotion-dates-label",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false,
@@ -2662,13 +2530,10 @@
                                                                     "class": ""
                                                                 },
                                                                 "customClass": "cpq__tileview-body-promotion-dates-label",
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "12",
                                                                     "isResponsive": false,
@@ -2697,7 +2562,7 @@
                                                     "parentElementKey": "element_element_element_block_0_2_block_1_2_block_3_2",
                                                     "property": {
                                                         "card": "{card}",
-                                                        "fieldName": "%vlocity_namespace%__effectiveenddate__c",
+                                                        "fieldName": "vlocity_cmt__effectiveenddate__c",
                                                         "format": "M/D/YYYY",
                                                         "label": "",
                                                         "placeholder": "{Label.CPQEndDateOfPromotionPlaceholder}",
@@ -2732,13 +2597,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq__tileview-body-promotion-dates  ",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false,
@@ -2781,13 +2643,10 @@
                                                                     "class": ""
                                                                 },
                                                                 "customClass": "cpq__tileview-body-promotion-dates  ",
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "12",
                                                                     "isResponsive": false,
@@ -2846,13 +2705,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "slds-m-top_small",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "\n",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -2892,13 +2748,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "slds-m-top_small",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "\n",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -2946,8 +2799,7 @@
                                             "color": "",
                                             "radius": "",
                                             "style": "",
-                                            "type": [
-                                            ],
+                                            "type": [],
                                             "width": ""
                                         },
                                         "class": " slds-p-around_small",
@@ -2955,14 +2807,11 @@
                                             "class": ""
                                         },
                                         "customClass": "slds-p-around_small",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "height": "288px",
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": false
@@ -2994,8 +2843,7 @@
                                                     "color": "",
                                                     "radius": "",
                                                     "style": "",
-                                                    "type": [
-                                                    ],
+                                                    "type": [],
                                                     "width": ""
                                                 },
                                                 "class": " slds-p-around_small",
@@ -3003,14 +2851,11 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "slds-p-around_small",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "height": "288px",
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -3087,13 +2932,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq__tilelistview-body-seedetailsbutton slds-p-top_x-small",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "5",
                                                             "isResponsive": false
@@ -3133,13 +2975,10 @@
                                                                     "class": ""
                                                                 },
                                                                 "customClass": "cpq__tilelistview-body-seedetailsbutton slds-p-top_x-small",
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "5",
                                                                     "isResponsive": false
@@ -3244,13 +3083,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "7",
                                                             "isResponsive": false,
@@ -3293,13 +3129,10 @@
                                                                     "class": ""
                                                                 },
                                                                 "customClass": "",
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "7",
                                                                     "isResponsive": false,
@@ -3358,13 +3191,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "slds-p-top_small  slds-p-bottom_small",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": 12,
                                                     "isResponsive": false
@@ -3404,13 +3234,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "slds-p-top_small  slds-p-bottom_small",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": 12,
                                                             "isResponsive": false
@@ -3471,13 +3298,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq__promo-error-icon",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "1",
                                                             "isResponsive": false
@@ -3517,13 +3341,10 @@
                                                                     "class": ""
                                                                 },
                                                                 "customClass": "cpq__promo-error-icon",
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "1",
                                                                     "isResponsive": false
@@ -3576,13 +3397,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq__promo-error-msg",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "11",
                                                             "isResponsive": false
@@ -3622,13 +3440,10 @@
                                                                     "class": ""
                                                                 },
                                                                 "customClass": "cpq__promo-error-msg",
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "11",
                                                                     "isResponsive": false
@@ -3706,8 +3521,7 @@
                                             "color": "",
                                             "radius": "",
                                             "style": "",
-                                            "type": [
-                                            ],
+                                            "type": [],
                                             "width": ""
                                         },
                                         "class": " slds-p-left_small  slds-p-right_small ",
@@ -3715,14 +3529,11 @@
                                             "class": ""
                                         },
                                         "customClass": "slds-p-left_small  slds-p-right_small ",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "height": "",
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": false
@@ -3754,8 +3565,7 @@
                                                     "color": "",
                                                     "radius": "",
                                                     "style": "",
-                                                    "type": [
-                                                    ],
+                                                    "type": [],
                                                     "width": ""
                                                 },
                                                 "class": " slds-p-left_small  slds-p-right_small ",
@@ -3763,14 +3573,11 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "slds-p-left_small  slds-p-right_small ",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "height": "",
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -3824,13 +3631,10 @@
                                     "class": ""
                                 },
                                 "customClass": "cpq__tilelistview-promotion slds-box slds-p-around_none",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "12",
                                     "isResponsive": false
@@ -3870,13 +3674,10 @@
                                             "class": ""
                                         },
                                         "customClass": "cpq__tilelistview-promotion slds-box slds-p-around_none",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": false
@@ -3910,19 +3711,14 @@
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "TileView",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "",
@@ -3943,13 +3739,10 @@
                     "class": ""
                 },
                 "customClass": "slds-m-bottom_x-small slds-m-right_x-small  ",
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
-                "margin": [
-                ],
-                "padding": [
-                ],
+                "margin": [],
+                "padding": [],
                 "size": {
                     "default": "12",
                     "isResponsive": true,
@@ -3968,8 +3761,7 @@
     ],
     "theme": "slds",
     "title": "cpqPromotionTileListView",
-    "xmlJson": [
-    ],
+    "xmlJson": [],
     "xmlObject": {
         "apiVersion": 48,
         "isExplicitImport": false,

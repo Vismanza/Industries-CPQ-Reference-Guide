@@ -1,16 +1,16 @@
 [
     {
-        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
-        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
-        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "MasterQuoteOrderId",
-        "%vlocity_namespace%__InterfaceFieldAPIName__c": "records:Id",
-        "%vlocity_namespace%__IsDisabled__c": false,
-        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
-        "%vlocity_namespace%__MapId__c": "MultiSite - TransformMasterQuoteOrderIdCustom9856",
-        "%vlocity_namespace%__OMplusSyncEnabled__c": true,
-        "%vlocity_namespace%__UpsertKey__c": false,
+        "vlocity_cmt__DomainObjectAPIName__c": "json",
+        "vlocity_cmt__DomainObjectCreationOrder__c": 1,
+        "vlocity_cmt__DomainObjectFieldAPIName__c": "MasterQuoteOrderId",
+        "vlocity_cmt__InterfaceFieldAPIName__c": "records:Id",
+        "vlocity_cmt__IsDisabled__c": false,
+        "vlocity_cmt__IsRequiredForUpsert__c": false,
+        "vlocity_cmt__MapId__c": "MultiSite - TransformMasterQuoteOrderIdCustom9856",
+        "vlocity_cmt__OMplusSyncEnabled__c": true,
+        "vlocity_cmt__UpsertKey__c": false,
         "Name": "MultiSiteTransformMasterQuoteOrderId",
         "VlocityDataPackType": "SObject",
-        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+        "VlocityRecordSObjectType": "vlocity_cmt__DRMapItem__c"
     }
 ]

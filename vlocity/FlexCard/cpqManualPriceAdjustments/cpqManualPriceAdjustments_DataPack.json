@@ -1,6 +1,6 @@
 {
     "AuthorName": "Vlocity",
-    "%vlocity_namespace%__CardType__c": "flex",
+    "vlocity_cmt__CardType__c": "flex",
     "DataSourceConfig": {
         "contextVariables": [
             {
@@ -19,20 +19,18 @@
                 "val": "8024W000007zAFZQA2"
             }
         ],
-        "orderBy": {
-        },
+        "orderBy": {},
         "type": null,
-        "value": {
-        }
+        "value": {}
     },
     "PropertySetConfig": "cpqManualPriceAdjustments.json",
     "Description": "",
     "OmniUiCardKey": "cpqManualPriceAdjustments/Vlocity/2/1641565075704",
     "OmniUiCardType": "Child",
-    "%vlocity_namespace%__ParentID__c": "cpqPriceDetails/Vlocity/4/1612361628995",
+    "vlocity_cmt__ParentID__c": "cpqPriceDetails/Vlocity/4/1612361628995",
     "SampleDataSourceResponse": "",
     "StylingConfiguration": "{\"customStyles\":\".cpq__price-adjustment-body {\\n  padding: 35px;\\n  text-align: left;\\n}\\n\\n@media only screen and (max-width: 64rem) {\\n  .cpq__price-adjustment-body {\\n    max-height: 40rem;\\n  }\\n}\\n\\n@media only screen and (max-width: 55rem) {\\n  .cpq__price-adjustment-body {\\n    max-height: 30rem;\\n  }\\n}\\n\\n@media only screen and (max-width: 48rem) {\\n  /* For desktop: */\\n  .cpq__price-adjustment-body {\\n    padding: 16px;\\n  }\\n}\"}",
-    "%vlocity_namespace%__Type__c": "",
+    "vlocity_cmt__Type__c": "",
     "VersionNumber": 2,
     "Name": "cpqManualPriceAdjustments",
     "VlocityDataPackType": "SObject",

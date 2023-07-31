@@ -1,7 +1,6 @@
 {
     "dataSource": {
-        "contextVariables": [
-        ],
+        "contextVariables": [],
         "orderBy": {
             "isReverse": false,
             "name": ""
@@ -239,19 +238,16 @@
         "Id": "0RbRN0000001Xg10AE",
         "ManageableState": "unmanaged",
         "MasterLabel": "cfCpqMultiSiteCreateGroup_3_Vlocity",
-        "NamespacePrefix": "%vlocity_namespace%"
+        "NamespacePrefix": "vlocity_cmt"
     },
     "multilanguageSupport": true,
     "osSupport": true,
     "selectableMode": "Multi",
-    "sessionVars": [
-    ],
+    "sessionVars": [],
     "states": [
         {
-            "actions": [
-            ],
-            "childCards": [
-            ],
+            "actions": [],
+            "childCards": [],
             "components": {
                 "layer-0": {
                     "children": [
@@ -307,11 +303,9 @@
                                         "container": {
                                             "class": "cpq__multisite-modal-new-group"
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "top:small",
@@ -362,11 +356,9 @@
                                                 "container": {
                                                     "class": "cpq__multisite-modal-new-group"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "top:small",
@@ -444,11 +436,9 @@
                                         "container": {
                                             "class": "cpq__multisite-modal-update-group"
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "top:small",
@@ -499,11 +489,9 @@
                                                 "container": {
                                                     "class": "cpq__multisite-modal-update-group"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "top:small",
@@ -592,11 +580,9 @@
                                                 "container": {
                                                     "class": "cpq__multisite-ungrouped-count"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "left:small",
@@ -642,11 +628,9 @@
                                                         "container": {
                                                             "class": "cpq__multisite-ungrouped-count"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "padding": [
                                                             {
                                                                 "label": "left:small",
@@ -707,11 +691,9 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "top:medium",
@@ -762,11 +744,9 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "top:medium",
@@ -847,8 +827,7 @@
                                         "container": {
                                             "class": "cpq__create_group_name"
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
                                         "margin": [
                                             {
@@ -912,8 +891,7 @@
                                                 "container": {
                                                     "class": "cpq__create_group_name"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
                                                 "margin": [
                                                     {
@@ -1007,8 +985,7 @@
                                         "container": {
                                             "class": "cpq__create_group_desc"
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
                                         "margin": [
                                             {
@@ -1072,8 +1049,7 @@
                                                 "container": {
                                                     "class": "cpq__create_group_desc"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
                                                 "margin": [
                                                     {
@@ -1119,8 +1095,7 @@
                                         {
                                             "children": [
                                                 {
-                                                    "children": [
-                                                    ],
+                                                    "children": [],
                                                     "class": "slds-col ",
                                                     "element": "block",
                                                     "elementLabel": "Block-2-Block-4",
@@ -1192,8 +1167,7 @@
                                                                 "buttonVariant": "neutral",
                                                                 "card": "{card}",
                                                                 "displayAsButton": true,
-                                                                "flyoutDetails": {
-                                                                },
+                                                                "flyoutDetails": {},
                                                                 "hideActionIcon": true,
                                                                 "iconName": "utility:minimize_window",
                                                                 "label": "{Label.MSCancelLabel}",
@@ -1226,8 +1200,7 @@
                                                                     "class": "cpq__create_group_cancel"
                                                                 },
                                                                 "customClass": "custom-btn",
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
                                                                 "margin": [
                                                                     {
@@ -1282,8 +1255,7 @@
                                                                             "class": "cpq__create_group_cancel"
                                                                         },
                                                                         "customClass": "custom-btn",
-                                                                        "elementStyleProperties": {
-                                                                        },
+                                                                        "elementStyleProperties": {},
                                                                         "inlineStyle": "",
                                                                         "margin": [
                                                                             {
@@ -1429,8 +1401,7 @@
                                                                 "buttonVariant": "brand",
                                                                 "card": "{card}",
                                                                 "displayAsButton": true,
-                                                                "flyoutDetails": {
-                                                                },
+                                                                "flyoutDetails": {},
                                                                 "hideActionIcon": true,
                                                                 "iconName": "utility:save",
                                                                 "label": "{Label.MSSaveLabel}",
@@ -1463,8 +1434,7 @@
                                                                     "class": "cpq__create_group_save"
                                                                 },
                                                                 "customClass": "custom-btn",
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
                                                                 "margin": [
                                                                     {
@@ -1519,8 +1489,7 @@
                                                                             "class": "cpq__create_group_save"
                                                                         },
                                                                         "customClass": "custom-btn",
-                                                                        "elementStyleProperties": {
-                                                                        },
+                                                                        "elementStyleProperties": {},
                                                                         "inlineStyle": "",
                                                                         "margin": [
                                                                             {
@@ -1590,11 +1559,9 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "buttons",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "padding": [
                                                             {
                                                                 "label": "around:x-small",
@@ -1641,11 +1608,9 @@
                                                                     "class": ""
                                                                 },
                                                                 "customClass": "buttons",
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
+                                                                "margin": [],
                                                                 "padding": [
                                                                     {
                                                                         "label": "around:x-small",
@@ -1706,13 +1671,10 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -1751,13 +1713,10 @@
                                                         "container": {
                                                             "class": ""
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -1811,11 +1770,9 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "top:xx-large",
@@ -1861,11 +1818,9 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "top:xx-large",
@@ -1898,8 +1853,7 @@
                                 "collapsedByDefault": false,
                                 "collapsible": false,
                                 "data-conditions": {
-                                    "group": [
-                                    ],
+                                    "group": [],
                                     "id": "state-condition-object",
                                     "isParent": true
                                 },
@@ -1930,13 +1884,10 @@
                                 "container": {
                                     "class": "slds-card"
                                 },
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "12",
                                     "isResponsive": false
@@ -1975,13 +1926,10 @@
                                         "container": {
                                             "class": "slds-card"
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": false
@@ -2001,25 +1949,19 @@
                 }
             },
             "conditions": {
-                "group": [
-                ],
+                "group": [],
                 "id": "state-condition-object",
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Active",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "",
@@ -2040,13 +1982,10 @@
                     "class": ""
                 },
                 "customClass": "",
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
-                "margin": [
-                ],
-                "padding": [
-                ],
+                "margin": [],
+                "padding": [],
                 "size": {
                     "default": "12",
                     "isResponsive": false,

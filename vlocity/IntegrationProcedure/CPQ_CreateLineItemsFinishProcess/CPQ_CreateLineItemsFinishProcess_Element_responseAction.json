@@ -1,12 +1,12 @@
 {
-    "%vlocity_namespace%__Active__c": true,
-    "%vlocity_namespace%__OmniScriptId__c": {
+    "vlocity_cmt__Active__c": true,
+    "vlocity_cmt__OmniScriptId__c": {
         "Name": "CPQ Create Line Items Finish Process",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/CPQ/CreateLineItemsFinishProcess/Procedure",
-        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        "VlocityMatchingRecordSourceKey": "vlocity_cmt__OmniScript__c/CPQ/CreateLineItemsFinishProcess/Procedure",
+        "VlocityRecordSObjectType": "vlocity_cmt__OmniScript__c"
     },
-    "%vlocity_namespace%__PropertySet__c": {
+    "vlocity_cmt__PropertySet__c": {
         "additionalOutput": {
             "additionalData:accountId": "%additionalData:accountId%",
             "additionalData:assetIds": "%itemsProcessed:successfully%",
@@ -20,8 +20,7 @@
         "disOnTplt": false,
         "executionConditionalFormula": "%status% != \"Failed\"",
         "label": "ResponseAction1",
-        "responseDefaultData": {
-        },
+        "responseDefaultData": {},
         "responseFormat": "JSON",
         "responseJSONNode": "response",
         "responseJSONPath": "",
@@ -31,13 +30,12 @@
         "sendJSONPath": "",
         "show": null,
         "useFormulas": true,
-        "vlcResponseHeaders": {
-        }
+        "vlcResponseHeaders": {}
     },
-    "%vlocity_namespace%__ReusableOmniScript__c": false,
-    "%vlocity_namespace%__Type__c": "Response Action",
+    "vlocity_cmt__ReusableOmniScript__c": false,
+    "vlocity_cmt__Type__c": "Response Action",
     "Name": "responseAction",
     "VlocityDataPackType": "SObject",
-    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
-    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/CPQ/CreateLineItemsFinishProcess/Procedure/responseAction"
+    "VlocityRecordSObjectType": "vlocity_cmt__Element__c",
+    "VlocityRecordSourceKey": "vlocity_cmt__Element__c/vlocity_cmt__OmniScript__c/CPQ/CreateLineItemsFinishProcess/Procedure/responseAction"
 }

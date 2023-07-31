@@ -1,20 +1,18 @@
 {
-    "messages": [
-    ],
+    "messages": [],
     "records": [
         {
-            "%vlocity_namespace%__AppliesToAllItems__c": false,
-            "%vlocity_namespace%__Code__c": "I001",
-            "%vlocity_namespace%__Description__c": "Promotion for iphone",
-            "%vlocity_namespace%__DurationUnitOfMeasure__c": "Month",
+            "vlocity_cmt__AppliesToAllItems__c": false,
+            "vlocity_cmt__Code__c": "I001",
+            "vlocity_cmt__Description__c": "Promotion for iphone",
+            "vlocity_cmt__DurationUnitOfMeasure__c": "Month",
             "Id": "a3S4W000000cTkvUAE",
             "Name": "iphone Promotion",
             "RecordTypeId": "0124W000000lXKRQA2",
             "actions": {
                 "addtocart": {
                     "client": {
-                        "params": {
-                        }
+                        "params": {}
                     },
                     "remote": {
                         "params": {
@@ -31,14 +29,12 @@
                     "rest": {
                         "link": null,
                         "method": null,
-                        "params": {
-                        }
+                        "params": {}
                     }
                 },
                 "validatecart": {
                     "client": {
-                        "params": {
-                        }
+                        "params": {}
                     },
                     "remote": {
                         "params": {
@@ -47,10 +43,9 @@
                         }
                     },
                     "rest": {
-                        "link": "/services/apexrest/%vlocity_namespace%/v2/cpq/carts/8014W000000hfF3QAI/validate",
+                        "link": "/services/apexrest/vlocity_cmt/v2/cpq/carts/8014W000000hfF3QAI/validate",
                         "method": "POST",
-                        "params": {
-                        }
+                        "params": {}
                     }
                 }
             },
@@ -59,8 +54,7 @@
             "description": "Promotion for iphone",
             "displaySequence": 0,
             "id": "a3S4W000000cTkvUAE",
-            "messages": [
-            ],
+            "messages": [],
             "name": "iphone Promotion"
         }
     ],

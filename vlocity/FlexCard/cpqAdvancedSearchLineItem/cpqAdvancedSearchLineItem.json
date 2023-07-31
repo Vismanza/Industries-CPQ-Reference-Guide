@@ -1,14 +1,13 @@
 {
     "dataSource": {
-        "contextVariables": [
-        ],
+        "contextVariables": [],
         "orderBy": {
             "isReverse": false,
             "name": ""
         },
         "type": "Custom",
         "value": {
-            "body": "{\n      \"operator\": \"equals\",\n      \"options\": [\n        {\n          \"value\": \"equals\",\n          \"label\": \"Equals\"\n        }\n      ],\n      \"pickListValues\": [],\n      \"type\": \"currency\",\n      \"fieldName\": \"%vlocity_namespace%__RecurringCharge__c\",\n      \"fieldAPIName\": \"%vlocity_namespace%__RecurringCharge__c\",\n      \"fieldLabel\": \"Recurring Charge\",\n      \"objectName\": \"Asset\",\n      \"objectAPIName\": \"Asset\",\n      \"displaySequence\": 1\n    }",
+            "body": "{\n      \"operator\": \"equals\",\n      \"options\": [\n        {\n          \"value\": \"equals\",\n          \"label\": \"Equals\"\n        }\n      ],\n      \"pickListValues\": [],\n      \"type\": \"currency\",\n      \"fieldName\": \"vlocity_cmt__RecurringCharge__c\",\n      \"fieldAPIName\": \"vlocity_cmt__RecurringCharge__c\",\n      \"fieldLabel\": \"Recurring Charge\",\n      \"objectName\": \"Asset\",\n      \"objectAPIName\": \"Asset\",\n      \"displaySequence\": 1\n    }",
             "dsDelay": 0,
             "resultVar": ""
         }
@@ -262,15 +261,13 @@
         "Id": "0Rb5g000000qxp6CAA",
         "ManageableState": "unmanaged",
         "MasterLabel": "cfCpqAdvancedSearchLineItem_2_Vlocity",
-        "NamespacePrefix": "%vlocity_namespace%"
+        "NamespacePrefix": "vlocity_cmt"
     },
     "selectableMode": "Multi",
     "states": [
         {
-            "actions": [
-            ],
-            "childCards": [
-            ],
+            "actions": [],
+            "childCards": [],
             "components": {
                 "layer-0": {
                     "children": [
@@ -384,11 +381,9 @@
                                 "container": {
                                     "class": ""
                                 },
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
+                                "margin": [],
                                 "padding": [
                                     {
                                         "label": "left:x-small",
@@ -439,11 +434,9 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "left:x-small",
@@ -543,13 +536,10 @@
                                 "container": {
                                     "class": ""
                                 },
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "4",
                                     "isResponsive": false
@@ -588,13 +578,10 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "4",
                                             "isResponsive": false
@@ -682,13 +669,10 @@
                                 "container": {
                                     "class": ""
                                 },
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "4",
                                     "isResponsive": false
@@ -727,13 +711,10 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "4",
                                             "isResponsive": false
@@ -846,13 +827,10 @@
                                 "container": {
                                     "class": ""
                                 },
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "4",
                                     "isResponsive": false
@@ -891,13 +869,10 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "4",
                                             "isResponsive": false
@@ -1055,13 +1030,10 @@
                                 "container": {
                                     "class": ""
                                 },
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "4",
                                     "isResponsive": false
@@ -1100,13 +1072,10 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "4",
                                             "isResponsive": false
@@ -1244,8 +1213,7 @@
                                     "iconSize": "small"
                                 },
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
+                                "margin": [],
                                 "padding": [
                                     {
                                         "label": "top:xx-small",
@@ -1296,8 +1264,7 @@
                                             "iconSize": "small"
                                         },
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "top:xx-small",
@@ -1324,25 +1291,19 @@
                 }
             },
             "conditions": {
-                "group": [
-                ],
+                "group": [],
                 "id": "state-condition-object",
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Active",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "class": "slds-card slds-p-around_x-small slds-m-bottom_x-small",
                 "container": {

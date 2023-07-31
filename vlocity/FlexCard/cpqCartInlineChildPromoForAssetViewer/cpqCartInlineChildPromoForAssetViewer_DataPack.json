@@ -1,9 +1,8 @@
 {
     "AuthorName": "Vlocity",
-    "%vlocity_namespace%__CardType__c": "flex",
+    "vlocity_cmt__CardType__c": "flex",
     "DataSourceConfig": {
-        "contextVariables": [
-        ],
+        "contextVariables": [],
         "orderBy": {
             "isReverse": false,
             "name": ""
@@ -19,10 +18,10 @@
     "Description": "",
     "OmniUiCardKey": "cpqCartInlineChildPromoForAssetViewer/Vlocity/1/1621245527432",
     "OmniUiCardType": "Child",
-    "%vlocity_namespace%__ParentID__c": "cpqCartInlineChildPromoBulkSearch/Vlocity/1/1620621559966",
+    "vlocity_cmt__ParentID__c": "cpqCartInlineChildPromoBulkSearch/Vlocity/1/1620621559966",
     "SampleDataSourceResponse": "[{\"Name\":\"new test promo\",\"Id\":\"a3T5g000000PKWUEA4\",\"displaySequence\":-1,\"actions\":{\"getpromodetails\":{\"client\":{\"params\":{}},\"remote\":{\"params\":{\"cartId\":\"0015g00000EyHr5AAF\",\"id\":\"a3T5g000000PKWUEA4\",\"accountId\":\"0015g00000EyHr5AAF\",\"methodName\":\"getAppliedPromotionsByAccount\"}},\"rest\":{\"link\":null,\"method\":null,\"params\":{}}}}}]",
     "StylingConfiguration": "{\"customStyles\":\"/* .cpq__cart-line-item_promo{\\n     background-color: rgb(216, 237, 255);\\n    border-width: 1px;\\n    border-style: solid;\\n    border-color: rgb(94, 180, 255);\\n} */\\n\\n.cpq__cart-item-border_container{\\n    height:0;\\n    flex: 1 1 auto;\\n}\\n.cpq__cart-line-item-promo_name{\\n    padding-left:1%;\\n    flex: 1 1 auto;\\n}\\n.cpq__cart-item-bottom_border{\\n    padding-left:0;\\n}\"}",
-    "%vlocity_namespace%__Type__c": "",
+    "vlocity_cmt__Type__c": "",
     "VersionNumber": 1,
     "Name": "cpqCartInlineChildPromoForAssetViewer",
     "VlocityDataPackType": "SObject",

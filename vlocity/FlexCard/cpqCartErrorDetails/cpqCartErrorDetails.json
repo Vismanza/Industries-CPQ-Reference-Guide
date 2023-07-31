@@ -1,14 +1,13 @@
 {
     "dataSource": {
-        "contextVariables": [
-        ],
+        "contextVariables": [],
         "orderBy": {
             "isReverse": false,
             "name": ""
         },
         "type": "Custom",
         "value": {
-            "body": "[\n    {\n      \"actions\": {\n        \"DETAILS\": {\n          \"client\": {\n            \"params\": {}\n          },\n          \"remote\": {\n            \"params\": {\n              \"cartId\": \"8015g000000byvJAAQ\",\n              \"id\": \"8025g000000kbndAAA\",\n              \"methodName\": \"getCartsItemsById\"\n            }\n          },\n          \"rest\": {\n            \"link\": \"/services/apexrest/%vlocity_namespace%/v2/cpq/carts/8015g000000byvJAAQ/items/8025g000000kbndAAA?cartId=8015g000000byvJAAQ&id=8025g000000kbndAAA\",\n            \"method\": \"GET\",\n            \"params\": {}\n          }\n        }\n      },\n      \"message\": \"Required attribute missing for ChildProduct1.\",\n      \"severity\": \"ERROR\",\n      \"code\": \"204\",\n      \"bundleId\": \"8025g000000kbndAAA\",\n      \"messageId\": \"8025g000000kbndAAA|01t5g000000eTmsAAE\"\n    },\n    {\n      \"message\": \"ChildProduct1 Recommends ChildProduct2.\",\n      \"severity\": \"WARN\",\n      \"code\": \"207\",\n      \"bundleId\": \"8025g000000kbndAAA\",\n      \"messageId\": \"8025g000000kbndAAA|01t5g000000eTmsAAE\"\n    },\n    {\n      \"message\": \"Discounts not approved: TestDiscount1,TestDiscount1\",\n      \"severity\": \"ERROR\",\n      \"code\": \"610\"\n    }\n  ]",
+            "body": "[\n    {\n      \"actions\": {\n        \"DETAILS\": {\n          \"client\": {\n            \"params\": {}\n          },\n          \"remote\": {\n            \"params\": {\n              \"cartId\": \"8015g000000byvJAAQ\",\n              \"id\": \"8025g000000kbndAAA\",\n              \"methodName\": \"getCartsItemsById\"\n            }\n          },\n          \"rest\": {\n            \"link\": \"/services/apexrest/vlocity_cmt/v2/cpq/carts/8015g000000byvJAAQ/items/8025g000000kbndAAA?cartId=8015g000000byvJAAQ&id=8025g000000kbndAAA\",\n            \"method\": \"GET\",\n            \"params\": {}\n          }\n        }\n      },\n      \"message\": \"Required attribute missing for ChildProduct1.\",\n      \"severity\": \"ERROR\",\n      \"code\": \"204\",\n      \"bundleId\": \"8025g000000kbndAAA\",\n      \"messageId\": \"8025g000000kbndAAA|01t5g000000eTmsAAE\"\n    },\n    {\n      \"message\": \"ChildProduct1 Recommends ChildProduct2.\",\n      \"severity\": \"WARN\",\n      \"code\": \"207\",\n      \"bundleId\": \"8025g000000kbndAAA\",\n      \"messageId\": \"8025g000000kbndAAA|01t5g000000eTmsAAE\"\n    },\n    {\n      \"message\": \"Discounts not approved: TestDiscount1,TestDiscount1\",\n      \"severity\": \"ERROR\",\n      \"code\": \"610\"\n    }\n  ]",
             "dsDelay": 0,
             "resultVar": ""
         }
@@ -21,16 +20,14 @@
         "Id": "0Rb5g000000QeXBCA0",
         "ManageableState": "unmanaged",
         "MasterLabel": "cfCpqCartErrorDetails_2_Vlocity",
-        "NamespacePrefix": "%vlocity_namespace%"
+        "NamespacePrefix": "vlocity_cmt"
     },
     "multilanguageSupport": true,
     "selectableMode": "Multi",
     "states": [
         {
-            "actions": [
-            ],
-            "childCards": [
-            ],
+            "actions": [],
+            "childCards": [],
             "components": {
                 "layer-0": {
                     "children": [
@@ -77,11 +74,9 @@
                                             "class": "cpq__cart-error-message_icon"
                                         },
                                         "customClass": "",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "top:xxx-small",
@@ -128,11 +123,9 @@
                                                     "class": "cpq__cart-error-message_icon"
                                                 },
                                                 "customClass": "",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "top:xxx-small",
@@ -192,13 +185,10 @@
                                             "class": "cpq__cart-error-message_desc"
                                         },
                                         "customClass": "",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "11",
                                             "isResponsive": false
@@ -238,13 +228,10 @@
                                                     "class": "cpq__cart-error-message_desc"
                                                 },
                                                 "customClass": "",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "11",
                                                     "isResponsive": false
@@ -296,12 +283,10 @@
                                 "container": {
                                     "class": ""
                                 },
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "height": "40px",
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
+                                "margin": [],
                                 "padding": [
                                     {
                                         "label": "around:xx-small",
@@ -349,12 +334,10 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "height": "40px",
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:xx-small",
@@ -395,19 +378,14 @@
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Warning Message",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "",
@@ -427,8 +405,7 @@
                 "container": {
                     "class": "slds-card"
                 },
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
                 "margin": [
                     {
@@ -457,10 +434,8 @@
             }
         },
         {
-            "actions": [
-            ],
-            "childCards": [
-            ],
+            "actions": [],
+            "childCards": [],
             "components": {
                 "layer-0": {
                     "children": [
@@ -512,8 +487,7 @@
                                             "color": "#000000"
                                         },
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "top:xxx-small",
@@ -564,8 +538,7 @@
                                                     "color": "#000000"
                                                 },
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "top:xxx-small",
@@ -625,13 +598,10 @@
                                             "class": "cpq__cart-error-message_desc"
                                         },
                                         "customClass": "",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "11",
                                             "isResponsive": false
@@ -671,13 +641,10 @@
                                                     "class": "cpq__cart-error-message_desc"
                                                 },
                                                 "customClass": "",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "11",
                                                     "isResponsive": false
@@ -729,12 +696,10 @@
                                 "container": {
                                     "class": ""
                                 },
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "height": "40px",
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
+                                "margin": [],
                                 "padding": [
                                     {
                                         "label": "around:xx-small",
@@ -782,12 +747,10 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "height": "40px",
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:xx-small",
@@ -828,19 +791,14 @@
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Error Message",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "",
@@ -860,8 +818,7 @@
                 "container": {
                     "class": "slds-card"
                 },
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
                 "margin": [
                     {
@@ -890,10 +847,8 @@
             }
         },
         {
-            "actions": [
-            ],
-            "childCards": [
-            ],
+            "actions": [],
+            "childCards": [],
             "components": {
                 "layer-0": {
                     "children": [
@@ -940,11 +895,9 @@
                                             "class": "cpq__cart-error-message_icon"
                                         },
                                         "customClass": "",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "top:xxx-small",
@@ -991,11 +944,9 @@
                                                     "class": "cpq__cart-error-message_icon"
                                                 },
                                                 "customClass": "",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "top:xxx-small",
@@ -1055,13 +1006,10 @@
                                             "class": "cpq__cart-error-message_desc"
                                         },
                                         "customClass": "",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "11",
                                             "isResponsive": false
@@ -1101,13 +1049,10 @@
                                                     "class": "cpq__cart-error-message_desc"
                                                 },
                                                 "customClass": "",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "11",
                                                     "isResponsive": false
@@ -1159,12 +1104,10 @@
                                 "container": {
                                     "class": ""
                                 },
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "height": "40px",
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
+                                "margin": [],
                                 "padding": [
                                     {
                                         "label": "around:xx-small",
@@ -1212,12 +1155,10 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "height": "40px",
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:xx-small",
@@ -1244,25 +1185,19 @@
                 }
             },
             "conditions": {
-                "group": [
-                ],
+                "group": [],
                 "id": "state-condition-object",
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Default Case",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "",
@@ -1282,8 +1217,7 @@
                 "container": {
                     "class": "slds-card"
                 },
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "height": "40px",
                 "inlineStyle": "",
                 "margin": [

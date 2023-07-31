@@ -1,7 +1,6 @@
 {
     "dataSource": {
-        "contextVariables": [
-        ],
+        "contextVariables": [],
         "orderBy": {
             "isReverse": false,
             "name": ""
@@ -151,7 +150,7 @@
         "Id": "0Rb5g000000SLqtCAG",
         "ManageableState": "unmanaged",
         "MasterLabel": "cfCpqAssetViewerGroupLineItems_3_Vlocity",
-        "NamespacePrefix": "%vlocity_namespace%"
+        "NamespacePrefix": "vlocity_cmt"
     },
     "selectableMode": "Multi",
     "sessionVars": [
@@ -166,8 +165,7 @@
     ],
     "states": [
         {
-            "actions": [
-            ],
+            "actions": [],
             "childCards": [
                 "cpqAssetViewerLineItem"
             ],
@@ -296,8 +294,7 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
                                         "margin": [
                                             {
@@ -306,8 +303,7 @@
                                                 "type": "top"
                                             }
                                         ],
-                                        "padding": [
-                                        ],
+                                        "padding": [],
                                         "size": {
                                             "default": "1",
                                             "isResponsive": false
@@ -346,8 +342,7 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
                                                 "margin": [
                                                     {
@@ -356,8 +351,7 @@
                                                         "type": "top"
                                                     }
                                                 ],
-                                                "padding": [
-                                                ],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "1",
                                                     "isResponsive": false
@@ -456,11 +450,9 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "top:small",
@@ -506,11 +498,9 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "top:small",
@@ -616,11 +606,9 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "top:small",
@@ -666,11 +654,9 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "top:small",
@@ -710,7 +696,7 @@
                                                     "id": "state-new-condition-67",
                                                     "operator": "!=",
                                                     "type": "custom",
-                                                    "value": "%vlocity_namespace%__OneTimeCharge__c"
+                                                    "value": "vlocity_cmt__OneTimeCharge__c"
                                                 },
                                                 {
                                                     "field": "groupByKey",
@@ -719,7 +705,7 @@
                                                     "logicalOperator": "&&",
                                                     "operator": "!=",
                                                     "type": "custom",
-                                                    "value": "%vlocity_namespace%__RecurringCharge__c"
+                                                    "value": "vlocity_cmt__RecurringCharge__c"
                                                 },
                                                 {
                                                     "field": "groupByKey",
@@ -728,7 +714,7 @@
                                                     "logicalOperator": "&&",
                                                     "operator": "!=",
                                                     "type": "custom",
-                                                    "value": "%vlocity_namespace%__OneTimeTotal__c"
+                                                    "value": "vlocity_cmt__OneTimeTotal__c"
                                                 }
                                             ],
                                             "id": "state-condition-object",
@@ -761,11 +747,9 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "top:x-small",
@@ -811,11 +795,9 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "top:x-small",
@@ -855,7 +837,7 @@
                                                     "id": "state-new-condition-43",
                                                     "operator": "==",
                                                     "type": "custom",
-                                                    "value": "%vlocity_namespace%__OneTimeCharge__c"
+                                                    "value": "vlocity_cmt__OneTimeCharge__c"
                                                 },
                                                 {
                                                     "field": "groupByKey",
@@ -864,7 +846,7 @@
                                                     "logicalOperator": "||",
                                                     "operator": "==",
                                                     "type": "custom",
-                                                    "value": "%vlocity_namespace%__RecurringCharge__c"
+                                                    "value": "vlocity_cmt__RecurringCharge__c"
                                                 },
                                                 {
                                                     "field": "groupByKey",
@@ -873,7 +855,7 @@
                                                     "logicalOperator": "||",
                                                     "operator": "==",
                                                     "type": "custom",
-                                                    "value": "%vlocity_namespace%__OneTimeTotal__c"
+                                                    "value": "vlocity_cmt__OneTimeTotal__c"
                                                 }
                                             ],
                                             "id": "state-condition-object",
@@ -906,11 +888,9 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "top:x-small",
@@ -956,11 +936,9 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "top:x-small",
@@ -1019,8 +997,7 @@
                         {
                             "children": [
                                 {
-                                    "children": [
-                                    ],
+                                    "children": [],
                                     "class": "slds-col ",
                                     "element": "block",
                                     "elementLabel": "Block-8-Block-0",
@@ -1093,13 +1070,10 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "11",
                                             "isResponsive": false
@@ -1138,13 +1112,10 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "11",
                                                     "isResponsive": false
@@ -1207,25 +1178,19 @@
                 }
             },
             "conditions": {
-                "group": [
-                ],
+                "group": [],
                 "id": "state-condition-object",
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Active",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "",
@@ -1245,8 +1210,7 @@
                 "container": {
                     "class": "slds-card"
                 },
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
                 "margin": [
                     {
@@ -1255,8 +1219,7 @@
                         "type": "around"
                     }
                 ],
-                "padding": [
-                ],
+                "padding": [],
                 "size": {
                     "default": "12",
                     "isResponsive": false

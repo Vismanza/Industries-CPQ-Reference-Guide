@@ -346,7 +346,7 @@
         "Id": "0Rb5g000000Spk6CAC",
         "ManageableState": "unmanaged",
         "MasterLabel": "cfCpqViewSelector_6_Vlocity",
-        "NamespacePrefix": "%vlocity_namespace%"
+        "NamespacePrefix": "vlocity_cmt"
     },
     "multilanguageSupport": true,
     "sessionVars": [
@@ -369,10 +369,8 @@
     ],
     "states": [
         {
-            "actions": [
-            ],
-            "childCards": [
-            ],
+            "actions": [],
+            "childCards": [],
             "components": {
                 "layer-0": {
                     "children": [
@@ -410,8 +408,7 @@
                                                     }
                                                 ],
                                                 "card": "{card}",
-                                                "flyoutDetails": {
-                                                },
+                                                "flyoutDetails": {},
                                                 "hideActionIcon": true,
                                                 "iconName": "standard-default",
                                                 "label": "\\{Label.CPQQualified}",
@@ -444,13 +441,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "slds-button slds-button_neutral custom-btn",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "1",
                                                     "isResponsive": false
@@ -492,13 +486,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "slds-button slds-button_brand custom-btn",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "6",
                                                             "isResponsive": false
@@ -553,13 +544,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "slds-button slds-button_neutral custom-btn",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "1",
                                                             "isResponsive": false
@@ -605,8 +593,7 @@
                                                     }
                                                 ],
                                                 "card": "{card}",
-                                                "flyoutDetails": {
-                                                },
+                                                "flyoutDetails": {},
                                                 "hideActionIcon": true,
                                                 "iconName": "standard-default",
                                                 "label": "\\{Label.CPQDisqualified}",
@@ -639,8 +626,7 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "slds-button slds-button_brand custom-btn",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
                                                 "margin": [
                                                     {
@@ -649,8 +635,7 @@
                                                         "type": "right"
                                                     }
                                                 ],
-                                                "padding": [
-                                                ],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "1",
                                                     "isResponsive": false
@@ -692,8 +677,7 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "slds-button slds-button_neutral custom-btn",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
                                                         "margin": [
                                                             {
@@ -702,8 +686,7 @@
                                                                 "type": "right"
                                                             }
                                                         ],
-                                                        "padding": [
-                                                        ],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "2",
                                                             "isResponsive": false
@@ -758,8 +741,7 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "slds-button slds-button_brand custom-btn",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
                                                         "margin": [
                                                             {
@@ -768,8 +750,7 @@
                                                                 "type": "right"
                                                             }
                                                         ],
-                                                        "padding": [
-                                                        ],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "1",
                                                             "isResponsive": false
@@ -865,8 +846,7 @@
                                                     "iconColor": "#FFFFFF"
                                                 },
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "right:medium",
@@ -917,8 +897,7 @@
                                                             "iconColor": "#FFFFFF"
                                                         },
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "padding": [
                                                             {
                                                                 "label": "right:medium",
@@ -1023,8 +1002,7 @@
                                                     "iconColor": "#FFFFFF"
                                                 },
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "right:medium",
@@ -1075,8 +1053,7 @@
                                                             "iconColor": "#FFFFFF"
                                                         },
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "padding": [
                                                             {
                                                                 "label": "right:medium",
@@ -1180,8 +1157,7 @@
                                                     "iconColor": "#FFFFFF"
                                                 },
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "right:medium",
@@ -1232,8 +1208,7 @@
                                                             "iconColor": "#FFFFFF"
                                                         },
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "padding": [
                                                             {
                                                                 "label": "right:medium",
@@ -1336,8 +1311,7 @@
                                                     "iconColor": "#FFFFFF"
                                                 },
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "right:medium",
@@ -1388,8 +1362,7 @@
                                                             "iconColor": "#FFFFFF"
                                                         },
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "padding": [
                                                             {
                                                                 "label": "right:medium",
@@ -1446,8 +1419,7 @@
                                                 "card": "{card}",
                                                 "checked": "\\{isListViewSelected}",
                                                 "data-conditions": {
-                                                    "group": [
-                                                    ],
+                                                    "group": [],
                                                     "id": "state-condition-object",
                                                     "isParent": true
                                                 },
@@ -1496,13 +1468,10 @@
                                                     "class": "cpq__toggle-view_buttons cpq__toggle-view-button_list"
                                                 },
                                                 "customClass": "cpq__action-option-selector",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "1",
                                                     "isResponsive": false
@@ -1542,13 +1511,10 @@
                                                             "class": "cpq__toggle-view_buttons cpq__toggle-view-button_list"
                                                         },
                                                         "customClass": "cpq__action-option-selector",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "1",
                                                             "isResponsive": false
@@ -1598,8 +1564,7 @@
                                                 "card": "{card}",
                                                 "checked": "\\{isTileViewSelected}",
                                                 "data-conditions": {
-                                                    "group": [
-                                                    ],
+                                                    "group": [],
                                                     "id": "state-condition-object",
                                                     "isParent": true
                                                 },
@@ -1648,13 +1613,10 @@
                                                     "class": "cpq__toggle-view_buttons cpq__toggle-view-button_tile"
                                                 },
                                                 "customClass": "cpq__action-option-selector",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "1",
                                                     "isResponsive": false
@@ -1694,13 +1656,10 @@
                                                             "class": "cpq__toggle-view_buttons cpq__toggle-view-button_tile"
                                                         },
                                                         "customClass": "cpq__action-option-selector",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "1",
                                                             "isResponsive": false
@@ -1779,8 +1738,7 @@
                                                     "class": "cpq__preview-cart_button"
                                                 },
                                                 "customClass": "cpq__action-option-selector",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
                                                 "margin": [
                                                     {
@@ -1789,8 +1747,7 @@
                                                         "type": "left"
                                                     }
                                                 ],
-                                                "padding": [
-                                                ],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "2",
                                                     "isResponsive": false
@@ -1830,8 +1787,7 @@
                                                             "class": "cpq__preview-cart_button"
                                                         },
                                                         "customClass": "cpq__action-option-selector",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
                                                         "margin": [
                                                             {
@@ -1840,8 +1796,7 @@
                                                                 "type": "left"
                                                             }
                                                         ],
-                                                        "padding": [
-                                                        ],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "2",
                                                             "isResponsive": false
@@ -1896,13 +1851,10 @@
                                             "class": ""
                                         },
                                         "customClass": "cpq__action-option-selector-container",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": false
@@ -1942,13 +1894,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq__action-option-selector-container",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -2000,13 +1949,10 @@
                                 "container": {
                                     "class": ""
                                 },
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "12",
                                     "isResponsive": false
@@ -2045,13 +1991,10 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": false
@@ -2071,25 +2014,19 @@
                 }
             },
             "conditions": {
-                "group": [
-                ],
+                "group": [],
                 "id": "state-condition-object",
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Active",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "",
@@ -2110,13 +2047,10 @@
                     "class": ""
                 },
                 "customClass": "cpq__view-selector_container",
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
-                "margin": [
-                ],
-                "padding": [
-                ],
+                "margin": [],
+                "padding": [],
                 "size": {
                     "default": "12",
                     "isResponsive": false

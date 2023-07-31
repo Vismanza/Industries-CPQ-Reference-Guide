@@ -13,7 +13,7 @@
         },
         "type": "Custom",
         "value": {
-            "body": "{\n      \"Name\": \"Business Internt Essentials\",\n      \"Location\": \"Mission St\",\n      \"Quantity\": {\n        \"value\": 2\n      },\n      \"%vlocity_namespace%__RecurringPrice__c\": 355.5,\n      \"%vlocity_namespace%__OneTimeTotal__c\": {\n        \"originalValue\": 444.5\n      },\n      \"%vlocity_namespace%__ProvisioningStatus__c\": {\n        \"value\": \"Active\"\n      },\n      \"description\": \"Public WIFI | Internet Sercurity...\",\n      \"lineitems\": {\n        \"records\": [\n          {\n            \"Name\": \"Child Internet 2\",\n            \"Quantity\": {\n              \"value\": 2\n            },\n            \"%vlocity_namespace%__RecurringPrice__c\": 200.5,\n            \"%vlocity_namespace%__OneTimeTotal__c\": {\n              \"originalValue\": 244.5\n            },\n            \"%vlocity_namespace%__ProvisioningStatus__c\": {\n              \"value\": \"Active\"\n            },\n            \"description\": \"Public WIFI | Internet Sercurity...\",\n            \"lineitems\": {\n              \"records\": [\n                {\n                  \"Name\": \"Grand Child Child Internet 2\",\n                  \"Quantity\": {\n                    \"value\": 2\n                  },\n                  \"%vlocity_namespace%__RecurringPrice__c\": 200.5,\n                  \"%vlocity_namespace%__OneTimeTotal__c\": {\n                    \"originalValue\": 244.5\n                  },\n                  \"%vlocity_namespace%__ProvisioningStatus__c\": {\n                    \"value\": \"Active\"\n                  },\n                  \"description\": \"Public WIFI | Internet Sercurity...\"\n                }\n              ]\n            }\n          }\n        ]\n      }\n    }",
+            "body": "{\n      \"Name\": \"Business Internt Essentials\",\n      \"Location\": \"Mission St\",\n      \"Quantity\": {\n        \"value\": 2\n      },\n      \"vlocity_cmt__RecurringPrice__c\": 355.5,\n      \"vlocity_cmt__OneTimeTotal__c\": {\n        \"originalValue\": 444.5\n      },\n      \"vlocity_cmt__ProvisioningStatus__c\": {\n        \"value\": \"Active\"\n      },\n      \"description\": \"Public WIFI | Internet Sercurity...\",\n      \"lineitems\": {\n        \"records\": [\n          {\n            \"Name\": \"Child Internet 2\",\n            \"Quantity\": {\n              \"value\": 2\n            },\n            \"vlocity_cmt__RecurringPrice__c\": 200.5,\n            \"vlocity_cmt__OneTimeTotal__c\": {\n              \"originalValue\": 244.5\n            },\n            \"vlocity_cmt__ProvisioningStatus__c\": {\n              \"value\": \"Active\"\n            },\n            \"description\": \"Public WIFI | Internet Sercurity...\",\n            \"lineitems\": {\n              \"records\": [\n                {\n                  \"Name\": \"Grand Child Child Internet 2\",\n                  \"Quantity\": {\n                    \"value\": 2\n                  },\n                  \"vlocity_cmt__RecurringPrice__c\": 200.5,\n                  \"vlocity_cmt__OneTimeTotal__c\": {\n                    \"originalValue\": 244.5\n                  },\n                  \"vlocity_cmt__ProvisioningStatus__c\": {\n                    \"value\": \"Active\"\n                  },\n                  \"description\": \"Public WIFI | Internet Sercurity...\"\n                }\n              ]\n            }\n          }\n        ]\n      }\n    }",
             "dsDelay": 0,
             "resultVar": ""
         }
@@ -26,29 +26,25 @@
         "Id": "0RbRN0000001Vq50AE",
         "ManageableState": "unmanaged",
         "MasterLabel": "cfCpqAssetViewerChildLineItem_1_Vlocity",
-        "NamespacePrefix": "%vlocity_namespace%"
+        "NamespacePrefix": "vlocity_cmt"
     },
     "states": [
         {
             "blankCardState": true,
             "components": {
                 "layer-0": {
-                    "children": [
-                    ]
+                    "children": []
                 }
             },
             "conditions": {
-                "group": [
-                ],
+                "group": [],
                 "id": "state-condition-object",
                 "isParent": true
             },
-            "fields": [
-            ],
+            "fields": [],
             "isSmartAction": false,
             "name": "blankState",
-            "smartAction": {
-            },
+            "smartAction": {},
             "styleObject": {
                 "class": "slds-card slds-p-around_x-small slds-m-bottom_x-small",
                 "container": {
@@ -74,8 +70,7 @@
             }
         },
         {
-            "actions": [
-            ],
+            "actions": [],
             "blankCardState": false,
             "childCards": [
                 "cpqCartInlineChildPromoForAssetViewer"
@@ -84,8 +79,7 @@
                 "layer-0": {
                     "children": [
                         {
-                            "children": [
-                            ],
+                            "children": [],
                             "class": "slds-col ",
                             "element": "block",
                             "elementLabel": "Block-0",
@@ -145,8 +139,7 @@
                             "type": "element"
                         },
                         {
-                            "children": [
-                            ],
+                            "children": [],
                             "class": "slds-col ",
                             "element": "block",
                             "elementLabel": "Block-2",
@@ -182,11 +175,9 @@
                                 "container": {
                                     "class": ""
                                 },
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
+                                "margin": [],
                                 "padding": [
                                     {
                                         "label": "around:x-small",
@@ -232,11 +223,9 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:x-small",
@@ -312,13 +301,10 @@
                                             "class": ""
                                         },
                                         "customClass": "cpq__asset-name",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "9",
                                             "isResponsive": false
@@ -358,13 +344,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq__asset-name",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "9",
                                                     "isResponsive": false
@@ -389,7 +372,7 @@
                                     "parentElementKey": "element_block_3_1",
                                     "property": {
                                         "card": "{card}",
-                                        "fieldName": "Product2.%vlocity_namespace%__VersionLabel__c",
+                                        "fieldName": "Product2.vlocity_cmt__VersionLabel__c",
                                         "placeholder": "",
                                         "record": "{record}",
                                         "type": "text"
@@ -418,13 +401,10 @@
                                         "container": {
                                             "class": "cpq__asset-version slds-text-body_small"
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": 3,
                                             "isResponsive": false
@@ -463,13 +443,10 @@
                                                 "container": {
                                                     "class": "cpq__asset-version slds-text-body_small"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": 3,
                                                     "isResponsive": false
@@ -521,13 +498,10 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": false
@@ -566,13 +540,10 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -624,11 +595,9 @@
                                 "container": {
                                     "class": "hierarchy-name"
                                 },
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
+                                "margin": [],
                                 "padding": [
                                     {
                                         "label": "around:x-small",
@@ -684,11 +653,9 @@
                                         "container": {
                                             "class": "hierarchy-name"
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:x-small",
@@ -759,11 +726,9 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "top:x-small",
@@ -814,11 +779,9 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "top:x-small",
@@ -855,7 +818,7 @@
                                     "parentElementKey": "element_element_block_3_1_block_1_1",
                                     "property": {
                                         "card": "{card}",
-                                        "mergeField": "%3Cdiv%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E$%7B%vlocity_namespace%__RecurringCharge__c.value%7D%3C/span%3E%3C/div%3E",
+                                        "mergeField": "%3Cdiv%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E$%7Bvlocity_cmt__RecurringCharge__c.value%7D%3C/span%3E%3C/div%3E",
                                         "record": "{record}"
                                     },
                                     "size": {
@@ -882,11 +845,9 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "top:x-small",
@@ -937,11 +898,9 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "top:x-small",
@@ -980,7 +939,7 @@
                                             "parentElementKey": "element_element_element_block_3_1_block_1_1_block_2_1",
                                             "property": {
                                                 "card": "{card}",
-                                                "mergeField": "%3Cdiv%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E$%7B%vlocity_namespace%__OneTimeCharge__c.value%7D%3C/span%3E%3C/div%3E",
+                                                "mergeField": "%3Cdiv%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E$%7Bvlocity_cmt__OneTimeCharge__c.value%7D%3C/span%3E%3C/div%3E",
                                                 "record": "{record}"
                                             },
                                             "size": {
@@ -1007,13 +966,10 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -1052,13 +1008,10 @@
                                                         "container": {
                                                             "class": ""
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -1086,7 +1039,7 @@
                                                 "data-conditions": {
                                                     "group": [
                                                         {
-                                                            "field": "%vlocity_namespace%__OneTimeCharge__c.originalValue",
+                                                            "field": "vlocity_cmt__OneTimeCharge__c.originalValue",
                                                             "id": "state-new-condition-7",
                                                             "operator": "!=",
                                                             "type": "custom",
@@ -1096,7 +1049,7 @@
                                                     "id": "state-condition-object",
                                                     "isParent": true
                                                 },
-                                                "mergeField": "%3Cdiv%3E%3Cspan%20style=%22text-decoration:%20line-through;%20color:%20#b0adab;%22%3E%7B%vlocity_namespace%__OneTimeCharge__c.originalValue%7D%3C/span%3E%3C/div%3E",
+                                                "mergeField": "%3Cdiv%3E%3Cspan%20style=%22text-decoration:%20line-through;%20color:%20#b0adab;%22%3E%7Bvlocity_cmt__OneTimeCharge__c.originalValue%7D%3C/span%3E%3C/div%3E",
                                                 "record": "{record}"
                                             },
                                             "size": {
@@ -1123,13 +1076,10 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -1168,13 +1118,10 @@
                                                         "container": {
                                                             "class": ""
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -1228,11 +1175,9 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:x-small",
@@ -1278,11 +1223,9 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "around:x-small",
@@ -1314,7 +1257,7 @@
                                     "parentElementKey": "element_element_block_3_1_block_1_1",
                                     "property": {
                                         "card": "{card}",
-                                        "mergeField": "%3Cdiv%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E$%7B%vlocity_namespace%__OneTimeTotal__c.value%7D%3C/span%3E%3C/div%3E",
+                                        "mergeField": "%3Cdiv%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E$%7Bvlocity_cmt__OneTimeTotal__c.value%7D%3C/span%3E%3C/div%3E",
                                         "record": "{record}"
                                     },
                                     "size": {
@@ -1341,11 +1284,9 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "top:x-small",
@@ -1391,11 +1332,9 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "top:x-small",
@@ -1454,11 +1393,9 @@
                                 "container": {
                                     "class": ""
                                 },
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
+                                "margin": [],
                                 "padding": [
                                     {
                                         "label": "around:x-small",
@@ -1504,11 +1441,9 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:x-small",
@@ -1582,13 +1517,10 @@
                                 "container": {
                                     "class": "hierarchy-state"
                                 },
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "12",
                                     "isResponsive": false
@@ -1627,13 +1559,10 @@
                                         "container": {
                                             "class": "hierarchy-state"
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": false
@@ -1653,25 +1582,19 @@
                 }
             },
             "conditions": {
-                "group": [
-                ],
+                "group": [],
                 "id": "state-condition-object",
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Active",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "",
@@ -1692,13 +1615,10 @@
                     "class": "slds-card"
                 },
                 "customClass": "",
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
-                "margin": [
-                ],
-                "padding": [
-                ],
+                "margin": [],
+                "padding": [],
                 "size": {
                     "default": "12",
                     "isResponsive": false

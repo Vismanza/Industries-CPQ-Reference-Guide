@@ -1,14 +1,13 @@
 {
     "dataSource": {
-        "contextVariables": [
-        ],
+        "contextVariables": [],
         "orderBy": {
             "isReverse": false,
             "name": ""
         },
         "type": "Custom",
         "value": {
-            "body": "{\"groupRecord\":  {\"actions\":{\"getGroupMembers\":{\"client\":{\"params\":{}},\"remote\":{\"params\":{\"methodName\":\"getGroupMembers\",\"groupId\":\"a3W5g000000kglBEAQ\",\"offset\":0,\"contextId\":\"0Q05g0000011E5ZCAU\",\"pageSize\":10,\"parentId\":\"0065g000005lzNAAAY\"}},\"rest\":{\"params\":{}}},\"getGroupedServices\":{\"client\":{\"params\":{}},\"remote\":{\"params\":{\"methodName\":\"getGroupedServices\",\"groupCartId\":\"0Q05g000000gfI8CAI\",\"groupId\":\"a3W5g000000kglBEAQ\",\"pageSize\":10,\"offset\":0,\"contextId\":\"0Q05g0000011E5ZCAU\",\"parentId\":\"0065g000005lzNAAAY\"}},\"rest\":{\"params\":{}}}},\"%vlocity_namespace%__AsyncOperation__c\":{\"actions\":{}},\"%vlocity_namespace%__AsyncJobId__c\":{\"actions\":{}},\"%vlocity_namespace%__LockedFor__c\":{\"actions\":{}},\"%vlocity_namespace%__Description__c\":{\"actions\":{}},\"%vlocity_namespace%__LockedBy__c\":{\"actions\":{}},\"%vlocity_namespace%__GroupCartId__r\":{\"%vlocity_namespace%__MultiServiceMessageData__c\":\"{\\\"messages\\\":[],\\\"canCheckoutDiscounts\\\":false,\\\"canCheckout\\\":true}\",\"%vlocity_namespace%__IsValidated__c\":false,\"%vlocity_namespace%__IsPriced__c\":false},\"%vlocity_namespace%__GroupCartId__c\":{\"actions\":{},\"value\":\"0Q05g000000gfI8CAI\"},\"%vlocity_namespace%__HasUnappliedMembers__c\":{\"actions\":{},\"value\":true},\"%vlocity_namespace%__HasUnappliedGroupItems__c\":{\"actions\":{},\"value\":true},\"%vlocity_namespace%__MultiServiceMessageData__c\":{\"actions\":{},\"value\":\"{\\\"warningMessageCount\\\":0,\\\"errorMessageCount\\\":0,\\\"canGroupCheckout\\\":true}\"},\"%vlocity_namespace%__MemberType__c\":{\"actions\":{},\"value\":\"ServicePoint\"},\"Name\":{\"actions\":{},\"value\":\"G-1\"},\"%vlocity_namespace%__MemberCount__c\":{\"actions\":{},\"value\":120},\"Id\":{\"actions\":{},\"value\":\"a3W5g000000kglBEAQ\"},\"groupCart\":{\"attributes\":{\"url\":\"/services/data/v52.0/sobjects/Quote/0Q05g000000gfI8CAI\",\"type\":\"Quote\"},\"%vlocity_namespace%__IsValidated__c\":false,\"%vlocity_namespace%__IsPriced__c\":false,\"Id\":\"0Q05g000000gfI8CAI\"},\"value\":\"a3W5g000000kglBEAQ\",\"itemsCount\":120,\"hasUnappliedMembers\":true,\"displaySequence\":-1,\"groupCartURL\":\"apex/%vlocity_namespace%__MultiServiceHybridCPQ?id=0Q05g000000gfI8CAI&parentId=0065g000005lzNAAAY&groupCart=true&groupId=a3W5g000000kglBEAQ&contextId=0Q05g0000011E5ZCAU&cartType=Quote\",\"groupCartId\":\"0Q05g000000gfI8CAI\",\"label\":\"G-1\",\"groupName\":\"G-1\",\"groupId\":\"a3W5g000000kglBEAQ\",\"hasUnappliedGroupItems\":true}, \"groupName\": \"G-1\"}",
+            "body": "{\"groupRecord\":  {\"actions\":{\"getGroupMembers\":{\"client\":{\"params\":{}},\"remote\":{\"params\":{\"methodName\":\"getGroupMembers\",\"groupId\":\"a3W5g000000kglBEAQ\",\"offset\":0,\"contextId\":\"0Q05g0000011E5ZCAU\",\"pageSize\":10,\"parentId\":\"0065g000005lzNAAAY\"}},\"rest\":{\"params\":{}}},\"getGroupedServices\":{\"client\":{\"params\":{}},\"remote\":{\"params\":{\"methodName\":\"getGroupedServices\",\"groupCartId\":\"0Q05g000000gfI8CAI\",\"groupId\":\"a3W5g000000kglBEAQ\",\"pageSize\":10,\"offset\":0,\"contextId\":\"0Q05g0000011E5ZCAU\",\"parentId\":\"0065g000005lzNAAAY\"}},\"rest\":{\"params\":{}}}},\"vlocity_cmt__AsyncOperation__c\":{\"actions\":{}},\"vlocity_cmt__AsyncJobId__c\":{\"actions\":{}},\"vlocity_cmt__LockedFor__c\":{\"actions\":{}},\"vlocity_cmt__Description__c\":{\"actions\":{}},\"vlocity_cmt__LockedBy__c\":{\"actions\":{}},\"vlocity_cmt__GroupCartId__r\":{\"vlocity_cmt__MultiServiceMessageData__c\":\"{\\\"messages\\\":[],\\\"canCheckoutDiscounts\\\":false,\\\"canCheckout\\\":true}\",\"vlocity_cmt__IsValidated__c\":false,\"vlocity_cmt__IsPriced__c\":false},\"vlocity_cmt__GroupCartId__c\":{\"actions\":{},\"value\":\"0Q05g000000gfI8CAI\"},\"vlocity_cmt__HasUnappliedMembers__c\":{\"actions\":{},\"value\":true},\"vlocity_cmt__HasUnappliedGroupItems__c\":{\"actions\":{},\"value\":true},\"vlocity_cmt__MultiServiceMessageData__c\":{\"actions\":{},\"value\":\"{\\\"warningMessageCount\\\":0,\\\"errorMessageCount\\\":0,\\\"canGroupCheckout\\\":true}\"},\"vlocity_cmt__MemberType__c\":{\"actions\":{},\"value\":\"ServicePoint\"},\"Name\":{\"actions\":{},\"value\":\"G-1\"},\"vlocity_cmt__MemberCount__c\":{\"actions\":{},\"value\":120},\"Id\":{\"actions\":{},\"value\":\"a3W5g000000kglBEAQ\"},\"groupCart\":{\"attributes\":{\"url\":\"/services/data/v52.0/sobjects/Quote/0Q05g000000gfI8CAI\",\"type\":\"Quote\"},\"vlocity_cmt__IsValidated__c\":false,\"vlocity_cmt__IsPriced__c\":false,\"Id\":\"0Q05g000000gfI8CAI\"},\"value\":\"a3W5g000000kglBEAQ\",\"itemsCount\":120,\"hasUnappliedMembers\":true,\"displaySequence\":-1,\"groupCartURL\":\"apex/vlocity_cmt__MultiServiceHybridCPQ?id=0Q05g000000gfI8CAI&parentId=0065g000005lzNAAAY&groupCart=true&groupId=a3W5g000000kglBEAQ&contextId=0Q05g0000011E5ZCAU&cartType=Quote\",\"groupCartId\":\"0Q05g000000gfI8CAI\",\"label\":\"G-1\",\"groupName\":\"G-1\",\"groupId\":\"a3W5g000000kglBEAQ\",\"hasUnappliedGroupItems\":true}, \"groupName\": \"G-1\"}",
             "dsDelay": "",
             "resultVar": ""
         }
@@ -97,8 +96,7 @@
                     "label": "Action",
                     "stateAction": {
                         "actionConditions": {
-                            "group": [
-                            ],
+                            "group": [],
                             "id": "state-condition-object",
                             "isParent": true
                         },
@@ -262,7 +260,7 @@
         "Id": "0Rb5g000000ShJvCAK",
         "ManageableState": "unmanaged",
         "MasterLabel": "cfCpqMultiSiteGroupTemplate_6_Vlocity",
-        "NamespacePrefix": "%vlocity_namespace%"
+        "NamespacePrefix": "vlocity_cmt"
     },
     "multilanguageSupport": true,
     "selectableMode": "Multi",
@@ -298,10 +296,8 @@
     ],
     "states": [
         {
-            "actions": [
-            ],
-            "childCards": [
-            ],
+            "actions": [],
+            "childCards": [],
             "components": {
                 "layer-0": {
                     "children": [
@@ -383,10 +379,8 @@
                                             "iconSize": "small"
                                         },
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "1",
                                             "isResponsive": false
@@ -431,10 +425,8 @@
                                                     "iconSize": "small"
                                                 },
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "1",
                                                     "isResponsive": false
@@ -479,7 +471,7 @@
                                                     "value": "0"
                                                 },
                                                 {
-                                                    "field": "Session.groupRecord.%vlocity_namespace%__LockedBy__c.value",
+                                                    "field": "Session.groupRecord.vlocity_cmt__LockedBy__c.value",
                                                     "hasMergeField": false,
                                                     "id": "state-new-condition-291",
                                                     "logicalOperator": "&&",
@@ -490,7 +482,7 @@
                                                 {
                                                     "group": [
                                                         {
-                                                            "field": "Session.groupRecord.%vlocity_namespace%__HasUnappliedGroupItems__c.value",
+                                                            "field": "Session.groupRecord.vlocity_cmt__HasUnappliedGroupItems__c.value",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-9",
                                                             "operator": "!=",
@@ -498,7 +490,7 @@
                                                             "value": "false"
                                                         },
                                                         {
-                                                            "field": "Session.groupRecord.%vlocity_namespace%__HasUnappliedMembers__c.value",
+                                                            "field": "Session.groupRecord.vlocity_cmt__HasUnappliedMembers__c.value",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-62",
                                                             "logicalOperator": "||",
@@ -558,10 +550,8 @@
                                             "iconSize": "small"
                                         },
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "1",
                                             "isResponsive": false
@@ -606,10 +596,8 @@
                                                     "iconSize": "small"
                                                 },
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "1",
                                                     "isResponsive": false
@@ -647,7 +635,7 @@
                                                             "value": "0"
                                                         },
                                                         {
-                                                            "field": "Session.groupRecord.%vlocity_namespace%__AsyncJobId__c.value",
+                                                            "field": "Session.groupRecord.vlocity_cmt__AsyncJobId__c.value",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-34",
                                                             "logicalOperator": "&&",
@@ -656,7 +644,7 @@
                                                             "value": "undefined"
                                                         },
                                                         {
-                                                            "field": "Session.groupRecord.%vlocity_namespace%__AsyncJobId__c.value",
+                                                            "field": "Session.groupRecord.vlocity_cmt__AsyncJobId__c.value",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-44",
                                                             "logicalOperator": "&&",
@@ -673,7 +661,7 @@
                                                 "iconSize": "small",
                                                 "record": "{record}",
                                                 "stateAction": {
-                                                    "displayName": "{Label.MSLockedPartOne} {Session.groupRecord.%vlocity_namespace%__AsyncOperation__c.value} {Session.groupRecord.%vlocity_namespace%__LockedFor__c.value} {Label.MSLockedPartTwo}",
+                                                    "displayName": "{Label.MSLockedPartOne} {Session.groupRecord.vlocity_cmt__AsyncOperation__c.value} {Session.groupRecord.vlocity_cmt__LockedFor__c.value} {Label.MSLockedPartTwo}",
                                                     "eventName": "setValues",
                                                     "id": "flex-action-1633424062496",
                                                     "openUrlIn": "Current Window",
@@ -695,7 +683,7 @@
                                                     "value": "0"
                                                 },
                                                 {
-                                                    "field": "Session.groupRecord.%vlocity_namespace%__AsyncJobId__c.value",
+                                                    "field": "Session.groupRecord.vlocity_cmt__AsyncJobId__c.value",
                                                     "hasMergeField": false,
                                                     "id": "state-new-condition-34",
                                                     "logicalOperator": "&&",
@@ -704,7 +692,7 @@
                                                     "value": "undefined"
                                                 },
                                                 {
-                                                    "field": "Session.groupRecord.%vlocity_namespace%__AsyncJobId__c.value",
+                                                    "field": "Session.groupRecord.vlocity_cmt__AsyncJobId__c.value",
                                                     "hasMergeField": false,
                                                     "id": "state-new-condition-44",
                                                     "logicalOperator": "&&",
@@ -720,7 +708,7 @@
                                         "iconName": "utility:spinner",
                                         "iconOnly": true,
                                         "iconSize": "small",
-                                        "label": "\\{Label.MSLockedPartOne} {Session.groupRecord.%vlocity_namespace%__AsyncOperation__c.value} {Session.groupRecord.%vlocity_namespace%__LockedFor__c.value} {Label.MSLockedPartTwo}",
+                                        "label": "\\{Label.MSLockedPartOne} {Session.groupRecord.vlocity_cmt__AsyncOperation__c.value} {Session.groupRecord.vlocity_cmt__LockedFor__c.value} {Label.MSLockedPartTwo}",
                                         "record": "{record}",
                                         "showSpinner": "false",
                                         "stateObj": "{record}"
@@ -755,10 +743,8 @@
                                             "iconSize": "small"
                                         },
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "1",
                                             "isResponsive": false
@@ -803,10 +789,8 @@
                                                     "iconSize": "small"
                                                 },
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "1",
                                                     "isResponsive": false
@@ -844,7 +828,7 @@
                                                             "value": "0"
                                                         },
                                                         {
-                                                            "field": "Session.groupRecord.%vlocity_namespace%__AsyncJobId__c.value",
+                                                            "field": "Session.groupRecord.vlocity_cmt__AsyncJobId__c.value",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-34",
                                                             "logicalOperator": "&&",
@@ -853,7 +837,7 @@
                                                             "value": "undefined"
                                                         },
                                                         {
-                                                            "field": "Session.groupRecord.%vlocity_namespace%__AsyncJobId__c.value",
+                                                            "field": "Session.groupRecord.vlocity_cmt__AsyncJobId__c.value",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-44",
                                                             "logicalOperator": "&&",
@@ -870,7 +854,7 @@
                                                 "iconSize": "small",
                                                 "record": "{record}",
                                                 "stateAction": {
-                                                    "displayName": "{Label.MSLockedPartOne} {Session.groupRecord.%vlocity_namespace%__AsyncOperation__c.value} {Session.groupRecord.%vlocity_namespace%__LockedFor__c.value} {Label.MSLockedPartTwo}",
+                                                    "displayName": "{Label.MSLockedPartOne} {Session.groupRecord.vlocity_cmt__AsyncOperation__c.value} {Session.groupRecord.vlocity_cmt__LockedFor__c.value} {Label.MSLockedPartTwo}",
                                                     "eventName": "setValues",
                                                     "id": "flex-action-1633424062496",
                                                     "openUrlIn": "Current Window",
@@ -894,7 +878,7 @@
                                                 {
                                                     "group": [
                                                         {
-                                                            "field": "Session.groupRecord.%vlocity_namespace%__AsyncJobId__c.value",
+                                                            "field": "Session.groupRecord.vlocity_cmt__AsyncJobId__c.value",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-64",
                                                             "operator": "==",
@@ -902,7 +886,7 @@
                                                             "value": "undefined"
                                                         },
                                                         {
-                                                            "field": "Session.groupRecord.%vlocity_namespace%__AsyncJobId__c.value",
+                                                            "field": "Session.groupRecord.vlocity_cmt__AsyncJobId__c.value",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-89",
                                                             "logicalOperator": "||",
@@ -917,7 +901,7 @@
                                                 {
                                                     "group": [
                                                         {
-                                                            "field": "Session.groupRecord.%vlocity_namespace%__LockedBy__c.value",
+                                                            "field": "Session.groupRecord.vlocity_cmt__LockedBy__c.value",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-126",
                                                             "operator": "!=",
@@ -925,7 +909,7 @@
                                                             "value": "undefined"
                                                         },
                                                         {
-                                                            "field": "Session.groupRecord.%vlocity_namespace%__LockedBy__c.value",
+                                                            "field": "Session.groupRecord.vlocity_cmt__LockedBy__c.value",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-198",
                                                             "logicalOperator": "&&",
@@ -945,7 +929,7 @@
                                         "iconName": "utility:lock",
                                         "iconOnly": true,
                                         "iconSize": "small",
-                                        "label": "\\{Label.MSLockedPartOne} {Session.groupRecord.%vlocity_namespace%__AsyncOperation__c.value} {Session.groupRecord.%vlocity_namespace%__LockedFor__c.value} {Label.MSLockedPartTwo}",
+                                        "label": "\\{Label.MSLockedPartOne} {Session.groupRecord.vlocity_cmt__AsyncOperation__c.value} {Session.groupRecord.vlocity_cmt__LockedFor__c.value} {Label.MSLockedPartTwo}",
                                         "record": "{record}",
                                         "showSpinner": "false",
                                         "stateObj": "{record}",
@@ -990,10 +974,8 @@
                                             }
                                         },
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "1",
                                             "isResponsive": false
@@ -1043,10 +1025,8 @@
                                                     }
                                                 },
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "1",
                                                     "isResponsive": false
@@ -1074,7 +1054,7 @@
                                         "data-conditions": {
                                             "group": [
                                                 {
-                                                    "field": "Session.groupRecord.%vlocity_namespace%__LockedBy__c.value",
+                                                    "field": "Session.groupRecord.vlocity_cmt__LockedBy__c.value",
                                                     "hasMergeField": false,
                                                     "id": "state-new-condition-0",
                                                     "operator": "==",
@@ -1082,7 +1062,7 @@
                                                     "value": "undefined"
                                                 },
                                                 {
-                                                    "field": "Session.groupRecord.%vlocity_namespace%__HasUnappliedGroupItems__c.value",
+                                                    "field": "Session.groupRecord.vlocity_cmt__HasUnappliedGroupItems__c.value",
                                                     "hasMergeField": false,
                                                     "id": "state-new-condition-9",
                                                     "logicalOperator": "&&",
@@ -1091,7 +1071,7 @@
                                                     "value": "false"
                                                 },
                                                 {
-                                                    "field": "Session.groupRecord.%vlocity_namespace%__HasUnappliedMembers__c.value",
+                                                    "field": "Session.groupRecord.vlocity_cmt__HasUnappliedMembers__c.value",
                                                     "hasMergeField": false,
                                                     "id": "state-new-condition-19",
                                                     "logicalOperator": "&&",
@@ -1111,7 +1091,7 @@
                                                 {
                                                     "group": [
                                                         {
-                                                            "field": "Session.groupRecord.groupCart.%vlocity_namespace%__IsPriced__c",
+                                                            "field": "Session.groupRecord.groupCart.vlocity_cmt__IsPriced__c",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-132",
                                                             "operator": "==",
@@ -1119,7 +1099,7 @@
                                                             "value": "false"
                                                         },
                                                         {
-                                                            "field": "Session.groupRecord.groupCart.%vlocity_namespace%__IsValidated__c",
+                                                            "field": "Session.groupRecord.groupCart.vlocity_cmt__IsValidated__c",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-208",
                                                             "logicalOperator": "||",
@@ -1179,10 +1159,8 @@
                                             "iconSize": "small"
                                         },
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "1",
                                             "isResponsive": false
@@ -1227,10 +1205,8 @@
                                                     "iconSize": "small"
                                                 },
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "1",
                                                     "isResponsive": false
@@ -1260,7 +1236,7 @@
                                                 "data-conditions": {
                                                     "group": [
                                                         {
-                                                            "field": "Session.groupRecord.%vlocity_namespace%__LockedBy__c.value",
+                                                            "field": "Session.groupRecord.vlocity_cmt__LockedBy__c.value",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-0",
                                                             "operator": "==",
@@ -1268,7 +1244,7 @@
                                                             "value": "undefined"
                                                         },
                                                         {
-                                                            "field": "Session.groupRecord.%vlocity_namespace%__HasUnappliedGroupItems__c.value",
+                                                            "field": "Session.groupRecord.vlocity_cmt__HasUnappliedGroupItems__c.value",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-9",
                                                             "logicalOperator": "&&",
@@ -1277,7 +1253,7 @@
                                                             "value": "false"
                                                         },
                                                         {
-                                                            "field": "Session.groupRecord.%vlocity_namespace%__HasUnappliedMembers__c.value",
+                                                            "field": "Session.groupRecord.vlocity_cmt__HasUnappliedMembers__c.value",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-19",
                                                             "logicalOperator": "&&",
@@ -1286,7 +1262,7 @@
                                                             "value": "false"
                                                         },
                                                         {
-                                                            "field": "Session.groupRecord.groupCart.%vlocity_namespace%__IsPriced__c",
+                                                            "field": "Session.groupRecord.groupCart.vlocity_cmt__IsPriced__c",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-32",
                                                             "logicalOperator": "&&",
@@ -1295,7 +1271,7 @@
                                                             "value": "true"
                                                         },
                                                         {
-                                                            "field": "Session.groupRecord.groupCart.%vlocity_namespace%__IsValidated__c",
+                                                            "field": "Session.groupRecord.groupCart.vlocity_cmt__IsValidated__c",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-48",
                                                             "logicalOperator": "&&",
@@ -1335,7 +1311,7 @@
                                         "data-conditions": {
                                             "group": [
                                                 {
-                                                    "field": "Session.groupRecord.%vlocity_namespace%__LockedBy__c.value",
+                                                    "field": "Session.groupRecord.vlocity_cmt__LockedBy__c.value",
                                                     "hasMergeField": false,
                                                     "id": "state-new-condition-0",
                                                     "operator": "==",
@@ -1343,7 +1319,7 @@
                                                     "value": "undefined"
                                                 },
                                                 {
-                                                    "field": "Session.groupRecord.%vlocity_namespace%__HasUnappliedGroupItems__c.value",
+                                                    "field": "Session.groupRecord.vlocity_cmt__HasUnappliedGroupItems__c.value",
                                                     "hasMergeField": false,
                                                     "id": "state-new-condition-9",
                                                     "logicalOperator": "&&",
@@ -1352,7 +1328,7 @@
                                                     "value": "false"
                                                 },
                                                 {
-                                                    "field": "Session.groupRecord.%vlocity_namespace%__HasUnappliedMembers__c.value",
+                                                    "field": "Session.groupRecord.vlocity_cmt__HasUnappliedMembers__c.value",
                                                     "hasMergeField": false,
                                                     "id": "state-new-condition-19",
                                                     "logicalOperator": "&&",
@@ -1361,7 +1337,7 @@
                                                     "value": "false"
                                                 },
                                                 {
-                                                    "field": "Session.groupRecord.groupCart.%vlocity_namespace%__IsPriced__c",
+                                                    "field": "Session.groupRecord.groupCart.vlocity_cmt__IsPriced__c",
                                                     "hasMergeField": false,
                                                     "id": "state-new-condition-32",
                                                     "logicalOperator": "&&",
@@ -1370,7 +1346,7 @@
                                                     "value": "true"
                                                 },
                                                 {
-                                                    "field": "Session.groupRecord.groupCart.%vlocity_namespace%__IsValidated__c",
+                                                    "field": "Session.groupRecord.groupCart.vlocity_cmt__IsValidated__c",
                                                     "hasMergeField": false,
                                                     "id": "state-new-condition-48",
                                                     "logicalOperator": "&&",
@@ -1430,10 +1406,8 @@
                                             "iconSize": "small"
                                         },
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "1",
                                             "isResponsive": false
@@ -1478,10 +1452,8 @@
                                                     "iconSize": "small"
                                                 },
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "1",
                                                     "isResponsive": false
@@ -1509,7 +1481,7 @@
                                         "data-conditions": {
                                             "group": [
                                                 {
-                                                    "field": "Session.groupRecord.%vlocity_namespace%__LockedBy__c.value",
+                                                    "field": "Session.groupRecord.vlocity_cmt__LockedBy__c.value",
                                                     "hasMergeField": false,
                                                     "id": "state-new-condition-0",
                                                     "operator": "==",
@@ -1591,10 +1563,8 @@
                                             "iconSize": "small"
                                         },
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "1",
                                             "isResponsive": false
@@ -1639,10 +1609,8 @@
                                                     "iconSize": "small"
                                                 },
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "1",
                                                     "isResponsive": false
@@ -1670,7 +1638,7 @@
                                         "data-conditions": {
                                             "group": [
                                                 {
-                                                    "field": "Session.groupRecord.%vlocity_namespace%__LockedBy__c.value",
+                                                    "field": "Session.groupRecord.vlocity_cmt__LockedBy__c.value",
                                                     "hasMergeField": false,
                                                     "id": "state-new-condition-0",
                                                     "operator": "==",
@@ -1752,10 +1720,8 @@
                                             "iconSize": "small"
                                         },
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "1",
                                             "isResponsive": false
@@ -1800,10 +1766,8 @@
                                                     "iconSize": "small"
                                                 },
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "1",
                                                     "isResponsive": false
@@ -1858,13 +1822,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq_multi_site_group_template_label",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -1904,13 +1865,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq_multi_site_group_template_label",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -1963,13 +1921,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq_multi_site_group_template_group_name",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -2009,13 +1964,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq_multi_site_group_template_group_name",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -2070,11 +2022,9 @@
                                             "class": ""
                                         },
                                         "customClass": "",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "left:small",
@@ -2121,11 +2071,9 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "left:small",
@@ -2184,11 +2132,9 @@
                                 "container": {
                                     "class": "cpq-multi-site-group_container"
                                 },
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
+                                "margin": [],
                                 "padding": [
                                     {
                                         "label": "around:x-small",
@@ -2234,11 +2180,9 @@
                                         "container": {
                                             "class": "cpq-multi-site-group_container"
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:x-small",
@@ -2276,7 +2220,7 @@
                                         "data-conditions": {
                                             "group": [
                                                 {
-                                                    "field": "Session.groupRecord.%vlocity_namespace%__LockedBy__c.value",
+                                                    "field": "Session.groupRecord.vlocity_cmt__LockedBy__c.value",
                                                     "hasMergeField": false,
                                                     "id": "state-new-condition-143",
                                                     "operator": "==",
@@ -2286,7 +2230,7 @@
                                                 {
                                                     "group": [
                                                         {
-                                                            "field": "Session.groupRecord.%vlocity_namespace%__HasUnappliedGroupItems__c.value",
+                                                            "field": "Session.groupRecord.vlocity_cmt__HasUnappliedGroupItems__c.value",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-150",
                                                             "operator": "!=",
@@ -2294,7 +2238,7 @@
                                                             "value": "false"
                                                         },
                                                         {
-                                                            "field": "Session.groupRecord.%vlocity_namespace%__HasUnappliedMembers__c.value",
+                                                            "field": "Session.groupRecord.vlocity_cmt__HasUnappliedMembers__c.value",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-175",
                                                             "logicalOperator": "||",
@@ -2415,10 +2359,8 @@
                                             }
                                         },
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": false
@@ -2468,10 +2410,8 @@
                                                     }
                                                 },
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -2533,7 +2473,7 @@
                                                 {
                                                     "group": [
                                                         {
-                                                            "field": "Session.groupRecord.%vlocity_namespace%__LockedBy__c.value",
+                                                            "field": "Session.groupRecord.vlocity_cmt__LockedBy__c.value",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-269",
                                                             "operator": "!=",
@@ -2626,10 +2566,8 @@
                                             }
                                         },
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": false
@@ -2679,10 +2617,8 @@
                                                     }
                                                 },
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -2714,7 +2650,7 @@
                                                 "data-conditions": {
                                                     "group": [
                                                         {
-                                                            "field": "Session.groupRecord.%vlocity_namespace%__LockedBy__c.value",
+                                                            "field": "Session.groupRecord.vlocity_cmt__LockedBy__c.value",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-143",
                                                             "operator": "==",
@@ -2724,7 +2660,7 @@
                                                         {
                                                             "group": [
                                                                 {
-                                                                    "field": "Session.groupRecord.%vlocity_namespace%__HasUnappliedGroupItems__c.value",
+                                                                    "field": "Session.groupRecord.vlocity_cmt__HasUnappliedGroupItems__c.value",
                                                                     "hasMergeField": false,
                                                                     "id": "state-new-condition-150",
                                                                     "operator": "!=",
@@ -2732,7 +2668,7 @@
                                                                     "value": "false"
                                                                 },
                                                                 {
-                                                                    "field": "Session.groupRecord.%vlocity_namespace%__HasUnappliedMembers__c.value",
+                                                                    "field": "Session.groupRecord.vlocity_cmt__HasUnappliedMembers__c.value",
                                                                     "hasMergeField": false,
                                                                     "id": "state-new-condition-175",
                                                                     "logicalOperator": "||",
@@ -2793,7 +2729,7 @@
                                                     "actionConditions": {
                                                         "group": [
                                                             {
-                                                                "field": "Session.groupRecord.%vlocity_namespace%__LockedBy__c.value",
+                                                                "field": "Session.groupRecord.vlocity_cmt__LockedBy__c.value",
                                                                 "hasMergeField": false,
                                                                 "id": "state-new-condition-133",
                                                                 "operator": "==",
@@ -2801,7 +2737,7 @@
                                                                 "value": "undefined"
                                                             },
                                                             {
-                                                                "field": "Session.groupRecord.%vlocity_namespace%__LockedBy__c.value",
+                                                                "field": "Session.groupRecord.vlocity_cmt__LockedBy__c.value",
                                                                 "hasMergeField": false,
                                                                 "id": "state-new-condition-92",
                                                                 "logicalOperator": "||",
@@ -2861,7 +2797,7 @@
                                                 {
                                                     "group": [
                                                         {
-                                                            "field": "Session.groupRecord.groupCart.%vlocity_namespace%__IsValidated__c",
+                                                            "field": "Session.groupRecord.groupCart.vlocity_cmt__IsValidated__c",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-300",
                                                             "operator": "==",
@@ -2869,7 +2805,7 @@
                                                             "value": "false"
                                                         },
                                                         {
-                                                            "field": "Session.groupRecord.groupCart.%vlocity_namespace%__IsPriced__c",
+                                                            "field": "Session.groupRecord.groupCart.vlocity_cmt__IsPriced__c",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-324",
                                                             "logicalOperator": "||",
@@ -2886,8 +2822,7 @@
                                             "isParent": true
                                         },
                                         "displayAsButton": true,
-                                        "flyoutDetails": {
-                                        },
+                                        "flyoutDetails": {},
                                         "hideActionIcon": true,
                                         "iconColor": "",
                                         "iconName": "standard-default",
@@ -2938,10 +2873,8 @@
                                             }
                                         },
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": false
@@ -2993,10 +2926,8 @@
                                                     }
                                                 },
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -3010,11 +2941,11 @@
                                             }
                                         },
                                         {
-                                            "conditionString": "Session.groupRecord.%vlocity_namespace%__LockedBy__c.value != undefined && Session.groupRecord.%vlocity_namespace%__LockedBy__c.value != null",
+                                            "conditionString": "Session.groupRecord.vlocity_cmt__LockedBy__c.value != undefined && Session.groupRecord.vlocity_cmt__LockedBy__c.value != null",
                                             "conditions": {
                                                 "group": [
                                                     {
-                                                        "field": "Session.groupRecord.%vlocity_namespace%__LockedBy__c.value",
+                                                        "field": "Session.groupRecord.vlocity_cmt__LockedBy__c.value",
                                                         "hasMergeField": false,
                                                         "id": "state-new-condition-140",
                                                         "operator": "!=",
@@ -3022,7 +2953,7 @@
                                                         "value": "undefined"
                                                     },
                                                     {
-                                                        "field": "Session.groupRecord.%vlocity_namespace%__LockedBy__c.value",
+                                                        "field": "Session.groupRecord.vlocity_cmt__LockedBy__c.value",
                                                         "hasMergeField": false,
                                                         "id": "state-new-condition-107",
                                                         "logicalOperator": "&&",
@@ -3070,10 +3001,8 @@
                                                     }
                                                 },
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -3106,7 +3035,7 @@
                                                 "data-conditions": {
                                                     "group": [
                                                         {
-                                                            "field": "Session.groupRecord.%vlocity_namespace%__LockedBy__c.value",
+                                                            "field": "Session.groupRecord.vlocity_cmt__LockedBy__c.value",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-143",
                                                             "operator": "==",
@@ -3116,7 +3045,7 @@
                                                         {
                                                             "group": [
                                                                 {
-                                                                    "field": "Session.groupRecord.%vlocity_namespace%__HasUnappliedGroupItems__c.value",
+                                                                    "field": "Session.groupRecord.vlocity_cmt__HasUnappliedGroupItems__c.value",
                                                                     "hasMergeField": false,
                                                                     "id": "state-new-condition-150",
                                                                     "operator": "!=",
@@ -3124,7 +3053,7 @@
                                                                     "value": "false"
                                                                 },
                                                                 {
-                                                                    "field": "Session.groupRecord.%vlocity_namespace%__HasUnappliedMembers__c.value",
+                                                                    "field": "Session.groupRecord.vlocity_cmt__HasUnappliedMembers__c.value",
                                                                     "hasMergeField": false,
                                                                     "id": "state-new-condition-175",
                                                                     "logicalOperator": "||",
@@ -3185,7 +3114,7 @@
                                                     "actionConditions": {
                                                         "group": [
                                                             {
-                                                                "field": "Session.groupRecord.%vlocity_namespace%__LockedBy__c.value",
+                                                                "field": "Session.groupRecord.vlocity_cmt__LockedBy__c.value",
                                                                 "hasMergeField": false,
                                                                 "id": "state-new-condition-106",
                                                                 "operator": "==",
@@ -3193,7 +3122,7 @@
                                                                 "value": "undefined"
                                                             },
                                                             {
-                                                                "field": "Session.groupRecord.%vlocity_namespace%__LockedBy__c.value",
+                                                                "field": "Session.groupRecord.vlocity_cmt__LockedBy__c.value",
                                                                 "hasMergeField": false,
                                                                 "id": "state-new-condition-117",
                                                                 "logicalOperator": "||",
@@ -3242,7 +3171,7 @@
                                                             "value": "undefined"
                                                         },
                                                         {
-                                                            "field": "Session.groupRecord.groupCart.%vlocity_namespace%__IsPriced__c",
+                                                            "field": "Session.groupRecord.groupCart.vlocity_cmt__IsPriced__c",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-28",
                                                             "logicalOperator": "&&",
@@ -3251,7 +3180,7 @@
                                                             "value": "true"
                                                         },
                                                         {
-                                                            "field": "Session.groupRecord.groupCart.%vlocity_namespace%__IsValidated__c",
+                                                            "field": "Session.groupRecord.groupCart.vlocity_cmt__IsValidated__c",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-51",
                                                             "logicalOperator": "&&",
@@ -3304,8 +3233,7 @@
                                             "isParent": true
                                         },
                                         "displayAsButton": true,
-                                        "flyoutDetails": {
-                                        },
+                                        "flyoutDetails": {},
                                         "hideActionIcon": true,
                                         "iconColor": "",
                                         "iconName": "standard-default",
@@ -3356,10 +3284,8 @@
                                             }
                                         },
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": false
@@ -3411,10 +3337,8 @@
                                                     }
                                                 },
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -3428,11 +3352,11 @@
                                             }
                                         },
                                         {
-                                            "conditionString": "Session.groupRecord.%vlocity_namespace%__LockedBy__c.value != undefined && Session.groupRecord.%vlocity_namespace%__LockedBy__c.value != null",
+                                            "conditionString": "Session.groupRecord.vlocity_cmt__LockedBy__c.value != undefined && Session.groupRecord.vlocity_cmt__LockedBy__c.value != null",
                                             "conditions": {
                                                 "group": [
                                                     {
-                                                        "field": "Session.groupRecord.%vlocity_namespace%__LockedBy__c.value",
+                                                        "field": "Session.groupRecord.vlocity_cmt__LockedBy__c.value",
                                                         "hasMergeField": false,
                                                         "id": "state-new-condition-78",
                                                         "operator": "!=",
@@ -3440,7 +3364,7 @@
                                                         "value": "undefined"
                                                     },
                                                     {
-                                                        "field": "Session.groupRecord.%vlocity_namespace%__LockedBy__c.value",
+                                                        "field": "Session.groupRecord.vlocity_cmt__LockedBy__c.value",
                                                         "hasMergeField": false,
                                                         "id": "state-new-condition-134",
                                                         "logicalOperator": "&&",
@@ -3488,10 +3412,8 @@
                                                     }
                                                 },
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -3524,7 +3446,7 @@
                                                 "data-conditions": {
                                                     "group": [
                                                         {
-                                                            "field": "Session.groupRecord.%vlocity_namespace%__LockedBy__c.value",
+                                                            "field": "Session.groupRecord.vlocity_cmt__LockedBy__c.value",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-143",
                                                             "operator": "==",
@@ -3534,7 +3456,7 @@
                                                         {
                                                             "group": [
                                                                 {
-                                                                    "field": "Session.groupRecord.%vlocity_namespace%__HasUnappliedGroupItems__c.value",
+                                                                    "field": "Session.groupRecord.vlocity_cmt__HasUnappliedGroupItems__c.value",
                                                                     "hasMergeField": false,
                                                                     "id": "state-new-condition-150",
                                                                     "operator": "!=",
@@ -3542,7 +3464,7 @@
                                                                     "value": "false"
                                                                 },
                                                                 {
-                                                                    "field": "Session.groupRecord.%vlocity_namespace%__HasUnappliedMembers__c.value",
+                                                                    "field": "Session.groupRecord.vlocity_cmt__HasUnappliedMembers__c.value",
                                                                     "hasMergeField": false,
                                                                     "id": "state-new-condition-175",
                                                                     "logicalOperator": "||",
@@ -3603,7 +3525,7 @@
                                                     "actionConditions": {
                                                         "group": [
                                                             {
-                                                                "field": "Session.groupRecord.%vlocity_namespace%__LockedBy__c.value",
+                                                                "field": "Session.groupRecord.vlocity_cmt__LockedBy__c.value",
                                                                 "hasMergeField": false,
                                                                 "id": "state-new-condition-113",
                                                                 "operator": "==",
@@ -3611,7 +3533,7 @@
                                                                 "value": "undefined"
                                                             },
                                                             {
-                                                                "field": "Session.groupRecord.%vlocity_namespace%__LockedBy__c.value",
+                                                                "field": "Session.groupRecord.vlocity_cmt__LockedBy__c.value",
                                                                 "hasMergeField": false,
                                                                 "id": "state-new-condition-147",
                                                                 "logicalOperator": "||",
@@ -3660,7 +3582,7 @@
                                                             "value": "undefined"
                                                         },
                                                         {
-                                                            "field": "Session.groupRecord.groupCart.%vlocity_namespace%__IsPriced__c",
+                                                            "field": "Session.groupRecord.groupCart.vlocity_cmt__IsPriced__c",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-28",
                                                             "logicalOperator": "&&",
@@ -3669,7 +3591,7 @@
                                                             "value": "true"
                                                         },
                                                         {
-                                                            "field": "Session.groupRecord.groupCart.%vlocity_namespace%__IsValidated__c",
+                                                            "field": "Session.groupRecord.groupCart.vlocity_cmt__IsValidated__c",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-51",
                                                             "logicalOperator": "&&",
@@ -3722,8 +3644,7 @@
                                             "isParent": true
                                         },
                                         "displayAsButton": true,
-                                        "flyoutDetails": {
-                                        },
+                                        "flyoutDetails": {},
                                         "hideActionIcon": true,
                                         "iconColor": "",
                                         "iconName": "standard-default",
@@ -3774,10 +3695,8 @@
                                             }
                                         },
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": false
@@ -3829,10 +3748,8 @@
                                                     }
                                                 },
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -3846,11 +3763,11 @@
                                             }
                                         },
                                         {
-                                            "conditionString": "Session.groupRecord.%vlocity_namespace%__LockedBy__c.value != undefined && Session.groupRecord.%vlocity_namespace%__LockedBy__c.value != null",
+                                            "conditionString": "Session.groupRecord.vlocity_cmt__LockedBy__c.value != undefined && Session.groupRecord.vlocity_cmt__LockedBy__c.value != null",
                                             "conditions": {
                                                 "group": [
                                                     {
-                                                        "field": "Session.groupRecord.%vlocity_namespace%__LockedBy__c.value",
+                                                        "field": "Session.groupRecord.vlocity_cmt__LockedBy__c.value",
                                                         "hasMergeField": false,
                                                         "id": "state-new-condition-120",
                                                         "operator": "!=",
@@ -3858,7 +3775,7 @@
                                                         "value": "undefined"
                                                     },
                                                     {
-                                                        "field": "Session.groupRecord.%vlocity_namespace%__LockedBy__c.value",
+                                                        "field": "Session.groupRecord.vlocity_cmt__LockedBy__c.value",
                                                         "hasMergeField": false,
                                                         "id": "state-new-condition-162",
                                                         "logicalOperator": "&&",
@@ -3906,10 +3823,8 @@
                                                     }
                                                 },
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -3936,8 +3851,7 @@
                                 "collapsedByDefault": false,
                                 "collapsible": false,
                                 "data-conditions": {
-                                    "group": [
-                                    ],
+                                    "group": [],
                                     "id": "state-condition-object",
                                     "isParent": true
                                 },
@@ -3969,11 +3883,9 @@
                                     "class": ""
                                 },
                                 "customClass": "cpq_multi_site_group_template_button_container",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
+                                "margin": [],
                                 "padding": [
                                     {
                                         "label": "around:x-small",
@@ -4020,11 +3932,9 @@
                                             "class": ""
                                         },
                                         "customClass": "cpq_multi_site_group_template_button_container",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:x-small",
@@ -4065,19 +3975,14 @@
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "group",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "",
@@ -4098,13 +4003,10 @@
                     "class": ""
                 },
                 "customClass": "cpq_multi_site_group_template_background",
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
-                "margin": [
-                ],
-                "padding": [
-                ],
+                "margin": [],
+                "padding": [],
                 "size": {
                     "default": "12",
                     "isResponsive": false
@@ -4118,10 +4020,8 @@
             }
         },
         {
-            "actions": [
-            ],
-            "childCards": [
-            ],
+            "actions": [],
+            "childCards": [],
             "components": {
                 "layer-0": {
                     "children": [
@@ -4166,13 +4066,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq_multi_site_group_template_label",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -4212,13 +4109,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq_multi_site_group_template_label",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -4271,13 +4165,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq_multi_site_group_template_group_name",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -4317,13 +4208,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq_multi_site_group_template_group_name",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -4392,11 +4280,9 @@
                                             "class": ""
                                         },
                                         "customClass": "",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "left:small",
@@ -4443,11 +4329,9 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "left:small",
@@ -4509,13 +4393,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq_multi_site_group_template_label",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -4555,13 +4436,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq_multi_site_group_template_label",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -4614,13 +4492,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq_multi_site_group_template_group_name",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -4660,13 +4535,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq_multi_site_group_template_group_name",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -4735,11 +4607,9 @@
                                             "class": ""
                                         },
                                         "customClass": "",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "left:small",
@@ -4786,11 +4656,9 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "left:small",
@@ -4909,7 +4777,7 @@
                                         "record": "{record}",
                                         "stateAction": {
                                             "Web Page": {
-                                                "targetName": "/lightning/cmp/%vlocity_namespace%__vlocityLWCOmniWrapper?c__target=c:cPQCreateOrderMultiLanguage&c__layout=lightning&c__cartId={Session.groupMemberRecord.cartId}&c__tabLabel=CreateOrder"
+                                                "targetName": "/lightning/cmp/vlocity_cmt__vlocityLWCOmniWrapper?c__target=c:cPQCreateOrderMultiLanguage&c__layout=lightning&c__cartId={Session.groupMemberRecord.cartId}&c__tabLabel=CreateOrder"
                                             },
                                             "displayName": "{Label.CPQCreateOrder}",
                                             "id": "flex-action-1634023031333",
@@ -4945,13 +4813,10 @@
                                             "class": ""
                                         },
                                         "customClass": "cpq__global-header_quote__create-order",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": false
@@ -4991,13 +4856,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq__global-header_quote__create-order",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -5073,7 +4935,7 @@
                                                 "record": "{record}",
                                                 "stateAction": {
                                                     "Web Page": {
-                                                        "targetName": " /lightning/cmp/%vlocity_namespace%__vlocityLWCOmniWrapper?c__target=c:cPQSubmitOrderMultiLanguage&c__layout=lightning&c__tabIcon=custom:custom18&c__cartId={Session.groupMemberRecord.cartId}&c__tabLabel=SubmitOrder"
+                                                        "targetName": " /lightning/cmp/vlocity_cmt__vlocityLWCOmniWrapper?c__target=c:cPQSubmitOrderMultiLanguage&c__layout=lightning&c__tabIcon=custom:custom18&c__cartId={Session.groupMemberRecord.cartId}&c__tabLabel=SubmitOrder"
                                                     },
                                                     "displayName": "{Label.CPQCreateOrder}",
                                                     "id": "flex-action-1639545251607",
@@ -5134,8 +4996,7 @@
                                             "isParent": true
                                         },
                                         "displayAsButton": true,
-                                        "flyoutDetails": {
-                                        },
+                                        "flyoutDetails": {},
                                         "hideActionIcon": true,
                                         "iconName": "standard-default",
                                         "label": "\\{Label.CPQCreateAssets}",
@@ -5168,13 +5029,10 @@
                                             "class": ""
                                         },
                                         "customClass": "cpq__global-header_quote__create-order",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": false
@@ -5214,13 +5072,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq__global-header_quote__create-order",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -5247,8 +5102,7 @@
                                 "collapsedByDefault": false,
                                 "collapsible": false,
                                 "data-conditions": {
-                                    "group": [
-                                    ],
+                                    "group": [],
                                     "id": "state-condition-object",
                                     "isParent": true
                                 },
@@ -5280,11 +5134,9 @@
                                     "class": ""
                                 },
                                 "customClass": "cpq_multi_site_group_template_button_container",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
+                                "margin": [],
                                 "padding": [
                                     {
                                         "label": "around:x-small",
@@ -5331,11 +5183,9 @@
                                             "class": ""
                                         },
                                         "customClass": "cpq_multi_site_group_template_button_container",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:x-small",
@@ -5376,19 +5226,14 @@
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "groupMember",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "",
@@ -5409,13 +5254,10 @@
                     "class": ""
                 },
                 "customClass": "cpq_multi_site_group_template_background",
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
-                "margin": [
-                ],
-                "padding": [
-                ],
+                "margin": [],
+                "padding": [],
                 "size": {
                     "default": "12",
                     "isResponsive": false

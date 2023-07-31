@@ -1,14 +1,13 @@
 {
     "dataSource": {
-        "contextVariables": [
-        ],
+        "contextVariables": [],
         "orderBy": {
             "isReverse": false,
             "name": ""
         },
         "type": "Custom",
         "value": {
-            "body": "[\n        {\n          \"childAssets\": {\n            \"records\": [\n              {\n                \"Name\": \"test c 1\",\n                \"%vlocity_namespace%__SequenceNumber__c\": {\n                  \"actions\": {\n                    \n                  },\n                  \"alternateValues\": null,\n                  \"dataType\": \"DOUBLE\",\n                  \"editable\": false,\n                  \"fieldName\": \"%vlocity_namespace%__SequenceNumber__c\",\n                  \"hidden\": true,\n                  \"label\": \"Sequence Number\",\n                  \"messages\": [\n                    \n                  ],\n                  \"originalValue\": null,\n                  \"previousValue\": null,\n                  \"value\": 1\n                },\n                \"%vlocity_namespace%__OneTimeCharge__c\": {\n                  \"actions\": {\n                    \n                  },\n                  \"alternateValues\": null,\n                  \"dataType\": \"CURRENCY\",\n                  \"editable\": false,\n                  \"fieldName\": \"%vlocity_namespace%__OneTimeCharge__c\",\n                  \"hidden\": true,\n                  \"label\": \"One Time Charge\",\n                  \"messages\": [\n                    \n                  ],\n                  \"originalValue\": null,\n                  \"previousValue\": null,\n                  \"value\": 100\n                },\n                \"%vlocity_namespace%__ParentItemId__c\": {\n                  \"actions\": {\n                    \n                  },\n                  \"alternateValues\": null,\n                  \"dataType\": \"STRING\",\n                  \"editable\": false,\n                  \"fieldName\": \"%vlocity_namespace%__ParentItemId__c\",\n                  \"hidden\": true,\n                  \"label\": \"ParentItemId\",\n                  \"messages\": [\n                    \n                  ],\n                  \"originalValue\": null,\n                  \"previousValue\": null,\n                  \"value\": \"20f55687-4866-29ee-d1d2-039c8d58f41a\"\n                },\n                \"%vlocity_namespace%__RootItemId__c\": {\n                  \"actions\": {\n                    \n                  },\n                  \"alternateValues\": null,\n                  \"dataType\": \"STRING\",\n                  \"editable\": false,\n                  \"fieldName\": \"%vlocity_namespace%__RootItemId__c\",\n                  \"hidden\": true,\n                  \"label\": \"RootItemId\",\n                  \"messages\": [\n                    \n                  ],\n                  \"originalValue\": null,\n                  \"previousValue\": null,\n                  \"value\": \"20f55687-4866-29ee-d1d2-039c8d58f41a\"\n                },\n                \"%vlocity_namespace%__LineNumber__c\": {\n                  \"actions\": {\n                    \n                  },\n                  \"alternateValues\": null,\n                  \"dataType\": \"STRING\",\n                  \"editable\": false,\n                  \"fieldName\": \"%vlocity_namespace%__LineNumber__c\",\n                  \"hidden\": true,\n                  \"label\": \"Line Number\",\n                  \"messages\": [\n                    \n                  ],\n                  \"originalValue\": null,\n                  \"previousValue\": null,\n                  \"value\": \"0001.0001\"\n                },\n                \"%vlocity_namespace%__OneTimeTotal__c\": {\n                  \"actions\": {\n                    \n                  },\n                  \"alternateValues\": null,\n                  \"dataType\": \"CURRENCY\",\n                  \"editable\": false,\n                  \"fieldName\": \"%vlocity_namespace%__OneTimeTotal__c\",\n                  \"hidden\": true,\n                  \"label\": \"One Time Total\",\n                  \"messages\": [\n                    \n                  ],\n                  \"originalValue\": null,\n                  \"previousValue\": null,\n                  \"value\": 200\n                },\n                \"%vlocity_namespace%__AssetReferenceId__c\": {\n                  \"actions\": {\n                    \n                  },\n                  \"alternateValues\": null,\n                  \"dataType\": \"STRING\",\n                  \"editable\": false,\n                  \"fieldName\": \"%vlocity_namespace%__AssetReferenceId__c\",\n                  \"hidden\": true,\n                  \"label\": \"Asset Reference Id\",\n                  \"messages\": [\n                    \n                  ],\n                  \"originalValue\": null,\n                  \"previousValue\": null,\n                  \"value\": \"98ebe022-cc1f-5aa1-effc-245ba600d464\"\n                },\n                \"AccountId\": {\n                  \"actions\": {\n                    \n                  },\n                  \"alternateValues\": null,\n                  \"dataType\": \"REFERENCE\",\n                  \"editable\": false,\n                  \"fieldName\": \"AccountId\",\n                  \"hidden\": false,\n                  \"label\": \"Account ID\",\n                  \"messages\": [\n                    \n                  ],\n                  \"originalValue\": null,\n                  \"previousValue\": null,\n                  \"value\": \"0015g000005FnCIAA0\"\n                },\n                \"Quantity\": {\n                  \"actions\": {\n                    \n                  },\n                  \"alternateValues\": null,\n                  \"dataType\": \"DOUBLE\",\n                  \"editable\": false,\n                  \"fieldName\": \"Quantity\",\n                  \"hidden\": true,\n                  \"label\": \"Quantity\",\n                  \"messages\": [\n                    \n                  ],\n                  \"originalValue\": null,\n                  \"previousValue\": null,\n                  \"value\": 1\n                },\n                \"Id\": {\n                  \"actions\": {\n                    \n                  },\n                  \"alternateValues\": null,\n                  \"dataType\": \"ID\",\n                  \"editable\": false,\n                  \"fieldName\": \"Id\",\n                  \"hidden\": true,\n                  \"label\": \"Asset ID\",\n                  \"messages\": [\n                    \n                  ],\n                  \"originalValue\": null,\n                  \"previousValue\": null,\n                  \"value\": \"02i5g000000993PAAQ\"\n                },\n                \"CreatedById\": {\n                  \"actions\": {\n                    \n                  },\n                  \"alternateValues\": null,\n                  \"dataType\": \"REFERENCE\",\n                  \"editable\": false,\n                  \"fieldName\": \"CreatedById\",\n                  \"hidden\": false,\n                  \"label\": \"Created By ID\",\n                  \"messages\": [\n                    \n                  ],\n                  \"originalValue\": null,\n                  \"previousValue\": null,\n                  \"value\": \"0055g0000048hxfAAA\"\n                },\n                \"CreatedDate\": {\n                  \"actions\": {\n                    \n                  },\n                  \"alternateValues\": null,\n                  \"dataType\": \"DATETIME\",\n                  \"editable\": false,\n                  \"fieldName\": \"CreatedDate\",\n                  \"hidden\": true,\n                  \"label\": \"Created Date\",\n                  \"messages\": [\n                    \n                  ],\n                  \"originalValue\": null,\n                  \"previousValue\": null,\n                  \"value\": \"2021-04-12T06:31:04.000Z\"\n                },\n                \"displaySequence\": -1\n              }\n            ],\n            \"totalSize\": 0\n          },\n          \"Name\": \"test root\",\n          \"%vlocity_namespace%__SequenceNumber__c\": {\n            \"actions\": {\n              \n            },\n            \"alternateValues\": null,\n            \"dataType\": \"DOUBLE\",\n            \"editable\": false,\n            \"fieldName\": \"%vlocity_namespace%__SequenceNumber__c\",\n            \"hidden\": true,\n            \"label\": \"Sequence Number\",\n            \"messages\": [\n              \n            ],\n            \"originalValue\": null,\n            \"previousValue\": null,\n            \"value\": 1\n          },\n          \"%vlocity_namespace%__OneTimeCharge__c\": {\n            \"actions\": {\n              \n            },\n            \"alternateValues\": null,\n            \"dataType\": \"CURRENCY\",\n            \"editable\": false,\n            \"fieldName\": \"%vlocity_namespace%__OneTimeCharge__c\",\n            \"hidden\": true,\n            \"label\": \"One Time Charge\",\n            \"messages\": [\n              \n            ],\n            \"originalValue\": null,\n            \"previousValue\": null,\n            \"value\": 100\n          },\n          \"%vlocity_namespace%__RootItemId__c\": {\n            \"actions\": {\n              \n            },\n            \"alternateValues\": null,\n            \"dataType\": \"STRING\",\n            \"editable\": false,\n            \"fieldName\": \"%vlocity_namespace%__RootItemId__c\",\n            \"hidden\": true,\n            \"label\": \"RootItemId\",\n            \"messages\": [\n              \n            ],\n            \"originalValue\": null,\n            \"previousValue\": null,\n            \"value\": \"20f55687-4866-29ee-d1d2-039c8d58f41a\"\n          },\n          \"%vlocity_namespace%__LineNumber__c\": {\n            \"actions\": {\n              \n            },\n            \"alternateValues\": null,\n            \"dataType\": \"STRING\",\n            \"editable\": false,\n            \"fieldName\": \"%vlocity_namespace%__LineNumber__c\",\n            \"hidden\": true,\n            \"label\": \"Line Number\",\n            \"messages\": [\n              \n            ],\n            \"originalValue\": null,\n            \"previousValue\": null,\n            \"value\": \"0001\"\n          },\n          \"%vlocity_namespace%__OneTimeTotal__c\": {\n            \"actions\": {\n              \n            },\n            \"alternateValues\": null,\n            \"dataType\": \"CURRENCY\",\n            \"editable\": false,\n            \"fieldName\": \"%vlocity_namespace%__OneTimeTotal__c\",\n            \"hidden\": true,\n            \"label\": \"One Time Total\",\n            \"messages\": [\n              \n            ],\n            \"originalValue\": null,\n            \"previousValue\": null,\n            \"value\": 300\n          },\n          \"%vlocity_namespace%__AssetReferenceId__c\": {\n            \"actions\": {\n              \n            },\n            \"alternateValues\": null,\n            \"dataType\": \"STRING\",\n            \"editable\": false,\n            \"fieldName\": \"%vlocity_namespace%__AssetReferenceId__c\",\n            \"hidden\": true,\n            \"label\": \"Asset Reference Id\",\n            \"messages\": [\n              \n            ],\n            \"originalValue\": null,\n            \"previousValue\": null,\n            \"value\": \"20f55687-4866-29ee-d1d2-039c8d58f41a\"\n          },\n          \"AccountId\": {\n            \"actions\": {\n              \n            },\n            \"alternateValues\": null,\n            \"dataType\": \"REFERENCE\",\n            \"editable\": false,\n            \"fieldName\": \"AccountId\",\n            \"hidden\": false,\n            \"label\": \"Account ID\",\n            \"messages\": [\n              \n            ],\n            \"originalValue\": null,\n            \"previousValue\": null,\n            \"value\": \"0015g000005FnCIAA0\"\n          },\n          \"Quantity\": {\n            \"actions\": {\n              \n            },\n            \"alternateValues\": null,\n            \"dataType\": \"DOUBLE\",\n            \"editable\": false,\n            \"fieldName\": \"Quantity\",\n            \"hidden\": true,\n            \"label\": \"Quantity\",\n            \"messages\": [\n              \n            ],\n            \"originalValue\": null,\n            \"previousValue\": null,\n            \"value\": 1\n          },\n          \"Id\": {\n            \"actions\": {\n              \n            },\n            \"alternateValues\": null,\n            \"dataType\": \"ID\",\n            \"editable\": false,\n            \"fieldName\": \"Id\",\n            \"hidden\": true,\n            \"label\": \"Asset ID\",\n            \"messages\": [\n              \n            ],\n            \"originalValue\": null,\n            \"previousValue\": null,\n            \"value\": \"02i5g000000993OAAQ\"\n          },\n          \"CreatedById\": {\n            \"actions\": {\n              \n            },\n            \"alternateValues\": null,\n            \"dataType\": \"REFERENCE\",\n            \"editable\": false,\n            \"fieldName\": \"CreatedById\",\n            \"hidden\": false,\n            \"label\": \"Created By ID\",\n            \"messages\": [\n              \n            ],\n            \"originalValue\": null,\n            \"previousValue\": null,\n            \"value\": \"0055g0000048hxfAAA\"\n          },\n          \"CreatedDate\": {\n            \"actions\": {\n              \n            },\n            \"alternateValues\": null,\n            \"dataType\": \"DATETIME\",\n            \"editable\": false,\n            \"fieldName\": \"CreatedDate\",\n            \"hidden\": true,\n            \"label\": \"Created Date\",\n            \"messages\": [\n              \n            ],\n            \"originalValue\": null,\n            \"previousValue\": null,\n            \"value\": \"2021-04-12T06:31:04.000Z\"\n          },\n          \"displaySequence\": -1,\n          \"checked\": false\n        },\n        {\n          \"childAssets\": {\n            \"records\": [\n              {\n                \"Name\": \"test c 1\",\n                \"%vlocity_namespace%__SequenceNumber__c\": {\n                  \"actions\": {\n                    \n                  },\n                  \"alternateValues\": null,\n                  \"dataType\": \"DOUBLE\",\n                  \"editable\": false,\n                  \"fieldName\": \"%vlocity_namespace%__SequenceNumber__c\",\n                  \"hidden\": true,\n                  \"label\": \"Sequence Number\",\n                  \"messages\": [\n                    \n                  ],\n                  \"originalValue\": null,\n                  \"previousValue\": null,\n                  \"value\": 1\n                },\n                \"%vlocity_namespace%__OneTimeCharge__c\": {\n                  \"actions\": {\n                    \n                  },\n                  \"alternateValues\": null,\n                  \"dataType\": \"CURRENCY\",\n                  \"editable\": false,\n                  \"fieldName\": \"%vlocity_namespace%__OneTimeCharge__c\",\n                  \"hidden\": true,\n                  \"label\": \"One Time Charge\",\n                  \"messages\": [\n                    \n                  ],\n                  \"originalValue\": null,\n                  \"previousValue\": null,\n                  \"value\": 100\n                },\n                \"%vlocity_namespace%__ParentItemId__c\": {\n                  \"actions\": {\n                    \n                  },\n                  \"alternateValues\": null,\n                  \"dataType\": \"STRING\",\n                  \"editable\": false,\n                  \"fieldName\": \"%vlocity_namespace%__ParentItemId__c\",\n                  \"hidden\": true,\n                  \"label\": \"ParentItemId\",\n                  \"messages\": [\n                    \n                  ],\n                  \"originalValue\": null,\n                  \"previousValue\": null,\n                  \"value\": \"20f55687-4866-29ee-d1d2-039c8d58f41a\"\n                },\n                \"%vlocity_namespace%__RootItemId__c\": {\n                  \"actions\": {\n                    \n                  },\n                  \"alternateValues\": null,\n                  \"dataType\": \"STRING\",\n                  \"editable\": false,\n                  \"fieldName\": \"%vlocity_namespace%__RootItemId__c\",\n                  \"hidden\": true,\n                  \"label\": \"RootItemId\",\n                  \"messages\": [\n                    \n                  ],\n                  \"originalValue\": null,\n                  \"previousValue\": null,\n                  \"value\": \"20f55687-4866-29ee-d1d2-039c8d58f41a\"\n                },\n                \"%vlocity_namespace%__LineNumber__c\": {\n                  \"actions\": {\n                    \n                  },\n                  \"alternateValues\": null,\n                  \"dataType\": \"STRING\",\n                  \"editable\": false,\n                  \"fieldName\": \"%vlocity_namespace%__LineNumber__c\",\n                  \"hidden\": true,\n                  \"label\": \"Line Number\",\n                  \"messages\": [\n                    \n                  ],\n                  \"originalValue\": null,\n                  \"previousValue\": null,\n                  \"value\": \"0001.0001\"\n                },\n                \"%vlocity_namespace%__OneTimeTotal__c\": {\n                  \"actions\": {\n                    \n                  },\n                  \"alternateValues\": null,\n                  \"dataType\": \"CURRENCY\",\n                  \"editable\": false,\n                  \"fieldName\": \"%vlocity_namespace%__OneTimeTotal__c\",\n                  \"hidden\": true,\n                  \"label\": \"One Time Total\",\n                  \"messages\": [\n                    \n                  ],\n                  \"originalValue\": null,\n                  \"previousValue\": null,\n                  \"value\": 200\n                },\n                \"%vlocity_namespace%__AssetReferenceId__c\": {\n                  \"actions\": {\n                    \n                  },\n                  \"alternateValues\": null,\n                  \"dataType\": \"STRING\",\n                  \"editable\": false,\n                  \"fieldName\": \"%vlocity_namespace%__AssetReferenceId__c\",\n                  \"hidden\": true,\n                  \"label\": \"Asset Reference Id\",\n                  \"messages\": [\n                    \n                  ],\n                  \"originalValue\": null,\n                  \"previousValue\": null,\n                  \"value\": \"98ebe022-cc1f-5aa1-effc-245ba600d464\"\n                },\n                \"AccountId\": {\n                  \"actions\": {\n                    \n                  },\n                  \"alternateValues\": null,\n                  \"dataType\": \"REFERENCE\",\n                  \"editable\": false,\n                  \"fieldName\": \"AccountId\",\n                  \"hidden\": false,\n                  \"label\": \"Account ID\",\n                  \"messages\": [\n                    \n                  ],\n                  \"originalValue\": null,\n                  \"previousValue\": null,\n                  \"value\": \"0015g000005FnCIAA0\"\n                },\n                \"Quantity\": {\n                  \"actions\": {\n                    \n                  },\n                  \"alternateValues\": null,\n                  \"dataType\": \"DOUBLE\",\n                  \"editable\": false,\n                  \"fieldName\": \"Quantity\",\n                  \"hidden\": true,\n                  \"label\": \"Quantity\",\n                  \"messages\": [\n                    \n                  ],\n                  \"originalValue\": null,\n                  \"previousValue\": null,\n                  \"value\": 1\n                },\n                \"Id\": {\n                  \"actions\": {\n                    \n                  },\n                  \"alternateValues\": null,\n                  \"dataType\": \"ID\",\n                  \"editable\": false,\n                  \"fieldName\": \"Id\",\n                  \"hidden\": true,\n                  \"label\": \"Asset ID\",\n                  \"messages\": [\n                    \n                  ],\n                  \"originalValue\": null,\n                  \"previousValue\": null,\n                  \"value\": \"02i5g000000993PAAQ\"\n                },\n                \"CreatedById\": {\n                  \"actions\": {\n                    \n                  },\n                  \"alternateValues\": null,\n                  \"dataType\": \"REFERENCE\",\n                  \"editable\": false,\n                  \"fieldName\": \"CreatedById\",\n                  \"hidden\": false,\n                  \"label\": \"Created By ID\",\n                  \"messages\": [\n                    \n                  ],\n                  \"originalValue\": null,\n                  \"previousValue\": null,\n                  \"value\": \"0055g0000048hxfAAA\"\n                },\n                \"CreatedDate\": {\n                  \"actions\": {\n                    \n                  },\n                  \"alternateValues\": null,\n                  \"dataType\": \"DATETIME\",\n                  \"editable\": false,\n                  \"fieldName\": \"CreatedDate\",\n                  \"hidden\": true,\n                  \"label\": \"Created Date\",\n                  \"messages\": [\n                    \n                  ],\n                  \"originalValue\": null,\n                  \"previousValue\": null,\n                  \"value\": \"2021-04-12T06:31:04.000Z\"\n                },\n                \"displaySequence\": -1\n              }\n            ],\n            \"totalSize\": 0\n          },\n          \"Name\": \"test root\",\n          \"%vlocity_namespace%__SequenceNumber__c\": {\n            \"actions\": {\n              \n            },\n            \"alternateValues\": null,\n            \"dataType\": \"DOUBLE\",\n            \"editable\": false,\n            \"fieldName\": \"%vlocity_namespace%__SequenceNumber__c\",\n            \"hidden\": true,\n            \"label\": \"Sequence Number\",\n            \"messages\": [\n              \n            ],\n            \"originalValue\": null,\n            \"previousValue\": null,\n            \"value\": 1\n          },\n          \"%vlocity_namespace%__OneTimeCharge__c\": {\n            \"actions\": {\n              \n            },\n            \"alternateValues\": null,\n            \"dataType\": \"CURRENCY\",\n            \"editable\": false,\n            \"fieldName\": \"%vlocity_namespace%__OneTimeCharge__c\",\n            \"hidden\": true,\n            \"label\": \"One Time Charge\",\n            \"messages\": [\n              \n            ],\n            \"originalValue\": null,\n            \"previousValue\": null,\n            \"value\": 100\n          },\n          \"%vlocity_namespace%__RootItemId__c\": {\n            \"actions\": {\n              \n            },\n            \"alternateValues\": null,\n            \"dataType\": \"STRING\",\n            \"editable\": false,\n            \"fieldName\": \"%vlocity_namespace%__RootItemId__c\",\n            \"hidden\": true,\n            \"label\": \"RootItemId\",\n            \"messages\": [\n              \n            ],\n            \"originalValue\": null,\n            \"previousValue\": null,\n            \"value\": \"20f55687-4866-29ee-d1d2-039c8d58f41a\"\n          },\n          \"%vlocity_namespace%__LineNumber__c\": {\n            \"actions\": {\n              \n            },\n            \"alternateValues\": null,\n            \"dataType\": \"STRING\",\n            \"editable\": false,\n            \"fieldName\": \"%vlocity_namespace%__LineNumber__c\",\n            \"hidden\": true,\n            \"label\": \"Line Number\",\n            \"messages\": [\n              \n            ],\n            \"originalValue\": null,\n            \"previousValue\": null,\n            \"value\": \"0001\"\n          },\n          \"%vlocity_namespace%__OneTimeTotal__c\": {\n            \"actions\": {\n              \n            },\n            \"alternateValues\": null,\n            \"dataType\": \"CURRENCY\",\n            \"editable\": false,\n            \"fieldName\": \"%vlocity_namespace%__OneTimeTotal__c\",\n            \"hidden\": true,\n            \"label\": \"One Time Total\",\n            \"messages\": [\n              \n            ],\n            \"originalValue\": null,\n            \"previousValue\": null,\n            \"value\": 300\n          },\n          \"%vlocity_namespace%__AssetReferenceId__c\": {\n            \"actions\": {\n              \n            },\n            \"alternateValues\": null,\n            \"dataType\": \"STRING\",\n            \"editable\": false,\n            \"fieldName\": \"%vlocity_namespace%__AssetReferenceId__c\",\n            \"hidden\": true,\n            \"label\": \"Asset Reference Id\",\n            \"messages\": [\n              \n            ],\n            \"originalValue\": null,\n            \"previousValue\": null,\n            \"value\": \"20f55687-4866-29ee-d1d2-039c8d58f41a\"\n          },\n          \"AccountId\": {\n            \"actions\": {\n              \n            },\n            \"alternateValues\": null,\n            \"dataType\": \"REFERENCE\",\n            \"editable\": false,\n            \"fieldName\": \"AccountId\",\n            \"hidden\": false,\n            \"label\": \"Account ID\",\n            \"messages\": [\n              \n            ],\n            \"originalValue\": null,\n            \"previousValue\": null,\n            \"value\": \"0015g000005FnCIAA0\"\n          },\n          \"Quantity\": {\n            \"actions\": {\n              \n            },\n            \"alternateValues\": null,\n            \"dataType\": \"DOUBLE\",\n            \"editable\": false,\n            \"fieldName\": \"Quantity\",\n            \"hidden\": true,\n            \"label\": \"Quantity\",\n            \"messages\": [\n              \n            ],\n            \"originalValue\": null,\n            \"previousValue\": null,\n            \"value\": 1\n          },\n          \"Id\": {\n            \"actions\": {\n              \n            },\n            \"alternateValues\": null,\n            \"dataType\": \"ID\",\n            \"editable\": false,\n            \"fieldName\": \"Id\",\n            \"hidden\": true,\n            \"label\": \"Asset ID\",\n            \"messages\": [\n              \n            ],\n            \"originalValue\": null,\n            \"previousValue\": null,\n            \"value\": \"02i5g000000993OAAQ\"\n          },\n          \"CreatedById\": {\n            \"actions\": {\n              \n            },\n            \"alternateValues\": null,\n            \"dataType\": \"REFERENCE\",\n            \"editable\": false,\n            \"fieldName\": \"CreatedById\",\n            \"hidden\": false,\n            \"label\": \"Created By ID\",\n            \"messages\": [\n              \n            ],\n            \"originalValue\": null,\n            \"previousValue\": null,\n            \"value\": \"0055g0000048hxfAAA\"\n          },\n          \"CreatedDate\": {\n            \"actions\": {\n              \n            },\n            \"alternateValues\": null,\n            \"dataType\": \"DATETIME\",\n            \"editable\": false,\n            \"fieldName\": \"CreatedDate\",\n            \"hidden\": true,\n            \"label\": \"Created Date\",\n            \"messages\": [\n              \n            ],\n            \"originalValue\": null,\n            \"previousValue\": null,\n            \"value\": \"2021-04-12T06:31:04.000Z\"\n          },\n          \"displaySequence\": -1,\n          \"checked\": true\n        }\n      ]",
+            "body": "[\n        {\n          \"childAssets\": {\n            \"records\": [\n              {\n                \"Name\": \"test c 1\",\n                \"vlocity_cmt__SequenceNumber__c\": {\n                  \"actions\": {\n                    \n                  },\n                  \"alternateValues\": null,\n                  \"dataType\": \"DOUBLE\",\n                  \"editable\": false,\n                  \"fieldName\": \"vlocity_cmt__SequenceNumber__c\",\n                  \"hidden\": true,\n                  \"label\": \"Sequence Number\",\n                  \"messages\": [\n                    \n                  ],\n                  \"originalValue\": null,\n                  \"previousValue\": null,\n                  \"value\": 1\n                },\n                \"vlocity_cmt__OneTimeCharge__c\": {\n                  \"actions\": {\n                    \n                  },\n                  \"alternateValues\": null,\n                  \"dataType\": \"CURRENCY\",\n                  \"editable\": false,\n                  \"fieldName\": \"vlocity_cmt__OneTimeCharge__c\",\n                  \"hidden\": true,\n                  \"label\": \"One Time Charge\",\n                  \"messages\": [\n                    \n                  ],\n                  \"originalValue\": null,\n                  \"previousValue\": null,\n                  \"value\": 100\n                },\n                \"vlocity_cmt__ParentItemId__c\": {\n                  \"actions\": {\n                    \n                  },\n                  \"alternateValues\": null,\n                  \"dataType\": \"STRING\",\n                  \"editable\": false,\n                  \"fieldName\": \"vlocity_cmt__ParentItemId__c\",\n                  \"hidden\": true,\n                  \"label\": \"ParentItemId\",\n                  \"messages\": [\n                    \n                  ],\n                  \"originalValue\": null,\n                  \"previousValue\": null,\n                  \"value\": \"20f55687-4866-29ee-d1d2-039c8d58f41a\"\n                },\n                \"vlocity_cmt__RootItemId__c\": {\n                  \"actions\": {\n                    \n                  },\n                  \"alternateValues\": null,\n                  \"dataType\": \"STRING\",\n                  \"editable\": false,\n                  \"fieldName\": \"vlocity_cmt__RootItemId__c\",\n                  \"hidden\": true,\n                  \"label\": \"RootItemId\",\n                  \"messages\": [\n                    \n                  ],\n                  \"originalValue\": null,\n                  \"previousValue\": null,\n                  \"value\": \"20f55687-4866-29ee-d1d2-039c8d58f41a\"\n                },\n                \"vlocity_cmt__LineNumber__c\": {\n                  \"actions\": {\n                    \n                  },\n                  \"alternateValues\": null,\n                  \"dataType\": \"STRING\",\n                  \"editable\": false,\n                  \"fieldName\": \"vlocity_cmt__LineNumber__c\",\n                  \"hidden\": true,\n                  \"label\": \"Line Number\",\n                  \"messages\": [\n                    \n                  ],\n                  \"originalValue\": null,\n                  \"previousValue\": null,\n                  \"value\": \"0001.0001\"\n                },\n                \"vlocity_cmt__OneTimeTotal__c\": {\n                  \"actions\": {\n                    \n                  },\n                  \"alternateValues\": null,\n                  \"dataType\": \"CURRENCY\",\n                  \"editable\": false,\n                  \"fieldName\": \"vlocity_cmt__OneTimeTotal__c\",\n                  \"hidden\": true,\n                  \"label\": \"One Time Total\",\n                  \"messages\": [\n                    \n                  ],\n                  \"originalValue\": null,\n                  \"previousValue\": null,\n                  \"value\": 200\n                },\n                \"vlocity_cmt__AssetReferenceId__c\": {\n                  \"actions\": {\n                    \n                  },\n                  \"alternateValues\": null,\n                  \"dataType\": \"STRING\",\n                  \"editable\": false,\n                  \"fieldName\": \"vlocity_cmt__AssetReferenceId__c\",\n                  \"hidden\": true,\n                  \"label\": \"Asset Reference Id\",\n                  \"messages\": [\n                    \n                  ],\n                  \"originalValue\": null,\n                  \"previousValue\": null,\n                  \"value\": \"98ebe022-cc1f-5aa1-effc-245ba600d464\"\n                },\n                \"AccountId\": {\n                  \"actions\": {\n                    \n                  },\n                  \"alternateValues\": null,\n                  \"dataType\": \"REFERENCE\",\n                  \"editable\": false,\n                  \"fieldName\": \"AccountId\",\n                  \"hidden\": false,\n                  \"label\": \"Account ID\",\n                  \"messages\": [\n                    \n                  ],\n                  \"originalValue\": null,\n                  \"previousValue\": null,\n                  \"value\": \"0015g000005FnCIAA0\"\n                },\n                \"Quantity\": {\n                  \"actions\": {\n                    \n                  },\n                  \"alternateValues\": null,\n                  \"dataType\": \"DOUBLE\",\n                  \"editable\": false,\n                  \"fieldName\": \"Quantity\",\n                  \"hidden\": true,\n                  \"label\": \"Quantity\",\n                  \"messages\": [\n                    \n                  ],\n                  \"originalValue\": null,\n                  \"previousValue\": null,\n                  \"value\": 1\n                },\n                \"Id\": {\n                  \"actions\": {\n                    \n                  },\n                  \"alternateValues\": null,\n                  \"dataType\": \"ID\",\n                  \"editable\": false,\n                  \"fieldName\": \"Id\",\n                  \"hidden\": true,\n                  \"label\": \"Asset ID\",\n                  \"messages\": [\n                    \n                  ],\n                  \"originalValue\": null,\n                  \"previousValue\": null,\n                  \"value\": \"02i5g000000993PAAQ\"\n                },\n                \"CreatedById\": {\n                  \"actions\": {\n                    \n                  },\n                  \"alternateValues\": null,\n                  \"dataType\": \"REFERENCE\",\n                  \"editable\": false,\n                  \"fieldName\": \"CreatedById\",\n                  \"hidden\": false,\n                  \"label\": \"Created By ID\",\n                  \"messages\": [\n                    \n                  ],\n                  \"originalValue\": null,\n                  \"previousValue\": null,\n                  \"value\": \"0055g0000048hxfAAA\"\n                },\n                \"CreatedDate\": {\n                  \"actions\": {\n                    \n                  },\n                  \"alternateValues\": null,\n                  \"dataType\": \"DATETIME\",\n                  \"editable\": false,\n                  \"fieldName\": \"CreatedDate\",\n                  \"hidden\": true,\n                  \"label\": \"Created Date\",\n                  \"messages\": [\n                    \n                  ],\n                  \"originalValue\": null,\n                  \"previousValue\": null,\n                  \"value\": \"2021-04-12T06:31:04.000Z\"\n                },\n                \"displaySequence\": -1\n              }\n            ],\n            \"totalSize\": 0\n          },\n          \"Name\": \"test root\",\n          \"vlocity_cmt__SequenceNumber__c\": {\n            \"actions\": {\n              \n            },\n            \"alternateValues\": null,\n            \"dataType\": \"DOUBLE\",\n            \"editable\": false,\n            \"fieldName\": \"vlocity_cmt__SequenceNumber__c\",\n            \"hidden\": true,\n            \"label\": \"Sequence Number\",\n            \"messages\": [\n              \n            ],\n            \"originalValue\": null,\n            \"previousValue\": null,\n            \"value\": 1\n          },\n          \"vlocity_cmt__OneTimeCharge__c\": {\n            \"actions\": {\n              \n            },\n            \"alternateValues\": null,\n            \"dataType\": \"CURRENCY\",\n            \"editable\": false,\n            \"fieldName\": \"vlocity_cmt__OneTimeCharge__c\",\n            \"hidden\": true,\n            \"label\": \"One Time Charge\",\n            \"messages\": [\n              \n            ],\n            \"originalValue\": null,\n            \"previousValue\": null,\n            \"value\": 100\n          },\n          \"vlocity_cmt__RootItemId__c\": {\n            \"actions\": {\n              \n            },\n            \"alternateValues\": null,\n            \"dataType\": \"STRING\",\n            \"editable\": false,\n            \"fieldName\": \"vlocity_cmt__RootItemId__c\",\n            \"hidden\": true,\n            \"label\": \"RootItemId\",\n            \"messages\": [\n              \n            ],\n            \"originalValue\": null,\n            \"previousValue\": null,\n            \"value\": \"20f55687-4866-29ee-d1d2-039c8d58f41a\"\n          },\n          \"vlocity_cmt__LineNumber__c\": {\n            \"actions\": {\n              \n            },\n            \"alternateValues\": null,\n            \"dataType\": \"STRING\",\n            \"editable\": false,\n            \"fieldName\": \"vlocity_cmt__LineNumber__c\",\n            \"hidden\": true,\n            \"label\": \"Line Number\",\n            \"messages\": [\n              \n            ],\n            \"originalValue\": null,\n            \"previousValue\": null,\n            \"value\": \"0001\"\n          },\n          \"vlocity_cmt__OneTimeTotal__c\": {\n            \"actions\": {\n              \n            },\n            \"alternateValues\": null,\n            \"dataType\": \"CURRENCY\",\n            \"editable\": false,\n            \"fieldName\": \"vlocity_cmt__OneTimeTotal__c\",\n            \"hidden\": true,\n            \"label\": \"One Time Total\",\n            \"messages\": [\n              \n            ],\n            \"originalValue\": null,\n            \"previousValue\": null,\n            \"value\": 300\n          },\n          \"vlocity_cmt__AssetReferenceId__c\": {\n            \"actions\": {\n              \n            },\n            \"alternateValues\": null,\n            \"dataType\": \"STRING\",\n            \"editable\": false,\n            \"fieldName\": \"vlocity_cmt__AssetReferenceId__c\",\n            \"hidden\": true,\n            \"label\": \"Asset Reference Id\",\n            \"messages\": [\n              \n            ],\n            \"originalValue\": null,\n            \"previousValue\": null,\n            \"value\": \"20f55687-4866-29ee-d1d2-039c8d58f41a\"\n          },\n          \"AccountId\": {\n            \"actions\": {\n              \n            },\n            \"alternateValues\": null,\n            \"dataType\": \"REFERENCE\",\n            \"editable\": false,\n            \"fieldName\": \"AccountId\",\n            \"hidden\": false,\n            \"label\": \"Account ID\",\n            \"messages\": [\n              \n            ],\n            \"originalValue\": null,\n            \"previousValue\": null,\n            \"value\": \"0015g000005FnCIAA0\"\n          },\n          \"Quantity\": {\n            \"actions\": {\n              \n            },\n            \"alternateValues\": null,\n            \"dataType\": \"DOUBLE\",\n            \"editable\": false,\n            \"fieldName\": \"Quantity\",\n            \"hidden\": true,\n            \"label\": \"Quantity\",\n            \"messages\": [\n              \n            ],\n            \"originalValue\": null,\n            \"previousValue\": null,\n            \"value\": 1\n          },\n          \"Id\": {\n            \"actions\": {\n              \n            },\n            \"alternateValues\": null,\n            \"dataType\": \"ID\",\n            \"editable\": false,\n            \"fieldName\": \"Id\",\n            \"hidden\": true,\n            \"label\": \"Asset ID\",\n            \"messages\": [\n              \n            ],\n            \"originalValue\": null,\n            \"previousValue\": null,\n            \"value\": \"02i5g000000993OAAQ\"\n          },\n          \"CreatedById\": {\n            \"actions\": {\n              \n            },\n            \"alternateValues\": null,\n            \"dataType\": \"REFERENCE\",\n            \"editable\": false,\n            \"fieldName\": \"CreatedById\",\n            \"hidden\": false,\n            \"label\": \"Created By ID\",\n            \"messages\": [\n              \n            ],\n            \"originalValue\": null,\n            \"previousValue\": null,\n            \"value\": \"0055g0000048hxfAAA\"\n          },\n          \"CreatedDate\": {\n            \"actions\": {\n              \n            },\n            \"alternateValues\": null,\n            \"dataType\": \"DATETIME\",\n            \"editable\": false,\n            \"fieldName\": \"CreatedDate\",\n            \"hidden\": true,\n            \"label\": \"Created Date\",\n            \"messages\": [\n              \n            ],\n            \"originalValue\": null,\n            \"previousValue\": null,\n            \"value\": \"2021-04-12T06:31:04.000Z\"\n          },\n          \"displaySequence\": -1,\n          \"checked\": false\n        },\n        {\n          \"childAssets\": {\n            \"records\": [\n              {\n                \"Name\": \"test c 1\",\n                \"vlocity_cmt__SequenceNumber__c\": {\n                  \"actions\": {\n                    \n                  },\n                  \"alternateValues\": null,\n                  \"dataType\": \"DOUBLE\",\n                  \"editable\": false,\n                  \"fieldName\": \"vlocity_cmt__SequenceNumber__c\",\n                  \"hidden\": true,\n                  \"label\": \"Sequence Number\",\n                  \"messages\": [\n                    \n                  ],\n                  \"originalValue\": null,\n                  \"previousValue\": null,\n                  \"value\": 1\n                },\n                \"vlocity_cmt__OneTimeCharge__c\": {\n                  \"actions\": {\n                    \n                  },\n                  \"alternateValues\": null,\n                  \"dataType\": \"CURRENCY\",\n                  \"editable\": false,\n                  \"fieldName\": \"vlocity_cmt__OneTimeCharge__c\",\n                  \"hidden\": true,\n                  \"label\": \"One Time Charge\",\n                  \"messages\": [\n                    \n                  ],\n                  \"originalValue\": null,\n                  \"previousValue\": null,\n                  \"value\": 100\n                },\n                \"vlocity_cmt__ParentItemId__c\": {\n                  \"actions\": {\n                    \n                  },\n                  \"alternateValues\": null,\n                  \"dataType\": \"STRING\",\n                  \"editable\": false,\n                  \"fieldName\": \"vlocity_cmt__ParentItemId__c\",\n                  \"hidden\": true,\n                  \"label\": \"ParentItemId\",\n                  \"messages\": [\n                    \n                  ],\n                  \"originalValue\": null,\n                  \"previousValue\": null,\n                  \"value\": \"20f55687-4866-29ee-d1d2-039c8d58f41a\"\n                },\n                \"vlocity_cmt__RootItemId__c\": {\n                  \"actions\": {\n                    \n                  },\n                  \"alternateValues\": null,\n                  \"dataType\": \"STRING\",\n                  \"editable\": false,\n                  \"fieldName\": \"vlocity_cmt__RootItemId__c\",\n                  \"hidden\": true,\n                  \"label\": \"RootItemId\",\n                  \"messages\": [\n                    \n                  ],\n                  \"originalValue\": null,\n                  \"previousValue\": null,\n                  \"value\": \"20f55687-4866-29ee-d1d2-039c8d58f41a\"\n                },\n                \"vlocity_cmt__LineNumber__c\": {\n                  \"actions\": {\n                    \n                  },\n                  \"alternateValues\": null,\n                  \"dataType\": \"STRING\",\n                  \"editable\": false,\n                  \"fieldName\": \"vlocity_cmt__LineNumber__c\",\n                  \"hidden\": true,\n                  \"label\": \"Line Number\",\n                  \"messages\": [\n                    \n                  ],\n                  \"originalValue\": null,\n                  \"previousValue\": null,\n                  \"value\": \"0001.0001\"\n                },\n                \"vlocity_cmt__OneTimeTotal__c\": {\n                  \"actions\": {\n                    \n                  },\n                  \"alternateValues\": null,\n                  \"dataType\": \"CURRENCY\",\n                  \"editable\": false,\n                  \"fieldName\": \"vlocity_cmt__OneTimeTotal__c\",\n                  \"hidden\": true,\n                  \"label\": \"One Time Total\",\n                  \"messages\": [\n                    \n                  ],\n                  \"originalValue\": null,\n                  \"previousValue\": null,\n                  \"value\": 200\n                },\n                \"vlocity_cmt__AssetReferenceId__c\": {\n                  \"actions\": {\n                    \n                  },\n                  \"alternateValues\": null,\n                  \"dataType\": \"STRING\",\n                  \"editable\": false,\n                  \"fieldName\": \"vlocity_cmt__AssetReferenceId__c\",\n                  \"hidden\": true,\n                  \"label\": \"Asset Reference Id\",\n                  \"messages\": [\n                    \n                  ],\n                  \"originalValue\": null,\n                  \"previousValue\": null,\n                  \"value\": \"98ebe022-cc1f-5aa1-effc-245ba600d464\"\n                },\n                \"AccountId\": {\n                  \"actions\": {\n                    \n                  },\n                  \"alternateValues\": null,\n                  \"dataType\": \"REFERENCE\",\n                  \"editable\": false,\n                  \"fieldName\": \"AccountId\",\n                  \"hidden\": false,\n                  \"label\": \"Account ID\",\n                  \"messages\": [\n                    \n                  ],\n                  \"originalValue\": null,\n                  \"previousValue\": null,\n                  \"value\": \"0015g000005FnCIAA0\"\n                },\n                \"Quantity\": {\n                  \"actions\": {\n                    \n                  },\n                  \"alternateValues\": null,\n                  \"dataType\": \"DOUBLE\",\n                  \"editable\": false,\n                  \"fieldName\": \"Quantity\",\n                  \"hidden\": true,\n                  \"label\": \"Quantity\",\n                  \"messages\": [\n                    \n                  ],\n                  \"originalValue\": null,\n                  \"previousValue\": null,\n                  \"value\": 1\n                },\n                \"Id\": {\n                  \"actions\": {\n                    \n                  },\n                  \"alternateValues\": null,\n                  \"dataType\": \"ID\",\n                  \"editable\": false,\n                  \"fieldName\": \"Id\",\n                  \"hidden\": true,\n                  \"label\": \"Asset ID\",\n                  \"messages\": [\n                    \n                  ],\n                  \"originalValue\": null,\n                  \"previousValue\": null,\n                  \"value\": \"02i5g000000993PAAQ\"\n                },\n                \"CreatedById\": {\n                  \"actions\": {\n                    \n                  },\n                  \"alternateValues\": null,\n                  \"dataType\": \"REFERENCE\",\n                  \"editable\": false,\n                  \"fieldName\": \"CreatedById\",\n                  \"hidden\": false,\n                  \"label\": \"Created By ID\",\n                  \"messages\": [\n                    \n                  ],\n                  \"originalValue\": null,\n                  \"previousValue\": null,\n                  \"value\": \"0055g0000048hxfAAA\"\n                },\n                \"CreatedDate\": {\n                  \"actions\": {\n                    \n                  },\n                  \"alternateValues\": null,\n                  \"dataType\": \"DATETIME\",\n                  \"editable\": false,\n                  \"fieldName\": \"CreatedDate\",\n                  \"hidden\": true,\n                  \"label\": \"Created Date\",\n                  \"messages\": [\n                    \n                  ],\n                  \"originalValue\": null,\n                  \"previousValue\": null,\n                  \"value\": \"2021-04-12T06:31:04.000Z\"\n                },\n                \"displaySequence\": -1\n              }\n            ],\n            \"totalSize\": 0\n          },\n          \"Name\": \"test root\",\n          \"vlocity_cmt__SequenceNumber__c\": {\n            \"actions\": {\n              \n            },\n            \"alternateValues\": null,\n            \"dataType\": \"DOUBLE\",\n            \"editable\": false,\n            \"fieldName\": \"vlocity_cmt__SequenceNumber__c\",\n            \"hidden\": true,\n            \"label\": \"Sequence Number\",\n            \"messages\": [\n              \n            ],\n            \"originalValue\": null,\n            \"previousValue\": null,\n            \"value\": 1\n          },\n          \"vlocity_cmt__OneTimeCharge__c\": {\n            \"actions\": {\n              \n            },\n            \"alternateValues\": null,\n            \"dataType\": \"CURRENCY\",\n            \"editable\": false,\n            \"fieldName\": \"vlocity_cmt__OneTimeCharge__c\",\n            \"hidden\": true,\n            \"label\": \"One Time Charge\",\n            \"messages\": [\n              \n            ],\n            \"originalValue\": null,\n            \"previousValue\": null,\n            \"value\": 100\n          },\n          \"vlocity_cmt__RootItemId__c\": {\n            \"actions\": {\n              \n            },\n            \"alternateValues\": null,\n            \"dataType\": \"STRING\",\n            \"editable\": false,\n            \"fieldName\": \"vlocity_cmt__RootItemId__c\",\n            \"hidden\": true,\n            \"label\": \"RootItemId\",\n            \"messages\": [\n              \n            ],\n            \"originalValue\": null,\n            \"previousValue\": null,\n            \"value\": \"20f55687-4866-29ee-d1d2-039c8d58f41a\"\n          },\n          \"vlocity_cmt__LineNumber__c\": {\n            \"actions\": {\n              \n            },\n            \"alternateValues\": null,\n            \"dataType\": \"STRING\",\n            \"editable\": false,\n            \"fieldName\": \"vlocity_cmt__LineNumber__c\",\n            \"hidden\": true,\n            \"label\": \"Line Number\",\n            \"messages\": [\n              \n            ],\n            \"originalValue\": null,\n            \"previousValue\": null,\n            \"value\": \"0001\"\n          },\n          \"vlocity_cmt__OneTimeTotal__c\": {\n            \"actions\": {\n              \n            },\n            \"alternateValues\": null,\n            \"dataType\": \"CURRENCY\",\n            \"editable\": false,\n            \"fieldName\": \"vlocity_cmt__OneTimeTotal__c\",\n            \"hidden\": true,\n            \"label\": \"One Time Total\",\n            \"messages\": [\n              \n            ],\n            \"originalValue\": null,\n            \"previousValue\": null,\n            \"value\": 300\n          },\n          \"vlocity_cmt__AssetReferenceId__c\": {\n            \"actions\": {\n              \n            },\n            \"alternateValues\": null,\n            \"dataType\": \"STRING\",\n            \"editable\": false,\n            \"fieldName\": \"vlocity_cmt__AssetReferenceId__c\",\n            \"hidden\": true,\n            \"label\": \"Asset Reference Id\",\n            \"messages\": [\n              \n            ],\n            \"originalValue\": null,\n            \"previousValue\": null,\n            \"value\": \"20f55687-4866-29ee-d1d2-039c8d58f41a\"\n          },\n          \"AccountId\": {\n            \"actions\": {\n              \n            },\n            \"alternateValues\": null,\n            \"dataType\": \"REFERENCE\",\n            \"editable\": false,\n            \"fieldName\": \"AccountId\",\n            \"hidden\": false,\n            \"label\": \"Account ID\",\n            \"messages\": [\n              \n            ],\n            \"originalValue\": null,\n            \"previousValue\": null,\n            \"value\": \"0015g000005FnCIAA0\"\n          },\n          \"Quantity\": {\n            \"actions\": {\n              \n            },\n            \"alternateValues\": null,\n            \"dataType\": \"DOUBLE\",\n            \"editable\": false,\n            \"fieldName\": \"Quantity\",\n            \"hidden\": true,\n            \"label\": \"Quantity\",\n            \"messages\": [\n              \n            ],\n            \"originalValue\": null,\n            \"previousValue\": null,\n            \"value\": 1\n          },\n          \"Id\": {\n            \"actions\": {\n              \n            },\n            \"alternateValues\": null,\n            \"dataType\": \"ID\",\n            \"editable\": false,\n            \"fieldName\": \"Id\",\n            \"hidden\": true,\n            \"label\": \"Asset ID\",\n            \"messages\": [\n              \n            ],\n            \"originalValue\": null,\n            \"previousValue\": null,\n            \"value\": \"02i5g000000993OAAQ\"\n          },\n          \"CreatedById\": {\n            \"actions\": {\n              \n            },\n            \"alternateValues\": null,\n            \"dataType\": \"REFERENCE\",\n            \"editable\": false,\n            \"fieldName\": \"CreatedById\",\n            \"hidden\": false,\n            \"label\": \"Created By ID\",\n            \"messages\": [\n              \n            ],\n            \"originalValue\": null,\n            \"previousValue\": null,\n            \"value\": \"0055g0000048hxfAAA\"\n          },\n          \"CreatedDate\": {\n            \"actions\": {\n              \n            },\n            \"alternateValues\": null,\n            \"dataType\": \"DATETIME\",\n            \"editable\": false,\n            \"fieldName\": \"CreatedDate\",\n            \"hidden\": true,\n            \"label\": \"Created Date\",\n            \"messages\": [\n              \n            ],\n            \"originalValue\": null,\n            \"previousValue\": null,\n            \"value\": \"2021-04-12T06:31:04.000Z\"\n          },\n          \"displaySequence\": -1,\n          \"checked\": true\n        }\n      ]",
             "dsDelay": 0,
             "resultVar": ""
         }
@@ -27,8 +26,7 @@
                 "label": "Action",
                 "stateAction": {
                     "eventName": "setValues",
-                    "fieldValues": [
-                    ],
+                    "fieldValues": [],
                     "id": "flex-action-1620881064954",
                     "type": "cardAction"
                 }
@@ -42,8 +40,7 @@
                     "label": "Action",
                     "stateAction": {
                         "eventName": "setValues",
-                        "fieldValues": [
-                        ],
+                        "fieldValues": [],
                         "id": "flex-action-1629381827419",
                         "type": "cardAction"
                     }
@@ -67,8 +64,7 @@
                 "label": "Action",
                 "stateAction": {
                     "eventName": "setValues",
-                    "fieldValues": [
-                    ],
+                    "fieldValues": [],
                     "id": "flex-action-1620885986056",
                     "type": "cardAction"
                 }
@@ -82,8 +78,7 @@
                     "label": "Action",
                     "stateAction": {
                         "eventName": "setValues",
-                        "fieldValues": [
-                        ],
+                        "fieldValues": [],
                         "id": "flex-action-1620885986056",
                         "type": "cardAction"
                     }
@@ -106,14 +101,12 @@
         "Id": "0RbRN0000001Vpg0AE",
         "ManageableState": "unmanaged",
         "MasterLabel": "cfCpqAssetViewerLineItem_1_Vlocity",
-        "NamespacePrefix": "%vlocity_namespace%"
+        "NamespacePrefix": "vlocity_cmt"
     },
-    "sessionVars": [
-    ],
+    "sessionVars": [],
     "states": [
         {
-            "actions": [
-            ],
+            "actions": [],
             "blankCardState": false,
             "childCards": [
                 "cpqCartInlinePromoForAssetViewer",
@@ -123,8 +116,7 @@
                 "layer-0": {
                     "children": [
                         {
-                            "children": [
-                            ],
+                            "children": [],
                             "class": "slds-col ",
                             "element": "block",
                             "elementLabel": "Block-0",
@@ -307,8 +299,7 @@
                                                     }
                                                 },
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "left:large",
@@ -371,8 +362,7 @@
                                                             }
                                                         },
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "padding": [
                                                             {
                                                                 "label": "left:large",
@@ -491,11 +481,9 @@
                                                         "container": {
                                                             "class": ""
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "width:20px",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "padding": [
                                                             {
                                                                 "label": "top:x-small",
@@ -541,11 +529,9 @@
                                                                 "container": {
                                                                     "class": ""
                                                                 },
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "width:20px",
-                                                                "margin": [
-                                                                ],
+                                                                "margin": [],
                                                                 "padding": [
                                                                     {
                                                                         "label": "top:x-small",
@@ -649,11 +635,9 @@
                                                         "container": {
                                                             "class": ""
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "width:20px;",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "padding": [
                                                             {
                                                                 "label": "top:x-small",
@@ -699,11 +683,9 @@
                                                                 "container": {
                                                                     "class": ""
                                                                 },
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "width:20px;",
-                                                                "margin": [
-                                                                ],
+                                                                "margin": [],
                                                                 "padding": [
                                                                     {
                                                                         "label": "top:x-small",
@@ -764,13 +746,10 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "5",
                                                     "isResponsive": false
@@ -809,13 +788,10 @@
                                                         "container": {
                                                             "class": ""
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "5",
                                                             "isResponsive": false
@@ -869,13 +845,10 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "1",
                                             "isResponsive": false
@@ -914,13 +887,10 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "1",
                                                     "isResponsive": false
@@ -991,13 +961,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq__asset-name",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "9",
                                                             "isResponsive": false
@@ -1037,13 +1004,10 @@
                                                                     "class": ""
                                                                 },
                                                                 "customClass": "cpq__asset-name",
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "9",
                                                                     "isResponsive": false
@@ -1068,7 +1032,7 @@
                                                     "parentElementKey": "element_element_element_block_2_0_block_1_0_block_0_0",
                                                     "property": {
                                                         "card": "{card}",
-                                                        "fieldName": "Product2.%vlocity_namespace%__VersionLabel__c",
+                                                        "fieldName": "Product2.vlocity_cmt__VersionLabel__c",
                                                         "placeholder": "",
                                                         "record": "{record}",
                                                         "type": "text"
@@ -1097,13 +1061,10 @@
                                                         "container": {
                                                             "class": "cpq__asset-version slds-text-body_small "
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": 3,
                                                             "isResponsive": false
@@ -1142,13 +1103,10 @@
                                                                 "container": {
                                                                     "class": "cpq__asset-version slds-text-body_small "
                                                                 },
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": 3,
                                                                     "isResponsive": false
@@ -1202,11 +1160,9 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "top:x-small",
@@ -1252,11 +1208,9 @@
                                                         "container": {
                                                             "class": ""
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "padding": [
                                                             {
                                                                 "label": "top:x-small",
@@ -1288,7 +1242,7 @@
                                             "parentElementKey": "element_element_block_2_0_block_1_0",
                                             "property": {
                                                 "card": "{card}",
-                                                "mergeField": "%3Cdiv%3E%7B%vlocity_namespace%__ServiceAccountId__r.Name%7D%3C/div%3E",
+                                                "mergeField": "%3Cdiv%3E%7Bvlocity_cmt__ServiceAccountId__r.Name%7D%3C/div%3E",
                                                 "record": "{record}"
                                             },
                                             "size": {
@@ -1315,11 +1269,9 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "top:x-small",
@@ -1365,11 +1317,9 @@
                                                         "container": {
                                                             "class": ""
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "padding": [
                                                             {
                                                                 "label": "top:x-small",
@@ -1428,13 +1378,10 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -1473,13 +1420,10 @@
                                                         "container": {
                                                             "class": ""
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -1533,14 +1477,11 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "minHeight": "3em",
-                                        "padding": [
-                                        ],
+                                        "padding": [],
                                         "size": {
                                             "default": "5",
                                             "isResponsive": false
@@ -1579,14 +1520,11 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "minHeight": "3em",
-                                                "padding": [
-                                                ],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "5",
                                                     "isResponsive": false
@@ -1640,11 +1578,9 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "top:x-small",
@@ -1690,11 +1626,9 @@
                                                         "container": {
                                                             "class": ""
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "padding": [
                                                             {
                                                                 "label": "top:x-small",
@@ -1727,7 +1661,7 @@
                                             "parentElementKey": "element_element_block_2_0_block_2_0",
                                             "property": {
                                                 "card": "{card}",
-                                                "mergeField": "%3Cdiv%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E$%7B%vlocity_namespace%__RecurringCharge__c.value%7D%3C/span%3E%3C/div%3E",
+                                                "mergeField": "%3Cdiv%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E$%7Bvlocity_cmt__RecurringCharge__c.value%7D%3C/span%3E%3C/div%3E",
                                                 "record": "{record}"
                                             },
                                             "size": {
@@ -1754,11 +1688,9 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "top:x-small",
@@ -1804,11 +1736,9 @@
                                                         "container": {
                                                             "class": ""
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "padding": [
                                                             {
                                                                 "label": "top:x-small",
@@ -1843,7 +1773,7 @@
                                                     "parentElementKey": "element_element_element_block_2_0_block_2_0_block_2_0",
                                                     "property": {
                                                         "card": "{card}",
-                                                        "mergeField": "%3Cdiv%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E$%7B%vlocity_namespace%__OneTimeCharge__c.value%7D%3C/span%3E%3C/div%3E",
+                                                        "mergeField": "%3Cdiv%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E$%7Bvlocity_cmt__OneTimeCharge__c.value%7D%3C/span%3E%3C/div%3E",
                                                         "record": "{record}"
                                                     },
                                                     "size": {
@@ -1870,13 +1800,10 @@
                                                         "container": {
                                                             "class": ""
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -1915,13 +1842,10 @@
                                                                 "container": {
                                                                     "class": ""
                                                                 },
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "12",
                                                                     "isResponsive": false
@@ -1949,7 +1873,7 @@
                                                         "data-conditions": {
                                                             "group": [
                                                                 {
-                                                                    "field": "%vlocity_namespace%__OneTimeCharge__c.originalValue",
+                                                                    "field": "vlocity_cmt__OneTimeCharge__c.originalValue",
                                                                     "id": "state-new-condition-0",
                                                                     "operator": "!=",
                                                                     "type": "custom",
@@ -1959,7 +1883,7 @@
                                                             "id": "state-condition-object",
                                                             "isParent": true
                                                         },
-                                                        "mergeField": "%3Cdiv%3E%3Cspan%20style=%22text-decoration:%20line-through;%20color:%20#b0adab;%22%3E$%7B%vlocity_namespace%__OneTimeCharge__c.originalValue%7D%3C/span%3E%3C/div%3E",
+                                                        "mergeField": "%3Cdiv%3E%3Cspan%20style=%22text-decoration:%20line-through;%20color:%20#b0adab;%22%3E$%7Bvlocity_cmt__OneTimeCharge__c.originalValue%7D%3C/span%3E%3C/div%3E",
                                                         "record": "{record}"
                                                     },
                                                     "size": {
@@ -1986,13 +1910,10 @@
                                                         "container": {
                                                             "class": ""
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -2031,13 +1952,10 @@
                                                                 "container": {
                                                                     "class": ""
                                                                 },
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "12",
                                                                     "isResponsive": false
@@ -2091,11 +2009,9 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "around:x-small",
@@ -2141,11 +2057,9 @@
                                                         "container": {
                                                             "class": ""
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "padding": [
                                                             {
                                                                 "label": "around:x-small",
@@ -2177,7 +2091,7 @@
                                             "parentElementKey": "element_element_block_2_0_block_2_0",
                                             "property": {
                                                 "card": "{card}",
-                                                "mergeField": "%3Cdiv%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E$%7B%vlocity_namespace%__OneTimeTotal__c.value%7D%3C/span%3E%3C/div%3E",
+                                                "mergeField": "%3Cdiv%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E$%7Bvlocity_cmt__OneTimeTotal__c.value%7D%3C/span%3E%3C/div%3E",
                                                 "record": "{record}"
                                             },
                                             "size": {
@@ -2204,11 +2118,9 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "top:x-small",
@@ -2254,11 +2166,9 @@
                                                         "container": {
                                                             "class": ""
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "padding": [
                                                             {
                                                                 "label": "top:x-small",
@@ -2319,11 +2229,9 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:x-small",
@@ -2369,11 +2277,9 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "around:x-small",
@@ -2452,13 +2358,10 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": false
@@ -2501,13 +2404,10 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -2560,13 +2460,10 @@
                                     "class": ""
                                 },
                                 "customClass": "",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "padding-left:0;",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "12",
                                     "isResponsive": false
@@ -2606,13 +2503,10 @@
                                             "class": ""
                                         },
                                         "customClass": "",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "padding-left:0;",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": false
@@ -2632,25 +2526,19 @@
                 }
             },
             "conditions": {
-                "group": [
-                ],
+                "group": [],
                 "id": "state-condition-object",
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Active",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "",
@@ -2670,8 +2558,7 @@
                 "container": {
                     "class": "cpq__cart-flex-table_container"
                 },
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
                 "margin": [
                     {

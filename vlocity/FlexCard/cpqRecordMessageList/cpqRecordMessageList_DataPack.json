@@ -1,9 +1,8 @@
 {
     "AuthorName": "Vlocity",
-    "%vlocity_namespace%__CardType__c": "flex",
+    "vlocity_cmt__CardType__c": "flex",
     "DataSourceConfig": {
-        "contextVariables": [
-        ],
+        "contextVariables": [],
         "orderBy": {
             "isReverse": false,
             "name": ""
@@ -18,10 +17,10 @@
     "Description": "This flexcard is used to display messages which are passed to it as an array of objects {code, severity, message}.",
     "OmniUiCardKey": "cpqRecordMessageList/Vlocity/3/1651469468994",
     "OmniUiCardType": "Child",
-    "%vlocity_namespace%__ParentID__c": "",
+    "vlocity_cmt__ParentID__c": "",
     "SampleDataSourceResponse": "[{\"code\":\"204\",\"severity\":\"ERROR\",\"message\":\"Required attribute missing for T1076516 Child Product 02 02.\"},{\"code\":\"204\",\"severity\":\"INFO\",\"message\":\"This is info message.\"},{\"code\":\"204\",\"severity\":\"WARN\",\"message\":\"This is warn message.\"}]",
     "StylingConfiguration": "{\"customStyles\":\".cpq__record-message-list_learn-more .slds-popover {\\n    width: 20rem;\\n    position: absolute;\\n    z-index: 3;\\n}\\n\\n.cpq__record-message-list_learn-more .slds-nubbin_top-left:before {\\n    background: #FE9339;\\n}\"}",
-    "%vlocity_namespace%__Type__c": "",
+    "vlocity_cmt__Type__c": "",
     "VersionNumber": 3,
     "Name": "cpqRecordMessageList",
     "VlocityDataPackType": "SObject",

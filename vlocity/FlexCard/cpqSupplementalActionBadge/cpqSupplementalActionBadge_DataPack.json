@@ -1,23 +1,20 @@
 {
     "AuthorName": "Vlocity",
-    "%vlocity_namespace%__CardType__c": "flex",
+    "vlocity_cmt__CardType__c": "flex",
     "DataSourceConfig": {
-        "contextVariables": [
-        ],
-        "orderBy": {
-        },
+        "contextVariables": [],
+        "orderBy": {},
         "type": null,
-        "value": {
-        }
+        "value": {}
     },
     "PropertySetConfig": "cpqSupplementalActionBadge.json",
     "Description": "",
     "OmniUiCardKey": "cpqSupplementalActionBadge/Vlocity/1/1635263731043",
     "OmniUiCardType": "Child",
-    "%vlocity_namespace%__ParentID__c": "",
+    "vlocity_cmt__ParentID__c": "",
     "SampleDataSourceResponse": "",
     "StylingConfiguration": "{\"customStyles\":\".cpq__supplementalBadge{\\n    width: max-content;\\n}\"}",
-    "%vlocity_namespace%__Type__c": "",
+    "vlocity_cmt__Type__c": "",
     "VersionNumber": 1,
     "Name": "cpqSupplementalActionBadge",
     "VlocityDataPackType": "SObject",

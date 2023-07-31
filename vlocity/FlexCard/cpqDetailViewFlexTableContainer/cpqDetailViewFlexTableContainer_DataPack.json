@@ -1,6 +1,6 @@
 {
     "AuthorName": "Vlocity",
-    "%vlocity_namespace%__CardType__c": "flex",
+    "vlocity_cmt__CardType__c": "flex",
     "DataSourceConfig": {
         "contextVariables": [
             {
@@ -24,10 +24,10 @@
     "Description": "",
     "OmniUiCardKey": "cpqDetailViewFlexTableContainer/Vlocity/3/1663037764698",
     "OmniUiCardType": "Child",
-    "%vlocity_namespace%__ParentID__c": "ChampioChild/Vlocity/1/1612193338689",
+    "vlocity_cmt__ParentID__c": "ChampioChild/Vlocity/1/1612193338689",
     "SampleDataSourceResponse": "[{\"label\":\"Group\",\"value\":[],\"groupIds\":\"\"}]",
     "StylingConfiguration": "",
-    "%vlocity_namespace%__Type__c": "",
+    "vlocity_cmt__Type__c": "",
     "VersionNumber": 3,
     "Name": "cpqDetailViewFlexTableContainer",
     "VlocityDataPackType": "SObject",

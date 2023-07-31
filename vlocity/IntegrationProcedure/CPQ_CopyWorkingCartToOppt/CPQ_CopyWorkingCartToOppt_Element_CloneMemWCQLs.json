@@ -1,34 +1,30 @@
 {
-    "%vlocity_namespace%__Active__c": true,
-    "%vlocity_namespace%__InternalNotes__c": "This call do complete migration of working cart items to sales Opportunity line items, including renumbering and member tagging (bulkified version for MemberUpdateLoopBlock).",
-    "%vlocity_namespace%__OmniScriptId__c": {
+    "vlocity_cmt__Active__c": true,
+    "vlocity_cmt__InternalNotes__c": "This call do complete migration of working cart items to sales Opportunity line items, including renumbering and member tagging (bulkified version for MemberUpdateLoopBlock).",
+    "vlocity_cmt__OmniScriptId__c": {
         "Name": "CopyWorkingCartToOppt",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/CPQ/CopyWorkingCartToOppt/Procedure",
-        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        "VlocityMatchingRecordSourceKey": "vlocity_cmt__OmniScript__c/CPQ/CopyWorkingCartToOppt/Procedure",
+        "VlocityRecordSObjectType": "vlocity_cmt__OmniScript__c"
     },
-    "%vlocity_namespace%__PropertySet__c": {
+    "vlocity_cmt__PropertySet__c": {
         "actionMessage": "",
-        "additionalChainableResponse": {
-        },
+        "additionalChainableResponse": {},
         "additionalInput": {
             "SalesOpptId": "%SalesOpptId%",
             "WorkingCartId": "%WorkingCartId%"
         },
-        "additionalOutput": {
-        },
+        "additionalOutput": {},
         "chainOnStep": false,
         "disOnTplt": false,
         "executionConditionalFormula": "NOT(ISBLANK(MemberIds))",
         "failOnStepError": true,
         "failureConditionalFormula": "",
-        "failureResponse": {
-        },
+        "failureResponse": {},
         "label": "RemoteAction13",
-        "remoteClass": "%vlocity_namespace%.B2BCmexAppHandler",
+        "remoteClass": "vlocity_cmt.B2BCmexAppHandler",
         "remoteMethod": "cloneMembersFromOpptWCToSC",
-        "remoteOptions": {
-        },
+        "remoteOptions": {},
         "responseJSONNode": "",
         "responseJSONPath": "",
         "returnOnlyAdditionalOutput": false,
@@ -39,10 +35,10 @@
         "show": null,
         "useFormulas": true
     },
-    "%vlocity_namespace%__ReusableOmniScript__c": false,
-    "%vlocity_namespace%__Type__c": "Remote Action",
+    "vlocity_cmt__ReusableOmniScript__c": false,
+    "vlocity_cmt__Type__c": "Remote Action",
     "Name": "CloneMemWCQLs",
     "VlocityDataPackType": "SObject",
-    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
-    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/CPQ/CopyWorkingCartToOppt/Procedure/CloneMemWCQLs"
+    "VlocityRecordSObjectType": "vlocity_cmt__Element__c",
+    "VlocityRecordSourceKey": "vlocity_cmt__Element__c/vlocity_cmt__OmniScript__c/CPQ/CopyWorkingCartToOppt/Procedure/CloneMemWCQLs"
 }

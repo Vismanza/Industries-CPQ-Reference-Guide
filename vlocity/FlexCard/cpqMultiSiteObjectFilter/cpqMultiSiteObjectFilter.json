@@ -18,7 +18,7 @@
         },
         "type": "Custom",
         "value": {
-            "body": "[\n  {\n    \"aggregatable\": true,\n    \"aiPredictionField\": false,\n    \"autoNumber\": false,\n    \"byteLength\": 0,\n    \"calculated\": false,\n    \"calculatedFormula\": null,\n    \"cascadeDelete\": false,\n    \"caseSensitive\": false,\n    \"compoundFieldName\": null,\n    \"controllerName\": null,\n    \"createable\": true,\n    \"custom\": true,\n    \"defaultValue\": null,\n    \"defaultValueFormula\": null,\n    \"defaultedOnCreate\": false,\n    \"dependentPicklist\": false,\n    \"deprecatedAndHidden\": false,\n    \"digits\": 0,\n    \"displayLocationInDecimal\": false,\n    \"encrypted\": false,\n    \"externalId\": false,\n    \"extraTypeInfo\": null,\n    \"filterable\": true,\n    \"filteredLookupInfo\": null,\n    \"formulaTreatNullNumberAsZero\": false,\n    \"groupable\": false,\n    \"highScaleNumber\": false,\n    \"htmlFormatted\": false,\n    \"idLookup\": false,\n    \"inlineHelpText\": null,\n    \"label\": \"Test CP Currency\",\n    \"length\": 0,\n    \"mask\": null,\n    \"maskType\": null,\n    \"name\": \"%vlocity_namespace%__Test_CP_Currency__c\",\n    \"nameField\": false,\n    \"namePointing\": false,\n    \"nillable\": true,\n    \"permissionable\": true,\n    \"picklistValues\": [],\n    \"polymorphicForeignKey\": false,\n    \"precision\": 18,\n    \"queryByDistance\": false,\n    \"referenceTargetField\": null,\n    \"referenceTo\": [],\n    \"relationshipName\": null,\n    \"relationshipOrder\": null,\n    \"restrictedDelete\": false,\n    \"restrictedPicklist\": false,\n    \"scale\": 0,\n    \"searchPrefilterable\": false,\n    \"soapType\": \"xsd:double\",\n    \"sortable\": true,\n    \"type\": \"currency\",\n    \"unique\": false,\n    \"updateable\": true,\n    \"writeRequiresMasterRead\": false,\n    \"inputType\": \"number\",\n    \"userValues\": null,\n    \"code\": \"%vlocity_namespace%__Test_CP_Currency__c\",\n    \"values\": [],\n    \"dataType\": \"currency\"\n  },\n  {\n    \"aggregatable\": true,\n    \"aiPredictionField\": false,\n    \"autoNumber\": false,\n    \"byteLength\": 0,\n    \"calculated\": false,\n    \"calculatedFormula\": null,\n    \"cascadeDelete\": false,\n    \"caseSensitive\": false,\n    \"compoundFieldName\": null,\n    \"controllerName\": null,\n    \"createable\": true,\n    \"custom\": true,\n    \"defaultValue\": null,\n    \"defaultValueFormula\": null,\n    \"defaultedOnCreate\": false,\n    \"dependentPicklist\": false,\n    \"deprecatedAndHidden\": false,\n    \"digits\": 0,\n    \"displayLocationInDecimal\": false,\n    \"encrypted\": false,\n    \"externalId\": false,\n    \"extraTypeInfo\": null,\n    \"filterable\": true,\n    \"filteredLookupInfo\": null,\n    \"formulaTreatNullNumberAsZero\": false,\n    \"groupable\": false,\n    \"highScaleNumber\": false,\n    \"htmlFormatted\": false,\n    \"idLookup\": false,\n    \"inlineHelpText\": null,\n    \"label\": \"Average Monthly Usage\",\n    \"length\": 0,\n    \"mask\": null,\n    \"maskType\": null,\n    \"name\": \"%vlocity_namespace%__AverageMonthlyUsage__c\",\n    \"nameField\": false,\n    \"namePointing\": false,\n    \"nillable\": true,\n    \"permissionable\": true,\n    \"picklistValues\": [],\n    \"polymorphicForeignKey\": false,\n    \"precision\": 18,\n    \"queryByDistance\": false,\n    \"referenceTargetField\": null,\n    \"referenceTo\": [],\n    \"relationshipName\": null,\n    \"relationshipOrder\": null,\n    \"restrictedDelete\": false,\n    \"restrictedPicklist\": false,\n    \"scale\": 0,\n    \"searchPrefilterable\": false,\n    \"soapType\": \"xsd:double\",\n    \"sortable\": true,\n    \"type\": \"double\",\n    \"unique\": false,\n    \"updateable\": true,\n    \"writeRequiresMasterRead\": false,\n    \"inputType\": \"number\",\n    \"userValues\": null,\n    \"code\": \"%vlocity_namespace%__AverageMonthlyUsage__c\",\n    \"values\": []\n  },\n  {\n    \"aggregatable\": false,\n    \"aiPredictionField\": false,\n    \"autoNumber\": false,\n    \"byteLength\": 0,\n    \"calculated\": false,\n    \"calculatedFormula\": null,\n    \"cascadeDelete\": false,\n    \"caseSensitive\": false,\n    \"compoundFieldName\": null,\n    \"controllerName\": null,\n    \"createable\": true,\n    \"custom\": true,\n    \"defaultValue\": false,\n    \"defaultValueFormula\": null,\n    \"defaultedOnCreate\": true,\n    \"dependentPicklist\": false,\n    \"deprecatedAndHidden\": false,\n    \"digits\": 0,\n    \"displayLocationInDecimal\": false,\n    \"encrypted\": false,\n    \"externalId\": false,\n    \"extraTypeInfo\": null,\n    \"filterable\": true,\n    \"filteredLookupInfo\": null,\n    \"formulaTreatNullNumberAsZero\": false,\n    \"groupable\": true,\n    \"highScaleNumber\": false,\n    \"htmlFormatted\": false,\n    \"idLookup\": false,\n    \"inlineHelpText\": null,\n    \"label\": \"Test CP Checkbox\",\n    \"length\": 0,\n    \"mask\": null,\n    \"maskType\": null,\n    \"name\": \"%vlocity_namespace%__Test_CP_Checkbox__c\",\n    \"nameField\": false,\n    \"namePointing\": false,\n    \"nillable\": false,\n    \"permissionable\": true,\n    \"picklistValues\": [],\n    \"polymorphicForeignKey\": false,\n    \"precision\": 0,\n    \"queryByDistance\": false,\n    \"referenceTargetField\": null,\n    \"referenceTo\": [],\n    \"relationshipName\": null,\n    \"relationshipOrder\": null,\n    \"restrictedDelete\": false,\n    \"restrictedPicklist\": false,\n    \"scale\": 0,\n    \"searchPrefilterable\": false,\n    \"soapType\": \"xsd:boolean\",\n    \"sortable\": true,\n    \"type\": \"boolean\",\n    \"unique\": false,\n    \"updateable\": true,\n    \"writeRequiresMasterRead\": false,\n    \"inputType\": \"single-checkbox\",\n    \"userValues\": false,\n    \"code\": \"%vlocity_namespace%__Test_CP_Checkbox__c\",\n    \"values\": []\n  },\n  {\n    \"aggregatable\": true,\n    \"aiPredictionField\": false,\n    \"autoNumber\": false,\n    \"byteLength\": 240,\n    \"calculated\": false,\n    \"calculatedFormula\": null,\n    \"cascadeDelete\": false,\n    \"caseSensitive\": false,\n    \"compoundFieldName\": null,\n    \"controllerName\": null,\n    \"createable\": true,\n    \"custom\": true,\n    \"defaultValue\": null,\n    \"defaultValueFormula\": null,\n    \"defaultedOnCreate\": false,\n    \"dependentPicklist\": false,\n    \"deprecatedAndHidden\": false,\n    \"digits\": 0,\n    \"displayLocationInDecimal\": false,\n    \"encrypted\": false,\n    \"externalId\": false,\n    \"extraTypeInfo\": null,\n    \"filterable\": true,\n    \"filteredLookupInfo\": null,\n    \"formulaTreatNullNumberAsZero\": false,\n    \"groupable\": true,\n    \"highScaleNumber\": false,\n    \"htmlFormatted\": false,\n    \"idLookup\": false,\n    \"inlineHelpText\": null,\n    \"label\": \"Test CP Email\",\n    \"length\": 80,\n    \"mask\": null,\n    \"maskType\": null,\n    \"name\": \"%vlocity_namespace%__Test_CP_Email__c\",\n    \"nameField\": false,\n    \"namePointing\": false,\n    \"nillable\": true,\n    \"permissionable\": true,\n    \"picklistValues\": [],\n    \"polymorphicForeignKey\": false,\n    \"precision\": 0,\n    \"queryByDistance\": false,\n    \"referenceTargetField\": null,\n    \"referenceTo\": [],\n    \"relationshipName\": null,\n    \"relationshipOrder\": null,\n    \"restrictedDelete\": false,\n    \"restrictedPicklist\": false,\n    \"scale\": 0,\n    \"searchPrefilterable\": false,\n    \"soapType\": \"xsd:string\",\n    \"sortable\": true,\n    \"type\": \"email\",\n    \"unique\": false,\n    \"updateable\": true,\n    \"writeRequiresMasterRead\": false,\n    \"inputType\": \"email\",\n    \"userValues\": null,\n    \"code\": \"%vlocity_namespace%__Test_CP_Email__c\",\n    \"values\": []\n  }\n]",
+            "body": "[\n  {\n    \"aggregatable\": true,\n    \"aiPredictionField\": false,\n    \"autoNumber\": false,\n    \"byteLength\": 0,\n    \"calculated\": false,\n    \"calculatedFormula\": null,\n    \"cascadeDelete\": false,\n    \"caseSensitive\": false,\n    \"compoundFieldName\": null,\n    \"controllerName\": null,\n    \"createable\": true,\n    \"custom\": true,\n    \"defaultValue\": null,\n    \"defaultValueFormula\": null,\n    \"defaultedOnCreate\": false,\n    \"dependentPicklist\": false,\n    \"deprecatedAndHidden\": false,\n    \"digits\": 0,\n    \"displayLocationInDecimal\": false,\n    \"encrypted\": false,\n    \"externalId\": false,\n    \"extraTypeInfo\": null,\n    \"filterable\": true,\n    \"filteredLookupInfo\": null,\n    \"formulaTreatNullNumberAsZero\": false,\n    \"groupable\": false,\n    \"highScaleNumber\": false,\n    \"htmlFormatted\": false,\n    \"idLookup\": false,\n    \"inlineHelpText\": null,\n    \"label\": \"Test CP Currency\",\n    \"length\": 0,\n    \"mask\": null,\n    \"maskType\": null,\n    \"name\": \"vlocity_cmt__Test_CP_Currency__c\",\n    \"nameField\": false,\n    \"namePointing\": false,\n    \"nillable\": true,\n    \"permissionable\": true,\n    \"picklistValues\": [],\n    \"polymorphicForeignKey\": false,\n    \"precision\": 18,\n    \"queryByDistance\": false,\n    \"referenceTargetField\": null,\n    \"referenceTo\": [],\n    \"relationshipName\": null,\n    \"relationshipOrder\": null,\n    \"restrictedDelete\": false,\n    \"restrictedPicklist\": false,\n    \"scale\": 0,\n    \"searchPrefilterable\": false,\n    \"soapType\": \"xsd:double\",\n    \"sortable\": true,\n    \"type\": \"currency\",\n    \"unique\": false,\n    \"updateable\": true,\n    \"writeRequiresMasterRead\": false,\n    \"inputType\": \"number\",\n    \"userValues\": null,\n    \"code\": \"vlocity_cmt__Test_CP_Currency__c\",\n    \"values\": [],\n    \"dataType\": \"currency\"\n  },\n  {\n    \"aggregatable\": true,\n    \"aiPredictionField\": false,\n    \"autoNumber\": false,\n    \"byteLength\": 0,\n    \"calculated\": false,\n    \"calculatedFormula\": null,\n    \"cascadeDelete\": false,\n    \"caseSensitive\": false,\n    \"compoundFieldName\": null,\n    \"controllerName\": null,\n    \"createable\": true,\n    \"custom\": true,\n    \"defaultValue\": null,\n    \"defaultValueFormula\": null,\n    \"defaultedOnCreate\": false,\n    \"dependentPicklist\": false,\n    \"deprecatedAndHidden\": false,\n    \"digits\": 0,\n    \"displayLocationInDecimal\": false,\n    \"encrypted\": false,\n    \"externalId\": false,\n    \"extraTypeInfo\": null,\n    \"filterable\": true,\n    \"filteredLookupInfo\": null,\n    \"formulaTreatNullNumberAsZero\": false,\n    \"groupable\": false,\n    \"highScaleNumber\": false,\n    \"htmlFormatted\": false,\n    \"idLookup\": false,\n    \"inlineHelpText\": null,\n    \"label\": \"Average Monthly Usage\",\n    \"length\": 0,\n    \"mask\": null,\n    \"maskType\": null,\n    \"name\": \"vlocity_cmt__AverageMonthlyUsage__c\",\n    \"nameField\": false,\n    \"namePointing\": false,\n    \"nillable\": true,\n    \"permissionable\": true,\n    \"picklistValues\": [],\n    \"polymorphicForeignKey\": false,\n    \"precision\": 18,\n    \"queryByDistance\": false,\n    \"referenceTargetField\": null,\n    \"referenceTo\": [],\n    \"relationshipName\": null,\n    \"relationshipOrder\": null,\n    \"restrictedDelete\": false,\n    \"restrictedPicklist\": false,\n    \"scale\": 0,\n    \"searchPrefilterable\": false,\n    \"soapType\": \"xsd:double\",\n    \"sortable\": true,\n    \"type\": \"double\",\n    \"unique\": false,\n    \"updateable\": true,\n    \"writeRequiresMasterRead\": false,\n    \"inputType\": \"number\",\n    \"userValues\": null,\n    \"code\": \"vlocity_cmt__AverageMonthlyUsage__c\",\n    \"values\": []\n  },\n  {\n    \"aggregatable\": false,\n    \"aiPredictionField\": false,\n    \"autoNumber\": false,\n    \"byteLength\": 0,\n    \"calculated\": false,\n    \"calculatedFormula\": null,\n    \"cascadeDelete\": false,\n    \"caseSensitive\": false,\n    \"compoundFieldName\": null,\n    \"controllerName\": null,\n    \"createable\": true,\n    \"custom\": true,\n    \"defaultValue\": false,\n    \"defaultValueFormula\": null,\n    \"defaultedOnCreate\": true,\n    \"dependentPicklist\": false,\n    \"deprecatedAndHidden\": false,\n    \"digits\": 0,\n    \"displayLocationInDecimal\": false,\n    \"encrypted\": false,\n    \"externalId\": false,\n    \"extraTypeInfo\": null,\n    \"filterable\": true,\n    \"filteredLookupInfo\": null,\n    \"formulaTreatNullNumberAsZero\": false,\n    \"groupable\": true,\n    \"highScaleNumber\": false,\n    \"htmlFormatted\": false,\n    \"idLookup\": false,\n    \"inlineHelpText\": null,\n    \"label\": \"Test CP Checkbox\",\n    \"length\": 0,\n    \"mask\": null,\n    \"maskType\": null,\n    \"name\": \"vlocity_cmt__Test_CP_Checkbox__c\",\n    \"nameField\": false,\n    \"namePointing\": false,\n    \"nillable\": false,\n    \"permissionable\": true,\n    \"picklistValues\": [],\n    \"polymorphicForeignKey\": false,\n    \"precision\": 0,\n    \"queryByDistance\": false,\n    \"referenceTargetField\": null,\n    \"referenceTo\": [],\n    \"relationshipName\": null,\n    \"relationshipOrder\": null,\n    \"restrictedDelete\": false,\n    \"restrictedPicklist\": false,\n    \"scale\": 0,\n    \"searchPrefilterable\": false,\n    \"soapType\": \"xsd:boolean\",\n    \"sortable\": true,\n    \"type\": \"boolean\",\n    \"unique\": false,\n    \"updateable\": true,\n    \"writeRequiresMasterRead\": false,\n    \"inputType\": \"single-checkbox\",\n    \"userValues\": false,\n    \"code\": \"vlocity_cmt__Test_CP_Checkbox__c\",\n    \"values\": []\n  },\n  {\n    \"aggregatable\": true,\n    \"aiPredictionField\": false,\n    \"autoNumber\": false,\n    \"byteLength\": 240,\n    \"calculated\": false,\n    \"calculatedFormula\": null,\n    \"cascadeDelete\": false,\n    \"caseSensitive\": false,\n    \"compoundFieldName\": null,\n    \"controllerName\": null,\n    \"createable\": true,\n    \"custom\": true,\n    \"defaultValue\": null,\n    \"defaultValueFormula\": null,\n    \"defaultedOnCreate\": false,\n    \"dependentPicklist\": false,\n    \"deprecatedAndHidden\": false,\n    \"digits\": 0,\n    \"displayLocationInDecimal\": false,\n    \"encrypted\": false,\n    \"externalId\": false,\n    \"extraTypeInfo\": null,\n    \"filterable\": true,\n    \"filteredLookupInfo\": null,\n    \"formulaTreatNullNumberAsZero\": false,\n    \"groupable\": true,\n    \"highScaleNumber\": false,\n    \"htmlFormatted\": false,\n    \"idLookup\": false,\n    \"inlineHelpText\": null,\n    \"label\": \"Test CP Email\",\n    \"length\": 80,\n    \"mask\": null,\n    \"maskType\": null,\n    \"name\": \"vlocity_cmt__Test_CP_Email__c\",\n    \"nameField\": false,\n    \"namePointing\": false,\n    \"nillable\": true,\n    \"permissionable\": true,\n    \"picklistValues\": [],\n    \"polymorphicForeignKey\": false,\n    \"precision\": 0,\n    \"queryByDistance\": false,\n    \"referenceTargetField\": null,\n    \"referenceTo\": [],\n    \"relationshipName\": null,\n    \"relationshipOrder\": null,\n    \"restrictedDelete\": false,\n    \"restrictedPicklist\": false,\n    \"scale\": 0,\n    \"searchPrefilterable\": false,\n    \"soapType\": \"xsd:string\",\n    \"sortable\": true,\n    \"type\": \"email\",\n    \"unique\": false,\n    \"updateable\": true,\n    \"writeRequiresMasterRead\": false,\n    \"inputType\": \"email\",\n    \"userValues\": null,\n    \"code\": \"vlocity_cmt__Test_CP_Email__c\",\n    \"values\": []\n  }\n]",
             "dsDelay": "",
             "resultVar": ""
         }
@@ -27,8 +27,7 @@
         "type": "desktop"
     },
     "enableLwc": true,
-    "events": [
-    ],
+    "events": [],
     "globalCSS": false,
     "isFlex": true,
     "isRepeatable": false,
@@ -37,16 +36,14 @@
         "Id": "0Rb5g00000121k6CAA",
         "ManageableState": "unmanaged",
         "MasterLabel": "cfCpqMultiSiteObjectFilter_2_Vlocity",
-        "NamespacePrefix": "%vlocity_namespace%"
+        "NamespacePrefix": "vlocity_cmt"
     },
     "multilanguageSupport": true,
     "selectableMode": "Multi",
-    "sessionVars": [
-    ],
+    "sessionVars": [],
     "states": [
         {
-            "actions": [
-            ],
+            "actions": [],
             "childCards": [
                 "cpqMultisiteObjectFilterVDF"
             ],
@@ -87,11 +84,9 @@
                                 "container": {
                                     "class": ""
                                 },
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
+                                "margin": [],
                                 "padding": [
                                     {
                                         "label": "around:x-small",
@@ -137,11 +132,9 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:x-small",
@@ -233,10 +226,8 @@
                                     }
                                 },
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "12",
                                     "isResponsive": false,
@@ -286,10 +277,8 @@
                                             }
                                         },
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": false,
@@ -338,8 +327,7 @@
                             "type": "element"
                         },
                         {
-                            "children": [
-                            ],
+                            "children": [],
                             "class": "slds-col ",
                             "element": "block",
                             "elementLabel": "Block-3",
@@ -378,11 +366,9 @@
                                 "container": {
                                     "class": "cpq__multisite-object-filter_emptyblock "
                                 },
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
+                                "margin": [],
                                 "padding": [
                                     {
                                         "label": "around:x-small",
@@ -431,11 +417,9 @@
                                         "container": {
                                             "class": "cpq__multisite-object-filter_emptyblock "
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:x-small",
@@ -500,8 +484,7 @@
                                 "buttonVariant": "neutral",
                                 "card": "{card}",
                                 "displayAsButton": false,
-                                "flyoutDetails": {
-                                },
+                                "flyoutDetails": {},
                                 "hideActionIcon": true,
                                 "iconName": "standard-default",
                                 "label": "{Label.CPQClearAll}",
@@ -549,8 +532,7 @@
                                     }
                                 },
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
+                                "margin": [],
                                 "padding": [
                                     {
                                         "label": "around:x-small",
@@ -607,8 +589,7 @@
                                             }
                                         },
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:x-small",
@@ -669,8 +650,7 @@
                                 "buttonVariant": "brand",
                                 "card": "{card}",
                                 "displayAsButton": true,
-                                "flyoutDetails": {
-                                },
+                                "flyoutDetails": {},
                                 "hideActionIcon": true,
                                 "iconName": "standard-default",
                                 "label": "\\{Label.MSApplyFilterLabel}",
@@ -705,11 +685,9 @@
                                 "container": {
                                     "class": "cpq__multisite-object-filter-action_apply"
                                 },
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
+                                "margin": [],
                                 "padding": [
                                     {
                                         "label": "around:x-small",
@@ -758,11 +736,9 @@
                                         "container": {
                                             "class": "cpq__multisite-object-filter-action_apply"
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:x-small",
@@ -792,25 +768,19 @@
                 }
             },
             "conditions": {
-                "group": [
-                ],
+                "group": [],
                 "id": "state-condition-object",
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Active",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "",
@@ -830,8 +800,7 @@
                 "container": {
                     "class": "slds-card"
                 },
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
                 "margin": [
                     {
@@ -840,8 +809,7 @@
                         "type": "around"
                     }
                 ],
-                "padding": [
-                ],
+                "padding": [],
                 "size": {
                     "default": "12",
                     "isResponsive": false
@@ -855,11 +823,9 @@
             }
         },
         {
-            "actions": [
-            ],
+            "actions": [],
             "blankCardState": true,
-            "childCards": [
-            ],
+            "childCards": [],
             "components": {
                 "layer-0": {
                     "children": [
@@ -886,21 +852,16 @@
                 }
             },
             "conditions": {
-                "group": [
-                ],
+                "group": [],
                 "id": "state-condition-object",
                 "isParent": true
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Empty State",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "class": "slds-card slds-p-around_x-small slds-m-bottom_x-small",
                 "container": {

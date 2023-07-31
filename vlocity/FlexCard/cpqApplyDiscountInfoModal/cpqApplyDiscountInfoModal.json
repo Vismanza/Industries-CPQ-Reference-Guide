@@ -7,11 +7,9 @@
                 "val": "available"
             }
         ],
-        "orderBy": {
-        },
+        "orderBy": {},
         "type": null,
-        "value": {
-        }
+        "value": {}
     },
     "enableLwc": true,
     "globalCSS": false,
@@ -21,15 +19,13 @@
         "Id": "0Rb8Z000000EfQiSAK",
         "ManageableState": "unmanaged",
         "MasterLabel": "cfCpqApplyDiscountInfoModal_1_Vlocity",
-        "NamespacePrefix": "%vlocity_namespace%"
+        "NamespacePrefix": "vlocity_cmt"
     },
     "selectableMode": "Multi",
     "states": [
         {
-            "actions": [
-            ],
-            "childCards": [
-            ],
+            "actions": [],
+            "childCards": [],
             "components": {
                 "layer-0": {
                     "children": [
@@ -67,11 +63,9 @@
                                 "container": {
                                     "class": ""
                                 },
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
+                                "margin": [],
                                 "padding": [
                                     {
                                         "label": "around:medium",
@@ -117,11 +111,9 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:medium",
@@ -179,11 +171,9 @@
                                 "container": {
                                     "class": ""
                                 },
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
+                                "margin": [],
                                 "padding": [
                                     {
                                         "label": "horizontal:x-large",
@@ -234,11 +224,9 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "horizontal:x-large",
@@ -306,8 +294,7 @@
                                                 "buttonVariant": "outline-brand",
                                                 "card": "{card}",
                                                 "displayAsButton": true,
-                                                "flyoutDetails": {
-                                                },
+                                                "flyoutDetails": {},
                                                 "hideActionIcon": true,
                                                 "iconName": "standard-default",
                                                 "label": "\\{Label.CPQApplyDiscountActionButtonAsync}",
@@ -340,13 +327,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq_btn_inverse",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "7",
                                                     "isResponsive": false
@@ -386,13 +370,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq_btn_inverse",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "7",
                                                             "isResponsive": false
@@ -446,8 +427,7 @@
                                                 "buttonVariant": "brand",
                                                 "card": "{card}",
                                                 "displayAsButton": true,
-                                                "flyoutDetails": {
-                                                },
+                                                "flyoutDetails": {},
                                                 "hideActionIcon": true,
                                                 "iconName": "standard-default",
                                                 "label": "\\{Label.CPQApplyDiscountActionButtonSync}",
@@ -480,13 +460,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq_btn_solid",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "5",
                                                     "isResponsive": false
@@ -526,13 +503,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq_btn_solid",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "5",
                                                             "isResponsive": false
@@ -587,13 +561,10 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "5",
                                             "isResponsive": false
@@ -632,13 +603,10 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "5",
                                                     "isResponsive": false
@@ -705,11 +673,9 @@
                                     "class": ""
                                 },
                                 "customClass": "cpq__discount_footer",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
+                                "margin": [],
                                 "padding": [
                                     {
                                         "label": "around:small",
@@ -756,11 +722,9 @@
                                             "class": ""
                                         },
                                         "customClass": "cpq__discount_footer",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:small",
@@ -822,8 +786,7 @@
                                         "buttonVariant": "outline-brand",
                                         "card": "{card}",
                                         "displayAsButton": true,
-                                        "flyoutDetails": {
-                                        },
+                                        "flyoutDetails": {},
                                         "hideActionIcon": true,
                                         "iconName": "standard-default",
                                         "label": "\\{Label.CPQApplyDiscountActionButtonAsync}",
@@ -856,13 +819,10 @@
                                             "class": ""
                                         },
                                         "customClass": "cpq_btn_inverse",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "2",
                                             "isResponsive": false
@@ -902,13 +862,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq_btn_inverse",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "2",
                                                     "isResponsive": false
@@ -960,8 +917,7 @@
                                         "buttonVariant": "brand",
                                         "card": "{card}",
                                         "displayAsButton": true,
-                                        "flyoutDetails": {
-                                        },
+                                        "flyoutDetails": {},
                                         "hideActionIcon": true,
                                         "iconName": "standard-default",
                                         "label": "\\{Label.CPQApplyDiscountActionButtonSync}",
@@ -994,13 +950,10 @@
                                             "class": ""
                                         },
                                         "customClass": "cpq_btn_solid",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "1",
                                             "isResponsive": false
@@ -1040,13 +993,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq_btn_solid",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "1",
                                                     "isResponsive": false
@@ -1114,11 +1064,9 @@
                                     "class": ""
                                 },
                                 "customClass": "cpq__discount_footer",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
+                                "margin": [],
                                 "padding": [
                                     {
                                         "label": "around:small",
@@ -1165,11 +1113,9 @@
                                             "class": ""
                                         },
                                         "customClass": "cpq__discount_footer",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:small",
@@ -1197,25 +1143,19 @@
                 }
             },
             "conditions": {
-                "group": [
-                ],
+                "group": [],
                 "id": "state-condition-object",
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Active",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "",
@@ -1235,8 +1175,7 @@
                 "container": {
                     "class": "slds-card"
                 },
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
                 "margin": [
                     {
@@ -1245,8 +1184,7 @@
                         "type": "around"
                     }
                 ],
-                "padding": [
-                ],
+                "padding": [],
                 "size": {
                     "default": "12",
                     "isResponsive": false

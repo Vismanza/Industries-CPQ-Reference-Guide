@@ -1,23 +1,20 @@
 {
     "AuthorName": "Vlocity",
-    "%vlocity_namespace%__CardType__c": "flex",
+    "vlocity_cmt__CardType__c": "flex",
     "DataSourceConfig": {
-        "contextVariables": [
-        ],
-        "orderBy": {
-        },
+        "contextVariables": [],
+        "orderBy": {},
         "type": null,
-        "value": {
-        }
+        "value": {}
     },
     "PropertySetConfig": "cpqMultiSiteApplyToGroup.json",
     "Description": "",
     "OmniUiCardKey": "cpqMultiSiteApplyToGroup/Vlocity/1/1634111167412",
     "OmniUiCardType": "Child",
-    "%vlocity_namespace%__ParentID__c": "cpqMultiSiteCombobox/Vlocity/1/1632812322906",
+    "vlocity_cmt__ParentID__c": "cpqMultiSiteCombobox/Vlocity/1/1632812322906",
     "SampleDataSourceResponse": "",
     "StylingConfiguration": "",
-    "%vlocity_namespace%__Type__c": "",
+    "vlocity_cmt__Type__c": "",
     "VersionNumber": 1,
     "Name": "cpqMultiSiteApplyToGroup",
     "VlocityDataPackType": "SObject",

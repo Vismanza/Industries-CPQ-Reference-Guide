@@ -1,6 +1,6 @@
 {
     "AuthorName": "Vlocity",
-    "%vlocity_namespace%__CardType__c": "flex",
+    "vlocity_cmt__CardType__c": "flex",
     "DataSourceConfig": {
         "contextVariables": [
             {
@@ -44,10 +44,10 @@
     "Description": "VDF used by the MACD Bulk Change flow",
     "OmniUiCardKey": "CPQAttributeConfigFields_MACDBulkChange/Vlocity/1/1623154174661",
     "OmniUiCardType": "Child",
-    "%vlocity_namespace%__ParentID__c": "CPQAttributeConfigFields_filters/Vlocity/3/1622525511626",
+    "vlocity_cmt__ParentID__c": "CPQAttributeConfigFields_filters/Vlocity/3/1622525511626",
     "SampleDataSourceResponse": "[{\"code\":\"938e78a2-59bd-ce6d-9932-008d1a117845\",\"dataType\":\"currency\",\"inputType\":\"number\",\"multiselect\":false,\"required\":false,\"readonly\":false,\"disabled\":false,\"enabled\":false,\"filterable\":true,\"attributeId\":\"a0c4x0000007KQDAA2\",\"label\":\"Data\",\"displaySequence\":-1,\"hasRules\":false,\"hidden\":false,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"readonly\":false,\"disabled\":false}],\"userValues\":null},{\"code\":\"f63e0126-a277-8568-1104-e846bd51e5fc\",\"dataType\":\"text\",\"inputType\":\"text\",\"multiselect\":false,\"required\":false,\"readonly\":false,\"disabled\":false,\"enabled\":false,\"filterable\":true,\"attributeId\":\"a0c4x0000007KQIAA2\",\"label\":\"Duration\",\"displaySequence\":-1,\"hasRules\":false,\"hidden\":false,\"cloneable\":true,\"isNotTranslatable\":false,\"values\":[{\"readonly\":false,\"disabled\":false}],\"userValues\":null}]",
     "StylingConfiguration": "{\"customStyles\":\"\"}",
-    "%vlocity_namespace%__Type__c": "",
+    "vlocity_cmt__Type__c": "",
     "VersionNumber": 1,
     "Name": "CPQAttributeConfigFields_MACDBulkChange",
     "VlocityDataPackType": "SObject",

@@ -31,14 +31,13 @@
         "Id": "0Rb5g000000SgS8CAK",
         "ManageableState": "unmanaged",
         "MasterLabel": "cfCpqCartItems_54_Vlocity",
-        "NamespacePrefix": "%vlocity_namespace%"
+        "NamespacePrefix": "vlocity_cmt"
     },
     "multilanguageSupport": true,
     "osSupport": true,
     "states": [
         {
-            "actions": [
-            ],
+            "actions": [],
             "childCards": [
                 "cpqCartInlinePromo",
                 "cpqCartInlineError",
@@ -61,8 +60,7 @@
                                 "cardName": "cpqCartInlinePromo",
                                 "cardNode": "{record.promotions.records}",
                                 "data-conditions": {
-                                    "group": [
-                                    ],
+                                    "group": [],
                                     "id": "state-condition-object",
                                     "isParent": true
                                 },
@@ -94,13 +92,10 @@
                                 "container": {
                                     "class": "cpq__cart-item_inline-promotions"
                                 },
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "12",
                                     "isResponsive": false
@@ -139,13 +134,10 @@
                                         "container": {
                                             "class": "cpq__cart-item_inline-promotions"
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": false
@@ -164,8 +156,7 @@
                         {
                             "children": [
                                 {
-                                    "children": [
-                                    ],
+                                    "children": [],
                                     "class": "slds-col ",
                                     "element": "block",
                                     "elementLabel": "Block-3-Block-0",
@@ -217,11 +208,9 @@
                                         "container": {
                                             "class": "cpq__cart-child-item_status-icon cpq__cart-child-item_status-icon-blank"
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:x-small",
@@ -267,11 +256,9 @@
                                                 "container": {
                                                     "class": "cpq__cart-child-item_status-icon cpq__cart-child-item_status-icon-blank"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "around:x-small",
@@ -374,8 +361,7 @@
                                             "iconSize": "x-small"
                                         },
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "top:x-small",
@@ -431,8 +417,7 @@
                                                     "iconSize": "x-small"
                                                 },
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "top:x-small",
@@ -540,8 +525,7 @@
                                             "iconSize": "x-small"
                                         },
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "top:x-small",
@@ -597,8 +581,7 @@
                                                     "iconSize": "x-small"
                                                 },
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "top:x-small",
@@ -627,8 +610,7 @@
                                     "type": "element"
                                 },
                                 {
-                                    "children": [
-                                    ],
+                                    "children": [],
                                     "class": "slds-col ",
                                     "element": "block",
                                     "elementLabel": "Block-3-Block-3",
@@ -640,8 +622,7 @@
                                         "collapsedByDefault": false,
                                         "collapsible": false,
                                         "data-conditions": {
-                                            "group": [
-                                            ],
+                                            "group": [],
                                             "id": "state-condition-object",
                                             "isParent": true
                                         },
@@ -672,11 +653,9 @@
                                         "container": {
                                             "class": "cpq__cart_spacing"
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:x-small",
@@ -722,11 +701,9 @@
                                                 "container": {
                                                     "class": "cpq__cart_spacing"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "around:x-small",
@@ -810,8 +787,7 @@
                                                             "id": "state-condition-object",
                                                             "isParent": true
                                                         },
-                                                        "flyoutDetails": {
-                                                        },
+                                                        "flyoutDetails": {},
                                                         "iconColor": "#747474",
                                                         "iconName": "utility:chevronright",
                                                         "iconOnly": true,
@@ -851,10 +827,8 @@
                                                             "iconSize": "x-small"
                                                         },
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "6",
                                                             "isResponsive": false
@@ -899,10 +873,8 @@
                                                                     "iconSize": "x-small"
                                                                 },
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "6",
                                                                     "isResponsive": false
@@ -975,8 +947,7 @@
                                                             "id": "state-condition-object",
                                                             "isParent": true
                                                         },
-                                                        "flyoutDetails": {
-                                                        },
+                                                        "flyoutDetails": {},
                                                         "iconColor": "#747474",
                                                         "iconName": "utility:chevrondown",
                                                         "iconOnly": true,
@@ -1016,10 +987,8 @@
                                                             "iconSize": "x-small"
                                                         },
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "6",
                                                             "isResponsive": false
@@ -1064,10 +1033,8 @@
                                                                     "iconSize": "x-small"
                                                                 },
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "6",
                                                                     "isResponsive": false
@@ -1144,13 +1111,10 @@
                                                 "container": {
                                                     "class": "cpq__cart-child-item-collapse_icon"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "3",
                                                     "isResponsive": false
@@ -1189,13 +1153,10 @@
                                                         "container": {
                                                             "class": "cpq__cart-child-item-collapse_icon"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "3",
                                                             "isResponsive": false
@@ -1247,11 +1208,9 @@
                                                 "container": {
                                                     "class": "cpq__cart-items-name cpq__cart-items-name_strikethrough"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "top:xx-small",
@@ -1299,11 +1258,9 @@
                                                         "container": {
                                                             "class": "cpq__cart-items-name"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "padding": [
                                                             {
                                                                 "label": "top:xx-small",
@@ -1324,11 +1281,11 @@
                                                     }
                                                 },
                                                 {
-                                                    "conditionString": "%vlocity_namespace%__Action__c.value == Disconnect || %vlocity_namespace%__SupplementalAction__c.value == Cancel",
+                                                    "conditionString": "vlocity_cmt__Action__c.value == Disconnect || vlocity_cmt__SupplementalAction__c.value == Cancel",
                                                     "conditions": {
                                                         "group": [
                                                             {
-                                                                "field": "%vlocity_namespace%__Action__c.value",
+                                                                "field": "vlocity_cmt__Action__c.value",
                                                                 "hasMergeField": false,
                                                                 "id": "state-new-condition-4",
                                                                 "operator": "==",
@@ -1336,7 +1293,7 @@
                                                                 "value": "Disconnect"
                                                             },
                                                             {
-                                                                "field": "%vlocity_namespace%__SupplementalAction__c.value",
+                                                                "field": "vlocity_cmt__SupplementalAction__c.value",
                                                                 "hasMergeField": false,
                                                                 "id": "state-new-condition-6",
                                                                 "logicalOperator": "||",
@@ -1373,11 +1330,9 @@
                                                         "container": {
                                                             "class": "cpq__cart-items-name cpq__cart-items-name_strikethrough"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "padding": [
                                                             {
                                                                 "label": "top:xx-small",
@@ -1410,7 +1365,7 @@
                                             "parentElementKey": "element_element_block_1_0_block_4_0",
                                             "property": {
                                                 "card": "{card}",
-                                                "fieldName": "Product2.%vlocity_namespace%__VersionLabel__c",
+                                                "fieldName": "Product2.vlocity_cmt__VersionLabel__c",
                                                 "placeholder": "",
                                                 "record": "{record}",
                                                 "type": "text"
@@ -1439,13 +1394,10 @@
                                                 "container": {
                                                     "class": "cpq__cart-items-version slds-text-body_small"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": 2,
                                                     "isResponsive": false
@@ -1484,13 +1436,10 @@
                                                         "container": {
                                                             "class": "cpq__cart-items-version slds-text-body_small"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": 2,
                                                             "isResponsive": false
@@ -1547,13 +1496,10 @@
                                         "container": {
                                             "class": "cpq__flex-table-hierarchy_name"
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "4",
                                             "isResponsive": false,
@@ -1597,13 +1543,10 @@
                                                 "container": {
                                                     "class": "cpq__flex-table-hierarchy_name"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "4",
                                                     "isResponsive": false,
@@ -1620,11 +1563,11 @@
                                             }
                                         },
                                         {
-                                            "conditionString": "%vlocity_namespace%__UsagePriceTotal__c == undefined",
+                                            "conditionString": "vlocity_cmt__UsagePriceTotal__c == undefined",
                                             "conditions": {
                                                 "group": [
                                                     {
-                                                        "field": "%vlocity_namespace%__UsagePriceTotal__c",
+                                                        "field": "vlocity_cmt__UsagePriceTotal__c",
                                                         "hasMergeField": false,
                                                         "id": "state-new-condition-39",
                                                         "operator": "==",
@@ -1660,13 +1603,10 @@
                                                 "container": {
                                                     "class": "cpq__flex-table-hierarchy_name"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "4",
                                                     "isResponsive": false
@@ -1693,7 +1633,7 @@
                                             "parentElementKey": "element_element_block_1_0_block_5_0",
                                             "property": {
                                                 "card": "{card}",
-                                                "mergeField": "%3Cdiv%3E%3Cstrong%3E%7B%vlocity_namespace%__Action__c.value%7D%3C/strong%3E%3C/div%3E",
+                                                "mergeField": "%3Cdiv%3E%3Cstrong%3E%7Bvlocity_cmt__Action__c.value%7D%3C/strong%3E%3C/div%3E",
                                                 "record": "{record}"
                                             },
                                             "size": {
@@ -1720,11 +1660,9 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "width:max-content;",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "horizontal:x-small",
@@ -1777,11 +1715,9 @@
                                                         "container": {
                                                             "class": ""
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "width:max-content;",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "padding": [
                                                             {
                                                                 "label": "horizontal:x-small",
@@ -1807,11 +1743,11 @@
                                                     }
                                                 },
                                                 {
-                                                    "conditionString": "%vlocity_namespace%__Action__c.value == Add",
+                                                    "conditionString": "vlocity_cmt__Action__c.value == Add",
                                                     "conditions": {
                                                         "group": [
                                                             {
-                                                                "field": "%vlocity_namespace%__Action__c.value",
+                                                                "field": "vlocity_cmt__Action__c.value",
                                                                 "id": "state-new-condition-7",
                                                                 "operator": "==",
                                                                 "type": "custom",
@@ -1846,11 +1782,9 @@
                                                         "container": {
                                                             "class": ""
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "width:max-content;",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "padding": [
                                                             {
                                                                 "label": "horizontal:x-small",
@@ -1876,11 +1810,11 @@
                                                     }
                                                 },
                                                 {
-                                                    "conditionString": "%vlocity_namespace%__Action__c.value == Disconnect",
+                                                    "conditionString": "vlocity_cmt__Action__c.value == Disconnect",
                                                     "conditions": {
                                                         "group": [
                                                             {
-                                                                "field": "%vlocity_namespace%__Action__c.value",
+                                                                "field": "vlocity_cmt__Action__c.value",
                                                                 "id": "state-new-condition-14",
                                                                 "operator": "==",
                                                                 "type": "custom",
@@ -1915,11 +1849,9 @@
                                                         "container": {
                                                             "class": ""
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "width:max-content;",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "padding": [
                                                             {
                                                                 "label": "horizontal:x-small",
@@ -1945,11 +1877,11 @@
                                                     }
                                                 },
                                                 {
-                                                    "conditionString": "%vlocity_namespace%__Action__c.value == Change",
+                                                    "conditionString": "vlocity_cmt__Action__c.value == Change",
                                                     "conditions": {
                                                         "group": [
                                                             {
-                                                                "field": "%vlocity_namespace%__Action__c.value",
+                                                                "field": "vlocity_cmt__Action__c.value",
                                                                 "id": "state-new-condition-25",
                                                                 "operator": "==",
                                                                 "type": "custom",
@@ -1984,11 +1916,9 @@
                                                         "container": {
                                                             "class": ""
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "width:max-content;",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "padding": [
                                                             {
                                                                 "label": "horizontal:x-small",
@@ -2014,11 +1944,11 @@
                                                     }
                                                 },
                                                 {
-                                                    "conditionString": "%vlocity_namespace%__Action__c.value == Existing",
+                                                    "conditionString": "vlocity_cmt__Action__c.value == Existing",
                                                     "conditions": {
                                                         "group": [
                                                             {
-                                                                "field": "%vlocity_namespace%__Action__c.value",
+                                                                "field": "vlocity_cmt__Action__c.value",
                                                                 "id": "state-new-condition-32",
                                                                 "operator": "==",
                                                                 "type": "custom",
@@ -2053,11 +1983,9 @@
                                                         "container": {
                                                             "class": ""
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "width:max-content;",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "padding": [
                                                             {
                                                                 "label": "horizontal:x-small",
@@ -2109,7 +2037,7 @@
                                                 {
                                                     "group": [
                                                         {
-                                                            "field": "%vlocity_namespace%__SupplementalAction__c",
+                                                            "field": "vlocity_cmt__SupplementalAction__c",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-0",
                                                             "operator": "==",
@@ -2117,7 +2045,7 @@
                                                             "value": "undefined"
                                                         },
                                                         {
-                                                            "field": "%vlocity_namespace%__SupplementalAction__c.value",
+                                                            "field": "vlocity_cmt__SupplementalAction__c.value",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-23",
                                                             "logicalOperator": "||",
@@ -2160,8 +2088,7 @@
                                         "container": {
                                             "class": "cpq__cart-item_action-status"
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
                                         "margin": [
                                             {
@@ -2216,8 +2143,7 @@
                                                 "container": {
                                                     "class": "cpq__cart-item_action-status"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
                                                 "margin": [
                                                     {
@@ -2261,7 +2187,7 @@
                                         "data-conditions": {
                                             "group": [
                                                 {
-                                                    "field": "%vlocity_namespace%__SupplementalAction__c.value",
+                                                    "field": "vlocity_cmt__SupplementalAction__c.value",
                                                     "hasMergeField": false,
                                                     "id": "state-new-condition-0",
                                                     "operator": "!=",
@@ -2269,7 +2195,7 @@
                                                     "value": "null"
                                                 },
                                                 {
-                                                    "field": "%vlocity_namespace%__Action__c.value",
+                                                    "field": "vlocity_cmt__Action__c.value",
                                                     "hasMergeField": false,
                                                     "id": "state-new-condition-7",
                                                     "logicalOperator": "&&",
@@ -2301,7 +2227,7 @@
                                         },
                                         "isChildCardTrackingEnabled": false,
                                         "parentAttribute": {
-                                            "supplementalAction": "{%vlocity_namespace%__SupplementalAction__c.value}"
+                                            "supplementalAction": "{vlocity_cmt__SupplementalAction__c.value}"
                                         },
                                         "recordId": "{recordId}",
                                         "selectedState": "Active"
@@ -2330,13 +2256,10 @@
                                         "container": {
                                             "class": "cpq__cart-item_supplement_action-status"
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "2",
                                             "isResponsive": false
@@ -2375,13 +2298,10 @@
                                                 "container": {
                                                     "class": "cpq__cart-item_supplement_action-status"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "2",
                                                     "isResponsive": false
@@ -2435,11 +2355,9 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "width:max-content;",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "horizontal:x-small",
@@ -2492,11 +2410,9 @@
                                                         "container": {
                                                             "class": ""
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "width:max-content;",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "padding": [
                                                             {
                                                                 "label": "horizontal:x-small",
@@ -2562,11 +2478,9 @@
                                                         "container": {
                                                             "class": ""
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "width:max-content;",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "padding": [
                                                             {
                                                                 "label": "horizontal:x-small",
@@ -2632,11 +2546,9 @@
                                                         "container": {
                                                             "class": ""
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "width:max-content;",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "padding": [
                                                             {
                                                                 "label": "horizontal:x-small",
@@ -2702,11 +2614,9 @@
                                                         "container": {
                                                             "class": ""
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "width:max-content;",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "padding": [
                                                             {
                                                                 "label": "horizontal:x-small",
@@ -2772,11 +2682,9 @@
                                                         "container": {
                                                             "class": ""
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "width:max-content;",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "padding": [
                                                             {
                                                                 "label": "horizontal:x-small",
@@ -2856,8 +2764,7 @@
                                         "container": {
                                             "class": "cpq__cart-item_action-status"
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
                                         "margin": [
                                             {
@@ -2911,8 +2818,7 @@
                                                 "container": {
                                                     "class": "cpq__cart-item_action-status"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
                                                 "margin": [
                                                     {
@@ -2955,7 +2861,7 @@
                                         "data-conditions": {
                                             "group": [
                                                 {
-                                                    "field": "%vlocity_namespace%__Action__c.value",
+                                                    "field": "vlocity_cmt__Action__c.value",
                                                     "hasMergeField": false,
                                                     "id": "state-new-condition-48",
                                                     "operator": "==",
@@ -2965,7 +2871,7 @@
                                                 {
                                                     "group": [
                                                         {
-                                                            "field": "%vlocity_namespace%__QuoteGroupId__c",
+                                                            "field": "vlocity_cmt__QuoteGroupId__c",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-68",
                                                             "operator": "==",
@@ -2973,7 +2879,7 @@
                                                             "value": "undefined"
                                                         },
                                                         {
-                                                            "field": "%vlocity_namespace%__QuoteGroupId__c.value",
+                                                            "field": "vlocity_cmt__QuoteGroupId__c.value",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-113",
                                                             "logicalOperator": "||",
@@ -2988,7 +2894,7 @@
                                                 {
                                                     "group": [
                                                         {
-                                                            "field": "%vlocity_namespace%__OrderGroupId__c",
+                                                            "field": "vlocity_cmt__OrderGroupId__c",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-197",
                                                             "operator": "==",
@@ -2996,7 +2902,7 @@
                                                             "value": "undefined"
                                                         },
                                                         {
-                                                            "field": "%vlocity_namespace%__OrderGroupId__c.value",
+                                                            "field": "vlocity_cmt__OrderGroupId__c.value",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-250",
                                                             "logicalOperator": "||",
@@ -3034,7 +2940,7 @@
                                                 {
                                                     "group": [
                                                         {
-                                                            "field": "%vlocity_namespace%__SupplementalAction__c.value",
+                                                            "field": "vlocity_cmt__SupplementalAction__c.value",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-337",
                                                             "operator": "==",
@@ -3042,7 +2948,7 @@
                                                             "value": "undefined"
                                                         },
                                                         {
-                                                            "field": "%vlocity_namespace%__SupplementalAction__c.value",
+                                                            "field": "vlocity_cmt__SupplementalAction__c.value",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-405",
                                                             "logicalOperator": "||",
@@ -3051,7 +2957,7 @@
                                                             "value": "Cancel"
                                                         },
                                                         {
-                                                            "field": "%vlocity_namespace%__SupplementalAction__c.value",
+                                                            "field": "vlocity_cmt__SupplementalAction__c.value",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-207",
                                                             "logicalOperator": "||",
@@ -3066,7 +2972,7 @@
                                                 {
                                                     "group": [
                                                         {
-                                                            "field": "%vlocity_namespace%__IsChangesAllowed__c.value",
+                                                            "field": "vlocity_cmt__IsChangesAllowed__c.value",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-220",
                                                             "operator": "==",
@@ -3074,7 +2980,7 @@
                                                             "value": "undefined"
                                                         },
                                                         {
-                                                            "field": "%vlocity_namespace%__IsChangesAllowed__c.value",
+                                                            "field": "vlocity_cmt__IsChangesAllowed__c.value",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-329",
                                                             "logicalOperator": "||",
@@ -3083,7 +2989,7 @@
                                                             "value": "true"
                                                         },
                                                         {
-                                                            "field": "%vlocity_namespace%__IsChangesAllowed__c.value",
+                                                            "field": "vlocity_cmt__IsChangesAllowed__c.value",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-14",
                                                             "logicalOperator": "||",
@@ -3198,13 +3104,10 @@
                                         "container": {
                                             "class": "cpq__flex-table-hierarchy_quantity"
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "1",
                                             "isResponsive": false
@@ -3243,13 +3146,10 @@
                                                 "container": {
                                                     "class": "cpq__flex-table-hierarchy_quantity"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "1",
                                                     "isResponsive": false
@@ -3285,7 +3185,7 @@
                                                     "value": "{maxQuantity}"
                                                 },
                                                 {
-                                                    "field": "%vlocity_namespace%__IsChangesAllowed__c.value",
+                                                    "field": "vlocity_cmt__IsChangesAllowed__c.value",
                                                     "hasMergeField": false,
                                                     "id": "state-new-condition-9",
                                                     "logicalOperator": "||",
@@ -3294,7 +3194,7 @@
                                                     "value": "false"
                                                 },
                                                 {
-                                                    "field": "%vlocity_namespace%__SupplementalAction__c.value",
+                                                    "field": "vlocity_cmt__SupplementalAction__c.value",
                                                     "hasMergeField": false,
                                                     "id": "state-new-condition-19",
                                                     "logicalOperator": "||",
@@ -3312,7 +3212,7 @@
                                                     "value": "true"
                                                 },
                                                 {
-                                                    "field": "%vlocity_namespace%__Action__c.value",
+                                                    "field": "vlocity_cmt__Action__c.value",
                                                     "hasMergeField": false,
                                                     "id": "state-new-condition-48",
                                                     "logicalOperator": "||",
@@ -3323,7 +3223,7 @@
                                                 {
                                                     "group": [
                                                         {
-                                                            "field": "%vlocity_namespace%__QuoteGroupId__c",
+                                                            "field": "vlocity_cmt__QuoteGroupId__c",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-68",
                                                             "operator": "!=",
@@ -3331,7 +3231,7 @@
                                                             "value": "undefined"
                                                         },
                                                         {
-                                                            "field": "%vlocity_namespace%__QuoteGroupId__c.value",
+                                                            "field": "vlocity_cmt__QuoteGroupId__c.value",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-113",
                                                             "logicalOperator": "&&",
@@ -3346,7 +3246,7 @@
                                                 {
                                                     "group": [
                                                         {
-                                                            "field": "%vlocity_namespace%__OrderGroupId__c",
+                                                            "field": "vlocity_cmt__OrderGroupId__c",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-197",
                                                             "operator": "!=",
@@ -3354,7 +3254,7 @@
                                                             "value": "undefined"
                                                         },
                                                         {
-                                                            "field": "%vlocity_namespace%__OrderGroupId__c.value",
+                                                            "field": "vlocity_cmt__OrderGroupId__c.value",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-250",
                                                             "logicalOperator": "&&",
@@ -3475,13 +3375,10 @@
                                         "container": {
                                             "class": "cpq__flex-table-hierarchy_quantity"
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "1",
                                             "isResponsive": false
@@ -3520,13 +3417,10 @@
                                                 "container": {
                                                     "class": "cpq__flex-table-hierarchy_quantity"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "1",
                                                     "isResponsive": false
@@ -3609,13 +3503,10 @@
                                         "container": {
                                             "class": "cpq__line-items-prices_container"
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "3",
                                             "isResponsive": false
@@ -3655,13 +3546,10 @@
                                                 "container": {
                                                     "class": "cpq__line-items-prices_container"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "3",
                                                     "isResponsive": false
@@ -3675,11 +3563,11 @@
                                             }
                                         },
                                         {
-                                            "conditionString": "%vlocity_namespace%__UsagePriceTotal__c == undefined",
+                                            "conditionString": "vlocity_cmt__UsagePriceTotal__c == undefined",
                                             "conditions": {
                                                 "group": [
                                                     {
-                                                        "field": "%vlocity_namespace%__UsagePriceTotal__c",
+                                                        "field": "vlocity_cmt__UsagePriceTotal__c",
                                                         "hasMergeField": false,
                                                         "id": "state-new-condition-23",
                                                         "operator": "==",
@@ -3715,13 +3603,10 @@
                                                 "container": {
                                                     "class": "cpq__line-items-prices_container"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "2",
                                                     "isResponsive": false
@@ -3783,13 +3668,10 @@
                                         "container": {
                                             "class": "cpq__flex-table-hierarchy_menu"
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "1",
                                             "isResponsive": false
@@ -3828,13 +3710,10 @@
                                                 "container": {
                                                     "class": "cpq__flex-table-hierarchy_menu"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "1",
                                                     "isResponsive": false
@@ -3901,11 +3780,9 @@
                                     "class": "cpq__flex-table-hierarchy_item"
                                 },
                                 "customClass": "",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
+                                "margin": [],
                                 "padding": [
                                     {
                                         "label": "horizontal:small",
@@ -3957,11 +3834,9 @@
                                             "class": "cpq__flex-table-hierarchy_item"
                                         },
                                         "customClass": "",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "horizontal:small",
@@ -3992,8 +3867,7 @@
                         {
                             "children": [
                                 {
-                                    "children": [
-                                    ],
+                                    "children": [],
                                     "class": "slds-col ",
                                     "element": "block",
                                     "elementLabel": "Block-3-Block-1-clone-0",
@@ -4045,11 +3919,9 @@
                                         "container": {
                                             "class": "cpq__cart-child-item_status-icon cpq__cart-child-item_status-icon-blank"
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:x-small",
@@ -4095,11 +3967,9 @@
                                                 "container": {
                                                     "class": "cpq__cart-child-item_status-icon cpq__cart-child-item_status-icon-blank"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "around:x-small",
@@ -4202,8 +4072,7 @@
                                             "iconSize": "x-small"
                                         },
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "top:x-small",
@@ -4259,8 +4128,7 @@
                                                     "iconSize": "x-small"
                                                 },
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "top:x-small",
@@ -4368,8 +4236,7 @@
                                             "iconSize": "x-small"
                                         },
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "top:x-small",
@@ -4425,8 +4292,7 @@
                                                     "iconSize": "x-small"
                                                 },
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "top:x-small",
@@ -4455,8 +4321,7 @@
                                     "type": "element"
                                 },
                                 {
-                                    "children": [
-                                    ],
+                                    "children": [],
                                     "class": "slds-col ",
                                     "element": "block",
                                     "elementLabel": "Block-2-Block-0",
@@ -4494,11 +4359,9 @@
                                         "container": {
                                             "class": "cpq__cart_spacing"
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:x-small",
@@ -4544,11 +4407,9 @@
                                                 "container": {
                                                     "class": "cpq__cart_spacing"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "around:x-small",
@@ -4632,8 +4493,7 @@
                                                             "id": "state-condition-object",
                                                             "isParent": true
                                                         },
-                                                        "flyoutDetails": {
-                                                        },
+                                                        "flyoutDetails": {},
                                                         "iconColor": "#747474",
                                                         "iconName": "utility:chevronright",
                                                         "iconOnly": true,
@@ -4672,10 +4532,8 @@
                                                             "iconSize": "x-small"
                                                         },
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "6",
                                                             "isResponsive": false
@@ -4719,10 +4577,8 @@
                                                                     "iconSize": "x-small"
                                                                 },
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "6",
                                                                     "isResponsive": false
@@ -4795,8 +4651,7 @@
                                                             "id": "state-condition-object",
                                                             "isParent": true
                                                         },
-                                                        "flyoutDetails": {
-                                                        },
+                                                        "flyoutDetails": {},
                                                         "iconColor": "#747474",
                                                         "iconName": "utility:chevrondown",
                                                         "iconOnly": true,
@@ -4835,10 +4690,8 @@
                                                             "iconSize": "x-small"
                                                         },
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "6",
                                                             "isResponsive": false
@@ -4882,10 +4735,8 @@
                                                                     "iconSize": "x-small"
                                                                 },
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "6",
                                                                     "isResponsive": false
@@ -4962,13 +4813,10 @@
                                                 "container": {
                                                     "class": "cpq__cart-child-item-collapse_icon"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "3",
                                                     "isResponsive": false
@@ -5007,13 +4855,10 @@
                                                         "container": {
                                                             "class": "cpq__cart-child-item-collapse_icon"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "3",
                                                             "isResponsive": false
@@ -5065,11 +4910,9 @@
                                                 "container": {
                                                     "class": "cpq__product_group  cpq__cart-items-name_strikethrough"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "top:xx-small",
@@ -5116,11 +4959,9 @@
                                                         "container": {
                                                             "class": "cpq__product_group"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "padding": [
                                                             {
                                                                 "label": "top:xx-small",
@@ -5141,11 +4982,11 @@
                                                     }
                                                 },
                                                 {
-                                                    "conditionString": "%vlocity_namespace%__SupplementalAction__c.value == Cancel",
+                                                    "conditionString": "vlocity_cmt__SupplementalAction__c.value == Cancel",
                                                     "conditions": {
                                                         "group": [
                                                             {
-                                                                "field": "%vlocity_namespace%__SupplementalAction__c.value",
+                                                                "field": "vlocity_cmt__SupplementalAction__c.value",
                                                                 "hasMergeField": false,
                                                                 "id": "state-new-condition-0",
                                                                 "operator": "==",
@@ -5181,11 +5022,9 @@
                                                         "container": {
                                                             "class": "cpq__product_group  cpq__cart-items-name_strikethrough"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "padding": [
                                                             {
                                                                 "label": "top:xx-small",
@@ -5246,13 +5085,10 @@
                                         "container": {
                                             "class": "cpq__flex-table-hierarchy_name"
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "4",
                                             "isResponsive": false
@@ -5291,13 +5127,10 @@
                                                 "container": {
                                                     "class": "cpq__flex-table-hierarchy_name"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "4",
                                                     "isResponsive": false
@@ -5364,11 +5197,9 @@
                                     "class": "cpq__flex-table-hierarchy_item"
                                 },
                                 "customClass": "",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
+                                "margin": [],
                                 "padding": [
                                     {
                                         "label": "horizontal:small",
@@ -5420,11 +5251,9 @@
                                             "class": "cpq__flex-table-hierarchy_item"
                                         },
                                         "customClass": "",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "horizontal:small",
@@ -5609,13 +5438,10 @@
                                 "container": {
                                     "class": ""
                                 },
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "12",
                                     "isResponsive": false
@@ -5654,13 +5480,10 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": false
@@ -5680,25 +5503,19 @@
                 }
             },
             "conditions": {
-                "group": [
-                ],
+                "group": [],
                 "id": "state-condition-object",
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Active",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "",
@@ -5719,8 +5536,7 @@
                     "class": "slds-card cpq__flex-table-hierarchy_state"
                 },
                 "customClass": "",
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
                 "margin": [
                     {
@@ -5729,8 +5545,7 @@
                         "type": "around"
                     }
                 ],
-                "padding": [
-                ],
+                "padding": [],
                 "size": {
                     "default": "12",
                     "isResponsive": false

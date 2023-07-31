@@ -1,10 +1,9 @@
 {
     "AuthorName": "Vlocity",
-    "%vlocity_namespace%__CardType__c": "flex",
+    "vlocity_cmt__CardType__c": "flex",
     "DataSourceConfig": {
         "dataSource": {
-            "contextVariables": [
-            ],
+            "contextVariables": [],
             "orderBy": {
                 "isReverse": "",
                 "name": ""
@@ -21,10 +20,10 @@
     "Description": "",
     "OmniUiCardKey": "cpqOpportunityHeaderButtons/Vlocity/4/1668530197065",
     "OmniUiCardType": "Child",
-    "%vlocity_namespace%__ParentID__c": "",
+    "vlocity_cmt__ParentID__c": "",
     "SampleDataSourceResponse": "[{\"label\":\"Create Quote\"},{\"isCartHasError\":false}]",
     "StylingConfiguration": "{\"customStyles\":\".custom-btn{\\n    width:fit-content;\\n    width: -moz-fit-content; /* Support Mozilla Firefox Browser */\\n}\\n\\n.custom-btn .slds-button{\\n    border-radius: 0px;\\n}\\n\\n.incomplete-btn {\\n    border: 1px solid #ddd;\\n    height: 32px;\\n    width: fit-content;\\n    width: -moz-fit-content; /* Support Mozilla Firefox Browser */\\n    background: #C9C7C5;\\n    color: #525252;\\n    border-radius: 0.25rem;\\n    margin-right: 0px;\\n}\"}",
-    "%vlocity_namespace%__Type__c": "",
+    "vlocity_cmt__Type__c": "",
     "VersionNumber": 4,
     "Name": "cpqOpportunityHeaderButtons",
     "VlocityDataPackType": "SObject",

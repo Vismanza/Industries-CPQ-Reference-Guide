@@ -1,19 +1,15 @@
 {
     "dataSource": {
-        "contextVariables": [
-        ],
-        "orderBy": {
-        },
+        "contextVariables": [],
+        "orderBy": {},
         "type": null,
-        "value": {
-        }
+        "value": {}
     },
     "dynamicCanvasWidth": {
         "type": "desktop"
     },
     "enableLwc": true,
-    "events": [
-    ],
+    "events": [],
     "globalCSS": false,
     "isFlex": true,
     "lwc": {
@@ -21,19 +17,16 @@
         "Id": "0Rb5g000000SKTKCA4",
         "ManageableState": "unmanaged",
         "MasterLabel": "cfCpqCartItemPrices_1_Vlocity",
-        "NamespacePrefix": "%vlocity_namespace%"
+        "NamespacePrefix": "vlocity_cmt"
     },
     "multilanguageSupport": true,
     "osSupport": true,
     "requiredPermission": "",
-    "sessionVars": [
-    ],
+    "sessionVars": [],
     "states": [
         {
-            "actions": [
-            ],
-            "childCards": [
-            ],
+            "actions": [],
+            "childCards": [],
             "components": {
                 "layer-0": {
                     "children": [
@@ -51,8 +44,8 @@
                                             "property": {
                                                 "card": "{card}",
                                                 "currency": "",
-                                                "fieldName": "%vlocity_namespace%__UsageUnitPrice__c.value",
-                                                "label": "{%vlocity_namespace%__UsageUnitPrice__c.label}",
+                                                "fieldName": "vlocity_cmt__UsageUnitPrice__c.value",
+                                                "label": "{vlocity_cmt__UsageUnitPrice__c.label}",
                                                 "locale": "",
                                                 "placeholder": "",
                                                 "record": "{record}",
@@ -82,13 +75,10 @@
                                                 "container": {
                                                     "class": "cpq__parent-usage_value cpq__root-item_charge "
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -129,13 +119,10 @@
                                                         "container": {
                                                             "class": "cpq__parent-usage_value cpq__root-item_charge "
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -149,11 +136,11 @@
                                                     }
                                                 },
                                                 {
-                                                    "conditionString": "%vlocity_namespace%__Action__c.value == Disconnect",
+                                                    "conditionString": "vlocity_cmt__Action__c.value == Disconnect",
                                                     "conditions": {
                                                         "group": [
                                                             {
-                                                                "field": "%vlocity_namespace%__Action__c.value",
+                                                                "field": "vlocity_cmt__Action__c.value",
                                                                 "hasMergeField": false,
                                                                 "id": "state-new-condition-0",
                                                                 "operator": "==",
@@ -189,13 +176,10 @@
                                                         "container": {
                                                             "class": "cpq__parent-usage_value cpq__root-item_charge cpq__root-item-charge_strikethrough"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -224,7 +208,7 @@
                                                 "data-conditions": {
                                                     "group": [
                                                         {
-                                                            "field": "%vlocity_namespace%__UsageUnitPrice__c.originalValue",
+                                                            "field": "vlocity_cmt__UsageUnitPrice__c.originalValue",
                                                             "id": "state-new-condition-9",
                                                             "operator": "!=",
                                                             "type": "custom",
@@ -235,7 +219,7 @@
                                                     "isParent": true
                                                 },
                                                 "data-preloadConditionalElement": false,
-                                                "fieldName": "%vlocity_namespace%__UsageUnitPrice__c.originalValue",
+                                                "fieldName": "vlocity_cmt__UsageUnitPrice__c.originalValue",
                                                 "locale": "",
                                                 "placeholder": "",
                                                 "record": "{record}",
@@ -265,13 +249,10 @@
                                                 "container": {
                                                     "class": "cpq__parent-usage-value_original cpq__flex-table-slashed_price"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -310,13 +291,10 @@
                                                         "container": {
                                                             "class": "cpq__parent-usage-value_original cpq__flex-table-slashed_price"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -346,7 +324,7 @@
                                         "data-conditions": {
                                             "group": [
                                                 {
-                                                    "field": "%vlocity_namespace%__UsageUnitPrice__c",
+                                                    "field": "vlocity_cmt__UsageUnitPrice__c",
                                                     "hasMergeField": false,
                                                     "id": "state-new-condition-0",
                                                     "operator": "!=",
@@ -377,21 +355,17 @@
                                             "color": "",
                                             "radius": "",
                                             "style": "",
-                                            "type": [
-                                            ],
+                                            "type": [],
                                             "width": ""
                                         },
                                         "class": "cpq__parent-usage_charge  ",
                                         "container": {
                                             "class": "cpq__parent-usage_charge"
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "4",
                                             "isResponsive": false
@@ -423,21 +397,17 @@
                                                     "color": "",
                                                     "radius": "",
                                                     "style": "",
-                                                    "type": [
-                                                    ],
+                                                    "type": [],
                                                     "width": ""
                                                 },
                                                 "class": "cpq__parent-usage_charge  ",
                                                 "container": {
                                                     "class": "cpq__parent-usage_charge"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "4",
                                                     "isResponsive": false
@@ -465,8 +435,8 @@
                                             "property": {
                                                 "card": "{card}",
                                                 "currency": "",
-                                                "fieldName": "%vlocity_namespace%__OneTimeCharge__c.value",
-                                                "label": "{%vlocity_namespace%__OneTimeCharge__c.label}",
+                                                "fieldName": "vlocity_cmt__OneTimeCharge__c.value",
+                                                "label": "{vlocity_cmt__OneTimeCharge__c.label}",
                                                 "locale": "",
                                                 "placeholder": "",
                                                 "record": "{record}",
@@ -496,13 +466,10 @@
                                                 "container": {
                                                     "class": "cpq__parent-one-time_value cpq__root-item_charge"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -543,13 +510,10 @@
                                                         "container": {
                                                             "class": "cpq__parent-one-time_value cpq__root-item_charge"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -563,11 +527,11 @@
                                                     }
                                                 },
                                                 {
-                                                    "conditionString": "%vlocity_namespace%__Action__c.value == Disconnect",
+                                                    "conditionString": "vlocity_cmt__Action__c.value == Disconnect",
                                                     "conditions": {
                                                         "group": [
                                                             {
-                                                                "field": "%vlocity_namespace%__Action__c.value",
+                                                                "field": "vlocity_cmt__Action__c.value",
                                                                 "hasMergeField": false,
                                                                 "id": "state-new-condition-7",
                                                                 "operator": "==",
@@ -603,13 +567,10 @@
                                                         "container": {
                                                             "class": "cpq__parent-one-time_value cpq__root-item_charge cpq__root-item-charge_strikethrough"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -638,7 +599,7 @@
                                                 "data-conditions": {
                                                     "group": [
                                                         {
-                                                            "field": "%vlocity_namespace%__OneTimeCharge__c.originalValue",
+                                                            "field": "vlocity_cmt__OneTimeCharge__c.originalValue",
                                                             "id": "state-new-condition-9",
                                                             "operator": "!=",
                                                             "type": "custom",
@@ -649,7 +610,7 @@
                                                     "isParent": true
                                                 },
                                                 "data-preloadConditionalElement": false,
-                                                "fieldName": "%vlocity_namespace%__OneTimeCharge__c.originalValue",
+                                                "fieldName": "vlocity_cmt__OneTimeCharge__c.originalValue",
                                                 "locale": "",
                                                 "placeholder": "",
                                                 "record": "{record}",
@@ -679,13 +640,10 @@
                                                 "container": {
                                                     "class": "cpq__parent-one-time-value_original cpq__flex-table-slashed_price"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -724,13 +682,10 @@
                                                         "container": {
                                                             "class": "cpq__parent-one-time-value_original cpq__flex-table-slashed_price"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -784,13 +739,10 @@
                                         "container": {
                                             "class": "cpq__parent-onetime_charge"
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "4",
                                             "isResponsive": false
@@ -830,13 +782,10 @@
                                                 "container": {
                                                     "class": "cpq__parent-onetime_charge"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "4",
                                                     "isResponsive": false
@@ -864,8 +813,8 @@
                                             "property": {
                                                 "card": "{card}",
                                                 "currency": "",
-                                                "fieldName": "%vlocity_namespace%__RecurringCharge__c.value",
-                                                "label": "{%vlocity_namespace%__RecurringCharge__c.label}",
+                                                "fieldName": "vlocity_cmt__RecurringCharge__c.value",
+                                                "label": "{vlocity_cmt__RecurringCharge__c.label}",
                                                 "locale": "",
                                                 "placeholder": "",
                                                 "record": "{record}",
@@ -895,13 +844,10 @@
                                                 "container": {
                                                     "class": "cpq__parent-recurring_value cpq__root-item_charge"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -942,13 +888,10 @@
                                                         "container": {
                                                             "class": "cpq__parent-recurring_value cpq__root-item_charge"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -962,11 +905,11 @@
                                                     }
                                                 },
                                                 {
-                                                    "conditionString": "%vlocity_namespace%__Action__c.value == Disconnect",
+                                                    "conditionString": "vlocity_cmt__Action__c.value == Disconnect",
                                                     "conditions": {
                                                         "group": [
                                                             {
-                                                                "field": "%vlocity_namespace%__Action__c.value",
+                                                                "field": "vlocity_cmt__Action__c.value",
                                                                 "hasMergeField": false,
                                                                 "id": "state-new-condition-14",
                                                                 "operator": "==",
@@ -1002,13 +945,10 @@
                                                         "container": {
                                                             "class": "cpq__parent-recurring_value cpq__root-item_charge cpq__root-item-charge_strikethrough"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -1037,7 +977,7 @@
                                                 "data-conditions": {
                                                     "group": [
                                                         {
-                                                            "field": "%vlocity_namespace%__RecurringCharge__c.originalValue",
+                                                            "field": "vlocity_cmt__RecurringCharge__c.originalValue",
                                                             "id": "state-new-condition-9",
                                                             "operator": "!=",
                                                             "type": "custom",
@@ -1048,7 +988,7 @@
                                                     "isParent": true
                                                 },
                                                 "data-preloadConditionalElement": false,
-                                                "fieldName": "%vlocity_namespace%__RecurringCharge__c.originalValue",
+                                                "fieldName": "vlocity_cmt__RecurringCharge__c.originalValue",
                                                 "locale": "",
                                                 "placeholder": "",
                                                 "record": "{record}",
@@ -1078,13 +1018,10 @@
                                                 "container": {
                                                     "class": "cpq__parent-recurring-value_original cpq__flex-table-slashed_price"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -1123,13 +1060,10 @@
                                                         "container": {
                                                             "class": "cpq__parent-recurring-value_original cpq__flex-table-slashed_price"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -1183,13 +1117,10 @@
                                         "container": {
                                             "class": "cpq__parent-recurring_charge"
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "4",
                                             "isResponsive": false
@@ -1228,13 +1159,10 @@
                                                 "container": {
                                                     "class": "cpq__parent-recurring_charge"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "4",
                                                     "isResponsive": false
@@ -1286,13 +1214,10 @@
                                 "container": {
                                     "class": ""
                                 },
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "12",
                                     "isResponsive": false
@@ -1333,13 +1258,10 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": false
@@ -1359,25 +1281,19 @@
                 }
             },
             "conditions": {
-                "group": [
-                ],
+                "group": [],
                 "id": "state-condition-object",
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Active",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "",
@@ -1398,8 +1314,7 @@
                     "class": ""
                 },
                 "customClass": "",
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
                 "margin": [
                     {
@@ -1408,8 +1323,7 @@
                         "type": "around"
                     }
                 ],
-                "padding": [
-                ],
+                "padding": [],
                 "size": {
                     "default": "12",
                     "isResponsive": false

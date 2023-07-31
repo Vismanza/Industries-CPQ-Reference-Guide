@@ -1,6 +1,6 @@
 {
     "AuthorName": "Vlocity",
-    "%vlocity_namespace%__CardType__c": "flex",
+    "vlocity_cmt__CardType__c": "flex",
     "DataSourceConfig": {
         "contextVariables": [
             {
@@ -28,10 +28,10 @@
     "Description": "",
     "OmniUiCardKey": "CPQAttributeCategoryList/Vlocity/6/1619020586314",
     "OmniUiCardType": "Child",
-    "%vlocity_namespace%__ParentID__c": "",
+    "vlocity_cmt__ParentID__c": "",
     "SampleDataSourceResponse": "{\"\":\"\",\"data\":{\"messages\":[{\"message\":\"No attributes found for this cart. Please contact the administrator.\",\"severity\":\"ERROR\",\"code\":\"160\"}],\"totalSize\":0}}",
     "StylingConfiguration": "{\"customStyles\":\"\"}",
-    "%vlocity_namespace%__Type__c": "",
+    "vlocity_cmt__Type__c": "",
     "VersionNumber": 1,
     "Name": "CPQAttributeCategoryList",
     "VlocityDataPackType": "SObject",

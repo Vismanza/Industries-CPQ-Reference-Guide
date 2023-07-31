@@ -1,8 +1,8 @@
 {
-    "%vlocity_namespace%__AdditionalInformation__c": "This OmniScript shows a form to Create/Select Order from the Asset Viewer page",
-    "%vlocity_namespace%__DisableMetadataCache__c": false,
-    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
-    "%vlocity_namespace%__Element__c": [
+    "vlocity_cmt__AdditionalInformation__c": "This OmniScript shows a form to Create/Select Order from the Asset Viewer page",
+    "vlocity_cmt__DisableMetadataCache__c": false,
+    "vlocity_cmt__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "vlocity_cmt__Element__c": [
         "CPQ_AssetViewerOrderFlow_Multi-Language_Element_SetValues1.json",
         "CPQ_AssetViewerOrderFlow_Multi-Language_Element_DataRaptorExtractAction1.json",
         "CPQ_AssetViewerOrderFlow_Multi-Language_Element_CreateSelectOrder.json",
@@ -31,17 +31,17 @@
         "CPQ_AssetViewerOrderFlow_Multi-Language_Element_NavigateToBulkAsset.json",
         "CPQ_AssetViewerOrderFlow_Multi-Language_Element_SingleMove.json"
     ],
-    "%vlocity_namespace%__IsLwcEnabled__c": true,
-    "%vlocity_namespace%__IsProcedure__c": false,
-    "%vlocity_namespace%__IsReusable__c": false,
-    "%vlocity_namespace%__IsTest__c": false,
-    "%vlocity_namespace%__Language__c": "Multi-Language",
-    "%vlocity_namespace%__OmniProcessType__c": "OmniScript",
-    "%vlocity_namespace%__PropertySet__c": "CPQ_AssetViewerOrderFlow_Multi-Language_PropertySet.json",
-    "%vlocity_namespace%__SubType__c": "AssetViewerOrderFlow",
-    "%vlocity_namespace%__Type__c": "CPQ",
+    "vlocity_cmt__IsLwcEnabled__c": true,
+    "vlocity_cmt__IsProcedure__c": false,
+    "vlocity_cmt__IsReusable__c": false,
+    "vlocity_cmt__IsTest__c": false,
+    "vlocity_cmt__Language__c": "Multi-Language",
+    "vlocity_cmt__OmniProcessType__c": "OmniScript",
+    "vlocity_cmt__PropertySet__c": "CPQ_AssetViewerOrderFlow_Multi-Language_PropertySet.json",
+    "vlocity_cmt__SubType__c": "AssetViewerOrderFlow",
+    "vlocity_cmt__Type__c": "CPQ",
     "Name": "Asset Viewer Order Flow",
     "VlocityDataPackType": "SObject",
-    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
-    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/CPQ/AssetViewerOrderFlow/Multi-Language"
+    "VlocityRecordSObjectType": "vlocity_cmt__OmniScript__c",
+    "VlocityRecordSourceKey": "vlocity_cmt__OmniScript__c/CPQ/AssetViewerOrderFlow/Multi-Language"
 }

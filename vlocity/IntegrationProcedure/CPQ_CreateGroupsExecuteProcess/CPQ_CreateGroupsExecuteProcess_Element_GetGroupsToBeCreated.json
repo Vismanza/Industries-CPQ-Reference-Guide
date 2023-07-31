@@ -1,28 +1,26 @@
 {
-    "%vlocity_namespace%__Active__c": true,
-    "%vlocity_namespace%__OmniScriptId__c": {
+    "vlocity_cmt__Active__c": true,
+    "vlocity_cmt__OmniScriptId__c": {
         "Name": "CPQ_CreateGroupsExecuteProcess",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/CPQ/CreateGroupsExecuteProcess/Procedure",
-        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        "VlocityMatchingRecordSourceKey": "vlocity_cmt__OmniScript__c/CPQ/CreateGroupsExecuteProcess/Procedure",
+        "VlocityRecordSObjectType": "vlocity_cmt__OmniScript__c"
     },
-    "%vlocity_namespace%__PropertySet__c": {
+    "vlocity_cmt__PropertySet__c": {
         "actionMessage": "",
         "additionalInput": {
             "bulkRequestType": "%additionalData:bulkRequestType%",
             "memberType": "%SetValues:memberType%",
             "timestamp": "%additionalData:timestamp%"
         },
-        "additionalOutput": {
-        },
+        "additionalOutput": {},
         "bundle": "CPQGetGroupsToCreateList",
         "chainOnStep": false,
         "disOnTplt": false,
         "executionConditionalFormula": "",
         "failOnStepError": true,
         "failureConditionalFormula": "",
-        "failureResponse": {
-        },
+        "failureResponse": {},
         "ignoreCache": false,
         "label": "DataRaptorTransformAction1",
         "responseJSONNode": "",
@@ -35,10 +33,10 @@
         "show": null,
         "useFormulas": true
     },
-    "%vlocity_namespace%__ReusableOmniScript__c": false,
-    "%vlocity_namespace%__Type__c": "DataRaptor Transform Action",
+    "vlocity_cmt__ReusableOmniScript__c": false,
+    "vlocity_cmt__Type__c": "DataRaptor Transform Action",
     "Name": "GetGroupsToBeCreated",
     "VlocityDataPackType": "SObject",
-    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
-    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/CPQ/CreateGroupsExecuteProcess/Procedure/GetGroupsToBeCreated"
+    "VlocityRecordSObjectType": "vlocity_cmt__Element__c",
+    "VlocityRecordSourceKey": "vlocity_cmt__Element__c/vlocity_cmt__OmniScript__c/CPQ/CreateGroupsExecuteProcess/Procedure/GetGroupsToBeCreated"
 }

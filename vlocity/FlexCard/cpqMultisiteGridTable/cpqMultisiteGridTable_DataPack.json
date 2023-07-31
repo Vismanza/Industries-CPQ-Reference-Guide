@@ -1,9 +1,8 @@
 {
     "AuthorName": "Vlocity",
-    "%vlocity_namespace%__CardType__c": "flex",
+    "vlocity_cmt__CardType__c": "flex",
     "DataSourceConfig": {
-        "contextVariables": [
-        ],
+        "contextVariables": [],
         "orderBy": {
             "isReverse": false,
             "name": ""
@@ -19,10 +18,10 @@
     "Description": "",
     "OmniUiCardKey": "cpqMultisiteGridTable/Vlocity/4/1677683605882",
     "OmniUiCardType": "Child",
-    "%vlocity_namespace%__ParentID__c": "TestTreeGridLWC/Vlocity/1/1630570098283",
+    "vlocity_cmt__ParentID__c": "TestTreeGridLWC/Vlocity/1/1630570098283",
     "SampleDataSourceResponse": "{\"sites\":{},\"selectedRows\":[],\"selectedGroupsCount\":0,\"selectedUngroupedRecordsCount\":0,\"selectedGroupedMembersCount\":0,\"selectedGroupsInfoLabel\":\"0 groups selected\",\"selectedUngroupedRecordsInfoLabel\":\"0 ungrouped items selected\",\"selectedGroupedMembersInfoLabel\":\"0 grouped item selected\",\"selected\":false,\"totalCount\":0}",
     "StylingConfiguration": "",
-    "%vlocity_namespace%__Type__c": "",
+    "vlocity_cmt__Type__c": "",
     "VersionNumber": 4,
     "Name": "cpqMultisiteGridTable",
     "VlocityDataPackType": "SObject",

@@ -1,9 +1,8 @@
 {
     "AuthorName": "Vlocity",
-    "%vlocity_namespace%__CardType__c": "flex",
+    "vlocity_cmt__CardType__c": "flex",
     "DataSourceConfig": {
-        "contextVariables": [
-        ],
+        "contextVariables": [],
         "orderBy": {
             "isReverse": false,
             "name": ""
@@ -19,10 +18,10 @@
     "Description": "",
     "OmniUiCardKey": "cpqCartAppliedPromotionContainer/Vlocity/5/1652178653837",
     "OmniUiCardType": "Child",
-    "%vlocity_namespace%__ParentID__c": "cpqCartAppliedPromotionContainerChild/Vlocity/1/1623241513910",
+    "vlocity_cmt__ParentID__c": "cpqCartAppliedPromotionContainerChild/Vlocity/1/1623241513910",
     "SampleDataSourceResponse": "{\"showAppliedPromotions\":false}",
     "StylingConfiguration": "{\"customStyles\":\".cpq__cart-applied-promo_container{\\n    background-color: #FAFAF9;\\n}\"}",
-    "%vlocity_namespace%__Type__c": "",
+    "vlocity_cmt__Type__c": "",
     "VersionNumber": 3,
     "Name": "cpqCartAppliedPromotionContainer",
     "VlocityDataPackType": "SObject",

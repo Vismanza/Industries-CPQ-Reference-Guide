@@ -1,7 +1,6 @@
 {
     "dataSource": {
-        "contextVariables": [
-        ],
+        "contextVariables": [],
         "orderBy": {
             "isReverse": "",
             "name": ""
@@ -144,15 +143,13 @@
         "Id": "0Rb8Z000000nJnWSAU",
         "ManageableState": "unmanaged",
         "MasterLabel": "cfCpqOpportunityHeaderButtons_4_Vlocity",
-        "NamespacePrefix": "%vlocity_namespace%"
+        "NamespacePrefix": "vlocity_cmt"
     },
     "selectableMode": "Multi",
     "states": [
         {
-            "actions": [
-            ],
-            "childCards": [
-            ],
+            "actions": [],
+            "childCards": [],
             "components": {
                 "layer-0": {
                     "children": [
@@ -172,7 +169,7 @@
                                         "label": "Action",
                                         "stateAction": {
                                             "Web Page": {
-                                                "targetName": "/lightning/cmp/%vlocity_namespace%__vlocityLWCOmniWrapper?c__target=c:cPQCreateQuoteMultiLanguage&c__layout=lightning&c__tabIcon=custom:custom18&c__cartId={recordId}&c__tabLabel=Create Quote"
+                                                "targetName": "/lightning/cmp/vlocity_cmt__vlocityLWCOmniWrapper?c__target=c:cPQCreateQuoteMultiLanguage&c__layout=lightning&c__tabIcon=custom:custom18&c__cartId={recordId}&c__tabLabel=Create Quote"
                                             },
                                             "hasExtraParams": true,
                                             "id": "flex-action-1645015999153",
@@ -240,8 +237,7 @@
                                     "isParent": true
                                 },
                                 "displayAsButton": true,
-                                "flyoutDetails": {
-                                },
+                                "flyoutDetails": {},
                                 "hideActionIcon": true,
                                 "iconName": "standard-default",
                                 "label": "\\{Label.CreateQuotes}",
@@ -285,10 +281,8 @@
                                     }
                                 },
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "12",
                                     "isResponsive": false
@@ -333,10 +327,8 @@
                                             }
                                         },
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": false
@@ -417,11 +409,9 @@
                                 "container": {
                                     "class": "cpq__global-header_order__submit-order incomplete-btn"
                                 },
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
+                                "margin": [],
                                 "padding": [
                                     {
                                         "label": "right:medium",
@@ -477,11 +467,9 @@
                                         "container": {
                                             "class": "cpq__global-header_order__submit-order incomplete-btn"
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "right:medium",
@@ -518,25 +506,19 @@
                 }
             },
             "conditions": {
-                "group": [
-                ],
+                "group": [],
                 "id": "state-condition-object",
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Active",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "",
@@ -556,8 +538,7 @@
                 "container": {
                     "class": "slds-card"
                 },
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
                 "margin": [
                     {
@@ -566,8 +547,7 @@
                         "type": "right"
                     }
                 ],
-                "padding": [
-                ],
+                "padding": [],
                 "size": {
                     "default": "12",
                     "isResponsive": false

@@ -1,14 +1,13 @@
 {
     "dataSource": {
-        "contextVariables": [
-        ],
+        "contextVariables": [],
         "orderBy": {
             "isReverse": false,
             "name": ""
         },
         "type": "Custom",
         "value": {
-            "body": "[\n  {\n    \"type\": \"text\",\n    \"fieldName\": \"%vlocity_namespace%__MarketIdentifier__c.value\",\n    \"label\": \"Market Identifier\",\n    \"title\": \"ServicePoints Data\"\n  },\n  {\n    \"type\": \"text\",\n    \"fieldName\": \"%vlocity_namespace%__PremisesId__r.%vlocity_namespace%__StreetAddress__c.value\",\n    \"label\": \"Street Address\"\n  },\n  {\n    \"type\": \"text\",\n    \"fieldName\": \"%vlocity_namespace%__PremisesId__r.%vlocity_namespace%__City__c.value\",\n    \"label\": \"City\"\n  }\n]",
+            "body": "[\n  {\n    \"type\": \"text\",\n    \"fieldName\": \"vlocity_cmt__MarketIdentifier__c.value\",\n    \"label\": \"Market Identifier\",\n    \"title\": \"ServicePoints Data\"\n  },\n  {\n    \"type\": \"text\",\n    \"fieldName\": \"vlocity_cmt__PremisesId__r.vlocity_cmt__StreetAddress__c.value\",\n    \"label\": \"Street Address\"\n  },\n  {\n    \"type\": \"text\",\n    \"fieldName\": \"vlocity_cmt__PremisesId__r.vlocity_cmt__City__c.value\",\n    \"label\": \"City\"\n  }\n]",
             "dsDelay": "",
             "resultVar": ""
         }
@@ -53,7 +52,7 @@
         "Id": "0RbRN0000001XeA0AU",
         "ManageableState": "unmanaged",
         "MasterLabel": "cfCpqMultisiteTableColumnFilter_1_Vlocity",
-        "NamespacePrefix": "%vlocity_namespace%"
+        "NamespacePrefix": "vlocity_cmt"
     },
     "selectableMode": "Multi",
     "sessionVars": [
@@ -64,10 +63,8 @@
     ],
     "states": [
         {
-            "actions": [
-            ],
-            "childCards": [
-            ],
+            "actions": [],
+            "childCards": [],
             "components": {
                 "layer-0": {
                     "children": [
@@ -109,11 +106,9 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:xxx-small",
@@ -159,11 +154,9 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "around:xxx-small",
@@ -236,11 +229,9 @@
                                 "container": {
                                     "class": ""
                                 },
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
+                                "margin": [],
                                 "padding": [
                                     {
                                         "label": "top:x-small",
@@ -291,11 +282,9 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "top:x-small",
@@ -380,13 +369,10 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "1",
                                             "isResponsive": false
@@ -425,13 +411,10 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "1",
                                                     "isResponsive": false
@@ -483,8 +466,7 @@
                                             }
                                         ],
                                         "card": "{card}",
-                                        "flyoutDetails": {
-                                        },
+                                        "flyoutDetails": {},
                                         "hideActionIcon": true,
                                         "iconName": "standard-default",
                                         "label": "\\{label}",
@@ -516,11 +498,9 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "left:xx-small",
@@ -566,11 +546,9 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "left:xx-small",
@@ -629,11 +607,9 @@
                                 "container": {
                                     "class": "cpq_multisite_each_group"
                                 },
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
+                                "margin": [],
                                 "padding": [
                                     {
                                         "label": "top:xx-small",
@@ -684,11 +660,9 @@
                                         "container": {
                                             "class": "cpq_multisite_each_group"
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "top:xx-small",
@@ -720,25 +694,19 @@
                 }
             },
             "conditions": {
-                "group": [
-                ],
+                "group": [],
                 "id": "state-condition-object",
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Active",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "",
@@ -758,8 +726,7 @@
                 "container": {
                     "class": "cpq_multisite_columns_flyout"
                 },
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
                 "margin": [
                     {
@@ -768,8 +735,7 @@
                         "type": "around"
                     }
                 ],
-                "padding": [
-                ],
+                "padding": [],
                 "size": {
                     "default": "12",
                     "isResponsive": false

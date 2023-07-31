@@ -1,6 +1,6 @@
 {
     "AuthorName": "Vlocity",
-    "%vlocity_namespace%__CardType__c": "flex",
+    "vlocity_cmt__CardType__c": "flex",
     "DataSourceConfig": {
         "contextVariables": [
             {
@@ -9,20 +9,18 @@
                 "val": ""
             }
         ],
-        "orderBy": {
-        },
+        "orderBy": {},
         "type": null,
-        "value": {
-        }
+        "value": {}
     },
     "PropertySetConfig": "cpqOrderStatusDiscardedMobile.json",
     "Description": "",
     "OmniUiCardKey": "cpqOrderStatusDiscardedMobile/Vlocity/2/1644314589608",
     "OmniUiCardType": "Child",
-    "%vlocity_namespace%__ParentID__c": "cpqAmendRequestedMobile/Vlocity/4/1629107829110",
+    "vlocity_cmt__ParentID__c": "cpqAmendRequestedMobile/Vlocity/4/1629107829110",
     "SampleDataSourceResponse": "",
     "StylingConfiguration": "{\"customStyles\":\".custom-btn{\\n    width:fit-content;\\n}\\n\\n.custom-btn .slds-button{\\n    border-radius: 0px;\\n}\\n\\n.incomplete-btn {\\n    border: 1px solid #ddd;\\n    height: 32px;\\n    width: fit-content;\\n    background: #C9C7C5;\\n    color: #FFFFFF;\\n    margin-right: 8px;\\n}\"}",
-    "%vlocity_namespace%__Type__c": "",
+    "vlocity_cmt__Type__c": "",
     "VersionNumber": 2,
     "Name": "cpqOrderStatusDiscardedMobile",
     "VlocityDataPackType": "SObject",

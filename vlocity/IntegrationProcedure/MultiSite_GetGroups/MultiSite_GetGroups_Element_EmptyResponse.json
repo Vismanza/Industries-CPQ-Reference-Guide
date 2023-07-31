@@ -1,33 +1,31 @@
 {
-    "%vlocity_namespace%__Active__c": true,
-    "%vlocity_namespace%__OmniScriptId__c": {
+    "vlocity_cmt__Active__c": true,
+    "vlocity_cmt__OmniScriptId__c": {
         "Name": "MS Get Groups",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/MultiSite/GetGroups/Procedure",
-        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        "VlocityMatchingRecordSourceKey": "vlocity_cmt__OmniScript__c/MultiSite/GetGroups/Procedure",
+        "VlocityRecordSObjectType": "vlocity_cmt__OmniScript__c"
     },
-    "%vlocity_namespace%__ParentElementId__c": {
-        "%vlocity_namespace%__OmniScriptId__c": {
+    "vlocity_cmt__ParentElementId__c": {
+        "vlocity_cmt__OmniScriptId__c": {
             "Name": "MS Get Groups",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
-            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/MultiSite/GetGroups/Procedure",
-            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+            "VlocityMatchingRecordSourceKey": "vlocity_cmt__OmniScript__c/MultiSite/GetGroups/Procedure",
+            "VlocityRecordSObjectType": "vlocity_cmt__OmniScript__c"
         },
         "Name": "EmptyCheckConditionalBlock",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/MultiSite/GetGroups/Procedure/EmptyCheckConditionalBlock",
-        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+        "VlocityMatchingRecordSourceKey": "vlocity_cmt__Element__c/vlocity_cmt__OmniScript__c/MultiSite/GetGroups/Procedure/EmptyCheckConditionalBlock",
+        "VlocityRecordSObjectType": "vlocity_cmt__Element__c"
     },
-    "%vlocity_namespace%__ParentElementName__c": "EmptyCheckConditionalBlock",
-    "%vlocity_namespace%__ParentElementType__c": "Conditional Block",
-    "%vlocity_namespace%__PropertySet__c": {
-        "additionalOutput": {
-        },
+    "vlocity_cmt__ParentElementName__c": "EmptyCheckConditionalBlock",
+    "vlocity_cmt__ParentElementType__c": "Conditional Block",
+    "vlocity_cmt__PropertySet__c": {
+        "additionalOutput": {},
         "disOnTplt": false,
         "executionConditionalFormula": "%parentId% == \"\" || %contextId% == \"\" ",
         "label": "ResponseAction1",
-        "responseDefaultData": {
-        },
+        "responseDefaultData": {},
         "responseFormat": "JSON",
         "responseJSONNode": "",
         "responseJSONPath": "",
@@ -37,13 +35,12 @@
         "sendJSONPath": "",
         "show": null,
         "useFormulas": true,
-        "vlcResponseHeaders": {
-        }
+        "vlcResponseHeaders": {}
     },
-    "%vlocity_namespace%__ReusableOmniScript__c": false,
-    "%vlocity_namespace%__Type__c": "Response Action",
+    "vlocity_cmt__ReusableOmniScript__c": false,
+    "vlocity_cmt__Type__c": "Response Action",
     "Name": "EmptyResponse",
     "VlocityDataPackType": "SObject",
-    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
-    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/MultiSite/GetGroups/Procedure/EmptyResponse"
+    "VlocityRecordSObjectType": "vlocity_cmt__Element__c",
+    "VlocityRecordSourceKey": "vlocity_cmt__Element__c/vlocity_cmt__OmniScript__c/MultiSite/GetGroups/Procedure/EmptyResponse"
 }

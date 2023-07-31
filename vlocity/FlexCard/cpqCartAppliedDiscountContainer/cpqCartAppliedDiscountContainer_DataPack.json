@@ -1,9 +1,8 @@
 {
     "AuthorName": "Vlocity",
-    "%vlocity_namespace%__CardType__c": "flex",
+    "vlocity_cmt__CardType__c": "flex",
     "DataSourceConfig": {
-        "contextVariables": [
-        ],
+        "contextVariables": [],
         "orderBy": {
             "isReverse": false,
             "name": ""
@@ -19,10 +18,10 @@
     "Description": "",
     "OmniUiCardKey": "cpqCartAppliedDiscountContainer/Vlocity/3/1650372914237",
     "OmniUiCardType": "Child",
-    "%vlocity_namespace%__ParentID__c": "",
+    "vlocity_cmt__ParentID__c": "",
     "SampleDataSourceResponse": "{\"showAppliedDiscounts\":false,\"asyncJobResponse\":\"none\"}",
     "StylingConfiguration": "{\"customStyles\":\".cpq__cart-applied-disc_container{\\n    background-color: #FAFAF9;\\n}\\n.cpq__add-new-discount{\\n    position: absolute;\\n    right: 10px;\\n    top: 16px;\\n    width: fit-content;\\n    width: -moz-fit-content; /* Support Mozilla Firefox Browser */\\n    z-index: 100;\\n\\tpadding: 5px 2px 0px 0px;\\n}\\n.cpq__add-new-discount__cnd{\\n    z-index: 89;\\n}\"}",
-    "%vlocity_namespace%__Type__c": "",
+    "vlocity_cmt__Type__c": "",
     "VersionNumber": 5,
     "Name": "cpqCartAppliedDiscountContainer",
     "VlocityDataPackType": "SObject",

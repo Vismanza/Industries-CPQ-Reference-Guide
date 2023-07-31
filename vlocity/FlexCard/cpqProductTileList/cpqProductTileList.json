@@ -1,7 +1,6 @@
 {
     "dataSource": {
-        "contextVariables": [
-        ],
+        "contextVariables": [],
         "orderBy": {
             "isReverse": false,
             "name": ""
@@ -121,7 +120,7 @@
         "Id": "0Rb5g000000SjygCAC",
         "ManageableState": "unmanaged",
         "MasterLabel": "cfCpqProductTileList_4_Vlocity",
-        "NamespacePrefix": "%vlocity_namespace%"
+        "NamespacePrefix": "vlocity_cmt"
     },
     "multilanguageSupport": true,
     "sessionVars": [
@@ -136,8 +135,7 @@
     ],
     "states": [
         {
-            "actions": [
-            ],
+            "actions": [],
             "childCards": [
                 "cpqProductDetailsPopup"
             ],
@@ -334,8 +332,7 @@
                                                 "container": {
                                                     "class": "cpq__product-list-card-product-name"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
                                                 "margin": [
                                                     {
@@ -389,8 +386,7 @@
                                                         "container": {
                                                             "class": "cpq__product-list-card-product-name"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
                                                         "margin": [
                                                             {
@@ -559,13 +555,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq__product-checkbox",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "4",
                                                     "isResponsive": false,
@@ -608,13 +601,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq__product-checkbox",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "4",
                                                             "isResponsive": false,
@@ -645,8 +635,7 @@
                                         "collapsedByDefault": false,
                                         "collapsible": false,
                                         "data-conditions": {
-                                            "group": [
-                                            ],
+                                            "group": [],
                                             "id": "state-condition-object",
                                             "isParent": true
                                         },
@@ -677,13 +666,10 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "width: auto;",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "1",
                                             "isResponsive": false
@@ -722,13 +708,10 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "width: auto;",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "1",
                                                     "isResponsive": false
@@ -782,11 +765,9 @@
                                                 "container": {
                                                     "class": "cpq__product-list-card-product-name"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "around:x-small",
@@ -832,11 +813,9 @@
                                                         "container": {
                                                             "class": "cpq__product-list-card-product-name"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "padding": [
                                                             {
                                                                 "label": "around:x-small",
@@ -868,7 +847,7 @@
                                             "parentElementKey": "element_element_block_0_0_block_1_0",
                                             "property": {
                                                 "card": "{card}",
-                                                "fieldName": "Product2.%vlocity_namespace%__VersionLabel__c",
+                                                "fieldName": "Product2.vlocity_cmt__VersionLabel__c",
                                                 "placeholder": "",
                                                 "record": "{record}",
                                                 "type": "text"
@@ -897,13 +876,10 @@
                                                 "container": {
                                                     "class": "cpq__product-list-card-product-version cpq__product-list-card-product-version-list slds-text-body_small"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "4",
                                                     "isResponsive": false
@@ -942,13 +918,10 @@
                                                         "container": {
                                                             "class": "cpq__product-list-card-product-version cpq__product-list-card-product-version-list slds-text-body_small"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "4",
                                                             "isResponsive": false
@@ -976,8 +949,7 @@
                                         "collapsedByDefault": false,
                                         "collapsible": false,
                                         "data-conditions": {
-                                            "group": [
-                                            ],
+                                            "group": [],
                                             "id": "state-condition-object",
                                             "isParent": true
                                         },
@@ -1008,13 +980,10 @@
                                         "container": {
                                             "class": "cpq__product-list-card-product-name-container"
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "2",
                                             "isResponsive": false
@@ -1053,13 +1022,10 @@
                                                 "container": {
                                                     "class": "cpq__product-list-card-product-name-container"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "2",
                                                     "isResponsive": false
@@ -1117,11 +1083,9 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq__product-card-description-body cpq__product-list-card-description-body",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "around:small",
@@ -1168,11 +1132,9 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq__product-card-description-body cpq__product-list-card-description-body",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "padding": [
                                                             {
                                                                 "label": "around:small",
@@ -1261,13 +1223,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq__product-tile-see-detail-link",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": 6,
                                                     "isResponsive": false
@@ -1307,13 +1266,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq__product-tile-see-detail-link",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": 6,
                                                             "isResponsive": false
@@ -1371,13 +1327,10 @@
                                             "class": ""
                                         },
                                         "customClass": "cpq__product-list-card-description-container",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "2",
                                             "isResponsive": false,
@@ -1420,13 +1373,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq__product-list-card-description-container",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "2",
                                                     "isResponsive": false,
@@ -1504,10 +1454,8 @@
                                                     }
                                                 },
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -1555,10 +1503,8 @@
                                                             }
                                                         },
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -1616,11 +1562,9 @@
                                             "class": ""
                                         },
                                         "customClass": "cpq__product-list-card-product-commercials cpq__product-tile-card-product-commercials_label-left cpq__one-time_charge",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:x-small",
@@ -1670,11 +1614,9 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq__product-list-card-product-commercials cpq__product-tile-card-product-commercials_label-left cpq__one-time_charge",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "around:x-small",
@@ -1713,7 +1655,7 @@
                                             "property": {
                                                 "card": "{card}",
                                                 "currency": "",
-                                                "fieldName": "%vlocity_namespace%__RecurringPrice__c.value",
+                                                "fieldName": "vlocity_cmt__RecurringPrice__c.value",
                                                 "label": " ",
                                                 "locale": "",
                                                 "placeholder": "{Label.CPQPriceLabel}",
@@ -1759,10 +1701,8 @@
                                                     }
                                                 },
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -1810,10 +1750,8 @@
                                                             }
                                                         },
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -1871,11 +1809,9 @@
                                             "class": ""
                                         },
                                         "customClass": "cpq__product-list-card-product-commercials cpq__product-tile-card-product-commercials_label-right cpq__recurring_charge",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:x-small",
@@ -1925,11 +1861,9 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq__product-list-card-product-commercials cpq__product-tile-card-product-commercials_label-right cpq__recurring_charge",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "around:x-small",
@@ -2014,10 +1948,8 @@
                                                     }
                                                 },
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -2065,10 +1997,8 @@
                                                             }
                                                         },
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -2126,11 +2056,9 @@
                                             "class": ""
                                         },
                                         "customClass": "cpq__product-list-card-product-commercials-mobile  cpq__product-list-card-product-commercials-mobile-label-left  cpq__one-time_charge",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:x-small",
@@ -2180,11 +2108,9 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq__product-list-card-product-commercials-mobile  cpq__product-list-card-product-commercials-mobile-label-left  cpq__one-time_charge",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "around:x-small",
@@ -2223,7 +2149,7 @@
                                             "property": {
                                                 "card": "{card}",
                                                 "currency": "",
-                                                "fieldName": "%vlocity_namespace%__RecurringPrice__c.value",
+                                                "fieldName": "vlocity_cmt__RecurringPrice__c.value",
                                                 "label": "{Label.Recurring}",
                                                 "locale": "",
                                                 "placeholder": "{Label.CPQPriceLabel}",
@@ -2269,10 +2195,8 @@
                                                     }
                                                 },
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -2320,10 +2244,8 @@
                                                             }
                                                         },
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -2381,11 +2303,9 @@
                                             "class": ""
                                         },
                                         "customClass": "cpq__product-list-card-product-commercials-mobile cpq__recurring_charge",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:x-small",
@@ -2435,11 +2355,9 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq__product-list-card-product-commercials-mobile cpq__recurring_charge",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "around:x-small",
@@ -2520,13 +2438,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq__product-see-detail-link-mobile",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "4",
                                                             "isResponsive": false
@@ -2566,13 +2481,10 @@
                                                                     "class": ""
                                                                 },
                                                                 "customClass": "cpq__product-see-detail-link-mobile",
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "4",
                                                                     "isResponsive": false
@@ -2669,8 +2581,7 @@
                                                                     "color": "#cccccc",
                                                                     "radius": "",
                                                                     "style": "",
-                                                                    "type": [
-                                                                    ],
+                                                                    "type": [],
                                                                     "width": ""
                                                                 },
                                                                 "class": "slds-text-align_right  cpq__product-list-card-product-configure-button cpq__product-list-preview-mode cpq__add-cart_item",
@@ -2678,13 +2589,10 @@
                                                                     "class": ""
                                                                 },
                                                                 "customClass": "cpq__product-list-card-product-configure-button cpq__product-list-preview-mode cpq__add-cart_item",
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "6",
                                                                     "isResponsive": false,
@@ -2721,8 +2629,7 @@
                                                                             "color": "#cccccc",
                                                                             "radius": "",
                                                                             "style": "",
-                                                                            "type": [
-                                                                            ],
+                                                                            "type": [],
                                                                             "width": ""
                                                                         },
                                                                         "class": "slds-text-align_right  cpq__product-list-card-product-configure-button cpq__add-cart_item",
@@ -2730,13 +2637,10 @@
                                                                             "class": ""
                                                                         },
                                                                         "customClass": "cpq__product-list-card-product-configure-button cpq__add-cart_item",
-                                                                        "elementStyleProperties": {
-                                                                        },
+                                                                        "elementStyleProperties": {},
                                                                         "inlineStyle": "",
-                                                                        "margin": [
-                                                                        ],
-                                                                        "padding": [
-                                                                        ],
+                                                                        "margin": [],
+                                                                        "padding": [],
                                                                         "size": {
                                                                             "default": "6",
                                                                             "isResponsive": false,
@@ -2786,8 +2690,7 @@
                                                                             "color": "#cccccc",
                                                                             "radius": "",
                                                                             "style": "",
-                                                                            "type": [
-                                                                            ],
+                                                                            "type": [],
                                                                             "width": ""
                                                                         },
                                                                         "class": "slds-text-align_right  cpq__product-list-card-product-configure-button cpq__product-list-preview-mode cpq__add-cart_item",
@@ -2795,13 +2698,10 @@
                                                                             "class": ""
                                                                         },
                                                                         "customClass": "cpq__product-list-card-product-configure-button cpq__product-list-preview-mode cpq__add-cart_item",
-                                                                        "elementStyleProperties": {
-                                                                        },
+                                                                        "elementStyleProperties": {},
                                                                         "inlineStyle": "",
-                                                                        "margin": [
-                                                                        ],
-                                                                        "padding": [
-                                                                        ],
+                                                                        "margin": [],
+                                                                        "padding": [],
                                                                         "size": {
                                                                             "default": "6",
                                                                             "isResponsive": false,
@@ -2914,8 +2814,7 @@
                                                                     "isParent": true
                                                                 },
                                                                 "displayAsButton": true,
-                                                                "flyoutDetails": {
-                                                                },
+                                                                "flyoutDetails": {},
                                                                 "hideActionIcon": true,
                                                                 "label": "{Label.CPQConfigure}",
                                                                 "record": "{record}",
@@ -2942,8 +2841,7 @@
                                                                     "color": "#cccccc",
                                                                     "radius": "",
                                                                     "style": "",
-                                                                    "type": [
-                                                                    ],
+                                                                    "type": [],
                                                                     "width": ""
                                                                 },
                                                                 "class": "slds-text-align_left  cpq__product-list-configure-button cpq__configure-cart_item",
@@ -2951,13 +2849,10 @@
                                                                     "class": ""
                                                                 },
                                                                 "customClass": "cpq__product-list-configure-button cpq__configure-cart_item",
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "6",
                                                                     "isResponsive": false,
@@ -2993,8 +2888,7 @@
                                                                             "color": "#cccccc",
                                                                             "radius": "",
                                                                             "style": "",
-                                                                            "type": [
-                                                                            ],
+                                                                            "type": [],
                                                                             "width": ""
                                                                         },
                                                                         "class": "slds-text-align_left  slds-p-left_x-small cpq__product-list-configure-button cpq__configure-cart_item",
@@ -3002,11 +2896,9 @@
                                                                             "class": ""
                                                                         },
                                                                         "customClass": "cpq__product-list-configure-button cpq__configure-cart_item",
-                                                                        "elementStyleProperties": {
-                                                                        },
+                                                                        "elementStyleProperties": {},
                                                                         "inlineStyle": "",
-                                                                        "margin": [
-                                                                        ],
+                                                                        "margin": [],
                                                                         "padding": [
                                                                             {
                                                                                 "label": "left:x-small",
@@ -3063,8 +2955,7 @@
                                                                             "color": "#cccccc",
                                                                             "radius": "",
                                                                             "style": "",
-                                                                            "type": [
-                                                                            ],
+                                                                            "type": [],
                                                                             "width": ""
                                                                         },
                                                                         "class": "slds-text-align_left  cpq__product-list-configure-button cpq__configure-cart_item",
@@ -3072,13 +2963,10 @@
                                                                             "class": ""
                                                                         },
                                                                         "customClass": "cpq__product-list-configure-button cpq__configure-cart_item",
-                                                                        "elementStyleProperties": {
-                                                                        },
+                                                                        "elementStyleProperties": {},
                                                                         "inlineStyle": "",
-                                                                        "margin": [
-                                                                        ],
-                                                                        "padding": [
-                                                                        ],
+                                                                        "margin": [],
+                                                                        "padding": [],
                                                                         "size": {
                                                                             "default": "6",
                                                                             "isResponsive": false,
@@ -3151,13 +3039,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq__price_container",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": 8,
                                                             "isResponsive": false
@@ -3197,13 +3082,10 @@
                                                                     "class": ""
                                                                 },
                                                                 "customClass": "cpq__price_container",
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": 8,
                                                                     "isResponsive": false
@@ -3257,13 +3139,10 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -3302,13 +3181,10 @@
                                                         "container": {
                                                             "class": ""
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -3336,8 +3212,7 @@
                                         "collapsedByDefault": false,
                                         "collapsible": false,
                                         "data-conditions": {
-                                            "group": [
-                                            ],
+                                            "group": [],
                                             "id": "state-condition-object",
                                             "isParent": true
                                         },
@@ -3369,11 +3244,9 @@
                                             "class": ""
                                         },
                                         "customClass": "cpq__product-list-action-block",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:x-small",
@@ -3420,11 +3293,9 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq__product-list-action-block",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "around:x-small",
@@ -3492,13 +3363,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq__product_error_icon",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "1",
                                                     "isResponsive": false
@@ -3538,13 +3406,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq__product_error_icon",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "1",
                                                             "isResponsive": false
@@ -3570,8 +3435,7 @@
                                             "property": {
                                                 "card": "{card}",
                                                 "data-conditions": {
-                                                    "group": [
-                                                    ],
+                                                    "group": [],
                                                     "id": "state-condition-object",
                                                     "isParent": true
                                                 },
@@ -3603,13 +3467,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq__product-error-msg",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "11",
                                                     "isResponsive": false
@@ -3649,13 +3510,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq__product-error-msg",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "11",
                                                             "isResponsive": false
@@ -3774,13 +3632,10 @@
                                     "class": ""
                                 },
                                 "customClass": "cpq__product-list-card",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "12",
                                     "isResponsive": false,
@@ -3823,13 +3678,10 @@
                                             "class": ""
                                         },
                                         "customClass": "cpq__product-list-card",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": false,
@@ -3866,19 +3718,14 @@
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "ListView - Browse Cart Phase",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "",
@@ -3899,8 +3746,7 @@
                     "class": "cpq__product-list-card cpq__product-card"
                 },
                 "customClass": "",
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
                 "margin": [
                     {
@@ -3932,10 +3778,8 @@
             }
         },
         {
-            "actions": [
-            ],
-            "childCards": [
-            ],
+            "actions": [],
+            "childCards": [],
             "components": {
                 "layer-0": {
                     "children": [
@@ -4076,14 +3920,11 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "cpq__product-checkbox",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "maxHeight": "25px",
-                                                "padding": [
-                                                ],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "6",
                                                     "isResponsive": false
@@ -4122,14 +3963,11 @@
                                                         "container": {
                                                             "class": ""
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "cpq__product-checkbox",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "maxHeight": "25px",
-                                                        "padding": [
-                                                        ],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "6",
                                                             "isResponsive": false
@@ -4331,8 +4169,7 @@
                                                 "container": {
                                                     "class": "cpq__product-list-card-product-name"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
                                                 "margin": [
                                                     {
@@ -4386,8 +4223,7 @@
                                                         "container": {
                                                             "class": "cpq__product-list-card-product-name"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
                                                         "margin": [
                                                             {
@@ -4456,13 +4292,10 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "1",
                                             "isResponsive": false
@@ -4501,13 +4334,10 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "1",
                                                     "isResponsive": false
@@ -4559,13 +4389,10 @@
                                         "container": {
                                             "class": "cpq__product-list-card-product-name"
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "8",
                                             "isResponsive": false
@@ -4604,13 +4431,10 @@
                                                 "container": {
                                                     "class": "cpq__product-list-card-product-name"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "8",
                                                     "isResponsive": false
@@ -4636,12 +4460,11 @@
                                     "property": {
                                         "card": "{card}",
                                         "data-conditions": {
-                                            "group": [
-                                            ],
+                                            "group": [],
                                             "id": "state-condition-object",
                                             "isParent": true
                                         },
-                                        "fieldName": "Product2.%vlocity_namespace%__VersionLabel__c",
+                                        "fieldName": "Product2.vlocity_cmt__VersionLabel__c",
                                         "placeholder": "",
                                         "record": "{record}",
                                         "type": "text"
@@ -4670,13 +4493,10 @@
                                         "container": {
                                             "class": "cpq__product-list-card-product-version"
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "3",
                                             "isResponsive": false
@@ -4715,13 +4535,10 @@
                                                 "container": {
                                                     "class": "cpq__product-list-card-product-version"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "3",
                                                     "isResponsive": false
@@ -4774,13 +4591,10 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "1",
                                             "isResponsive": false
@@ -4819,13 +4633,10 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "1",
                                                     "isResponsive": false
@@ -4881,11 +4692,9 @@
                                             "class": ""
                                         },
                                         "customClass": "cpq__product-card-description-body cpq__product-tile-card-description-body",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:small",
@@ -4932,11 +4741,9 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq__product-card-description-body cpq__product-tile-card-description-body",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "around:small",
@@ -5030,10 +4837,8 @@
                                                             "valueclass": "cpq__product-tile-card-product-commercials_value"
                                                         },
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -5086,10 +4891,8 @@
                                                                     "valueclass": "cpq__product-tile-card-product-commercials_value"
                                                                 },
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "12",
                                                                     "isResponsive": false
@@ -5144,11 +4947,9 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq__product-tile-card-product-commercials cpq__product-list-card-product-commercials-mobile-label-left cpq__one-time_charge",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "around:x-small",
@@ -5195,11 +4996,9 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq__product-tile-card-product-commercials cpq__product-list-card-product-commercials-mobile-label-left cpq__one-time_charge",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "padding": [
                                                             {
                                                                 "label": "around:x-small",
@@ -5235,7 +5034,7 @@
                                                     "property": {
                                                         "card": "{card}",
                                                         "currency": "",
-                                                        "fieldName": "%vlocity_namespace%__RecurringPrice__c.value",
+                                                        "fieldName": "vlocity_cmt__RecurringPrice__c.value",
                                                         "label": "{Label.Recurring}",
                                                         "labelclass": "cpq__product-tile-card-product-commercials_label",
                                                         "locale": "",
@@ -5291,10 +5090,8 @@
                                                             "valueclass": "cpq__product-tile-card-product-commercials_value"
                                                         },
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -5347,10 +5144,8 @@
                                                                     "valueclass": "cpq__product-tile-card-product-commercials_value"
                                                                 },
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "12",
                                                                     "isResponsive": false
@@ -5408,11 +5203,9 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq__product-tile-card-product-commercials cpq__recurring_charge",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "around:x-small",
@@ -5462,11 +5255,9 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq__product-tile-card-product-commercials cpq__recurring_charge",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "padding": [
                                                             {
                                                                 "label": "around:x-small",
@@ -5531,8 +5322,7 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
                                         "margin": [
                                             {
@@ -5633,13 +5423,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq__product-tile-see-detail-link",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "4",
                                                     "isResponsive": false
@@ -5679,13 +5466,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq__product-tile-see-detail-link",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "4",
                                                             "isResponsive": false
@@ -5782,8 +5566,7 @@
                                                             "color": "#cccccc",
                                                             "radius": "",
                                                             "style": "",
-                                                            "type": [
-                                                            ],
+                                                            "type": [],
                                                             "width": ""
                                                         },
                                                         "class": "slds-text-align_right  cpq__product-list-card-product-configure-button cpq__product-tile-card-product-configure-button cpq__product-tile-preview-mode cpq__add-cart_item ",
@@ -5791,13 +5574,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq__product-list-card-product-configure-button cpq__product-tile-card-product-configure-button cpq__product-tile-preview-mode cpq__add-cart_item ",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "6",
                                                             "isResponsive": false,
@@ -5833,8 +5613,7 @@
                                                                     "color": "#cccccc",
                                                                     "radius": "",
                                                                     "style": "",
-                                                                    "type": [
-                                                                    ],
+                                                                    "type": [],
                                                                     "width": ""
                                                                 },
                                                                 "class": "slds-text-align_right m-ltr-auto  cpq__product-list-card-product-configure-button cpq__product-tile-card-product-configure-button cpq__add-cart_item",
@@ -5842,13 +5621,10 @@
                                                                     "class": "m-ltr-auto"
                                                                 },
                                                                 "customClass": "cpq__product-list-card-product-configure-button cpq__product-tile-card-product-configure-button cpq__add-cart_item",
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "6",
                                                                     "isResponsive": false,
@@ -5898,8 +5674,7 @@
                                                                     "color": "#cccccc",
                                                                     "radius": "",
                                                                     "style": "",
-                                                                    "type": [
-                                                                    ],
+                                                                    "type": [],
                                                                     "width": ""
                                                                 },
                                                                 "class": "slds-text-align_right  cpq__product-list-card-product-configure-button cpq__product-tile-card-product-configure-button cpq__product-tile-preview-mode cpq__add-cart_item ",
@@ -5907,13 +5682,10 @@
                                                                     "class": ""
                                                                 },
                                                                 "customClass": "cpq__product-list-card-product-configure-button cpq__product-tile-card-product-configure-button cpq__product-tile-preview-mode cpq__add-cart_item ",
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "6",
                                                                     "isResponsive": false,
@@ -6026,8 +5798,7 @@
                                                             "isParent": true
                                                         },
                                                         "displayAsButton": true,
-                                                        "flyoutDetails": {
-                                                        },
+                                                        "flyoutDetails": {},
                                                         "hideActionIcon": true,
                                                         "label": "{Label.CPQConfigure}",
                                                         "record": "{record}",
@@ -6054,8 +5825,7 @@
                                                             "color": "#cccccc",
                                                             "radius": "",
                                                             "style": "",
-                                                            "type": [
-                                                            ],
+                                                            "type": [],
                                                             "width": ""
                                                         },
                                                         "class": " cpq__product-list-card-product-configure-button  cpq__product-tile-preview-mode cpq__configure-cart_item",
@@ -6063,13 +5833,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq__product-list-card-product-configure-button  cpq__product-tile-preview-mode cpq__configure-cart_item",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "6",
                                                             "isResponsive": false,
@@ -6105,8 +5872,7 @@
                                                                     "color": "#cccccc",
                                                                     "radius": "",
                                                                     "style": "",
-                                                                    "type": [
-                                                                    ],
+                                                                    "type": [],
                                                                     "width": ""
                                                                 },
                                                                 "class": " cpq__product-list-card-product-configure-button cpq__configure-cart_item",
@@ -6114,13 +5880,10 @@
                                                                     "class": ""
                                                                 },
                                                                 "customClass": "cpq__product-list-card-product-configure-button cpq__configure-cart_item",
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "6",
                                                                     "isResponsive": false,
@@ -6170,8 +5933,7 @@
                                                                     "color": "#cccccc",
                                                                     "radius": "",
                                                                     "style": "",
-                                                                    "type": [
-                                                                    ],
+                                                                    "type": [],
                                                                     "width": ""
                                                                 },
                                                                 "class": " cpq__product-list-card-product-configure-button  cpq__product-tile-preview-mode cpq__configure-cart_item",
@@ -6179,13 +5941,10 @@
                                                                     "class": ""
                                                                 },
                                                                 "customClass": "cpq__product-list-card-product-configure-button  cpq__product-tile-preview-mode cpq__configure-cart_item",
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "6",
                                                                     "isResponsive": false,
@@ -6257,13 +6016,10 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": 8,
                                                     "isResponsive": false
@@ -6302,13 +6058,10 @@
                                                         "container": {
                                                             "class": ""
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": 8,
                                                             "isResponsive": false
@@ -6363,11 +6116,9 @@
                                             "class": "m-ltr-auto"
                                         },
                                         "customClass": "cpq__product-tile-card-product-configure-block ",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:x-small",
@@ -6414,11 +6165,9 @@
                                                     "class": "m-ltr-auto"
                                                 },
                                                 "customClass": "cpq__product-tile-card-product-configure-block ",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "around:x-small",
@@ -6486,13 +6235,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq__product_error_icon",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "1",
                                                     "isResponsive": false
@@ -6532,13 +6278,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq__product_error_icon",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "1",
                                                             "isResponsive": false
@@ -6564,8 +6307,7 @@
                                             "property": {
                                                 "card": "{card}",
                                                 "data-conditions": {
-                                                    "group": [
-                                                    ],
+                                                    "group": [],
                                                     "id": "state-condition-object",
                                                     "isParent": true
                                                 },
@@ -6597,13 +6339,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq__product-error-msg",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "11",
                                                     "isResponsive": false
@@ -6643,13 +6382,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq__product-error-msg",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "11",
                                                             "isResponsive": false
@@ -6798,19 +6534,14 @@
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "TileView - Browse Phase",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "",
@@ -6823,8 +6554,7 @@
                     "color": "",
                     "radius": "",
                     "style": "",
-                    "type": [
-                    ],
+                    "type": [],
                     "width": ""
                 },
                 "class": " slds-p-around_x-small slds-m-around_x-small cpq__product-card",
@@ -6832,11 +6562,9 @@
                     "class": ""
                 },
                 "customClass": "slds-m-around_x-small cpq__product-card",
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
-                "margin": [
-                ],
+                "margin": [],
                 "padding": [
                     {
                         "label": "around:x-small",

@@ -1,12 +1,9 @@
 {
     "dataSource": {
-        "contextVariables": [
-        ],
-        "orderBy": {
-        },
+        "contextVariables": [],
+        "orderBy": {},
         "type": null,
-        "value": {
-        }
+        "value": {}
     },
     "dynamicCanvasWidth": {
         "type": "desktop"
@@ -19,13 +16,12 @@
         "Id": "0Rb5g000000Rf4yCAC",
         "ManageableState": "unmanaged",
         "MasterLabel": "cfCpqDiscountDetailView_6_Vlocity",
-        "NamespacePrefix": "%vlocity_namespace%"
+        "NamespacePrefix": "vlocity_cmt"
     },
     "multilanguageSupport": true,
     "states": [
         {
-            "actions": [
-            ],
+            "actions": [],
             "childCards": [
                 "cpqProductAndCategory",
                 "cpqDiscountProducts"
@@ -46,7 +42,7 @@
                                             "parentElementKey": "element_element_block_0_0_block_0_0",
                                             "property": {
                                                 "card": "{card}",
-                                                "mergeField": "%3Cdiv%3E%7BName.value%7D%20(%20%7B%vlocity_namespace%__DiscountType__c%5B'value'%5D%7D%20)%3C/div%3E",
+                                                "mergeField": "%3Cdiv%3E%7BName.value%7D%20(%20%7Bvlocity_cmt__DiscountType__c%5B'value'%5D%7D%20)%3C/div%3E",
                                                 "record": "{record}"
                                             },
                                             "size": {
@@ -74,13 +70,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "cpq__promotiondetailview-modal-header-promotionheading",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -120,13 +113,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "cpq__promotiondetailview-modal-header-promotionheading",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false
@@ -181,8 +171,7 @@
                                             "class": ""
                                         },
                                         "customClass": "slds-modal__header cpq__discount-detailview-modal-header ",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "height": "",
                                         "inlineStyle": "",
                                         "margin": [
@@ -192,8 +181,7 @@
                                                 "type": "bottom"
                                             }
                                         ],
-                                        "padding": [
-                                        ],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": false
@@ -233,8 +221,7 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "slds-modal__header cpq__discount-detailview-modal-header ",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "height": "",
                                                 "inlineStyle": "",
                                                 "margin": [
@@ -244,8 +231,7 @@
                                                         "type": "bottom"
                                                     }
                                                 ],
-                                                "padding": [
-                                                ],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false
@@ -279,7 +265,7 @@
                                                         "data-conditions": {
                                                             "group": [
                                                                 {
-                                                                    "field": "%vlocity_namespace%__ApprovalStatus__c['value']",
+                                                                    "field": "vlocity_cmt__ApprovalStatus__c['value']",
                                                                     "hasMergeField": false,
                                                                     "id": "state-new-condition-25",
                                                                     "operator": "==",
@@ -333,8 +319,7 @@
                                                                 "type": "top"
                                                             }
                                                         ],
-                                                        "padding": [
-                                                        ],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "1",
                                                             "isResponsive": false
@@ -386,8 +371,7 @@
                                                                         "type": "top"
                                                                     }
                                                                 ],
-                                                                "padding": [
-                                                                ],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "1",
                                                                     "isResponsive": false
@@ -416,7 +400,7 @@
                                                         "data-conditions": {
                                                             "group": [
                                                                 {
-                                                                    "field": "%vlocity_namespace%__ApprovalStatus__c['value']",
+                                                                    "field": "vlocity_cmt__ApprovalStatus__c['value']",
                                                                     "hasMergeField": false,
                                                                     "id": "state-new-condition-18",
                                                                     "operator": "==",
@@ -470,8 +454,7 @@
                                                                 "type": "top"
                                                             }
                                                         ],
-                                                        "padding": [
-                                                        ],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "1",
                                                             "isResponsive": false
@@ -521,8 +504,7 @@
                                                                         "type": "top"
                                                                     }
                                                                 ],
-                                                                "padding": [
-                                                                ],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "1",
                                                                     "isResponsive": false
@@ -551,7 +533,7 @@
                                                         "data-conditions": {
                                                             "group": [
                                                                 {
-                                                                    "field": "%vlocity_namespace%__ApprovalStatus__c['value']",
+                                                                    "field": "vlocity_cmt__ApprovalStatus__c['value']",
                                                                     "hasMergeField": false,
                                                                     "id": "state-new-condition-11",
                                                                     "operator": "==",
@@ -605,8 +587,7 @@
                                                                 "type": "top"
                                                             }
                                                         ],
-                                                        "padding": [
-                                                        ],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "1",
                                                             "isResponsive": false
@@ -658,8 +639,7 @@
                                                                         "type": "top"
                                                                     }
                                                                 ],
-                                                                "padding": [
-                                                                ],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "1",
                                                                     "isResponsive": false
@@ -688,7 +668,7 @@
                                                         "data-conditions": {
                                                             "group": [
                                                                 {
-                                                                    "field": "%vlocity_namespace%__ApprovalStatus__c['value']",
+                                                                    "field": "vlocity_cmt__ApprovalStatus__c['value']",
                                                                     "hasMergeField": false,
                                                                     "id": "state-new-condition-3",
                                                                     "operator": "==",
@@ -742,8 +722,7 @@
                                                                 "type": "top"
                                                             }
                                                         ],
-                                                        "padding": [
-                                                        ],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "1",
                                                             "isResponsive": false
@@ -793,8 +772,7 @@
                                                                         "type": "top"
                                                                     }
                                                                 ],
-                                                                "padding": [
-                                                                ],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "1",
                                                                     "isResponsive": false
@@ -819,7 +797,7 @@
                                                     "parentElementKey": "element_element_element_block_0_0_block_1_0_block_0_0",
                                                     "property": {
                                                         "card": "{card}",
-                                                        "mergeField": "%3Cdiv%3E%7B%vlocity_namespace%__ApprovalStatus__c%5B'value'%5D%7D&nbsp;%3C/div%3E",
+                                                        "mergeField": "%3Cdiv%3E%7Bvlocity_cmt__ApprovalStatus__c%5B'value'%5D%7D&nbsp;%3C/div%3E",
                                                         "record": "{record}"
                                                     },
                                                     "size": {
@@ -846,11 +824,9 @@
                                                         "container": {
                                                             "class": "cpq__discount-detailview-heading"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "padding": [
                                                             {
                                                                 "label": "around:small",
@@ -897,11 +873,9 @@
                                                                 "container": {
                                                                     "class": "cpq__discount-detailview-heading"
                                                                 },
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
+                                                                "margin": [],
                                                                 "padding": [
                                                                     {
                                                                         "label": "around:small",
@@ -922,11 +896,11 @@
                                                             }
                                                         },
                                                         {
-                                                            "conditionString": "%vlocity_namespace%__ApprovalStatus__c.value == Rejected",
+                                                            "conditionString": "vlocity_cmt__ApprovalStatus__c.value == Rejected",
                                                             "conditions": {
                                                                 "group": [
                                                                     {
-                                                                        "field": "%vlocity_namespace%__ApprovalStatus__c.value",
+                                                                        "field": "vlocity_cmt__ApprovalStatus__c.value",
                                                                         "hasMergeField": false,
                                                                         "id": "state-new-condition-0",
                                                                         "operator": "==",
@@ -962,11 +936,9 @@
                                                                 "container": {
                                                                     "class": "cpq__discount-detailview-heading"
                                                                 },
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
+                                                                "margin": [],
                                                                 "padding": [
                                                                     {
                                                                         "label": "around:small",
@@ -987,11 +959,11 @@
                                                             }
                                                         },
                                                         {
-                                                            "conditionString": "%vlocity_namespace%__ApprovalStatus__c.value == Approved",
+                                                            "conditionString": "vlocity_cmt__ApprovalStatus__c.value == Approved",
                                                             "conditions": {
                                                                 "group": [
                                                                     {
-                                                                        "field": "%vlocity_namespace%__ApprovalStatus__c.value",
+                                                                        "field": "vlocity_cmt__ApprovalStatus__c.value",
                                                                         "hasMergeField": false,
                                                                         "id": "state-new-condition-7",
                                                                         "operator": "==",
@@ -1027,11 +999,9 @@
                                                                 "container": {
                                                                     "class": "cpq__discount-detailview-heading"
                                                                 },
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
+                                                                "margin": [],
                                                                 "padding": [
                                                                     {
                                                                         "label": "around:small",
@@ -1052,11 +1022,11 @@
                                                             }
                                                         },
                                                         {
-                                                            "conditionString": "%vlocity_namespace%__ApprovalStatus__c.value == Not Submitted ",
+                                                            "conditionString": "vlocity_cmt__ApprovalStatus__c.value == Not Submitted ",
                                                             "conditions": {
                                                                 "group": [
                                                                     {
-                                                                        "field": "%vlocity_namespace%__ApprovalStatus__c.value",
+                                                                        "field": "vlocity_cmt__ApprovalStatus__c.value",
                                                                         "hasMergeField": false,
                                                                         "id": "state-new-condition-16",
                                                                         "operator": "==",
@@ -1092,11 +1062,9 @@
                                                                 "container": {
                                                                     "class": "cpq__discount-detailview-heading"
                                                                 },
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
+                                                                "margin": [],
                                                                 "padding": [
                                                                     {
                                                                         "label": "around:small",
@@ -1117,11 +1085,11 @@
                                                             }
                                                         },
                                                         {
-                                                            "conditionString": "%vlocity_namespace%__ApprovalStatus__c.value == Pending",
+                                                            "conditionString": "vlocity_cmt__ApprovalStatus__c.value == Pending",
                                                             "conditions": {
                                                                 "group": [
                                                                     {
-                                                                        "field": "%vlocity_namespace%__ApprovalStatus__c.value",
+                                                                        "field": "vlocity_cmt__ApprovalStatus__c.value",
                                                                         "hasMergeField": false,
                                                                         "id": "state-new-condition-29",
                                                                         "operator": "==",
@@ -1157,11 +1125,9 @@
                                                                 "container": {
                                                                     "class": "cpq__discount-detailview-heading"
                                                                 },
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
+                                                                "margin": [],
                                                                 "padding": [
                                                                     {
                                                                         "label": "around:small",
@@ -1222,8 +1188,7 @@
                                                 "container": {
                                                     "class": "cpq__discount-detail_view"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
                                                 "margin": [
                                                     {
@@ -1277,8 +1242,7 @@
                                                         "container": {
                                                             "class": "cpq__discount-detail_view"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
                                                         "margin": [
                                                             {
@@ -1321,7 +1285,7 @@
                                                 "data-conditions": {
                                                     "group": [
                                                         {
-                                                            "field": "%vlocity_namespace%__Description__c.value",
+                                                            "field": "vlocity_cmt__Description__c.value",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-1",
                                                             "operator": "!=",
@@ -1333,7 +1297,7 @@
                                                     "isParent": true
                                                 },
                                                 "data-preloadConditionalElement": false,
-                                                "mergeField": "%3Cdiv%3E%7B%vlocity_namespace%__Description__c%5B'value'%5D%7D&nbsp;%3C/div%3E",
+                                                "mergeField": "%3Cdiv%3E%7Bvlocity_cmt__Description__c%5B'value'%5D%7D&nbsp;%3C/div%3E",
                                                 "record": "{record}"
                                             },
                                             "size": {
@@ -1361,8 +1325,7 @@
                                                     "class": "cpq__discount-description-container "
                                                 },
                                                 "customClass": "cpq__discount-description slds-m-top_medium",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
                                                 "margin": [
                                                     {
@@ -1422,8 +1385,7 @@
                                                             "class": "cpq__discount-description-container "
                                                         },
                                                         "customClass": "cpq__discount-description slds-m-top_medium",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
                                                         "margin": [
                                                             {
@@ -1498,11 +1460,9 @@
                                                         "container": {
                                                             "class": "cpq__discount-end-date"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "padding": [
                                                             {
                                                                 "label": "around:x-small",
@@ -1553,11 +1513,9 @@
                                                                 "container": {
                                                                     "class": "cpq__discount-end-date"
                                                                 },
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
+                                                                "margin": [],
                                                                 "padding": [
                                                                     {
                                                                         "label": "around:x-small",
@@ -1595,12 +1553,11 @@
                                                     "property": {
                                                         "card": "{card}",
                                                         "data-conditions": {
-                                                            "group": [
-                                                            ],
+                                                            "group": [],
                                                             "id": "state-condition-object",
                                                             "isParent": true
                                                         },
-                                                        "fieldName": "{%vlocity_namespace%__EffectiveEndDate__c['value']}",
+                                                        "fieldName": "{vlocity_cmt__EffectiveEndDate__c['value']}",
                                                         "format": "M/D/YYYY",
                                                         "label": "",
                                                         "placeholder": "",
@@ -1631,11 +1588,9 @@
                                                         "container": {
                                                             "class": "cpq__discount-end-date"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "padding": [
                                                             {
                                                                 "label": "around:x-small",
@@ -1681,11 +1636,9 @@
                                                                 "container": {
                                                                     "class": "cpq__discount-end-date"
                                                                 },
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
+                                                                "margin": [],
                                                                 "padding": [
                                                                     {
                                                                         "label": "around:x-small",
@@ -1722,7 +1675,7 @@
                                                 "data-conditions": {
                                                     "group": [
                                                         {
-                                                            "field": "%vlocity_namespace%__EffectiveEndDate__c.value",
+                                                            "field": "vlocity_cmt__EffectiveEndDate__c.value",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-19",
                                                             "operator": "!=",
@@ -1764,13 +1717,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "slds-m-bottom_large",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "\n",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false,
@@ -1813,13 +1763,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "slds-m-bottom_large",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "\n",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false,
@@ -1883,11 +1830,9 @@
                                                                     "class": ""
                                                                 },
                                                                 "customClass": "cpq__discount-dates-label slds-m-right_x-small",
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
+                                                                "margin": [],
                                                                 "padding": [
                                                                     {
                                                                         "label": "bottom:medium",
@@ -1937,11 +1882,9 @@
                                                                             "class": ""
                                                                         },
                                                                         "customClass": "cpq__discount-dates-label slds-m-right_x-small",
-                                                                        "elementStyleProperties": {
-                                                                        },
+                                                                        "elementStyleProperties": {},
                                                                         "inlineStyle": "",
-                                                                        "margin": [
-                                                                        ],
+                                                                        "margin": [],
                                                                         "padding": [
                                                                             {
                                                                                 "label": "bottom:medium",
@@ -1977,7 +1920,7 @@
                                                             "parentElementKey": "element_element_element_element_block_0_0_block_1_0_block_3_0_block_0_0",
                                                             "property": {
                                                                 "card": "{card}",
-                                                                "placeholder": "{%vlocity_namespace%__DiscountType__c['value']} ",
+                                                                "placeholder": "{vlocity_cmt__DiscountType__c['value']} ",
                                                                 "record": "{record}",
                                                                 "type": "text"
                                                             },
@@ -2005,13 +1948,10 @@
                                                                 "container": {
                                                                     "class": "cpq__discount-items"
                                                                 },
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "9",
                                                                     "isResponsive": false
@@ -2050,13 +1990,10 @@
                                                                         "container": {
                                                                             "class": "cpq__discount-items"
                                                                         },
-                                                                        "elementStyleProperties": {
-                                                                        },
+                                                                        "elementStyleProperties": {},
                                                                         "inlineStyle": "",
-                                                                        "margin": [
-                                                                        ],
-                                                                        "padding": [
-                                                                        ],
+                                                                        "margin": [],
+                                                                        "padding": [],
                                                                         "size": {
                                                                             "default": "9",
                                                                             "isResponsive": false
@@ -2145,11 +2082,9 @@
                                                                 "container": {
                                                                     "class": "cpq__discount-dates-label"
                                                                 },
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
+                                                                "margin": [],
                                                                 "padding": [
                                                                     {
                                                                         "label": "bottom:medium",
@@ -2195,11 +2130,9 @@
                                                                         "container": {
                                                                             "class": "cpq__discount-dates-label"
                                                                         },
-                                                                        "elementStyleProperties": {
-                                                                        },
+                                                                        "elementStyleProperties": {},
                                                                         "inlineStyle": "",
-                                                                        "margin": [
-                                                                        ],
+                                                                        "margin": [],
                                                                         "padding": [
                                                                             {
                                                                                 "label": "bottom:medium",
@@ -2231,7 +2164,7 @@
                                                             "parentElementKey": "element_element_element_element_block_0_0_block_1_0_block_3_0_block_1_0",
                                                             "property": {
                                                                 "card": "{card}",
-                                                                "fieldName": "{%vlocity_namespace%__Duration__c['value']}  Months",
+                                                                "fieldName": "{vlocity_cmt__Duration__c['value']}  Months",
                                                                 "placeholder": "",
                                                                 "record": "{record}",
                                                                 "type": "text"
@@ -2260,13 +2193,10 @@
                                                                 "container": {
                                                                     "class": "cpq__discount-items"
                                                                 },
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "9",
                                                                     "isResponsive": false
@@ -2305,13 +2235,10 @@
                                                                         "container": {
                                                                             "class": "cpq__discount-items"
                                                                         },
-                                                                        "elementStyleProperties": {
-                                                                        },
+                                                                        "elementStyleProperties": {},
                                                                         "inlineStyle": "",
-                                                                        "margin": [
-                                                                        ],
-                                                                        "padding": [
-                                                                        ],
+                                                                        "margin": [],
+                                                                        "padding": [],
                                                                         "size": {
                                                                             "default": "9",
                                                                             "isResponsive": false
@@ -2400,11 +2327,9 @@
                                                                 "container": {
                                                                     "class": "cpq__discount-dates-label"
                                                                 },
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
+                                                                "margin": [],
                                                                 "padding": [
                                                                     {
                                                                         "label": "bottom:medium",
@@ -2450,11 +2375,9 @@
                                                                         "container": {
                                                                             "class": "cpq__discount-dates-label"
                                                                         },
-                                                                        "elementStyleProperties": {
-                                                                        },
+                                                                        "elementStyleProperties": {},
                                                                         "inlineStyle": "",
-                                                                        "margin": [
-                                                                        ],
+                                                                        "margin": [],
                                                                         "padding": [
                                                                             {
                                                                                 "label": "bottom:medium",
@@ -2515,13 +2438,10 @@
                                                                 "container": {
                                                                     "class": "cpq__discount-items"
                                                                 },
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "12",
                                                                     "isResponsive": false
@@ -2560,13 +2480,10 @@
                                                                         "container": {
                                                                             "class": "cpq__discount-items"
                                                                         },
-                                                                        "elementStyleProperties": {
-                                                                        },
+                                                                        "elementStyleProperties": {},
                                                                         "inlineStyle": "",
-                                                                        "margin": [
-                                                                        ],
-                                                                        "padding": [
-                                                                        ],
+                                                                        "margin": [],
+                                                                        "padding": [],
                                                                         "size": {
                                                                             "default": "12",
                                                                             "isResponsive": false
@@ -2659,13 +2576,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "\n",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false,
@@ -2708,13 +2622,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "\n",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false,
@@ -2746,7 +2657,7 @@
                                                 "data-conditions": {
                                                     "group": [
                                                         {
-                                                            "field": "%vlocity_namespace%__AppliesToAllItems__c.value",
+                                                            "field": "vlocity_cmt__AppliesToAllItems__c.value",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-48",
                                                             "operator": "==",
@@ -2757,7 +2668,7 @@
                                                     "id": "state-condition-object",
                                                     "isParent": true
                                                 },
-                                                "mergeField": "%3Cdiv%3E%7B%vlocity_namespace%__AppliesToAllItems__c%5B'label'%5D%7D%3C/div%3E",
+                                                "mergeField": "%3Cdiv%3E%7Bvlocity_cmt__AppliesToAllItems__c%5B'label'%5D%7D%3C/div%3E",
                                                 "record": "{record}"
                                             },
                                             "size": {
@@ -2784,11 +2695,9 @@
                                                 "container": {
                                                     "class": "cpq__discount-items"
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "around:x-small",
@@ -2834,11 +2743,9 @@
                                                         "container": {
                                                             "class": "cpq__discount-items"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "padding": [
                                                             {
                                                                 "label": "around:x-small",
@@ -2903,13 +2810,10 @@
                                                             "class": "cpq__discount-dates-label"
                                                         },
                                                         "customClass": "cpq__promotiondetailview-modal-body-promotion-dates-label slds-m-right_x-small",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "1",
                                                             "isResponsive": false,
@@ -2952,13 +2856,10 @@
                                                                     "class": "cpq__discount-dates-label"
                                                                 },
                                                                 "customClass": "cpq__promotiondetailview-modal-body-promotion-dates-label slds-m-right_x-small",
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "1",
                                                                     "isResponsive": false,
@@ -3016,13 +2917,10 @@
                                                         "container": {
                                                             "class": "cpq__discount-items"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "3",
                                                             "isResponsive": false
@@ -3061,13 +2959,10 @@
                                                                 "container": {
                                                                     "class": "cpq__discount-items"
                                                                 },
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "3",
                                                                     "isResponsive": false
@@ -3119,13 +3014,10 @@
                                                         "container": {
                                                             "class": "cpq__discount-dates-label"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "1",
                                                             "isResponsive": false
@@ -3164,13 +3056,10 @@
                                                                 "container": {
                                                                     "class": "cpq__discount-dates-label"
                                                                 },
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "1",
                                                                     "isResponsive": false
@@ -3224,13 +3113,10 @@
                                                         "container": {
                                                             "class": "cpq__discount-items"
                                                         },
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "4",
                                                             "isResponsive": false
@@ -3269,13 +3155,10 @@
                                                                 "container": {
                                                                     "class": "cpq__discount-items"
                                                                 },
-                                                                "elementStyleProperties": {
-                                                                },
+                                                                "elementStyleProperties": {},
                                                                 "inlineStyle": "",
-                                                                "margin": [
-                                                                ],
-                                                                "padding": [
-                                                                ],
+                                                                "margin": [],
+                                                                "padding": [],
                                                                 "size": {
                                                                     "default": "4",
                                                                     "isResponsive": false
@@ -3305,7 +3188,7 @@
                                                 "data-conditions": {
                                                     "group": [
                                                         {
-                                                            "field": "%vlocity_namespace%__AppliesToAllItems__c.value",
+                                                            "field": "vlocity_cmt__AppliesToAllItems__c.value",
                                                             "hasMergeField": false,
                                                             "id": "state-new-condition-9",
                                                             "operator": "==",
@@ -3348,13 +3231,10 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "slds-m-top_large",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "\n",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "12",
                                                     "isResponsive": false,
@@ -3397,13 +3277,10 @@
                                                             "class": ""
                                                         },
                                                         "customClass": "slds-m-top_large",
-                                                        "elementStyleProperties": {
-                                                        },
+                                                        "elementStyleProperties": {},
                                                         "inlineStyle": "\n",
-                                                        "margin": [
-                                                        ],
-                                                        "padding": [
-                                                        ],
+                                                        "margin": [],
+                                                        "padding": [],
                                                         "size": {
                                                             "default": "12",
                                                             "isResponsive": false,
@@ -3462,11 +3339,9 @@
                                             "class": ""
                                         },
                                         "customClass": "",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "around:x-small",
@@ -3513,11 +3388,9 @@
                                                     "class": ""
                                                 },
                                                 "customClass": "",
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "around:x-small",
@@ -3578,13 +3451,10 @@
                                     "class": ""
                                 },
                                 "customClass": "",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
+                                "margin": [],
+                                "padding": [],
                                 "size": {
                                     "default": "12",
                                     "isResponsive": false
@@ -3624,13 +3494,10 @@
                                             "class": ""
                                         },
                                         "customClass": "",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
+                                        "margin": [],
+                                        "padding": [],
                                         "size": {
                                             "default": "12",
                                             "isResponsive": false
@@ -3651,25 +3518,19 @@
                 }
             },
             "conditions": {
-                "group": [
-                ],
+                "group": [],
                 "id": "state-condition-object",
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Default",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "",
@@ -3689,13 +3550,10 @@
                 "container": {
                     "class": ""
                 },
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
-                "margin": [
-                ],
-                "padding": [
-                ],
+                "margin": [],
+                "padding": [],
                 "size": {
                     "default": "12",
                     "isResponsive": true,

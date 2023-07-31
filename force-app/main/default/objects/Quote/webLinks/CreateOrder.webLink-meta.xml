@@ -9,5 +9,6 @@
     <masterLabel>Create Order</masterLabel>
     <openType>replace</openType>
     <protected>false</protected>
-    <url>/lightning/cmp/%vlocity_namespace%__vlocityLWCOmniWrapper?c__target=%vlocity_namespace%:cPQBulkQuoteToOrderMultiLanguage&c__layout=Flyout&c__tabIcon=custom:custom18&c__ContextId={!Quote.Id}</url>
+    <url>
+        /lightning/cmp/vlocity_cmt__vlocityLWCOmniWrapper?c__target=vlocity_cmt:cPQBulkQuoteToOrderMultiLanguage&c__layout=Flyout&c__tabIcon=custom:custom18&c__ContextId={!Quote.Id}</url>
 </WebLink>

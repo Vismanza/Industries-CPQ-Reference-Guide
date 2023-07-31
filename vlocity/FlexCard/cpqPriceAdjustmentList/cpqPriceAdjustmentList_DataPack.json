@@ -1,9 +1,8 @@
 {
     "AuthorName": "Vlocity",
-    "%vlocity_namespace%__CardType__c": "flex",
+    "vlocity_cmt__CardType__c": "flex",
     "DataSourceConfig": {
-        "contextVariables": [
-        ],
+        "contextVariables": [],
         "orderBy": {
             "isReverse": false,
             "name": ""
@@ -19,10 +18,10 @@
     "Description": "This flex card will be used to display list of all the price adjustments applied to an item in a cart.",
     "OmniUiCardKey": "cpqPriceAdjustmentList/Vlocity/11/1616736051292",
     "OmniUiCardType": "Child",
-    "%vlocity_namespace%__ParentID__c": "cpqPriceAdjustmentList1/Vlocity/1/1611028256792",
+    "vlocity_cmt__ParentID__c": "cpqPriceAdjustmentList1/Vlocity/1/1611028256792",
     "SampleDataSourceResponse": "[{\"actions\":{},\"Description\":\"$500\",\"DetailType\":\"PRICE\",\"StartValue\":500,\"EndValue\":500,\"AdjustmentType\":\"None\",\"AdjustmentMethod\":null,\"AdjustmentValue\":0},{\"actions\":{},\"Description\":\"Test Discount 1\",\"DetailType\":\"ADJUSTMENT\",\"StartValue\":500,\"EndValue\":475,\"AdjustmentType\":\"Discount\",\"AdjustmentMethod\":\"Percent\",\"AdjustmentValue\":-5},{\"actions\":{\"deleteAdjustment\":{\"rest\":{\"params\":{},\"method\":null,\"link\":null},\"remote\":{\"params\":{\"cartId\":\"8014W000001zKCBQA2\",\"id\":\"8024W000007zAFZQA2\",\"adjustmentId\":\"a2v4W0000022HygQAE\",\"deleteAdjustment\":true,\"methodName\":\"deleteAdjustment\"}},\"client\":{\"records\":[],\"params\":{}}}},\"AppliedBy\":\"Pareek Pareek\",\"DateApplied\":\"2021-01-21T06:40:32.000Z\",\"Description\":\"Discount applied by Pareek Pareek\",\"DetailType\":\"ADJUSTMENT\",\"StartValue\":475,\"EndValue\":437,\"AdjustmentType\":\"Discount\",\"AdjustmentMethod\":\"Percent\",\"AdjustmentValue\":-8},{\"actions\":{\"deleteAdjustment\":{\"rest\":{\"params\":{},\"method\":null,\"link\":null},\"remote\":{\"params\":{\"cartId\":\"8014W000001zKCBQA2\",\"id\":\"8024W000007zAFZQA2\",\"adjustmentId\":\"a2v4W0000022I11QAE\",\"deleteAdjustment\":true,\"methodName\":\"deleteAdjustment\"}},\"client\":{\"records\":[],\"params\":{}}}},\"AppliedBy\":\"Pareek Pareek\",\"DateApplied\":\"2021-01-22T04:58:46.000Z\",\"Description\":\"Discount applied by Pareek Pareek\",\"DetailType\":\"ADJUSTMENT\",\"StartValue\":437,\"EndValue\":425,\"AdjustmentType\":\"Discount\",\"AdjustmentMethod\":\"Absolute\",\"AdjustmentValue\":-12},{\"actions\":{},\"Description\":\"[Recurring Calculated Price (88.00) + Rollup Recurring Total (0.00)] x Quantity (1.00)\",\"DetailType\":null,\"StartValue\":null,\"EndValue\":null,\"AdjustmentType\":null,\"AdjustmentMethod\":null,\"AdjustmentValue\":null}]",
     "StylingConfiguration": "{\"customStyles\":\".cpq__text-width_auto {\\n    width: auto;\\n}\\n\"}",
-    "%vlocity_namespace%__Type__c": "",
+    "vlocity_cmt__Type__c": "",
     "VersionNumber": 1,
     "Name": "cpqPriceAdjustmentList",
     "VlocityDataPackType": "SObject",

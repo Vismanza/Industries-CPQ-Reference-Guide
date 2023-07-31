@@ -270,15 +270,13 @@
         "Id": "0Rb5g000000RsIUCA0",
         "ManageableState": "unmanaged",
         "MasterLabel": "cfCpqManualPriceAdjustmentsWaterfall_1_Vlocity",
-        "NamespacePrefix": "%vlocity_namespace%"
+        "NamespacePrefix": "vlocity_cmt"
     },
     "multilanguageSupport": true,
-    "sessionVars": [
-    ],
+    "sessionVars": [],
     "states": [
         {
-            "actions": [
-            ],
+            "actions": [],
             "childCards": [
                 "cpqPriceAdjustmentList"
             ],
@@ -298,8 +296,7 @@
                                         "alternativeText": "Loading...",
                                         "customlwcname": "spinner",
                                         "data-conditions": {
-                                            "group": [
-                                            ],
+                                            "group": [],
                                             "id": "state-condition-object",
                                             "isParent": true
                                         },
@@ -327,8 +324,7 @@
                                         "cardName": "cpqPriceAdjustmentList",
                                         "cardNode": "{record.pricedetail}",
                                         "data-conditions": {
-                                            "group": [
-                                            ],
+                                            "group": [],
                                             "id": "state-condition-object",
                                             "isParent": true
                                         },
@@ -364,11 +360,9 @@
                                             "class": ""
                                         },
                                         "customClass": "slds-scrollable_y",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "vertical:x-small",
@@ -434,13 +428,10 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "6",
                                                     "isResponsive": true,
@@ -537,8 +528,7 @@
                                                     }
                                                 },
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "left:medium",
@@ -605,8 +595,7 @@
                                                             }
                                                         },
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "padding": [
                                                             {
                                                                 "label": "left:medium",
@@ -668,11 +657,9 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "vertical:small",
@@ -731,16 +718,13 @@
                                     "class": ""
                                 },
                                 "customClass": "cpq__price-adjustment-list",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "height": "",
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
+                                "margin": [],
                                 "maxHeight": "",
                                 "minHeight": "",
-                                "padding": [
-                                ],
+                                "padding": [],
                                 "selectedStyles": "",
                                 "size": {
                                     "default": "12",
@@ -775,19 +759,14 @@
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Active",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "",
@@ -808,13 +787,10 @@
                     "class": ""
                 },
                 "customClass": "cpq__item-price-waterfall",
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
-                "margin": [
-                ],
-                "padding": [
-                ],
+                "margin": [],
+                "padding": [],
                 "size": {
                     "default": "12",
                     "isResponsive": false
@@ -829,8 +805,7 @@
             }
         },
         {
-            "actions": [
-            ],
+            "actions": [],
             "childCards": [
                 "cpqPriceAdjustmentList"
             ],
@@ -850,8 +825,7 @@
                                         "cardName": "cpqPriceAdjustmentList",
                                         "cardNode": "{record.pricedetail}",
                                         "data-conditions": {
-                                            "group": [
-                                            ],
+                                            "group": [],
                                             "id": "state-condition-object",
                                             "isParent": true
                                         },
@@ -887,11 +861,9 @@
                                             "class": ""
                                         },
                                         "customClass": "",
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "vertical:x-small",
@@ -957,13 +929,10 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "6",
                                                     "isResponsive": true,
@@ -1060,8 +1029,7 @@
                                                     }
                                                 },
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "left:medium",
@@ -1128,8 +1096,7 @@
                                                             }
                                                         },
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "padding": [
                                                             {
                                                                 "label": "left:medium",
@@ -1204,11 +1171,9 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "vertical:small",
@@ -1271,13 +1236,10 @@
                                                 "container": {
                                                     "class": ""
                                                 },
-                                                "elementStyleProperties": {
-                                                },
+                                                "elementStyleProperties": {},
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
-                                                "padding": [
-                                                ],
+                                                "margin": [],
+                                                "padding": [],
                                                 "size": {
                                                     "default": "6",
                                                     "isResponsive": true,
@@ -1374,8 +1336,7 @@
                                                     }
                                                 },
                                                 "inlineStyle": "",
-                                                "margin": [
-                                                ],
+                                                "margin": [],
                                                 "padding": [
                                                     {
                                                         "label": "left:medium",
@@ -1442,8 +1403,7 @@
                                                             }
                                                         },
                                                         "inlineStyle": "",
-                                                        "margin": [
-                                                        ],
+                                                        "margin": [],
                                                         "padding": [
                                                             {
                                                                 "label": "left:medium",
@@ -1518,11 +1478,9 @@
                                         "container": {
                                             "class": ""
                                         },
-                                        "elementStyleProperties": {
-                                        },
+                                        "elementStyleProperties": {},
                                         "inlineStyle": "",
-                                        "margin": [
-                                        ],
+                                        "margin": [],
                                         "padding": [
                                             {
                                                 "label": "vertical:small",
@@ -1581,16 +1539,13 @@
                                     "class": ""
                                 },
                                 "customClass": "cpq__price-adjustment-list",
-                                "elementStyleProperties": {
-                                },
+                                "elementStyleProperties": {},
                                 "height": "",
                                 "inlineStyle": "",
-                                "margin": [
-                                ],
+                                "margin": [],
                                 "maxHeight": "",
                                 "minHeight": "",
-                                "padding": [
-                                ],
+                                "padding": [],
                                 "selectedStyles": "",
                                 "size": {
                                     "default": "12",
@@ -1625,19 +1580,14 @@
                 "isParent": true
             },
             "definedActions": {
-                "actions": [
-                ]
+                "actions": []
             },
-            "documents": [
-            ],
-            "fields": [
-            ],
+            "documents": [],
+            "fields": [],
             "isSmartAction": false,
             "name": "Not Loading",
-            "omniscripts": [
-            ],
-            "smartAction": {
-            },
+            "omniscripts": [],
+            "smartAction": {},
             "styleObject": {
                 "background": {
                     "color": "",
@@ -1658,13 +1608,10 @@
                     "class": ""
                 },
                 "customClass": "cpq__item-price-waterfall",
-                "elementStyleProperties": {
-                },
+                "elementStyleProperties": {},
                 "inlineStyle": "",
-                "margin": [
-                ],
-                "padding": [
-                ],
+                "margin": [],
+                "padding": [],
                 "size": {
                     "default": "12",
                     "isResponsive": false
@@ -1682,8 +1629,7 @@
     "theme": "slds",
     "title": "cpqManualPriceAdjustmentsWaterfall",
     "tracking": {
-        "customFields": [
-        ]
+        "customFields": []
     },
     "xmlObject": {
         "apiVersion": 48,
