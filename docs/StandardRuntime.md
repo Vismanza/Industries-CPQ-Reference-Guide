@@ -19,6 +19,11 @@ Note: The default tab for Order is changed to the Catalog Tab as opposed to the 
 
 Note: Labels have not been used in Lightning App Builder for things like Tab names. If translations are required it may make sense to use labels instead.
 
+Note: Several deployment errors have been iterated through (not all had related issues)
+
+- OmniInterractionConfig errors: Some values cannot be updated (FirstInstalledPackage) and other cause duplicate errors (rollbackDRCHanges). Solution was to remove them from the repo. This means they need to be configured in target org.
+- %namespace% errors: Replaces the few thousand reference to namespace using % with 'vlocity_cmt'
+- App navigation can't be changed (navigation was configured to standard): Made a new app with the Industries CPQ name that is setup for Console Navigation. This should allow this project to be deployed in orgs that have Industries CPQ deployed in package runtime.
 
 ## Standard Runtime CPQ App:
 
