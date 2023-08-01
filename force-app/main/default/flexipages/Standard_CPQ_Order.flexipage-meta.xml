@@ -481,6 +481,10 @@
         </itemInstances>
         <itemInstances>
             <componentInstance>
+                <componentInstanceProperties>
+                    <name>flexcardName</name>
+                    <value>cpqProductConfigureTotalBar</value>
+                </componentInstanceProperties>
                 <componentName>runtime_omnistudio:flexcard</componentName>
                 <identifier>runtime_omnistudio_flexcard12</identifier>
             </componentInstance>
