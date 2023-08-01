@@ -35,3 +35,14 @@ Flexipagse:
 - Standard_CPQ_Opportunity
 
 
+## Nota Bene
+
+### Ensure Org Uses Standard Objects
+
+From [docs](https://help.salesforce.com/s/articleView?id=sf.os_does_your_org_use_custom_or_standard_objects.htm&type=5):
+
+To determine whether your org uses OmniStudio standard objects or OmniStudio for Vlocity custom objects, go to Setup and find Omni Interaction Configuration.
+
+- If an entry named TheFirstInstalledOmniPackage is present, your org uses OmniStudio standard objects.
+
+- If you can't find Omni Interaction Configuration or the TheFirstInstalledOmniPackage entry is not present, your org uses OmniStudio for Vlocity custom objects.
