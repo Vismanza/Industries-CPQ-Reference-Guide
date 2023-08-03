@@ -4,7 +4,7 @@
         <name>Run_Cache_Jobs</name>
         <label>Run Cache Jobs</label>
         <locationX>176</locationX>
-        <locationY>458</locationY>
+        <locationY>350</locationY>
         <actionName>RefreshPlatformCache</actionName>
         <actionType>apex</actionType>
         <flowTransactionModel>Automatic</flowTransactionModel>
@@ -16,6 +16,13 @@
         </inputParameters>
     </actionCalls>
     <apiVersion>58.0</apiVersion>
+    <constants>
+        <name>ProductHierarchyBatchJob</name>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>ProductHierarchyBatchJob</stringValue>
+        </value>
+    </constants>
     <environments>Default</environments>
     <interviewLabel>Product Refresh Platform Cache {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Product Refresh Platform Cache</label>
@@ -40,12 +47,12 @@
     <processType>Flow</processType>
     <recordLookups>
         <name>getPriceBook</name>
-        <label>getPLE</label>
+        <label>getPriceDetails</label>
         <locationX>176</locationX>
         <locationY>134</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
-            <targetReference>getPriceBookId</targetReference>
+            <targetReference>Price_List_Selection</targetReference>
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
@@ -61,44 +68,23 @@
         <queriedFields>vlocity_cmt__PriceListId__c</queriedFields>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
-    <recordLookups>
-        <name>getPriceBookId</name>
-        <label>getPriceBookId</label>
-        <locationX>176</locationX>
-        <locationY>242</locationY>
-        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
-        <connector>
-            <targetReference>Price_List_Selection</targetReference>
-        </connector>
-        <filterLogic>and</filterLogic>
-        <filters>
-            <field>Id</field>
-            <operator>EqualTo</operator>
-            <value>
-                <elementReference>getPriceBook.vlocity_cmt__PriceListId__r.vlocity_cmt__Pricebook2Id__r.Id</elementReference>
-            </value>
-        </filters>
-        <getFirstRecordOnly>true</getFirstRecordOnly>
-        <object>vlocity_cmt__PriceList__c</object>
-        <queriedFields>Id</queriedFields>
-        <storeOutputAutomatically>true</storeOutputAutomatically>
-    </recordLookups>
     <screens>
         <name>Price_List_Selection</name>
         <label>Price List Selection</label>
         <locationX>176</locationX>
-        <locationY>350</locationY>
-        <allowBack>true</allowBack>
+        <locationY>242</locationY>
+        <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
-        <allowPause>true</allowPause>
+        <allowPause>false</allowPause>
         <connector>
             <targetReference>Run_Cache_Jobs</targetReference>
         </connector>
         <fields>
             <name>Description</name>
-            <fieldText>&lt;p&gt;Run the following CPQ jobs for {!getPriceBook.vlocity_cmt__PriceListId__r.Name} with related pricebook id ({!getPriceBook.vlocity_cmt__PriceListId__r.vlocity_cmt__Pricebook2Id__r.Id}):&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Product Hierarchy Maintenance&lt;/li&gt;&lt;li&gt;Clear Managed Platform Cache&lt;/li&gt;&lt;li&gt;Refresh Platform Cache&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Here is reference to the &lt;a href=&quot;https://help.salesforce.com/s/articleView?id=ind.energy_product_hierarchy_maintenance.htm&amp;amp;type=5&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;docs&lt;/a&gt; describing this job.&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;Run the following CPQ jobs for &lt;strong&gt;{!getPriceBook.vlocity_cmt__PriceListId__r.Name}&lt;/strong&gt; with related pricebook id (&lt;em&gt;{!getPriceBook.vlocity_cmt__PriceListId__r.vlocity_cmt__Pricebook2Id__r.Id}&lt;/em&gt;):&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Product Hierarchy Maintenance&lt;/li&gt;&lt;li&gt;Clear Managed Platform Cache&lt;/li&gt;&lt;li&gt;Refresh Platform Cache&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);&quot;&gt;Documentation available &lt;/span&gt;&lt;a href=&quot;https://help.salesforce.com/s/articleView?id=ind.energy_product_hierarchy_maintenance.htm&amp;amp;type=5&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</fieldText>
             <fieldType>DisplayText</fieldType>
         </fields>
+        <nextOrFinishButtonLabel>Run Jobs</nextOrFinishButtonLabel>
         <showFooter>true</showFooter>
         <showHeader>true</showHeader>
     </screens>
@@ -109,7 +95,7 @@
             <targetReference>getPriceBook</targetReference>
         </connector>
     </start>
-    <status>Active</status>
+    <status>Draft</status>
     <variables>
         <name>recordId</name>
         <dataType>String</dataType>
